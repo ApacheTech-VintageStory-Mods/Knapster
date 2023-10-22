@@ -1,0 +1,29 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Más fácil Talla lítica, alfarería, herrería, para los que tienen poca destreza manual.",
+
+  "Features.Knapster.ServerCommandDescription": "Permite al administrador del servidor cambiar la configuración del mod en el servidor.",
+
+  "Features.Knapster.Mode": "{0} Modo: {1}",
+  "Features.Knapster.SetMode": "{0} modo ahora se ajusta a: {1}",
+  "Features.Knapster.InvalidMode": "Modo de acceso inválido. Las opciones válidas son: {0}",
+  "Features.Knapster.AutoComplete": "Autocompletar",
+
+  "Features.Knapster.PlayerSearch.NoResults": "La búsqueda de '{0}' no ha dado resultados. Por favor, inténtelo de nuevo.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "La búsqueda de '{0}', ha dado múltiples resultados. Por favor, afina tus términos de búsqueda.",
+
+  "Features.Knapster.Whitelist.Results": "Los siguientes jugadores están actualmente en la lista blanca de {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Actualmente no hay jugadores en la lista blanca de {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} ha sido eliminado de la lista blanca {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} ha sido añadido a la lista blanca {1}.",
+
+  "Features.Knapster.Blacklist.Results": "Los siguientes jugadores están actualmente en la lista negra de {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Actualmente no hay jugadores en la lista negra de {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} ha sido eliminado de la lista negra de {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} ha sido añadido a la lista negra de {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxels por clic: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Multiplicador de velocidad: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Multiplicador de saturación: {1}x",
+  "Features.EasySmithing.Cost": "{0} Coste de durabilidad por clic: {1}"
+}

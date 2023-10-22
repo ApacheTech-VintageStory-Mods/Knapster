@@ -1,0 +1,29 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Легкое отламывание, гончарное дело, кузнечное дело, для тех, у кого низкая ловкость рук.",
+
+  "Features.Knapster.ServerCommandDescription": "Позволяет администратору сервера изменять настройки мода на сервере.",
+
+  "Features.Knapster.Mode": "{0} Режим: {1}",
+  "Features.Knapster.SetMode": "{0} Режим теперь установлен: {1}",
+  "Features.Knapster.InvalidMode": "Неверный режим доступа. Допустимыми вариантами являются: {0}",
+  "Features.Knapster.AutoComplete": "Автозаполнение",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Поиск по '{0}' не дал результатов. Пожалуйста, попробуйте еще раз.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Поиск по '{0}' дал несколько результатов. Пожалуйста, уточните условия поиска.",
+
+  "Features.Knapster.Whitelist.Results": "Следующие игроки находятся в белом списке {0}:",
+  "Features.Knapster.Whitelist.NoResults": "В настоящее время в белом списке {0} нет игроков.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} был удален из белого списка {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} был добавлен в белый список {1}.",
+
+  "Features.Knapster.Blacklist.Results": "Следующие игроки находятся в черном списке {0}:",
+  "Features.Knapster.Blacklist.NoResults": "В настоящее время в черном списке {0} нет игроков.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} был удален из черного списка {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} был добавлен в черный список {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Воксели на клик: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Множитель скорости: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Множитель насыщенности: {1}x",
+  "Features.EasySmithing.Cost": "{0} Стоимость прочности за клик: {1}"
+}

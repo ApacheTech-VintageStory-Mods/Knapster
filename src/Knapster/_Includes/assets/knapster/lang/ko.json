@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "소수의 수동 미숙한 사용자를 위한 보다 쉬운 제작 및 수집을 지원합니다.",
+
+  "Features.Knapster.ServerCommandDescription": "서버 관리자가 서버에서 모드 설정을 변경할 수 있도록 합니다.",
+  "Features.EasyClayForming.Description": "점토 형성 설정을 관리합니다.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+  "Features.EasyHarvesting.Description": "수확 설정을 관리합니다.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "낫으로 풀을 수확하는 플레이어의 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
+  "Features.EasyKnapping.Description": "석공 설정을 관리합니다.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+  "Features.EasyPanning.Description": "석금 설정을 관리합니다.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "플레이어가 자원을 채굴하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "석금 중 포화도가 감소하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
+  "Features.EasySmithing.Description": "제련 설정을 관리합니다.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "사용당 내구도 비용을 변경합니다. 최소: 1, 최대: 10, 기본값: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+
+  "Features.Knapster.AccessMode.Description": "현재 기능의 액세스 모드를 변경합니다.",
+  "Features.Knapster.Mode": "{0} 모드: {1}",
+  "Features.Knapster.SetMode": "{0} 모드를 현재 설정된 값으로 변경합니다: {1}",
+  "Features.Knapster.InvalidMode": "유효하지 않은 액세스 모드입니다. 유효한 옵션은 다음과 같습니다: {0}",
+  "Features.Knapster.AutoComplete": "자동 완료",
+
+  "Features.Knapster.PlayerSearch.NoResults": "'{0}'에 대한 검색 결과가 없습니다. 다시 시도하세요.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "'{0}'에 대한 검색 결과가 여러 개 있습니다. 검색어를 정밀하게 설정하세요.",
+
+  "Features.Knapster.Whitelist.Description": "이 기능을 위한 화이트리스트에 플레이어를 추가/제거합니다.",
+  "Features.Knapster.Whitelist.Results": "다음 플레이어가 현재 {0} 화이트리스트에 있습니다:",
+  "Features.Knapster.Whitelist.NoResults": "현재 {0} 화이트리스트에는 플레이어가 없습니다.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0}이(가) {1} 화이트리스트에서 제거되었습니다.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0}이(가) {1} 화이트리스트에 추가되었습니다.",
+
+  "Features.Knapster.Blacklist.Description": "이 기능을 위한 블랙리스트에 플레이어를 추가/제거합니다.",
+  "Features.Knapster.Blacklist.Results": "다음 플레이어가 현재 {0} 블랙리스트에 있습니다:",
+  "Features.Knapster.Blacklist.NoResults": "현재 {0} 블랙리스트에는 플레이어가 없습니다.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0}이(가) {1} 블랙리스트에서 제거되었습니다.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0}이(가) {1} 블랙리스트에 추가되었습니다.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} 클릭 당 복셀 수: {1}",
+  "Features.Knapster.CostPerClick": "{0} 클릭 당 내구도 비용: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} 속도 배수: {1}배",
+  "Features.Knapster.SaturationMultiplier": "{0} 포화도 배수: {1}배",
+  "Features.Knapster.InstantComplete": "{0} 즉시 완료: {1}"
+}

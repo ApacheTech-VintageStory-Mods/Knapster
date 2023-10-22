@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "Plifaciligo de arto kaj kolektado por tiuj kun malmulte da manua lerteco.",
+
+  "Features.Knapster.ServerCommandDescription": "Permesas al la servadministranto ŝanĝi la agordojn por la modulo sur la servilo.",
+  "Features.EasyClayForming.Description": "Administri la argiloformadajn agordojn.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Ŝanĝi la kvanton de vokseloj movitaj per klako. Minimumo: 1, Maksimumo: 8, Defaŭlta: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Ŝanĝi ĉu la laboraĵo devas esti tuj kompletigita, kiam ĝi estas uzita. Vero, aŭ Malvero, Defaŭlta: Malvero.",
+  "Features.EasyHarvesting.Description": "Administri la rikoltado-agordojn.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Ŝanĝi la rapidon, per kiu la ludanto rikoltas herbon per falcilo. Agas kiel rekte multiplikanto. Minimumo: 0.0, Maksimumo: 2.0, Defaŭlta: 1.0.",
+  "Features.EasyKnapping.Description": "Administri la klasaĵajn agordojn.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Ŝanĝi la kvanton de vokseloj movitaj per klako. Minimumo: 1, Maksimumo: 8, Defaŭlta: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Ŝanĝi ĉu la laboraĵo devas esti tuj kompletigita, kiam ĝi estas uzita. Vero, aŭ Malvero, Defaŭlta: Malvero.",
+  "Features.EasyPanning.Description": "Administri la lav-agordojn.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Ŝanĝi la rapidon, per kiu la ludanto lavas resursojn. Agas kiel rekte multiplikanto. Minimumo: 0.0, Maksimumo: 2.0, Defaŭlta: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Ŝanĝi la rapidecon, per kiu saturo malplenigas dum la lavo. Agas kiel rekte multiplikanto. Minimumo: 0.0, Maksimumo: 2.0, Defaŭlta: 1.0.",
+  "Features.EasySmithing.Description": "Administri la metado-agordojn.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Ŝanĝi la kvanton de vokseloj movitaj per klako. Minimumo: 1, Maksimumo: 8, Defaŭlta: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Ŝanĝi la daŭreco-koston, per uzo. Minimumo: 1, Maksimumo: 10, Defaŭlta: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Ŝanĝi ĉu la laboraĵo devas esti tuj kompletigita, kiam ĝi estas uzita. Vero, aŭ Malvero, Defaŭlta: Malvero.",
+
+  "Features.Knapster.AccessMode.Description": "Ŝanĝi la aliron-modon por la aktuala trajto.",
+  "Features.Knapster.Mode": "{0} Modo: {1}",
+  "Features.Knapster.SetMode": "{0} modo nun agordita al: {1}",
+  "Features.Knapster.InvalidMode": "Nevalida aliron-modo. Validaj opcioj estas: {0}",
+  "Features.Knapster.AutoComplete": "Aŭtomata Kompleto",
+
+  "Features.Knapster.PlayerSearch.NoResults": "La serĉo por '{0}' ne donis rezultojn. Bonvolu provi denove.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "La serĉo por '{0}' donis plurajn rezultojn. Bonvolu plibonigi vian serĉon.",
+
+  "Features.Knapster.Whitelist.Description": "Aldoni/Forigi ludantojn de la blanka listo por ĉi tiu trajto.",
+  "Features.Knapster.Whitelist.Results": "La sekvantaj ludantoj nun estas sur la blanka listo por {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Nuntempe ne estas ludantoj sur la blanka listo por {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} forigita el la blanka listo por {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} aldonita al la blanka listo por {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Aldoni/Forigi ludantojn de la nigra listo por ĉi tiu trajto.",
+  "Features.Knapster.Blacklist.Results": "La sekvantaj ludantoj nun estas sur la nigra listo por {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Nuntempe ne estas ludantoj sur la nigra listo por {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} forigita el la nigra listo por {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} aldonita al la nigra listo por {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Vokseloj Per Kliko: {1}",
+  "Features.Knapster.CostPerClick": "{0} Daŭreco Kosto Per Kliko: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Rapideco Multiplikanto: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Satureco Multiplikanto: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Tuj Kompleta: {1}"
+}

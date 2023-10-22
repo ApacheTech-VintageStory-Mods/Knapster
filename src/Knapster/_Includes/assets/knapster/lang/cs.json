@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "Jednodušší výroba a sběr pro ty s nízkou manuální zručností.",
+
+  "Features.Knapster.ServerCommandDescription": "Umožňuje správci serveru změnit nastavení modu na serveru.",
+  "Features.EasyClayForming.Description": "Spravovat nastavení tvarování hlíny.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Změňte počet voxely přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False.",
+  "Features.EasyHarvesting.Description": "Spravovat nastavení sklizně.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Změňte rychlost, jakou hráč sklízí trávu sekyrou. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0.",
+  "Features.EasyKnapping.Description": "Spravovat nastavení úpravy kamenů.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Změňte počet voxelů přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False.",
+  "Features.EasyPanning.Description": "Spravovat nastavení prosepávání.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Změňte rychlost, jakou hráč prosepává zdroje. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Změňte míru, jakou se ztrácí sytost při prosepávání. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0.",
+  "Features.EasySmithing.Description": "Spravovat nastavení kovářství.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Změňte počet voxelů přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Změňte trvanlivostní náklady za použití. Min: 1, Max: 10, Výchozí: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False.",
+
+  "Features.Knapster.AccessMode.Description": "Změňte režim přístupu pro aktuální funkci.",
+  "Features.Knapster.Mode": "{0} Režim: {1}",
+  "Features.Knapster.SetMode": "Režim {0} nyní nastaven na: {1}",
+  "Features.Knapster.InvalidMode": "Neplatný režim přístupu. Platné možnosti jsou: {0}",
+  "Features.Knapster.AutoComplete": "Automatické dokončení",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Vyhledávání pro '{0}' nepřineslo žádné výsledky. Zkuste to znovu.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Vyhledávání pro '{0}' přineslo více výsledků. Upravte své hledací pojmy, prosím.",
+
+  "Features.Knapster.Whitelist.Description": "Přidat/odebrat hráče z bílého seznamu pro tuto funkci.",
+  "Features.Knapster.Whitelist.Results": "Následující hráči jsou momentálně na bílém seznamu pro {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Momentálně nejsou žádní hráči na bílém seznamu pro {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} byl odebrán z bílého seznamu pro {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} byl přidán na bílý seznam pro {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Přidat/odebrat hráče z černého seznamu pro tuto funkci.",
+  "Features.Knapster.Blacklist.Results": "Následující hráči jsou momentálně na černém seznamu pro {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Momentálně nejsou žádní hráči na černém seznamu pro {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} byl odebrán z černého seznamu pro {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} byl přidán na černý seznam pro {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxelů na Kliknutí: {1}",
+  "Features.Knapster.CostPerClick": "{0} Náklad na Trvanlivost za Kliknutí: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Násobitel Rychlosti: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Násobitel Saturace: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Okamžité Dokončení: {1}"
+}

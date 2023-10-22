@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ApacheTech.VintageMods.Knapster": {
+      "commandName": "Project",
+      "workingDirectory": "$(VINTAGE_STORY)"
+    }
+  }
+}

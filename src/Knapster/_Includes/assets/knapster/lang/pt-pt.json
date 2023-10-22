@@ -1,0 +1,30 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Mais fácil de lascar, moldar argila e forjar, para aqueles com baixa destreza manual.",
+
+  "Features.Knapster.ServerCommandDescription": "Permite ao administrador do servidor alterar as configurações do mod no servidor.",
+
+  "Features.Knapster.Mode": "Modo {0}: {1}",
+  "Features.Knapster.SetMode": "Modo {0} agora definido para: {1}",
+  "Features.Knapster.InvalidMode": "Modo de acesso inválido. As opções válidas são: {0}",
+  "Features.Knapster.AutoComplete": "Auto Completar",
+
+  "Features.Knapster.PlayerSearch.NoResults": "A busca por '{0}' não encontrou resultados. Por favor, tente novamente.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "A busca por '{0}' retornou vários resultados. Por favor, refine seus termos de busca.",
+
+  "Features.Knapster.Whitelist.Results": "Os seguintes jogadores estão atualmente na lista branca de {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Atualmente não há jogadores na lista branca de {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} foi removido da lista branca de {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} foi adicionado à lista branca de {1}.",
+
+  "Features.Knapster.Blacklist.Results": "Os seguintes jogadores estão atualmente na lista negra de {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Atualmente não há jogadores na lista negra de {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} foi removido da lista negra de {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} foi adicionado à lista negra de {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxels por Clique: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Multiplicador de Velocidade: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Multiplicador de Saturação: {1}x",
+
+  "Features.EasySmithing.CostPerClick": "{0} Custo de Durabilidade por Clique: {1}"
+}

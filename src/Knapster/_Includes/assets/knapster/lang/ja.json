@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "低い手の器用さを持つ人々のための、より簡単なクラフトと収集。",
+
+  "Features.Knapster.ServerCommandDescription": "サーバー管理者がサーバー上でモッドの設定を変更できるようにします。",
+  "Features.EasyClayForming.Description": "粘土成形の設定を管理します。",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
+  "Features.EasyClayForming.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。",
+  "Features.EasyHarvesting.Description": "収穫の設定を管理します。",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "鎌で草を収穫するプレイヤーの速度を変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
+  "Features.EasyKnapping.Description": "石の細工の設定を管理します。",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
+  "Features.EasyKnapping.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。",
+  "Features.EasyPanning.Description": "砂金の設定を管理します。",
+  "Features.EasyPanning.SpeedMultiplier.Description": "プレイヤーがリソースをふるい分ける速度を変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
+  "Features.EasyPanning.SaturationMultiplier.Description": "ふるい分け時に飽和度がどれだけ減少するかを変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
+  "Features.EasySmithing.Description": "鍛造の設定を管理します。",
+  "Features.EasySmithing.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
+  "Features.EasySmithing.CostPerClick.Description": "使用ごとの耐久コストを変更します。最小: 1、最大: 10、デフォルト: 5。",
+  "Features.EasySmithing.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。",
+
+  "Features.Knapster.AccessMode.Description": "現在の機能のアクセスモードを変更します。",
+  "Features.Knapster.Mode": "{0} モード: {1}",
+  "Features.Knapster.SetMode": "{0} モードが現在設定されています: {1}",
+  "Features.Knapster.InvalidMode": "無効なアクセスモード。有効なオプションは: {0}",
+  "Features.Knapster.AutoComplete": "自動完了",
+
+  "Features.Knapster.PlayerSearch.NoResults": "'{0}' の検索結果はありませんでした。もう一度お試しください。",
+  "Features.Knapster.PlayerSearch.MultipleResults": "'{0}' の検索結果が複数あります。検索条件を絞り直してください。",
+
+  "Features.Knapster.Whitelist.Description": "この機能のホワイトリストからプレイヤーを追加/削除します。",
+  "Features.Knapster.Whitelist.Results": "次のプレイヤーは現在{0}のホワイトリストに含まれています:",
+  "Features.Knapster.Whitelist.NoResults": "現在、{0}のホワイトリストにプレイヤーはいません。",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} が{1}のホワイトリストから削除されました。",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} が{1}のホワイトリストに追加されました。",
+
+  "Features.Knapster.Blacklist.Description": "この機能のブラックリストからプレイヤーを追加/削除します。",
+  "Features.Knapster.Blacklist.Results": "次のプレイヤーは現在{0}のブラックリストに含まれています:",
+  "Features.Knapster.Blacklist.NoResults": "現在、{0}のブラックリストにプレイヤーはいません。",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} が{1}のブラックリストから削除されました。",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} が{1}のブラックリストに追加されました。",
+
+  "Features.Knapster.VoxelsPerClick": "{0} クリックごとのボクセル数: {1}",
+  "Features.Knapster.CostPerClick": "{0} クリックごとの耐久コスト: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} 速度乗数: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} 飽和度乗数: {1}x",
+  "Features.Knapster.InstantComplete": "{0} インスタント完了: {1}"
+}

@@ -1,0 +1,31 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Leichteres Steinhauen, Tonformen, Schmieden, für diejenigen mit geringer manueller Geschicklichkeit.",
+
+  "Features.Knapster.ServerCommandDescription": "Erlaubt dem Server-Admin, die Einstellungen für den Mod auf dem Server zu ändern.",
+
+  "Features.Knapster.Mode": "{0} Modus: {1}",
+  "Features.Knapster.SetMode": "{0} Modus jetzt eingestellt auf: {1}",
+  "Features.Knapster.InvalidMode": "Ungültiger Zugriffsmodus. Gültige Optionen sind: {0}",
+  "Features.Knapster.AutoComplete": "Automatisch abschließen",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Die Suche nach '{0}' hat keine Ergebnisse geliefert. Bitte versuchen Sie es erneut.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Die Suche nach '{0}' lieferte mehrere Ergebnisse. Bitte verfeinern Sie Ihre Suchbegriffe.",
+
+  "Features.Knapster.Whitelist.Results": "Die folgenden Spieler befinden sich derzeit auf der {0}-Weißliste:",
+  "Features.Knapster.Whitelist.NoResults": "Es gibt derzeit keine Spieler auf der {0}-Weißliste .",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} wurde von der {1} Weißliste entfernt.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} wurde zur {1} Weißliste hinzugefügt.",
+
+  "Features.Knapster.Blacklist.Results": "Die folgenden Spieler befinden sich derzeit auf der {0} schwarzen Liste:",
+  "Features.Knapster.Blacklist.NoResults": "Es gibt derzeit keine Spieler auf der schwarzen Liste {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} wurde von der schwarzen Liste {1} entfernt.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} wurde zur {1} schwarzen Liste hinzugefügt.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxel pro Klick: {1}",
+ 
+  "Features.Knapster.SpeedMultiplier": "{0} Geschwindigkeitsmultiplikator: {1}x",
+  "Features.Knapster.SättigungsMultiplikator": "{0} Sättigungsmultiplikator: {1}x",
+ 
+  "Features.EasySmithing.Cost": "{0} Dauerhaftigkeitskosten pro Klick: {1}"
+}

@@ -1,0 +1,30 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Полегшує набивання, ліплення та ковальство для тих, хто не має достатньої вправності рук.",
+
+  "Features.Knapster.ServerCommandDescription": "Дозволяє адміністратору сервера змінювати налаштування мода на сервері.",
+
+  "Features.Knapster.Mode": "{0} Режим: {1}",
+  "Features.Knapster.SetMode": "{0} режим тепер встановлено на: {1}",
+  "Features.Knapster.InvalidMode": "Недійсний режим доступу. Допустимі варіанти: {0}",
+  "Features.Knapster.AutoComplete": "Автоматичне завершення",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Пошук для '{0}' не дав результатів. Будь ласка, спробуйте ще раз.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Пошук для '{0}' дав кілька результатів. Будь ласка, уточніть умови пошуку.",
+
+  "Features.Knapster.Whitelist.Results": "Наступні гравці наразі знаходяться у білому списку {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Наразі немає гравців у білому списку {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} було видалено з білого списку {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} додано до білого списку {1}.",
+
+  "Features.Knapster.Blacklist.Results": "Наразі наступні гравці знаходяться у чорному списку {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Наразі немає гравців у чорному списку {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} було видалено з чорного списку {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} додано до чорного списку {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Вокселів за клік: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Множник швидкості: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Множник насиченості: {1}x",
+
+  "Features.EasySmithing.CostPerClick": "{0} Вартість довговічності за клік: {1}"
+}

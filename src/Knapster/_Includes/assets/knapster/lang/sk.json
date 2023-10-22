@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "Verejnostiam so zníženou manuálnou zručnosťou uľahčuje výrobu a získavanie surovín.",
+
+  "Features.Knapster.ServerCommandDescription": "Umožňuje správcovi servera meniť nastavenia módu na serveri.",
+  "Features.EasyClayForming.Description": "Spravujte nastavenia formovania hliny.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Zmeňte, či sa pracovná položka má okamžite dokončiť pri použití. True alebo False, Predvolené: False.",
+  "Features.EasyHarvesting.Description": "Spravujte nastavenia zberu.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč zbiera trávu kosou. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
+  "Features.EasyKnapping.Description": "Spravujte nastavenia krosnenia.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Zmeňte, či sa pracovná položka má okamžite dokončiť pri použití. True alebo False, Predvolené: False.",
+  "Features.EasyPanning.Description": "Spravujte nastavenia preplavovania.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč plaví zdroje. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Zmeňte rýchlosť, akou sa nasýtenie vyčerpáva počas preplavovania. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
+  "Features.EasySmithing.Description": "Spravujte nastavenia kováčstva.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Zmeňte náklady na odolnosť pri použití. Min: 1, Max: 10, Predvolené: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Zmeňte, či sa pracovná položka má okamžite dokončiť pri použití. True alebo False, Predvolené: False.",
+
+  "Features.Knapster.AccessMode.Description": "Zmeňte režim prístupu pre aktuálnu funkciu.",
+  "Features.Knapster.Mode": "Režim {0}: {1}",
+  "Features.Knapster.SetMode": "Režim {0} teraz nastavený na: {1}",
+  "Features.Knapster.InvalidMode": "Neplatný režim prístupu. Platné možnosti sú: {0}",
+  "Features.Knapster.AutoComplete": "Automatické Dokončenie",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Vyhľadávanie '{0}' neprinieslo žiadne výsledky. Skúste to prosím znova.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Vyhľadávanie '{0}' prinieslo viacero výsledkov. Upresnite svoje hľadacie kritériá.",
+
+  "Features.Knapster.Whitelist.Description": "Pridávanie/Odstraňovanie hráčov z bielich zoznamov pre túto funkciu.",
+  "Features.Knapster.Whitelist.Results": "Nasledujúci hráči sú momentálne na bielom zozname pre {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Momentálne nie sú žiadni hráči na bielom zozname pre {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} bol odstránený z bielého zoznamu pre {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} bol pridaný na biely zoznam pre {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Pridávanie/Odstraňovanie hráčov z čiernych zoznamov pre túto funkciu.",
+  "Features.Knapster.Blacklist.Results": "Nasledujúci hráči sú momentálne na čiernom zozname pre {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Momentálne nie sú žiadni hráči na čiernom zozname pre {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} bol odstránený z čierneho zoznamu pre {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} bol pridaný na čierny zoznam pre {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxely na Klik: {1}",
+  "Features.Knapster.CostPerClick": "Náklady na Odolnosť na Klik pre {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Násobiteľ Rýchlosti: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Násobiteľ Nasýtenia: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Okamžité Dokončenie: {1}"
+}

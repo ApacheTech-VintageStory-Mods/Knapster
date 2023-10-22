@@ -1,0 +1,30 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Facilite la taille des pierres, le modelage de l'argile, le forgeage, pour ceux qui ont une faible dextérité manuelle.",
+
+  "Features.Knapster.ServerCommandDescription": "Permet à l'administrateur du serveur de modifier les paramètres du mod sur le serveur.",
+
+  "Features.Knapster.Mode": "{0} Mode : {1}",
+  "Features.Knapster.SetMode": "Le mode {0} est maintenant réglé sur : {1}",
+  "Features.Knapster.InvalidMode": "Mode d'accès non valide. Les options valides sont : {0}",
+  "Features.Knapster.AutoComplete": "Complétion automatique",
+
+  "Features.Knapster.PlayerSearch.NoResults": "La recherche de '{0}' n'a donné aucun résultat. Veuillez réessayer.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "La recherche pour '{0}' a donné plusieurs résultats. Veuillez affiner votre recherche.",
+
+  "Features.Knapster.Whitelist.Results": "Les joueurs suivants sont actuellement sur la liste blanche de {0} :",
+  "Features.Knapster.Whitelist.NoResults": "Il n'y a actuellement aucun joueur sur la liste blanche de {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} a été retiré de la liste blanche {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} a été ajouté à la liste blanche {1}.",
+
+  "Features.Knapster.Blacklist.Results": "Les joueurs suivants sont actuellement sur la liste noire {0} :",
+  "Features.Knapster.Blacklist.NoResults": "TIl n'y a actuellement aucun joueur sur la liste noire {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} a été retiré de la liste noire {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} a été ajouté à la liste noire {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxels par clic : {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Multiplicateur de vitesse : {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Multiplicateur de saturation : {1}x",
+
+  "Features.EasySmithing.Cost": "{0} Coût de durabilité par clic : {1}"
+}

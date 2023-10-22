@@ -1,0 +1,48 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Eenvoudiger knutselen en verzamelen voor mensen met beperkte handvaardigheid.",
+
+  "Features.Knapster.ServerCommandDescription": "Hiermee kan de serverbeheerder de instellingen voor de mod op de server wijzigen.",
+  "Features.EasyClayForming.Description": "Beheer de instellingen voor kleivorming.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Wijzig het aantal voxels dat per klik wordt verplaatst. Min: 1, Max: 8, Standaard: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Wijzig of het werkitem direct wordt voltooid bij gebruik. Waar of Onwaar, Standaard: Onwaar.",
+  "Features.EasyHarvesting.Description": "Beheer de instellingen voor oogsten.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Wijzig de snelheid waarmee de speler gras maait met een zeis. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0.",
+  "Features.EasyKnapping.Description": "Beheer de instellingen voor knutselen.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Wijzig het aantal voxels dat per klik wordt verplaatst. Min: 1, Max: 8, Standaard: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Wijzig of het werkitem direct wordt voltooid bij gebruik. Waar of Onwaar, Standaard: Onwaar.",
+  "Features.EasyPanning.Description": "Beheer de instellingen voor pannen.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Wijzig de snelheid waarmee de speler grondstoffen zeef. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Wijzig het tempo waarin de verzadiging wordt verminderd tijdens het pannen. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0.",
+  "Features.EasySmithing.Description": "Beheer de instellingen voor smeden.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Wijzig het aantal voxels dat per klik wordt verplaatst. Min: 1, Max: 8, Standaard: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Wijzig de duurzaamheidskosten per gebruik. Min: 1, Max: 10, Standaard: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Wijzig of het werkitem direct wordt voltooid bij gebruik. Waar of Onwaar, Standaard: Onwaar.",
+
+  "Features.Knapster.AccessMode.Description": "Wijzig de toegangsmodus voor de huidige functie.",
+  "Features.Knapster.Mode": "{0} Modus: {1}",
+  "Features.Knapster.SetMode": "Modus {0} is nu ingesteld op: {1}",
+  "Features.Knapster.InvalidMode": "Ongeldige toegangsmodus. Geldige opties zijn: {0}",
+  "Features.Knapster.AutoComplete": "Automatisch Voltooien",
+
+  "Features.Knapster.PlayerSearch.NoResults": "De zoektocht naar '{0}' heeft geen resultaten opgeleverd. Probeer het opnieuw.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "De zoektocht naar '{0}' heeft meerdere resultaten opgeleverd. Verfijn uw zoektermen.",
+
+  "Features.Knapster.Whitelist.Description": "Voeg spelers toe/verwijder spelers uit de whitelist voor deze functie.",
+  "Features.Knapster.Whitelist.Results": "De volgende spelers staan momenteel op de whitelist voor {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Er staan momenteel geen spelers op de whitelist voor {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} is verwijderd uit de whitelist voor {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} is toegevoegd aan de whitelist voor {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Voeg spelers toe/verwijder spelers uit de blacklist voor deze functie.",
+  "Features.Knapster.Blacklist.Results": "De volgende spelers staan momenteel op de blacklist voor {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Er staan momenteel geen spelers op de blacklist voor {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} is verwijderd uit de blacklist voor {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} is toegevoegd aan de blacklist voor {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxels per Klik: {1}",
+  "Features.Knapster.CostPerClick": "Duurzaamheidskosten per Klik voor {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Snelheidsvermenigvuldiger: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Verzadigingsvermenigvuldiger: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Direct Voltooien: {1}"
+}

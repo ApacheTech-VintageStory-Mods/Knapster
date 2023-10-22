@@ -1,0 +1,48 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Semplifica la creazione e la raccolta per coloro con scarsa destrezza manuale.",
+
+  "Features.Knapster.ServerCommandDescription": "Consente all'amministratore del server di modificare le impostazioni della mod sul server.",
+  "Features.EasyClayForming.Description": "Gestisce le impostazioni di formazione dell'argilla.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Cambia il numero di voxel che si spostano per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Cambia se l'elemento di lavoro dovrebbe essere completato istantaneamente quando viene utilizzato. Vero o Falso, Predefinito: Falso.",
+  "Features.EasyHarvesting.Description": "Gestisce le impostazioni di raccolta.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore raccoglie l'erba con una falce. Funziona come moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  "Features.EasyKnapping.Description": "Gestisce le impostazioni di scheggiatura.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Cambia il numero di voxel che si spostano per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Cambia se l'elemento di lavoro dovrebbe essere completato istantaneamente quando viene utilizzato. Vero o Falso, Predefinito: Falso.",
+  "Features.EasyPanning.Description": "Gestisce le impostazioni di setacciatura.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore setaccia le risorse. Funziona come moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Cambia il tasso di esaurimento della saturazione durante la setacciatura. Funziona come moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  "Features.EasySmithing.Description": "Gestisce le impostazioni di fabbro.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Cambia il numero di voxel che si spostano per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Cambia il costo di durata per utilizzo. Minimo: 1, Massimo: 10, Predefinito: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Cambia se l'elemento di lavoro dovrebbe essere completato istantaneamente quando viene utilizzato. Vero o Falso, Predefinito: Falso.",
+
+  "Features.Knapster.AccessMode.Description": "Cambia la modalità di accesso per la funzionalità corrente.",
+  "Features.Knapster.Mode": "Modalità {0}: {1}",
+  "Features.Knapster.SetMode": "Modalità {0} ora impostata su: {1}",
+  "Features.Knapster.InvalidMode": "Modalità di accesso non valida. Le opzioni valide sono: {0}",
+  "Features.Knapster.AutoComplete": "Auto Completamento",
+
+  "Features.Knapster.PlayerSearch.NoResults": "La ricerca di '{0}' non ha prodotto risultati. Si prega di riprovare.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "La ricerca di '{0}' ha prodotto risultati multipli. Si prega di affinare i termini di ricerca.",
+
+  "Features.Knapster.Whitelist.Description": "Aggiungi/Rimuovi giocatori dalla lista bianca per questa funzionalità.",
+  "Features.Knapster.Whitelist.Results": "I seguenti giocatori sono attualmente nella lista bianca di {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Attualmente non ci sono giocatori nella lista bianca di {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} è stato rimosso dalla lista bianca di {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} è stato aggiunto alla lista bianca di {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Aggiungi/Rimuovi giocatori dalla lista nera per questa funzionalità.",
+  "Features.Knapster.Blacklist.Results": "I seguenti giocatori sono attualmente nella lista nera di {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Attualmente non ci sono giocatori nella lista nera di {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} è stato rimosso dalla lista nera di {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} è stato aggiunto alla lista nera di {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxel per Clic: {1}",
+  "Features.Knapster.CostPerClick": "Costo di Durata per Clic per {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "Moltiplicatore di Velocità per {0}: {1}x",
+  "Features.Knapster.SaturationMultiplier": "Moltiplicatore di Saturazione per {0}: {1}x",
+  "Features.Knapster.InstantComplete": "Completamento Istantaneo per {0}: {1}"
+}

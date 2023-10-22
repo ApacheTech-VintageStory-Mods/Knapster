@@ -1,0 +1,48 @@
+{
+  "ModTitle": "كنابستر",
+  "ModDescription": "تسهيل الحرف والجمع، لأولئك الذين يعانون من ضعف القدرة اليدوية.",
+
+  "Features.Knapster.ServerCommandDescription": "يتيح لمسؤول الخادم تغيير إعدادات الوحدة النمطية على الخادم.",
+  "Features.EasyClayForming.Description": "إدارة إعدادات تشكيل الصلصال.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "تغيير ما إذا كان يجب إكمال العمل فوراً عند الاستخدام. صحيح أم خاطئ، الافتراضي: خاطئ.",
+  "Features.EasyHarvesting.Description": "إدارة إعدادات الحصاد.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "تغيير سرعة حصاد العشب بواسطة الفأس. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
+  "Features.EasyKnapping.Description": "إدارة إعدادات النحت.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "تغيير ما إذا كان يجب إكمال العمل فوراً عند الاستخدام. صحيح أم خاطئ، الافتراضي: خاطئ.",
+  "Features.EasyPanning.Description": "إدارة إعدادات التنقية.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "تغيير سرعة تنقية الموارد بواسطة اللاعب. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "تغيير معدل تناقص التشبع أثناء التنقية. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
+  "Features.EasySmithing.Description": "إدارة إعدادات الصناعة.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "تغيير تكلفة المتانة لكل استخدام. الحد الأدنى: 1، الحد الأقصى: 10، الافتراضي: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "تغيير ما إذا كان يجب إكمال العمل فوراً عند الاستخدام. صحيح أم خاطئ، الافتراضي: خاطئ.",
+
+  "Features.Knapster.AccessMode.Description": "تغيير وضع الوصول للميزة الحالية.",
+  "Features.Knapster.Mode": "وضع {0}: {1}",
+  "Features.Knapster.SetMode": "تم تعيين وضع {0} إلى: {1}",
+  "Features.Knapster.InvalidMode": "وضع وصول غير صالح. الخيارات الصالحة هي: {0}",
+  "Features.Knapster.AutoComplete": "إكمال تلقائي",
+
+  "Features.Knapster.PlayerSearch.NoResults": "لم يسفر البحث عن '{0}' عن نتائج. يرجى المحاولة مرة أخرى.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "لم يسفر البحث عن '{0}' عن نتائج متعددة. يرجى تحسين مصطلحات البحث الخاصة بك.",
+
+  "Features.Knapster.Whitelist.Description": "إضافة/إزالة اللاعبين من القائمة البيضاء لهذه الميزة.",
+  "Features.Knapster.Whitelist.Results": "اللاعبون التاليون مدرجون حاليًا في القائمة البيضاء لـ {0}:",
+  "Features.Knapster.Whitelist.NoResults": "لا يوجد حاليًا لاعبون في القائمة البيضاء لـ {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "تمت إزالة {0} من قائمة البيضاء لـ {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "تمت إضافة {0} إلى قائمة البيضاء لـ {1}.",
+
+  "Features.Knapster.Blacklist.Description": "إضافة/إزالة اللاعبين من القائمة السوداء لهذه الميزة.",
+  "Features.Knapster.Blacklist.Results": "اللاعبون التاليون مدرجون حاليًا في القائمة السوداء لـ {0}:",
+  "Features.Knapster.Blacklist.NoResults": "لا يوجد حاليًا لاعبون في القائمة السوداء لـ {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "تمت إزالة {0} من قائمة السوداء لـ {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "تمت إضافة {0} إلى قائمة السوداء لـ {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} بكسل لكل نقرة: {1}",
+  "Features.Knapster.CostPerClick": "تكلفة المتانة لكل نقرة لـ {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "مضاعف السرعة لـ {0}: {1}x",
+  "Features.Knapster.SaturationMultiplier": "مضاعف التشبع لـ {0}: {1}x",
+  "Features.Knapster.InstantComplete": "الإكمال الفوري لـ {0}: {1}"
+}

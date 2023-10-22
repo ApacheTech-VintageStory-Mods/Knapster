@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "Prostsze rzemiosło i zbieranie dla tych o ograniczonej zdolności manualnej.",
+
+  "Features.Knapster.ServerCommandDescription": "Pozwala administratorowi serwera zmieniać ustawienia modułu na serwerze.",
+  "Features.EasyClayForming.Description": "Zarządzaj ustawieniami formowania gliny.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Zmień, czy element pracy powinien być natychmiast ukończony po użyciu. Prawda lub Fałsz, Domyślnie: Fałsz.",
+  "Features.EasyHarvesting.Description": "Zarządzaj ustawieniami zbiorów.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Zmień szybkość, z jaką gracz zbiera trawę kosą. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
+  "Features.EasyKnapping.Description": "Zarządzaj ustawieniami krzesiw.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Zmień, czy element pracy powinien być natychmiast ukończony po użyciu. Prawda lub Fałsz, Domyślnie: Fałsz.",
+  "Features.EasyPanning.Description": "Zarządzaj ustawieniami przesiania.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Zmień szybkość, z jaką gracz zbiera surowce przy pomocy rogatek. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Zmień tempo, w jakim następuje utrata nasycenia podczas przesiania. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
+  "Features.EasySmithing.Description": "Zarządzaj ustawieniami kowalstwa.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Zmień koszt wytrzymałości za użycie. Min: 1, Max: 10, Domyślnie: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Zmień, czy element pracy powinien być natychmiast ukończony po użyciu. Prawda lub Fałsz, Domyślnie: Fałsz.",
+
+  "Features.Knapster.AccessMode.Description": "Zmień tryb dostępu dla bieżącej funkcji.",
+  "Features.Knapster.Mode": "{0} Tryb: {1}",
+  "Features.Knapster.SetMode": "{0} tryb teraz ustawiony na: {1}",
+  "Features.Knapster.InvalidMode": "Nieprawidłowy tryb dostępu. Dostępne opcje to: {0}",
+  "Features.Knapster.AutoComplete": "Automatyczne Ukończenie",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Wyszukiwanie dla '{0}' nie przyniosło rezultatów. Proszę spróbować ponownie.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Wyszukiwanie dla '{0}' zwróciło wiele wyników. Proszę uściślić kryteria wyszukiwania.",
+
+  "Features.Knapster.Whitelist.Description": "Dodaj/Usuń graczy z białej listy dla tej funkcji.",
+  "Features.Knapster.Whitelist.Results": "Następujący gracze znajdują się obecnie na białej liście dla {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Obecnie brak graczy na białej liście dla {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} został usunięty z białej listy dla {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} został dodany do białej listy dla {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Dodaj/Usuń graczy z czarnej listy dla tej funkcji.",
+  "Features.Knapster.Blacklist.Results": "Następujący gracze znajdują się obecnie na czarnej liście dla {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Obecnie brak graczy na czarnej liście dla {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} został usunięty z czarnej listy dla {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} został dodany do czarnej listy dla {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxelów na Kliknięcie: {1}",
+  "Features.Knapster.CostPerClick": "Koszt Wytrzymałości za Kliknięcie dla {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Mnożnik Szybkości: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Mnożnik Nasycenia: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Natychmiastowe Ukończenie: {1}"
+}

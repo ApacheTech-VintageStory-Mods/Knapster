@@ -1,0 +1,48 @@
+﻿{
+  "ModTitle": "Knapster",
+  "ModDescription": "简化手工技巧有限的人群的制作和采集过程。",
+
+  "Features.Knapster.ServerCommandDescription": "允许服务器管理员更改服务器上的模组设置。",
+  "Features.EasyClayForming.Description": "管理黏土制作设置。",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
+  "Features.EasyClayForming.InstantComplete.Description": "更改工作项目是否应在使用时立即完成。是或否，默认：否。",
+  "Features.EasyHarvesting.Description": "管理收获设置。",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "更改玩家使用镰刀收割草的速度。作为直接乘数。最小：0.0，最大：2.0，默认：1.0。",
+  "Features.EasyKnapping.Description": "管理敲击设置。",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
+  "Features.EasyKnapping.InstantComplete.Description": "更改工作项目是否应在使用时立即完成。是或否，默认：否。",
+  "Features.EasyPanning.Description": "管理淘金设置。",
+  "Features.EasyPanning.SpeedMultiplier.Description": "更改玩家淘金资源的速度。作为直接乘数。最小：0.0，最大：2.0，默认：1.0。",
+  "Features.EasyPanning.SaturationMultiplier.Description": "更改淘金时饱和度下降的速度。作为直接乘数。最小：0.0，最大：2.0，默认：1.0。",
+  "Features.EasySmithing.Description": "管理锻造设置。",
+  "Features.EasySmithing.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
+  "Features.EasySmithing.CostPerClick.Description": "更改每次使用的耐久度消耗。最小：1，最大：10，默认：5。",
+  "Features.EasySmithing.InstantComplete.Description": "更改工作项目是否应在使用时立即完成。是或否，默认：否。",
+
+  "Features.Knapster.AccessMode.Description": "更改当前功能的访问模式。",
+  "Features.Knapster.Mode": "{0} 模式：{1}",
+  "Features.Knapster.SetMode": "{0} 模式现在设置为：{1}",
+  "Features.Knapster.InvalidMode": "无效的访问模式。有效选项为：{0}",
+  "Features.Knapster.AutoComplete": "自动完成",
+
+  "Features.Knapster.PlayerSearch.NoResults": "搜索“{0}”未产生结果。请重试。",
+  "Features.Knapster.PlayerSearch.MultipleResults": "搜索“{0}”产生了多个结果。请精确您的搜索条件。",
+
+  "Features.Knapster.Whitelist.Description": "将玩家添加/移除出此功能的白名单。",
+  "Features.Knapster.Whitelist.Results": "以下玩家目前在{0}的白名单上：",
+  "Features.Knapster.Whitelist.NoResults": "目前没有玩家在{0}的白名单上。",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0}已从{1}的白名单中移除。",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0}已添加到{1}的白名单中。",
+
+  "Features.Knapster.Blacklist.Description": "将玩家添加/移除出此功能的黑名单。",
+  "Features.Knapster.Blacklist.Results": "以下玩家目前在{0}的黑名单上：",
+  "Features.Knapster.Blacklist.NoResults": "目前没有玩家在{0}的黑名单上。",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0}已从{1}的黑名单中移除。",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0}已添加到{1}的黑名单中。",
+
+  "Features.Knapster.VoxelsPerClick": "{0}每次点击的体素数：{1}",
+  "Features.Knapster.CostPerClick": "{0}每次点击的耐久度消耗：{1}",
+  "Features.Knapster.SpeedMultiplier": "{0}速度乘数：{1}倍",
+  "Features.Knapster.SaturationMultiplier": "{0}饱和度乘数：{1}倍",
+  "Features.Knapster.InstantComplete": "{0}立即完成：{1}"
+}

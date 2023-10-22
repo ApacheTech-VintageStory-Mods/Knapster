@@ -1,0 +1,48 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Förenklar hantverk och insamling för dem med nedsatt manuell fingerfärdighet.",
+
+  "Features.Knapster.ServerCommandDescription": "Tillåter serveradministratören att ändra inställningarna för modet på servern.",
+  "Features.EasyClayForming.Description": "Hantera inställningar för lerkonstruktion.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Ändra antalet voxlar som flyttas per klick. Min: 1, Max: 8, Standard: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Ändra om arbetsobjektet omedelbart ska slutföras vid användning. Sant eller falskt, Standard: Falskt.",
+  "Features.EasyHarvesting.Description": "Hantera inställningar för skörd.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Ändra hastigheten som spelaren skördar gräs med en lie. Fungerar som en direkt multiplikator. Min: 0.0, Max: 2.0, Standard: 1.0.",
+  "Features.EasyKnapping.Description": "Hantera inställningar för knådning.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Ändra antalet voxlar som flyttas per klick. Min: 1, Max: 8, Standard: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Ändra om arbetsobjektet omedelbart ska slutföras vid användning. Sant eller falskt, Standard: Falskt.",
+  "Features.EasyPanning.Description": "Hantera inställningar för brytning.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Ändra hastigheten som spelaren bryter resurser. Fungerar som en direkt multiplikator. Min: 0.0, Max: 2.0, Standard: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Ändra hastigheten som mättnad minskas medan du bryter. Fungerar som en direkt multiplikator. Min: 0.0, Max: 2.0, Standard: 1.0.",
+  "Features.EasySmithing.Description": "Hantera inställningar för smide.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Ändra antalet voxlar som flyttas per klick. Min: 1, Max: 8, Standard: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Ändra hållbarhetskostnaden per användning. Min: 1, Max: 10, Standard: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Ändra om arbetsobjektet omedelbart ska slutföras vid användning. Sant eller falskt, Standard: Falskt.",
+
+  "Features.Knapster.AccessMode.Description": "Ändra åtkomstläget för den aktuella funktionen.",
+  "Features.Knapster.Mode": "{0}-läge: {1}",
+  "Features.Knapster.SetMode": "{0}-läge är nu inställt på: {1}",
+  "Features.Knapster.InvalidMode": "Ogiltigt åtkomstläge. Giltiga alternativ är: {0}",
+  "Features.Knapster.AutoComplete": "Automatisk Slutförande",
+
+  "Features.Knapster.PlayerSearch.NoResults": "Sökningen efter '{0}' gav inga resultat. Försök igen.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Sökningen efter '{0}' gav flera resultat. Förbättra dina sökkriterier.",
+
+  "Features.Knapster.Whitelist.Description": "Lägg till/ta bort spelare från vitlistan för den här funktionen.",
+  "Features.Knapster.Whitelist.Results": "Följande spelare finns för närvarande på {0}-vitlistan:",
+  "Features.Knapster.Whitelist.NoResults": "Det finns för närvarande inga spelare på {0}-vitlistan.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} har tagits bort från {1}-vitlistan.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} har lagts till på {1}-vitlistan.",
+
+  "Features.Knapster.Blacklist.Description": "Lägg till/ta bort spelare från svartlistan för den här funktionen.",
+  "Features.Knapster.Blacklist.Results": "Följande spelare finns för närvarande på {0}-svartlistan:",
+  "Features.Knapster.Blacklist.NoResults": "Det finns för närvarande inga spelare på {0}-svartlistan.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} har tagits bort från {1}-svartlistan.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} har lagts till på {1}-svartlistan.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxlar per Klick: {1}",
+  "Features.Knapster.CostPerClick": "Kostnad per Hållbarhet per Klick för {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Hastighetsmultiplikator: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Mättnadsmultiplikator: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Omedelbar Slutförande: {1}"
+}

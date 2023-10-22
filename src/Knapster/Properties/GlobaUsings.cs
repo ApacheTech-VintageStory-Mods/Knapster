@@ -5,7 +5,6 @@ global using System.Collections.Generic;
 
 global using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
 global using ApacheTech.Common.Extensions.Harmony;
-global using ApacheTech.VintageMods.FluentChatCommands;
 
 global using Gantry.Core;
 global using Gantry.Core.DependencyInjection;

@@ -1,25 +1,24 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems
+﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
+
+[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
+public sealed class EasyHarvestingClient : ClientModSystem
 {
-    [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-    public sealed class EasyHarvestingClient : ClientModSystem
+    internal static EasyHarvestingPacket Settings = new()
     {
-        internal static EasyHarvestingPacket Settings = new()
-        {
-            Enabled = false,
-            SpeedMultiplier = 1f
-        };
+        Enabled = false,
+        SpeedMultiplier = 1f
+    };
 
-        public override void StartClientSide(ICoreClientAPI api)
-        {
-            IOC.Services.Resolve<IClientNetworkService>()
-                .DefaultClientChannel
-                .RegisterMessageType<EasyHarvestingPacket>()
-                .SetMessageHandler<EasyHarvestingPacket>(SyncSettingsWithServer);
-        }
+    public override void StartClientSide(ICoreClientAPI api)
+    {
+        IOC.Services.Resolve<IClientNetworkService>()
+            .DefaultClientChannel
+            .RegisterMessageType<EasyHarvestingPacket>()
+            .SetMessageHandler<EasyHarvestingPacket>(SyncSettingsWithServer);
+    }
 
-        private static void SyncSettingsWithServer(EasyHarvestingPacket packet)
-        {
-            Settings = packet;
-        }
+    private static void SyncSettingsWithServer(EasyHarvestingPacket packet)
+    {
+        Settings = packet;
     }
 }

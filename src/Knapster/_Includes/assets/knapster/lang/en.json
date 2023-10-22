@@ -1,9 +1,25 @@
 {
   "ModTitle": "Knapster",
-  "ModDescription": "Easier knapping, clayforming, and smithing, for those with low manual dexterity.",
+  "ModDescription": "Easier crafting and gathering, for those with low manual dexterity.",
 
   "Features.Knapster.ServerCommandDescription": "Allows the server admin to change the settings for the mod on the server.",
+  "Features.EasyClayForming.Description": "Manage clay forming settings.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
+  "Features.EasyHarvesting.Description": "Manage harvesting settings.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Change the speed at which the player harvests grass with a scythe. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
+  "Features.EasyKnapping.Description": "Manage knapping settings.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
+  "Features.EasyPanning.Description": "Manage panning settings.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Change the speed at which the player pans resources. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Change the rate at which saturation is drained, while panning. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
+  "Features.EasySmithing.Description": "Manage smithing settings.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Change the durability cost, per use. Min: 1, Max: 10, Default: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
 
+  "Features.Knapster.AccessMode.Description": "Change the access mode for the current feature.",
   "Features.Knapster.Mode": "{0} Mode: {1}",
   "Features.Knapster.SetMode": "{0} mode now set to: {1}",
   "Features.Knapster.InvalidMode": "Invalid access mode. Valid options are: {0}",
@@ -12,19 +28,21 @@
   "Features.Knapster.PlayerSearch.NoResults": "The search for '{0}' yielded no results. Please try again.",
   "Features.Knapster.PlayerSearch.MultipleResults": "The search for '{0}' yielded multiple results. Please refine your search terms.",
 
+  "Features.Knapster.Whitelist.Description": "Add/Remove players from the whitelist for this feature.",
   "Features.Knapster.Whitelist.Results": "The following players are currently on the {0} whitelist:",
   "Features.Knapster.Whitelist.NoResults": "There are currently no players on the {0} whitelist.",
   "Features.Knapster.Whitelist.PlayerRemoved": "{0} has been removed from the {1} whitelist.",
   "Features.Knapster.Whitelist.PlayerAdded": "{0} has been added to the {1} whitelist.",
 
+  "Features.Knapster.Blacklist.Description": "Add/Remove players from the blacklist for this feature.",
   "Features.Knapster.Blacklist.Results": "The following players are currently on the {0} blacklist:",
   "Features.Knapster.Blacklist.NoResults": "There are currently no players on the {0} blacklist.",
   "Features.Knapster.Blacklist.PlayerRemoved": "{0} has been removed from the {1} blacklist.",
   "Features.Knapster.Blacklist.PlayerAdded": "{0} has been added to the {1} blacklist.",
 
   "Features.Knapster.VoxelsPerClick": "{0} Voxels Per Click: {1}",
+  "Features.Knapster.CostPerClick": "{0} Durability Cost Per Click: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Speed Multiplier: {1}x",
   "Features.Knapster.SaturationMultiplier": "{0} Saturation Multiplier: {1}x",
-
-  "Features.EasySmithing.CostPerClick": "{0} Durability Cost Per Click: {1}"
+  "Features.Knapster.InstantComplete": "{0} Instant Complete: {1}"
 }

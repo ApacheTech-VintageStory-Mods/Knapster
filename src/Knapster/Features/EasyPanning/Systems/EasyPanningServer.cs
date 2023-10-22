@@ -1,62 +1,65 @@
-﻿using ApacheTech.VintageMods.Knapster.Abstractions;
+﻿using ApacheTech.Common.Extensions.System;
+using ApacheTech.VintageMods.Knapster.Abstractions;
 using ApacheTech.VintageMods.Knapster.Extensions;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems
+namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
+
+[UsedImplicitly]
+public sealed class EasyPanningServer : FeatureServerSystemBase<EasyPanningSettings, EasyPanningPacket>
 {
-    [UsedImplicitly]
-    public sealed class EasyPanningServer : FeatureServerSystemBase<EasyPanningSettings, EasyPanningPacket>
+    protected override string SubCommandName => "Panning";
+
+    protected override void FeatureSpecificCommands(IChatCommand subCommand, CommandArgumentParsers parsers)
     {
-        protected override string SubCommandName => "Panning";
+        subCommand
+            .WithDescription(LangEx.FeatureString("EasyPanning", "Description"));
+        
+        subCommand
+            .BeginSubCommand("speed")
+            .WithAlias("sp")
+            .WithArgs(parsers.OptionalFloat("speed"))
+            .WithDescription(LangEx.FeatureString("EasyPanning.SpeedMultiplier", "Description"))
+            .HandleWith(OnChangeSpeedMultiplier)
+            .EndSubCommand();
 
-        protected override void FeatureSpecificCommands(IChatCommand subCommand)
-        {
-            // ReSharper disable StringLiteralTypo
+        subCommand
+            .BeginSubCommand("saturation")
+            .WithAlias("sa")
+            .WithArgs(parsers.OptionalFloat("rate"))
+            .WithDescription(LangEx.FeatureString("EasyPanning.SaturationMultiplier", "Description"))
+            .HandleWith(OnChangeSaturationMultiplier)
+            .EndSubCommand();
+    }
 
-            subCommand
-                .BeginSubCommand("speed")
-                .WithAlias("s")
-                .WithArgs(new WordArgParser("speed", false))
-                .HandleWith(OnChangeSpeedMultiplier)
-                .EndSubCommand();
+    protected override EasyPanningPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
+    {
+        return EasyPanningPacket.Create(enabledForPlayer, Settings.SpeedMultiplier, Settings.SaturationMultiplier);
+    }
 
-            subCommand
-                .BeginSubCommand("hungerrate")
-                .WithAlias("h")
-                .WithArgs(new WordArgParser("rate", false))
-                .HandleWith(OnChangeSaturationMultiplier)
-                .EndSubCommand();
+    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
+        sb.AppendLine(LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
+        sb.AppendLine(LangEx.FeatureString("Knapster", "SaturationMultiplier", SubCommandName, Settings.SaturationMultiplier));
+        return TextCommandResult.Success(sb.ToString());
+    }
 
-            // ReSharper enable StringLiteralTypo
-        }
+    private TextCommandResult OnChangeSpeedMultiplier(TextCommandCallingArgs args)
+    {
+        var value = args.Parsers[0].GetValue().To<float?>() ?? 1f;
+        Settings.SpeedMultiplier = GameMath.Clamp(value, 0f, 2f);
+        var message = LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier);
+        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        return TextCommandResult.Success(message);
+    }
 
-        protected override EasyPanningPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
-        {
-            return EasyPanningPacket.Create(enabledForPlayer, Settings.SpeedMultiplier, Settings.SaturationMultiplier);
-        }
-
-        protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-        {
-            var sb = new StringBuilder();
-            sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
-            sb.AppendLine(LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
-            sb.Append(LangEx.FeatureString("Knapster", "SaturationMultiplier", SubCommandName, Settings.SaturationMultiplier));
-            return TextCommandResult.Success(sb.ToString());
-        }
-
-        private TextCommandResult OnChangeSpeedMultiplier(TextCommandCallingArgs args)
-        {
-            Settings.SpeedMultiplier = GameMath.Clamp(args.RawArgs.PopFloat().GetValueOrDefault(1f), 0f, 2f);
-            var message = LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier);
-            ServerChannel?.BroadcastUniquePacket(GeneratePacket);
-            return TextCommandResult.Success(message);
-        }
-
-        private TextCommandResult OnChangeSaturationMultiplier(TextCommandCallingArgs args)
-        {
-            Settings.SaturationMultiplier = GameMath.Clamp(args.RawArgs.PopFloat().GetValueOrDefault(1f), 0f, 2f);
-            var message = LangEx.FeatureString("Knapster", "SaturationMultiplier", SubCommandName, Settings.SaturationMultiplier);
-            ServerChannel?.BroadcastUniquePacket(GeneratePacket);
-            return TextCommandResult.Success(message);
-        }
+    private TextCommandResult OnChangeSaturationMultiplier(TextCommandCallingArgs args)
+    {
+        var value = args.Parsers[0].GetValue().To<float?>() ?? 1f;
+        Settings.SaturationMultiplier = GameMath.Clamp(value, 0f, 2f);
+        var message = LangEx.FeatureString("Knapster", "SaturationMultiplier", SubCommandName, Settings.SaturationMultiplier);
+        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        return TextCommandResult.Success(message);
     }
 }

@@ -1,30 +1,48 @@
-{
+﻿{
   "ModTitle": "Knapster",
-  "ModDescription": "Полегшує набивання, ліплення та ковальство для тих, хто не має достатньої вправності рук.",
+  "ModDescription": "Спрощує виготовлення та збір ресурсів для тих, хто має обмежену рухливість рук.",
 
-  "Features.Knapster.ServerCommandDescription": "Дозволяє адміністратору сервера змінювати налаштування мода на сервері.",
+  "Features.Knapster.ServerCommandDescription": "Дозволяє адміністратору сервера змінювати налаштування моду на сервері.",
+  "Features.EasyClayForming.Description": "Керуйте налаштуваннями формування глини.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Змініть, чи має робочий елемент негайно завершуватися при використанні. True або False, За замовчуванням: False.",
+  "Features.EasyHarvesting.Description": "Керуйте налаштуваннями збору.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець збирає траву косою. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
+  "Features.EasyKnapping.Description": "Керуйте налаштуваннями кнаппінгу.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Змініть, чи має робочий елемент негайно завершуватися при використанні. True або False, За замовчуванням: False.",
+  "Features.EasyPanning.Description": "Керуйте налаштуваннями просіювання.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець просіює ресурси. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Змініть швидкість виснаження ситості під час просіювання. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
+  "Features.EasySmithing.Description": "Керуйте налаштуваннями ковальства.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Змініть витрати на міцність при використанні. Мін: 1, Макс: 10, За замовчуванням: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Змініть, чи має робочий елемент негайно завершуватися при використанні. True або False, За замовчуванням: False.",
 
+  "Features.Knapster.AccessMode.Description": "Змініть режим доступу для поточної функції.",
   "Features.Knapster.Mode": "{0} Режим: {1}",
-  "Features.Knapster.SetMode": "{0} режим тепер встановлено на: {1}",
+  "Features.Knapster.SetMode": "Режим {0} тепер встановлено на: {1}",
   "Features.Knapster.InvalidMode": "Недійсний режим доступу. Допустимі варіанти: {0}",
-  "Features.Knapster.AutoComplete": "Автоматичне завершення",
+  "Features.Knapster.AutoComplete": "Автоматичне Завершення",
 
-  "Features.Knapster.PlayerSearch.NoResults": "Пошук для '{0}' не дав результатів. Будь ласка, спробуйте ще раз.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "Пошук для '{0}' дав кілька результатів. Будь ласка, уточніть умови пошуку.",
+  "Features.Knapster.PlayerSearch.NoResults": "Пошук '{0}' не дав результатів. Спробуйте ще раз.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "Пошук '{0}' дав кілька результатів. Уточніть свої критерії пошуку.",
 
-  "Features.Knapster.Whitelist.Results": "Наступні гравці наразі знаходяться у білому списку {0}:",
-  "Features.Knapster.Whitelist.NoResults": "Наразі немає гравців у білому списку {0}.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} було видалено з білого списку {1}.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} додано до білого списку {1}.",
+  "Features.Knapster.Whitelist.Description": "Додавання/Видалення гравців з білого списку для цієї функції.",
+  "Features.Knapster.Whitelist.Results": "Наступні гравці в даний момент знаходяться в білому списку для {0}:",
+  "Features.Knapster.Whitelist.NoResults": "На даний момент немає гравців в білому списку для {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} був видалений з білого списку для {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} був доданий до білого списку для {1}.",
 
-  "Features.Knapster.Blacklist.Results": "Наразі наступні гравці знаходяться у чорному списку {0}:",
-  "Features.Knapster.Blacklist.NoResults": "Наразі немає гравців у чорному списку {0}.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} було видалено з чорного списку {1}.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} додано до чорного списку {1}.",
+  "Features.Knapster.Blacklist.Description": "Додавання/Видалення гравців з чорного списку для цієї функції.",
+  "Features.Knapster.Blacklist.Results": "Наступні гравці в даний момент знаходяться в чорному списку для {0}:",
+  "Features.Knapster.Blacklist.NoResults": "На даний момент немає гравців в чорному списку для {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} був видалений з чорного списку для {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} був доданий до чорного списку для {1}.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Вокселів за клік: {1}",
-  "Features.Knapster.SpeedMultiplier": "{0} Множник швидкості: {1}x",
-  "Features.Knapster.SaturationMultiplier": "{0} Множник насиченості: {1}x",
-
-  "Features.EasySmithing.CostPerClick": "{0} Вартість довговічності за клік: {1}"
+  "Features.Knapster.VoxelsPerClick": "{0} Вокселів на Клацанні: {1}",
+  "Features.Knapster.CostPerClick": "Витрати на Міцність на Клацанні для {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "{0} Множник Швидкості: {1}x",
+  "Features.Knapster.SaturationMultiplier": "{0} Множник Ситості: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Миттєве Завершення: {1}"
 }

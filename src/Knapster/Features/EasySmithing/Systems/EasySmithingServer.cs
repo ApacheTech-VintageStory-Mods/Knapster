@@ -19,7 +19,7 @@ public class EasySmithingServer : FeatureServerSystemBase<EasySmithingSettings, 
             .WithAlias("v")
             .WithArgs(parsers.OptionalInt("voxels"))
             .WithDescription(LangEx.FeatureString("EasySmithing.VoxelsPerClick", "Description"))
-            .HandleWith(OnChangeCostPerClick)
+            .HandleWith(OnChangeVoxelsPerClick)
             .EndSubCommand();
 
         subCommand
@@ -27,7 +27,7 @@ public class EasySmithingServer : FeatureServerSystemBase<EasySmithingSettings, 
             .WithAlias("c")
             .WithArgs(parsers.OptionalInt("cost"))
             .WithDescription(LangEx.FeatureString("EasySmithing.CostPerClick", "Description"))
-            .HandleWith(OnChangeVoxelsPerClick)
+            .HandleWith(OnChangeCostPerClick)
             .EndSubCommand();
 
         subCommand

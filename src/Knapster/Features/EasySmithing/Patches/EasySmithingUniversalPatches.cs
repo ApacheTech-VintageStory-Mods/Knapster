@@ -34,6 +34,7 @@ public class EasySmithingUniversalPatches
         var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
         if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
         if (slot.Itemstack.Collectible is not ItemHammer hammer) return true;
+
         var toolMode = hammer.GetToolMode(slot, byPlayer, blockSel);
 
         if (!enabled)
@@ -51,21 +52,9 @@ public class EasySmithingUniversalPatches
             __instance.CallMethod("SendUseOverPacket", byPlayer, voxelPos);
         }
 
-        if (instantComplete)
-        {
-            AutoComplete(__instance);
-        }
-        else
-        {
-            for (var i = 0; i < voxelsPerClick; i++)
-            {
-                if (IsComplete()) continue;
-                OnHit(__instance);
-            }
-        }
+        OnHit(__instance, instantComplete ? 999 : voxelsPerClick);
+
         __instance.CallMethod("RegenMeshAndSelectionBoxes");
-        __instance.Api.World.BlockAccessor.MarkBlockDirty(__instance.Pos);
-        __instance.Api.World.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
         slot.Itemstack.Collectible.DamageItem(__instance.Api.World, byPlayer.Entity, slot, costPerClick);
         if (!__instance.CallMethod<bool>("HasAnyMetalVoxel"))
         {
@@ -74,48 +63,25 @@ public class EasySmithingUniversalPatches
         }
         __instance.CheckIfFinished(byPlayer);
         __instance.MarkDirty();
-
         return false;
-
-        bool IsComplete() => __instance.CallMethod<bool>("MatchesRecipe");
     }
 
-    private static void AutoComplete(BlockEntityAnvil anvil)
+    private static void OnHit(BlockEntityAnvil anvil, int iterations)
     {
-        if (anvil.SelectedRecipe == null)
+        while (iterations-- > 0)
         {
-            return;
-        }
-
-        var yMax = Math.Min(6, anvil.SelectedRecipe.QuantityLayers);
-        var recipeVoxels = anvil.recipeVoxels;
-        for (var y = 0; y < yMax; y++)
-        {
-            for (var x = 0; x < 16; x++)
-            {
-                for (var z = 0; z < 16; z++)
-                {
-                    var desiredMat = (byte)(recipeVoxels[x, y, z] ? 1 : 0);
-                    if (anvil.Voxels[x, y, z] == desiredMat) continue;
-                    if (!anvil.CallMethod<bool>("HasAnyMetalVoxel")) return;
-                    var usableMetalVoxel = anvil.CallMethod<Vec3i>("findFreeMetalVoxel");
-
-                    if (desiredMat == 1)
-                    {
-                        if (usableMetalVoxel is null) continue;
-                        anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
-                    }
-
-                    anvil.Voxels[x, y, z] = desiredMat;
-                }
-            }
+            if (anvil.SelectedRecipe is null) break;
+            if (!TryHelveHammerHit(anvil)) break;
         }
     }
 
-    private static void OnHit(BlockEntityAnvil anvil)
+    public static bool TryHelveHammerHit(BlockEntityAnvil anvil)
     {
-        if (anvil.SelectedRecipe is null) return;
-        var yMax = anvil.SelectedRecipe.QuantityLayers;
+        if (anvil.CallMethod<bool>("MatchesRecipe")) return false;
+        if (anvil.SelectedRecipe is null) return false;
+        anvil.rotation = 0;
+        var recipe = anvil.SelectedRecipe;
+        var yMax = recipe.QuantityLayers;
         var usableMetalVoxel = anvil.CallMethod<Vec3i>("findFreeMetalVoxel");
         for (var x = 0; x < 16; x++)
         {
@@ -123,26 +89,27 @@ public class EasySmithingUniversalPatches
             {
                 for (var y = 0; y < 6; y++)
                 {
-                    var requireMetalHere = y < yMax && anvil.recipeVoxels[x, y, z];
+                    var requireMetalHere = y < yMax && recipe.Voxels[x, y, z];
                     var mat = (EnumVoxelMaterial)anvil.Voxels[x, y, z];
                     if (mat == EnumVoxelMaterial.Slag)
                     {
                         anvil.Voxels[x, y, z] = 0;
                         anvil.CallMethod("onHelveHitSuccess", mat, null, x, y, z);
-                        return;
+                        return true;
                     }
 
-                    if (!requireMetalHere || usableMetalVoxel == null || mat != EnumVoxelMaterial.Empty) continue;
+                    if (!requireMetalHere || usableMetalVoxel is null || mat != EnumVoxelMaterial.Empty) continue;
                     anvil.Voxels[x, y, z] = 1;
                     anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
                     anvil.CallMethod("onHelveHitSuccess", mat, usableMetalVoxel, x, y, z);
-                    return;
+                    return true;
                 }
             }
         }
 
-        if (usableMetalVoxel is null) return;
+        if (usableMetalVoxel is null) return true;
         anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
         anvil.CallMethod("onHelveHitSuccess", EnumVoxelMaterial.Metal, null, usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z);
+        return true;
     }
 }

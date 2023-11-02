@@ -1142,7 +1142,9 @@
                 <Merging>
                     <ResourcesCompression />
                     <MemberRefsProxy />
-                    <Pruning />
+                    <Pruning>
+                        <Exclusion />
+                    </Pruning>
                     <Obfuscation />
                     <ControlFlow />
                 </Merging>

@@ -13,16 +13,24 @@ public sealed class EasyKnappingServerPatches
     public static bool ServerPatch_BlockEntityKnappingSurface_OnUseOver_Prefix(
         BlockEntityKnappingSurface __instance, IPlayer byPlayer)
     {
-        if (!EasyKnappingServer.IsEnabledFor(byPlayer)) return true;
-        if (byPlayer.Entity.Controls.CtrlKey) return true;
-        if (__instance?.SelectedRecipe?.Voxels is null) return true;
-
-        if (EasyKnappingClient.Settings.InstantComplete)
+        try
         {
-            AutoComplete(__instance);
-        }
+            if (!EasyKnappingServer.IsEnabledFor(byPlayer)) return true;
+            if (byPlayer.Entity.Controls.CtrlKey) return true;
+            if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-        return true;
+            if (EasyKnappingClient.Settings.InstantComplete)
+            {
+                AutoComplete(__instance);
+            }
+
+            return true;
+        }
+        catch (ArgumentNullException ex)
+        {
+            ApiEx.Log.Error(ex);
+            return true;
+        }
     }
 
     private static void AutoComplete(BlockEntityKnappingSurface blockEntity)

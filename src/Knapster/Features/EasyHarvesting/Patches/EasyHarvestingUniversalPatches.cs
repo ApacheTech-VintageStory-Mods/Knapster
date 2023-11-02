@@ -11,14 +11,14 @@ public sealed class EasyHarvestingUniversalPatches
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(ItemScythe), nameof(ItemScythe.OnHeldAttackStop))]
-    public static void Harmony_ItemScythe_OnHeldAttackStop_Transpiler(ref float secondsPassed, EntityAgent byEntity)
+    public static void UniversalPatch_ItemScythe_OnHeldAttackStop_Prefix(ref float secondsPassed, EntityAgent byEntity)
     {
         secondsPassed /= SpeedMultiplier(byEntity);
     }
 
     [HarmonyTranspiler]
     [HarmonyPatch(typeof(ItemScythe), nameof(ItemScythe.OnHeldAttackStep))]
-    public static IEnumerable<CodeInstruction> Harmony_ItemScythe_OnHeldAttackStep_Transpiler(IEnumerable<CodeInstruction> instructions)
+    public static IEnumerable<CodeInstruction> UniversalPatch_ItemScythe_OnHeldAttackStep_Transpiler(IEnumerable<CodeInstruction> instructions)
     {
         var result = new List<CodeInstruction>();
         var codeInstructions = instructions.ToArray();

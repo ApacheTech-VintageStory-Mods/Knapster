@@ -31,39 +31,47 @@ public class EasySmithingUniversalPatches
             _ => EasySmithingClient.Settings.Enabled,
             _ => EasySmithingServer.IsEnabledFor(byPlayer));
 
-        var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
-        if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
-        if (slot.Itemstack.Collectible is not ItemHammer hammer) return true;
-
-        var toolMode = hammer.GetToolMode(slot, byPlayer, blockSel);
-
-        if (!enabled)
+        try
         {
-            if (toolMode > 5) hammer.SetToolMode(slot, byPlayer, blockSel, 0);
-            return true;
-        }
+            var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
+            if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
+            if (slot.Itemstack.Collectible is not ItemHammer hammer) return true;
 
-        if (toolMode < 6) return true;
+            var toolMode = hammer.GetToolMode(slot, byPlayer, blockSel);
 
-        // ----
+            if (!enabled)
+            {
+                if (toolMode > 5) hammer.SetToolMode(slot, byPlayer, blockSel, 0);
+                return true;
+            }
 
-        if (__instance.Api.Side.IsClient())
-        {
-            __instance.CallMethod("SendUseOverPacket", byPlayer, voxelPos);
-        }
+            if (toolMode < 6) return true;
 
-        OnHit(__instance, instantComplete ? 999 : voxelsPerClick);
+            // ----
 
-        __instance.CallMethod("RegenMeshAndSelectionBoxes");
-        slot.Itemstack.Collectible.DamageItem(__instance.Api.World, byPlayer.Entity, slot, costPerClick);
-        if (!__instance.CallMethod<bool>("HasAnyMetalVoxel"))
-        {
-            __instance.CallMethod("clearWorkSpace");
+            if (__instance.Api.Side.IsClient())
+            {
+                __instance.CallMethod("SendUseOverPacket", byPlayer, voxelPos);
+            }
+
+            OnHit(__instance, instantComplete ? 999 : voxelsPerClick);
+
+            __instance.CallMethod("RegenMeshAndSelectionBoxes");
+            slot.Itemstack.Collectible.DamageItem(__instance.Api.World, byPlayer.Entity, slot, costPerClick);
+            if (!__instance.CallMethod<bool>("HasAnyMetalVoxel"))
+            {
+                __instance.CallMethod("clearWorkSpace");
+                return false;
+            }
+            __instance.CheckIfFinished(byPlayer);
+            __instance.MarkDirty();
             return false;
         }
-        __instance.CheckIfFinished(byPlayer);
-        __instance.MarkDirty();
-        return false;
+        catch (ArgumentNullException ex)
+        {
+            ApiEx.Log.Error(ex);
+            return true;
+        }
     }
 
     private static void OnHit(BlockEntityAnvil anvil, int iterations)

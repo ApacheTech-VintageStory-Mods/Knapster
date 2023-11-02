@@ -27,53 +27,61 @@ public class EasyClayFormingUniversalPatches
             _ => EasyClayFormingClient.Settings.Enabled,
             _ => EasyClayFormingServer.IsEnabledFor(byPlayer));
 
-        var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
-        if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
-        if (slot.Itemstack.Collectible is not ItemClay clay) return true;
-        var blockSel = new BlockSelection { Position = __instance.Pos };
-        var toolMode = clay.GetToolMode(slot, byPlayer, blockSel);
-
-        if (!enabled)
+        try
         {
-            if (toolMode > 3) clay.SetToolMode(slot, byPlayer, blockSel, 0);
-            return true;
-        }
+            var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
+            if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
+            if (slot.Itemstack.Collectible is not ItemClay clay) return true;
+            var blockSel = new BlockSelection { Position = __instance.Pos };
+            var toolMode = clay.GetToolMode(slot, byPlayer, blockSel);
 
-        if (toolMode < 4) return true;
-        if (mouseBreakMode) return false;
+            if (!enabled)
+            {
+                if (toolMode > 3) clay.SetToolMode(slot, byPlayer, blockSel, 0);
+                return true;
+            }
 
-        if (__instance.Api.Side.IsClient())
-        {
-            __instance.SendUseOverPacket(byPlayer, voxelPos, facing, false);
-        }
+            if (toolMode < 4) return true;
+            if (mouseBreakMode) return false;
 
-        clay.SetToolMode(slot, byPlayer, blockSel, 0);
+            if (__instance.Api.Side.IsClient())
+            {
+                __instance.SendUseOverPacket(byPlayer, voxelPos, facing, false);
+            }
 
-        var currentLayer = __instance.CurrentLayer();
-        if (instantComplete
-                ? __instance.AutoComplete()
-                : __instance.AutoCompleteLayer(currentLayer, voxelsPerClick))
-        {
-            __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
-        }
-        __instance.Api.World.FrameProfiler.Mark("clayform-modified");
-        currentLayer = __instance.CurrentLayer();
-        __instance.CallMethod("RegenMeshAndSelectionBoxes", currentLayer);
-        __instance.Api.World.FrameProfiler.Mark("clayform-regenmesh");
-        __instance.Api.World.BlockAccessor.MarkBlockDirty(__instance.Pos);
-        __instance.Api.World.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
-        if (!__instance.CallMethod<bool>("HasAnyVoxel"))
-        {
-            __instance.AvailableVoxels = 0;
-            ___workItemStack = null;
-            __instance.Api.World.BlockAccessor.SetBlock(0, __instance.Pos);
+            clay.SetToolMode(slot, byPlayer, blockSel, 0);
+
+            var currentLayer = __instance.CurrentLayer();
+            if (instantComplete
+                    ? __instance.AutoComplete()
+                    : __instance.AutoCompleteLayer(currentLayer, voxelsPerClick))
+            {
+                __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
+            }
+            __instance.Api.World.FrameProfiler.Mark("clayform-modified");
+            currentLayer = __instance.CurrentLayer();
+            __instance.CallMethod("RegenMeshAndSelectionBoxes", currentLayer);
+            __instance.Api.World.FrameProfiler.Mark("clayform-regenmesh");
+            __instance.Api.World.BlockAccessor.MarkBlockDirty(__instance.Pos);
+            __instance.Api.World.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
+            if (!__instance.CallMethod<bool>("HasAnyVoxel"))
+            {
+                __instance.AvailableVoxels = 0;
+                ___workItemStack = null;
+                __instance.Api.World.BlockAccessor.SetBlock(0, __instance.Pos);
+                return false;
+            }
+            __instance.CheckIfFinished(byPlayer, currentLayer);
+            __instance.Api.World.FrameProfiler.Mark("clayform-checkfinished");
+            __instance.MarkDirty();
+
+            clay.SetToolMode(slot, byPlayer, blockSel, 4);
             return false;
         }
-        __instance.CheckIfFinished(byPlayer, currentLayer);
-        __instance.Api.World.FrameProfiler.Mark("clayform-checkfinished");
-        __instance.MarkDirty();
-
-        clay.SetToolMode(slot, byPlayer, blockSel, 4);
-        return false;
+        catch (ArgumentNullException ex)
+        {
+            ApiEx.Log.Error(ex);
+            return true;
+        }
     }
 }

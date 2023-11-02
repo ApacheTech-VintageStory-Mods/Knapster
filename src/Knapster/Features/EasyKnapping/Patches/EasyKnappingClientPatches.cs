@@ -13,22 +13,30 @@ public sealed class EasyKnappingClientPatches
     public static bool ClientPatch_BlockEntityKnappingSurface_OnUseOver_Prefix(
         BlockEntityKnappingSurface __instance, IPlayer byPlayer, BlockFacing facing, bool mouseMode)
     {
-        if (!EasyKnappingClient.Settings.Enabled) return true;
-        if (byPlayer.Entity.Controls.CtrlKey) return true;
-        if (__instance?.SelectedRecipe?.Voxels is null) return true;
-        
-        for (var i = 0; i < EasyKnappingClient.Settings.VoxelsPerClick; i++)
+        try
         {
-            if (!__instance.CallMethod<bool>("HasAnyVoxel")) return true;
-            var voxelPos = FindNextVoxelToRemove(__instance);
+            if (!EasyKnappingClient.Settings.Enabled) return true;
+            if (byPlayer.Entity.Controls.CtrlKey) return true;
+            if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            var method = AccessTools.Method(typeof(BlockEntityKnappingSurface), "OnUseOver",
-                new[] { typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool) });
+            for (var i = 0; i < EasyKnappingClient.Settings.VoxelsPerClick; i++)
+            {
+                if (!__instance.CallMethod<bool>("HasAnyVoxel")) return true;
+                var voxelPos = FindNextVoxelToRemove(__instance);
 
-            method.Invoke(__instance, new object[] { byPlayer, voxelPos, facing, mouseMode });
+                var method = AccessTools.Method(typeof(BlockEntityKnappingSurface), "OnUseOver",
+                    new[] { typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool) });
 
+                method.Invoke(__instance, new object[] { byPlayer, voxelPos, facing, mouseMode });
+
+            }
+            return false;
         }
-        return false;
+        catch (ArgumentNullException ex)
+        {
+            ApiEx.Log.Error(ex);
+            return true;
+        }
     }
 
     private static Vec3i FindNextVoxelToRemove(BlockEntityKnappingSurface blockEntity)

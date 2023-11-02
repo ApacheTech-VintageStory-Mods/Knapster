@@ -1,6 +1,5 @@
 ﻿using System.Reflection.Emit;
 using ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
-using Vintagestory.API.Common.Entities;
 
 // ReSharper disable InconsistentNaming
 
@@ -62,12 +61,6 @@ public sealed class EasyPanningUniversalPatches
 
         result.Add(codeInstructions.Last());
         return result;
-    }
-
-    private void F(Entity entity)
-    {
-        if (entity is EntityPlayer player && 
-            player.Player.WorldData.CurrentGameMode is EnumGameMode.Spectator) return;
     }
 
     private static float SpeedMultiplier(EntityAgent byEntity)

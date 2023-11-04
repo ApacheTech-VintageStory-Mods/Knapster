@@ -53,7 +53,7 @@ public class EasyClayFormingUniversalPatches
 
             var currentLayer = __instance.CurrentLayer();
             if (instantComplete
-                    ? __instance.AutoComplete()
+                    ? __instance.CompleteInTurn(slot)
                     : __instance.AutoCompleteLayer(currentLayer, voxelsPerClick))
             {
                 __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
@@ -75,6 +75,7 @@ public class EasyClayFormingUniversalPatches
             __instance.Api.World.FrameProfiler.Mark("clayform-checkfinished");
             __instance.MarkDirty();
 
+            if (slot.Itemstack is null) return false;
             clay.SetToolMode(slot, byPlayer, blockSel, 4);
             return false;
         }

@@ -3,6 +3,7 @@
   "ModDescription": "Easier crafting and gathering, for those with low manual dexterity.",
 
   "Features.Knapster.ServerCommandDescription": "Allows the server admin to change the settings for the mod on the server.",
+  "Features.EasyClayForming.ClayRequired": "Total clay required: {0}",
   "Features.EasyClayForming.Description": "Manage clay forming settings.",
   "Features.EasyClayForming.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
   "Features.EasyClayForming.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",

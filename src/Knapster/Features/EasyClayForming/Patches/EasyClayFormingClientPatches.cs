@@ -1,4 +1,6 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
+using Vintagestory.API.Config;
 
 // ReSharper disable InconsistentNaming
 
@@ -36,5 +38,15 @@ public class EasyClayFormingClientPatches
         {
             ApiEx.Log.Error(ex);
         }
+    }
+
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(BlockEntityClayForm), nameof(BlockEntityClayForm.GetBlockInfo))]
+    public static void ClientPatch_BlockEntityClayForm_GetBlockInfo_Postfix(BlockEntityClayForm __instance, StringBuilder dsc)
+    {
+        var totalClayCost = __instance.TotalClayCost();
+        if (totalClayCost == -1) return;
+        dsc.AppendLine(LangEx.FeatureString("EasyClayForming", "ClayRequired", totalClayCost));
     }
 }

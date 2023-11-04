@@ -3,6 +3,7 @@
   "ModDescription": "Jednodušší výroba a sběr pro ty s nízkou manuální zručností.",
 
   "Features.Knapster.ServerCommandDescription": "Umožňuje správci serveru změnit nastavení modu na serveru.",
+  "Features.EasyClayForming.ClayRequired": "Celkové množství potřebné hlíny: {0}", 
   "Features.EasyClayForming.Description": "Spravovat nastavení tvarování hlíny.",
   "Features.EasyClayForming.VoxelsPerClick.Description": "Změňte počet voxely přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
   "Features.EasyClayForming.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False.",

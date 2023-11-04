@@ -3,6 +3,7 @@
   "ModDescription": "소수의 수동 미숙한 사용자를 위한 보다 쉬운 제작 및 수집을 지원합니다.",
 
   "Features.Knapster.ServerCommandDescription": "서버 관리자가 서버에서 모드 설정을 변경할 수 있도록 합니다.",
+  "Features.EasyClayForming.ClayRequired": "필요한 총 점토: {0}",
   "Features.EasyClayForming.Description": "점토 형성 설정을 관리합니다.",
   "Features.EasyClayForming.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
   "Features.EasyClayForming.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",

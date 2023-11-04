@@ -3,12 +3,76 @@
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public static class BlockEntityClayFormExtensions
 {
-    public static bool AutoComplete(this BlockEntityClayForm block)
+    public static bool AutoComplete(this BlockEntityClayForm block, ItemSlot itemSlot)
     {
         if (block.SelectedRecipe is null) return false;
         block.Voxels = block.SelectedRecipe.Voxels;
-        block.AvailableVoxels = 0;
         return true;
+    }
+
+    public static void AddVoxel(this BlockEntityClayForm block, int y, Vec3i pos, int radius)
+    {
+        var method = AccessTools.Method(typeof(BlockEntityClayForm), "OnAdd", new [] { typeof(int), typeof(Vec3i), typeof(int) });
+        method?.Invoke(block, new object[] { y, pos, radius });
+    }
+
+    public static bool CompleteInTurn(this BlockEntityClayForm block, ItemSlot itemSlot)
+    {
+        for (var y = 0; y < 16; y++)
+        {
+            for (var x = 0; x < 16; x++)
+            {
+                for (var z = 0; z < 16; z++)
+                {
+                    if (block.SelectedRecipe is null) return false;
+                    if (itemSlot.Empty) return false;
+                    if (block.SelectedRecipe.Voxels[x, y, z])
+                    {
+                        if (block.Voxels[x, y, z]) continue;
+                        block.AddVoxel(y, new Vec3i(x, y, z), 0);
+                    }
+                    else
+                    {
+                        if (!block.Voxels[x, y, z]) continue;
+                        block.CallMethod("OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
+                    }
+
+                    if (block.AvailableVoxels > 0) continue;
+                    itemSlot.TakeOut(1);
+                    block.AvailableVoxels += 25;
+                }
+            }
+        }
+        return true;
+    }
+
+
+    public static int TotalClayCost(this BlockEntityClayForm block)
+    {
+        if (block.SelectedRecipe is null) return -1;
+
+        var voxelsThatNeedFilling = 0;
+        var voxelsThatNeedRemoving = 0;
+
+        for (var y = 0; y < 16; y++)
+        {
+            for (var x = 0; x < 16; x++)
+            {
+                for (var z = 0; z < 16; z++)
+                {
+                    if (block.SelectedRecipe.Voxels[x, y, z])
+                    {
+                        if (!block.Voxels[x, y, z]) voxelsThatNeedFilling++;
+                    }
+                    else
+                    {
+                        if (block.Voxels[x, y, z]) voxelsThatNeedRemoving++;
+                    }
+                }
+            }
+        }
+
+        return (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 25;
     }
 
     public static void AutoComplete(this BlockEntityKnappingSurface block)

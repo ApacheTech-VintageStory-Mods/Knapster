@@ -89,10 +89,6 @@
 			<HintPath>$(EnvironmentVariable)\Lib\Newtonsoft.Json.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-		<Reference Include="OpenTK">
-			<HintPath>$(EnvironmentVariable)\Lib\OpenTK.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
 		<Reference Include="protobuf-net">
 			<HintPath>$(EnvironmentVariable)\Lib\protobuf-net.dll</HintPath>
 			<Private>false</Private>

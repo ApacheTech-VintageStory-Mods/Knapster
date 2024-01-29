@@ -10,7 +10,7 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)|$(Platform)'!='Debug|AnyCPU'">
-	  <PackageReference Include="VintageStory.Gantry" Version="0.6.3" />
+	  <PackageReference Include="VintageStory.Gantry" Version="0.6.4" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

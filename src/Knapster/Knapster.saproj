@@ -533,6 +533,7 @@
             </Assembly>
             <Assembly AssemblyName="System.Threading.Tasks.Extensions, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
                 <Merging />
+                <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="ApacheTech.VintageMods.Knapster, Culture=neutral, PublicKeyToken=null">
                 <Merging>
@@ -1170,6 +1171,58 @@
             </Assembly>
             <Assembly AssemblyName="System.Windows.Extensions, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
                 <Merging />
+            </Assembly>
+            <Assembly AssemblyName="Microsoft.Data.Sqlite, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="SQLitePCLRaw.core, Culture=neutral, PublicKeyToken=1488e028ca7ab535">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="ApacheTech.Common.BrighterSlim, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="Polly, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc">
+                <Merging Merge="1">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="Polly.Core, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc">
+                <Merging Merge="1">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="Microsoft.Bcl.TimeProvider, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging Merge="1">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="Microsoft.Bcl.AsyncInterfaces, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+                <Merging />
+                <Embedding Compress="1" Encrypt="1" />
             </Assembly>
         </Assemblies>
     </Configuration>

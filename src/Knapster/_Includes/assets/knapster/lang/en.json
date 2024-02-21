@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Manage panning settings.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Change the speed at which the player pans resources. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Change the rate at which saturation is drained, while panning. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
+  "Features.EasyQuern.Description": "Manage quern settings.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Change the speed at which the player grinds resources within a quern. Acts as a direct multiplier. Min: 0.0, Max: 10.0, Default: 1.0.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Apply the speed multiplier to automated querns, as well as manual querns.", 
   "Features.EasySmithing.Description": "Manage smithing settings.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Change the durability cost, per use. Min: 1, Max: 10, Default: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxels Per Click: {1}",
   "Features.Knapster.CostPerClick": "{0} Durability Cost Per Click: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Speed Multiplier: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Include Automated Querns: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Saturation Multiplier: {1}x",
   "Features.Knapster.InstantComplete": "{0} Instant Complete: {1}"
 }

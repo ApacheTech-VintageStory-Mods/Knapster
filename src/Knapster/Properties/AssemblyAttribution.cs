@@ -7,8 +7,8 @@
     "knapster",
     Description = "Easier crafting and gathering, for those with low manual dexterity.",
     Side = "Universal",
-    Version = "2.7.0",
+    Version = "2.8.1",
     NetworkVersion = "1.0.0",
     Website = "https://apachegaming.net",
-    Contributors = new[] { "Apache" },
-    Authors = new []{ "ApacheTech Solutions" })]
+    Contributors = ["Apache"],
+    Authors = ["ApacheTech Solutions"])]

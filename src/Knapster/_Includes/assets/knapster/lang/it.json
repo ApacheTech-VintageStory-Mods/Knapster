@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Gestisci le impostazioni di setacciatura.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore setaccia le risorse. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Cambia il tasso con cui la saturazione viene ridotta durante la setacciatura. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  "Features.EasyQuern.Description": "Gestisci le impostazioni della macina.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Applica il moltiplicatore di velocità alle quern automatiche, così come alle quern manuali.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore macina le risorse all'interno di una macina. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0.",
   "Features.EasySmithing.Description": "Gestisci le impostazioni di fabbro.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Cambia il numero di voxel che vengono spostati per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Cambia il costo di durabilità per uso. Minimo: 1, Massimo: 10, Predefinito: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxels per Clic: {1}",
   "Features.Knapster.CostPerClick": "Costo di Durabilità per Clic {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "Moltiplicatore di Velocità {0}: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Includere mulini automatici: {1}",
   "Features.Knapster.SaturationMultiplier": "Moltiplicatore di Saturazione {0}: {1}x",
   "Features.Knapster.InstantComplete": "{0} Completamento Istantaneo: {1}"
 }

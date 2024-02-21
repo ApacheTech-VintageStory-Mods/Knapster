@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Spravujte nastavenia preplavovania.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč plaví zdroje. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Zmeňte rýchlosť, akou sa nasýtenie vyčerpáva počas preplavovania. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
+  "Features.EasyQuern.Description": "Spravovať nastavenia mlyna.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Použite násobič rýchlosti na automatizované mlyny aj ručné mlyny.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Zmena rýchlosti, akou hráč mlie mäsové zdroje v mlyne. Účinkuje ako priamy násobič. Min: 0.0, Max: 10.0, Predvolené: 1.0.",
   "Features.EasySmithing.Description": "Spravujte nastavenia kováčstva.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Zmeňte náklady na odolnosť pri použití. Min: 1, Max: 10, Predvolené: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxely na Klik: {1}",
   "Features.Knapster.CostPerClick": "Náklady na Odolnosť na Klik pre {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Násobiteľ Rýchlosti: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Zahrnúť automatizované mlyny: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Násobiteľ Nasýtenia: {1}x",
   "Features.Knapster.InstantComplete": "{0} Okamžité Dokončenie: {1}"
 }

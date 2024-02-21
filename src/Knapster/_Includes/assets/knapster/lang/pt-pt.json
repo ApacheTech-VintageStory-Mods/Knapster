@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Gerir as configura��es de garimpo.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Alterar a velocidade com que o jogador garimpa recursos. Funciona como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Alterar a taxa na qual a satura��o � drenada ao garimpar. Funciona como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0.",
+  "Features.EasyQuern.Description": "Gerir definições de moinho de mão.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Aplicar o multiplicador de velocidade às querns automáticas, bem como às querns manuais.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Alterar a velocidade com que o jogador mói recursos dentro de um moinho de mão. Age como um multiplicador direto. Mín: 0.0, Máx: 10.0, Predefinição: 1.0.",
   "Features.EasySmithing.Description": "Gerir as configura��es de forjamento.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Alterar o n�mero de voxels movidos por clique. M�nimo: 1, M�ximo: 8, Padr�o: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Alterar o custo de durabilidade por uso. M�nimo: 1, M�ximo: 10, Padr�o: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxels Por Clique: {1}",
   "Features.Knapster.CostPerClick": "Custo de Durabilidade Por Clique para {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Multiplicador de Velocidade: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Incluir moinhos automáticos: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Multiplicador de Satura��o: {1}x",
   "Features.Knapster.InstantComplete": "{0} Completar Instantaneamente: {1}"
 }

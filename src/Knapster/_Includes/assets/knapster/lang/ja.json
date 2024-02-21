@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "砂金の設定を管理します。",
   "Features.EasyPanning.SpeedMultiplier.Description": "プレイヤーがリソースをふるい分ける速度を変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
   "Features.EasyPanning.SaturationMultiplier.Description": "ふるい分け時に飽和度がどれだけ減少するかを変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
+  "Features.EasyQuern.Description": "すり鉢の設定を管理します。",
+  "Features.EasyQuern.IncludeAutomated.Description": "自動すり鉢および手動すり鉢に速度倍率を適用します。",
+    "Features.EasyQuern.SpeedMultiplier.Description": "すり鉢でリソースを挽くプレーヤーの速度を変更します。 直接乗数として機能します。 最小：0.0、最大：10.0、デフォルト：1.0。",
   "Features.EasySmithing.Description": "鍛造の設定を管理します。",
   "Features.EasySmithing.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
   "Features.EasySmithing.CostPerClick.Description": "使用ごとの耐久コストを変更します。最小: 1、最大: 10、デフォルト: 5。",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} クリックごとのボクセル数: {1}",
   "Features.Knapster.CostPerClick": "{0} クリックごとの耐久コスト: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} 速度乗数: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} 自動製粉機を含める：{1}",
   "Features.Knapster.SaturationMultiplier": "{0} 飽和度乗数: {1}x",
   "Features.Knapster.InstantComplete": "{0} インスタント完了: {1}"
 }

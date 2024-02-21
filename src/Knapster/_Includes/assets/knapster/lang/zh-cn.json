@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "管理淘金设置。",
   "Features.EasyPanning.SpeedMultiplier.Description": "更改玩家淘金资源的速度。作为直接乘数。最小：0.0，最大：2.0，默认：1.0。",
   "Features.EasyPanning.SaturationMultiplier.Description": "更改淘金时饱和度下降的速度。作为直接乘数。最小：0.0，最大：2.0，默认：1.0。",
+  "Features.EasyQuern.Description": "管理磨石设置。",
+  "Features.EasyQuern.IncludeAutomated.Description": "将速度乘数应用于自动化的磨石，以及手动磨石。",
+    "Features.EasyQuern.SpeedMultiplier.Description": "更改玩家在磨石内磨碎资源的速度。 作为直接乘数。 最小值：0.0，最大值：10.0，默认值：1.0。",
   "Features.EasySmithing.Description": "管理锻造设置。",
   "Features.EasySmithing.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
   "Features.EasySmithing.CostPerClick.Description": "更改每次使用的耐久度消耗。最小：1，最大：10，默认：5。",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0}每次点击的体素数：{1}",
   "Features.Knapster.CostPerClick": "{0}每次点击的耐久度消耗：{1}",
   "Features.Knapster.SpeedMultiplier": "{0}速度乘数：{1}倍",
+  "Features.Knapster.IncludeAutomated": "{0} 包括自动磨石: {1}",
   "Features.Knapster.SaturationMultiplier": "{0}饱和度乘数：{1}倍",
   "Features.Knapster.InstantComplete": "{0}立即完成：{1}"
 }

@@ -3,7 +3,7 @@
   "ModDescription": "Jednodušší výroba a sběr pro ty s nízkou manuální zručností.",
 
   "Features.Knapster.ServerCommandDescription": "Umožňuje správci serveru změnit nastavení modu na serveru.",
-  "Features.EasyClayForming.ClayRequired": "Celkové množství potřebné hlíny: {0}", 
+  "Features.EasyClayForming.ClayRequired": "Celkové množství potřebné hlíny: {0}",
   "Features.EasyClayForming.Description": "Spravovat nastavení tvarování hlíny.",
   "Features.EasyClayForming.VoxelsPerClick.Description": "Změňte počet voxely přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
   "Features.EasyClayForming.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False.",
@@ -15,7 +15,10 @@
   "Features.EasyPanning.Description": "Spravovat nastavení prosepávání.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Změňte rychlost, jakou hráč prosepává zdroje. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Změňte míru, jakou se ztrácí sytost při prosepávání. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0.",
-  "Features.EasySmithing.Description": "Spravovat nastavení kovářství.",
+  "Features.EasyQuern.Description": "Spravujte nastavení kamenky.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Změna rychlosti, kterou hráč mleje zdroje v kamenici. Působí jako přímý násobič. Min: 0.0, Max: 10.0, Výchozí: 1.0.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Použijte násobič rychlosti na automatizované mlýny i ruční mlýny.",
+    "Features.EasySmithing.Description": "Spravovat nastavení kovářství.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Změňte počet voxelů přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Změňte trvanlivostní náklady za použití. Min: 1, Max: 10, Výchozí: 5.",
   "Features.EasySmithing.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxelů na Kliknutí: {1}",
   "Features.Knapster.CostPerClick": "{0} Náklad na Trvanlivost za Kliknutí: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Násobitel Rychlosti: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Zahrnout automatizované mlýny: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Násobitel Saturace: {1}x",
   "Features.Knapster.InstantComplete": "{0} Okamžité Dokončení: {1}"
 }

@@ -15,7 +15,9 @@
   "Features.EasyPanning.Description": "석금 설정을 관리합니다.",
   "Features.EasyPanning.SpeedMultiplier.Description": "플레이어가 자원을 채굴하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "석금 중 포화도가 감소하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
-  "Features.EasySmithing.Description": "제련 설정을 관리합니다.",
+  "Features.EasyQuern.Description": "떼는 세팅 관리합니다.",
+  "Features.EasyQuern.IncludeAutomated.Description": "자동 회전기 및 수동 회전기에 속도 배율을 적용하십시오.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "플레이어가 회전하는 속도를 변경합니다. 직접 곱셈 연산을 수행합니다. 최소: 0.0, 최대: 10.0, 기본: 1.0.",
   "Features.EasySmithing.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
   "Features.EasySmithing.CostPerClick.Description": "사용당 내구도 비용을 변경합니다. 최소: 1, 최대: 10, 기본값: 5.",
   "Features.EasySmithing.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
@@ -44,6 +46,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} 클릭 당 복셀 수: {1}",
   "Features.Knapster.CostPerClick": "{0} 클릭 당 내구도 비용: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} 속도 배수: {1}배",
+  "Features.Knapster.IncludeAutomated": "{0} 자동화된 회전기 포함: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} 포화도 배수: {1}배",
   "Features.Knapster.InstantComplete": "{0} 즉시 완료: {1}"
 }

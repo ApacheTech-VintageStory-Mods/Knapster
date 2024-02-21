@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Zarządzaj ustawieniami przesiania.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Zmień szybkość, z jaką gracz zbiera surowce przy pomocy rogatek. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Zmień tempo, w jakim następuje utrata nasycenia podczas przesiania. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
+  "Features.EasyQuern.Description": "Zarządzaj ustawieniami żarna.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Zastosuj mnożnik prędkości do zautomatyzowanych żaren oraz ręcznych żaren.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Zmień prędkość, z jaką gracz mieli zasoby w żarnie. Działa jako bezpośredni mnożnik. Min: 0.0, Max: 10.0, Domyślnie: 1.0.",
   "Features.EasySmithing.Description": "Zarządzaj ustawieniami kowalstwa.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Zmień koszt wytrzymałości za użycie. Min: 1, Max: 10, Domyślnie: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxelów na Kliknięcie: {1}",
   "Features.Knapster.CostPerClick": "Koszt Wytrzymałości za Kliknięcie dla {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Mnożnik Szybkości: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Zawierać zautomatyzowane żarna: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Mnożnik Nasycenia: {1}x",
   "Features.Knapster.InstantComplete": "{0} Natychmiastowe Ukończenie: {1}"
 }

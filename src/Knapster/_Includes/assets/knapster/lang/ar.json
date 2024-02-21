@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "إدارة إعدادات التنقية.",
   "Features.EasyPanning.SpeedMultiplier.Description": "تغيير سرعة تنقية الموارد بواسطة اللاعب. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "تغيير معدل تناقص التشبع أثناء التنقية. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
+  "Features.EasyQuern.Description": "إدارة إعدادات المطحنة.",
+  "Features.EasyQuern.IncludeAutomated.Description": "قم بتطبيق مضاعف السرعة على الطواحين الآلية، بالإضافة إلى الطواحين اليدوية.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "تغيير سرعة طحن الموارد التي يقوم بها اللاعب داخل المطحنة. يعمل كضربة مباشرة. الحد الأدنى: 0.0 ، الحد الأقصى: 10.0 ، الافتراضي: 1.0.",
   "Features.EasySmithing.Description": "إدارة إعدادات الصناعة.",
   "Features.EasySmithing.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
   "Features.EasySmithing.CostPerClick.Description": "تغيير تكلفة المتانة لكل استخدام. الحد الأدنى: 1، الحد الأقصى: 10، الافتراضي: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} بكسل لكل نقرة: {1}",
   "Features.Knapster.CostPerClick": "تكلفة المتانة لكل نقرة لـ {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "مضاعف السرعة لـ {0}: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} تضمين الطواحين الآلية: {1}",
   "Features.Knapster.SaturationMultiplier": "مضاعف التشبع لـ {0}: {1}x",
   "Features.Knapster.InstantComplete": "الإكمال الفوري لـ {0}: {1}"
 }

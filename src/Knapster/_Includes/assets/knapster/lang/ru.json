@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Управление настройками просеивания.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Изменяет скорость, с которой игрок просеивает ресурсы. Действует как непосредственный множитель. Мин: 0.0, Макс: 2.0, По умолчанию: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Изменяет скорость уменьшения сатурации во время просеивания. Действует как непосредственный множитель. Мин: 0.0, Макс: 2.0, По умолчанию: 1.0.",
+  "Features.EasyQuern.Description": "Управление настройками ручной жернова.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Применить множитель скорости к автоматическим жерновам, а также к ручным жерновам.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Изменение скорости, с которой игрок молет ресурсы в ручном жернове. Действует как прямой множитель. Мин: 0.0, Макс: 10.0, По умолчанию: 1.0.",
   "Features.EasySmithing.Description": "Управление настройками кузнечества.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Изменяет количество вокселей, перемещаемых при клике. Мин: 1, Макс: 8, По умолчанию: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Изменяет стоимость прочности при использовании. Мин: 1, Макс: 10, По умолчанию: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Вокселей за клик: {1}",
   "Features.Knapster.CostPerClick": "Стоимость Прочности за клик для {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Множитель Скорости: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Включить автоматические жернова: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Множитель Насыщенности: {1}x",
   "Features.Knapster.InstantComplete": "{0} Мгновенное Завершение: {1}"
 }

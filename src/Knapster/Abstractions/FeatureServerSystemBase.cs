@@ -7,6 +7,7 @@ using ApacheTech.VintageMods.Knapster.Extensions;
 using Gantry.Core.DependencyInjection.Registration;
 using Gantry.Services.FileSystem.Configuration;
 using Gantry.Services.FileSystem.DependencyInjection;
+using System.Linq;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
 using Vintagestory.API.Util;
@@ -115,17 +116,27 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     protected abstract TPacket GeneratePacketPerPlayer(IPlayer player, bool isEnabled);
 
     /// <summary>
+    ///     Determines whether this feature is enabled, for all the specified players.
+    /// </summary>
+    internal static bool IsEnabledFor(IEnumerable<string> players) => players.All(IsEnabledFor);
+
+    /// <summary>
     ///     Determines whether this feature is enabled, for the specified player.
     /// </summary>
-    internal static bool IsEnabledFor(IPlayer player)
+    internal static bool IsEnabledFor(IPlayer player) => IsEnabledFor(player.PlayerUID);
+
+    /// <summary>
+    ///     Determines whether this feature is enabled, for the specified player.
+    /// </summary>
+    private static bool IsEnabledFor(string playerUID)
     {
         return Settings.Mode switch
         {
             AccessMode.Disabled => false,
             AccessMode.Enabled => true,
-            AccessMode.Whitelist => Settings.Whitelist.Any(p => p.Id == player.PlayerUID),
-            AccessMode.Blacklist => Settings.Blacklist.All(p => p.Id != player.PlayerUID),
-            _ => throw new ArgumentOutOfRangeException(nameof(player))
+            AccessMode.Whitelist => Settings.Whitelist.Select(p => p.Id).Any(p => p == playerUID),
+            AccessMode.Blacklist => Settings.Blacklist.Select(p => p.Id).All(p => p != playerUID),
+            _ => throw new ArgumentOutOfRangeException(nameof(playerUID))
         };
     }
 

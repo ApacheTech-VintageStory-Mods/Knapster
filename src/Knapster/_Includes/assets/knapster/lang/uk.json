@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Керуйте налаштуваннями просіювання.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець просіює ресурси. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Змініть швидкість виснаження ситості під час просіювання. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
+  "Features.EasyQuern.Description": "Керуйте налаштуванням ручного жорна.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Застосуйте множник швидкості до автоматичних жорна, а також до ручних жорна.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець меле ресурси в ручному жорні. Діє як прямий множник. Мін .: 0.0, Макс .: 10.0, За замовчуванням: 1.0.",
   "Features.EasySmithing.Description": "Керуйте налаштуваннями ковальства.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
   "Features.EasySmithing.CostPerClick.Description": "Змініть витрати на міцність при використанні. Мін: 1, Макс: 10, За замовчуванням: 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Вокселів на Клацанні: {1}",
   "Features.Knapster.CostPerClick": "Витрати на Міцність на Клацанні для {0}: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} Множник Швидкості: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Включити автоматичні жорна: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} Множник Ситості: {1}x",
   "Features.Knapster.InstantComplete": "{0} Миттєве Завершення: {1}"
 }

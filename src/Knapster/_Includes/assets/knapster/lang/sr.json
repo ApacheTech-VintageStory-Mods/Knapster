@@ -15,6 +15,9 @@
   "Features.EasyPanning.Description": "Gérer les paramètres de tamisage.",
   "Features.EasyPanning.SpeedMultiplier.Description": "Changez la vitesse à laquelle le joueur tamise les ressources. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0.",
   "Features.EasyPanning.SaturationMultiplier.Description": "Changez le taux de déplétion de la saturation pendant le tamisage. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0.",
+  "Features.EasyQuern.Description": "Управљајте поставкама ручног млина.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Примените множилац брзине на аутоматске ручне млинове, као и на ручне млинове.",
+    "Features.EasyQuern.SpeedMultiplier.Description": "Промените брзину којом играч мели ресурсе у ручном млину. Деље као директан множилац. Мин: 0.0, Макс: 10.0, Подразумевано: 1.0.",
   "Features.EasySmithing.Description": "Gérer les paramètres de forgeage.",
   "Features.EasySmithing.VoxelsPerClick.Description": "Changez le nombre de voxels déplacés par clic. Min : 1, Max : 8, Par défaut : 1.",
   "Features.EasySmithing.CostPerClick.Description": "Changez le coût de durabilité par utilisation. Min : 1, Max : 10, Par défaut : 5.",
@@ -44,6 +47,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} Voxels par Clic : {1}",
   "Features.Knapster.CostPerClick": "Coût de Durabilité par Clic {0} : {1}",
   "Features.Knapster.SpeedMultiplier": "Multiplicateur de Vitesse {0} : {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Укључи аутоматске ручне млинове: {1}",
   "Features.Knapster.SaturationMultiplier": "Multiplicateur de Saturation {0} : {1}x",
   "Features.Knapster.InstantComplete": "{0} Complétion Instantanée : {1}"
 }

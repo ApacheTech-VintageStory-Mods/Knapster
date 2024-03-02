@@ -9,8 +9,8 @@
             <StringsEncoding Compress="1" Encode="0" UseCache="1" UseImprovedEncoding="1" />
             <Obfuscation ChangeMethodParent="1" CompilerGeneratedSerializable="1" FieldsNameMangling="3" NameMangling="3" />
             <OtherProtections SuppressIldasm="1" />
-            <OtherOptimizations SealClasses="1" />
-            <Debugging CreatePDB="0" />
+            <OtherOptimizations SealClasses="0" />
+            <Debugging CreatePDB="2" />
             <CopyDependencies />
             <StrongNameSigning Sign="0" />
         </Options>
@@ -1221,7 +1221,13 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="Microsoft.Bcl.AsyncInterfaces, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-                <Merging />
+                <Merging Merge="0">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
         </Assemblies>

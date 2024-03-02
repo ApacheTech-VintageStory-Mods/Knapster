@@ -17,10 +17,10 @@ namespace ApacheTech.VintageMods.Knapster;
 /// <remarks>
 ///     Only one derived instance of this class should be added to any single mod within
 ///     the VintageMods domain. This class will enable Dependency Injection, and add all
-///     of the domain services. Derived instances should only have minimal functionality, 
+///     the domain services. Derived instances should only have minimal functionality, 
 ///     instantiating, and adding Application specific services to the IOC Container.
 /// </remarks>
-/// <seealso cref="ModHost" />
+/// <seealso cref="ModHost{ModAssemblyMarker}" />
 [UsedImplicitly]
 internal sealed class Program : ModHost
 {
@@ -43,7 +43,7 @@ internal sealed class Program : ModHost
     public override void StartServerSide(ICoreServerAPI api)
     {
         IOC.Services.Resolve<IFileSystemService>().RegisterSettingsFile("settings-world-server.json", FileScope.World);
-
+        
         api.ChatCommands.Create("knapster")
             .RequiresPrivilege(Privilege.controlserver)
             .WithDescription(LangEx.FeatureString("Knapster", "ServerCommandDescription"));

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>2.8.1.0</Version>
+		<Version>2.8.5.0</Version>
 		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
 
@@ -9,11 +9,11 @@
 		<None Include="..\..\docs\README.md" Link="_Includes\README.md" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(Configuration)|$(Platform)'!='Debug|AnyCPU'">
-	  <PackageReference Include="VintageStory.Gantry" Version="0.7.3" />
+	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
 	</ItemGroup>
 
-	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	  <ProjectReference Include="..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
+	<ItemGroup Condition="'$(Configuration)|$(Platform)'!='Debug|AnyCPU'">
+	  <PackageReference Include="VintageStory.Gantry" Version="0.7.7" />
 	</ItemGroup>
 </Project>

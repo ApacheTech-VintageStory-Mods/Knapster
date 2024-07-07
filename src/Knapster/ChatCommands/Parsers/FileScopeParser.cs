@@ -2,6 +2,7 @@
 using System.Globalization;
 using ApacheTech.Common.Extensions.System;
 using Gantry.Services.FileSystem.Enums;
+using Newtonsoft.Json.Linq;
 
 namespace ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 
@@ -12,6 +13,13 @@ namespace ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 internal class FileScopeParser(string argName, bool isMandatoryArg) : ArgumentParserBase(argName, isMandatoryArg)
 {
     public FileScope? Scope { get; private set; }
+
+    /// <inheritdoc />
+    public override void PreProcess(TextCommandCallingArgs args)
+    {
+        Scope = null;
+        base.PreProcess(args);
+    }
 
     /// <inheritdoc />
     public override EnumParseResult TryProcess(TextCommandCallingArgs args, Action<AsyncParseResults> onReady = null)

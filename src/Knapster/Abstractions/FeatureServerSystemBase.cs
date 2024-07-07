@@ -188,9 +188,10 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     /// </summary>
     protected virtual TextCommandResult HandleWhitelist(TextCommandCallingArgs args)
     {
-        if (args.ArgCount > 0)
+        var parser = args.Parsers[0].To<FuzzyPlayerParser>();
+        if (parser.Value is not null)
         {
-            var message = AddRemovePlayerFromList(args, Settings.Whitelist, "Whitelist");
+            var message = AddRemovePlayerFromList(parser, Settings.Whitelist, "Whitelist");
             return TextCommandResult.Success(message);
         }
 
@@ -209,9 +210,10 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     /// </summary>
     protected virtual TextCommandResult HandleBlacklist(TextCommandCallingArgs args)
     {
-        if (args.ArgCount > 0)
+        var parser = args.Parsers[0].To<FuzzyPlayerParser>();
+        if (parser.Value is not null)
         {
-            var message = AddRemovePlayerFromList(args, Settings.Blacklist, "Blacklist");
+            var message = AddRemovePlayerFromList(parser, Settings.Blacklist, "Blacklist");
             return TextCommandResult.Success(message);
         }
 
@@ -225,9 +227,8 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
         return TextCommandResult.Success(sb.ToString());
     }
 
-    private string AddRemovePlayerFromList(TextCommandCallingArgs args, ICollection<Player> list, string listType)
+    private string AddRemovePlayerFromList(FuzzyPlayerParser parser, ICollection<Player> list, string listType)
     {
-        var parser = args.Parsers[0].To<FuzzyPlayerParser>();
         var players = parser.Results;
         var searchTerm = parser.Value;
 

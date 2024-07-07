@@ -2,6 +2,7 @@
 using System.Globalization;
 using ApacheTech.Common.Extensions.System;
 using ApacheTech.VintageMods.Knapster.ChatCommands.DataStructures;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 
@@ -9,16 +10,16 @@ namespace ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 ///     Parses a string as a <see cref="AccessMode"/> value, allowing partial matches.
 /// </summary>
 /// <seealso cref="ArgumentParserBase" />
-internal class AccessModeParser : ArgumentParserBase
+internal class AccessModeParser(string argName, bool isMandatoryArg) : ArgumentParserBase(argName, isMandatoryArg)
 {
-    /// <summary>
-    ///     Initialises a new instance of the <see cref="AccessModeParser"/> class.
-    /// </summary>
-    public AccessModeParser(string argName, bool isMandatoryArg) : base(argName, isMandatoryArg)
-    {
-    }
-
     public AccessMode? Mode { get; private set; }
+
+    /// <inheritdoc />
+    public override void PreProcess(TextCommandCallingArgs args)
+    {
+        Mode = null;
+        base.PreProcess(args);
+    }
 
     /// <inheritdoc />
     public override EnumParseResult TryProcess(TextCommandCallingArgs args, Action<AsyncParseResults> onReady = null)

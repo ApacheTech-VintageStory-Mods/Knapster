@@ -1,0 +1,5 @@
+{
+  "Features.EasyMixingBowl.Description": "Manage mixing bowl settings.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Change the speed at which the player combines resources within a mixing bowl. Acts as a direct multiplier. Min: 0.0, Max: 10.0, Default: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Apply the speed multiplier to powered mixing bowls, as well as manual mixing bowls."
+}

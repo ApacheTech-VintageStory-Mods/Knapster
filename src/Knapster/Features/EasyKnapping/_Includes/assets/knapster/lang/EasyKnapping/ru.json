@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyKnapping.Description": "Управление настройками кнаппинга.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Изменяет количество вокселей, перемещаемых при клике. Мин: 1, Макс: 8, По умолчанию: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Изменяет, следует ли мгновенно завершать рабочий элемент при использовании. True или False, По умолчанию: False."
+}

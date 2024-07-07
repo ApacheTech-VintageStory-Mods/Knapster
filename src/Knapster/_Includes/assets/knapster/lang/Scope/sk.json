@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "Neplatný rozsah. Platné možnosti sú: {0}",
+  "Features.Knapster.Scope.Description": "Zmeňte, či má modul použiť globálne nastavenia alebo nastavenia pre každý svet.",
+  "Features.Knapster.Scope": "Rozsah nastavení: {0}",
+  "Features.Knapster.SetScope": "Rozsah nastavení teraz nastavený na: {0}"
+}

@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasySmithing.Description": "管理锻造设置。",
+  "Features.EasySmithing.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
+  "Features.EasySmithing.CostPerClick.Description": "更改每次使用的耐久度消耗。最小：1，最大：10，默认：5。",
+  "Features.EasySmithing.InstantComplete.Description": "更改工作项目是否应在使用时立即完成。是或否，默认：否。"
+}

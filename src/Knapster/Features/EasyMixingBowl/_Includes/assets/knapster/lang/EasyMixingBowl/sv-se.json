@@ -1,0 +1,5 @@
+{
+  "Features.EasyMixingBowl.Description": "Hantera inställningar för blandningsskål.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Ändra hastigheten som spelaren kombinerar resurser i en blandningsskål. Fungerar som en direkt multiplikator. Min: 0.0, Max: 10.0, Standard: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Tillämpa hastighetsmultiplikatorn på drivna blandningsskålar, såväl som på manuella."
+}

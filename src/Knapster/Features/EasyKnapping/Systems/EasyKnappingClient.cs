@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
+﻿using Gantry.Core.Hosting;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyKnappingClient : ClientModSystem

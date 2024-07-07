@@ -1,0 +1,5 @@
+{
+  "Features.EasyMixingBowl.Description": "Gerir definições da taça de mistura.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Alterar a velocidade a que o jogador combina recursos dentro de uma taça de mistura. Funciona como um multiplicador direto. Mín: 0.0, Máx: 10.0, Padrão: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Aplicar o multiplicador de velocidade a taças de mistura automatizadas, bem como manuais."
+}

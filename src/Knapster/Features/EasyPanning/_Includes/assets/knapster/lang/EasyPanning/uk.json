@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "Керуйте налаштуваннями просіювання.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець просіює ресурси. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Змініть швидкість виснаження ситості під час просіювання. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0."
+}

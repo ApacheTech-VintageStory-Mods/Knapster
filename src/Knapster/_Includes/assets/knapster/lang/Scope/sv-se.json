@@ -1,0 +1,6 @@
+{
+  "Features.Knapster.InvalidScope": "Ogiltigt område. Giltiga alternativ är: {0}",
+  "Features.Knapster.Scope.Description": "Ändra om modulen ska använda globala inställningar eller inställningar per värld.",
+  "Features.Knapster.Scope": "Inställningsomfång: {0}",
+  "Features.Knapster.SetScope": "Inställningsomfånget är nu inställt på: {0}"
+}

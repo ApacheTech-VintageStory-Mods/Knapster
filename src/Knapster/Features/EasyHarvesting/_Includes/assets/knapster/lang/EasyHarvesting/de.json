@@ -1,0 +1,4 @@
+{
+  "Features.EasyHarvesting.Description": "Verwalten Sie die Einstellungen f�r die Ernte.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "�ndern Sie die Geschwindigkeit, mit der der Spieler mit einer Sense Gras erntet. Wirkt als direkter Multiplikator. Min: 0,0, Max: 2,0, Standard: 1,0."
+}

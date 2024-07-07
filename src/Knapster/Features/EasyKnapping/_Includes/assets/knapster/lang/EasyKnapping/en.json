@@ -1,0 +1,5 @@
+{
+  "Features.EasyKnapping.Description": "Manage knapping settings.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False."
+}

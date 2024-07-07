@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasyClayForming.ClayRequired": "Całkowita ilość gliny wymagana: {0}",
+  "Features.EasyClayForming.Description": "Zarządzaj ustawieniami formowania gliny.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Zmień, czy element pracy powinien być natychmiast ukończony po użyciu. Prawda lub Fałsz, Domyślnie: Fałsz."
+}

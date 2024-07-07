@@ -1,0 +1,6 @@
+{
+  "Features.Knapster.InvalidScope": "Ungültiger Bereich. Gültige Optionen sind: {0}",
+  "Features.Knapster.Scope.Description": "Ändern Sie, ob das Modul globale Einstellungen oder Einstellungen pro Welt verwenden soll.",
+  "Features.Knapster.Scope": "Einstellungsbereich: {0}",
+  "Features.Knapster.SetScope": "Einstellungsbereich jetzt auf {0} gesetzt"
+}

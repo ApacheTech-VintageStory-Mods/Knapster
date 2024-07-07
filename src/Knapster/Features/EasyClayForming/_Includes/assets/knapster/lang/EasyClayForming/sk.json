@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasyClayForming.ClayRequired": "Celkové množstvo potrebnej hliny: {0}",
+  "Features.EasyClayForming.Description": "Spravujte nastavenia formovania hliny.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Zmeňte, či sa pracovná položka má okamžite dokončiť pri použití. True alebo False, Predvolené: False."
+}

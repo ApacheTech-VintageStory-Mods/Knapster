@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
+﻿using Gantry.Core.Hosting;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyHarvestingClient : ClientModSystem

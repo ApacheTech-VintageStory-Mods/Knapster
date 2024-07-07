@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyQuern.Description": "Administri kukurinaj agordojn.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Ŝanĝi la rapidon je kiu la ludanto muelas rimedojn en kukurino. Agas kiel rektan multiplikilon. Maksimumo: 10,0, Defaŭlta valoro: 1,0.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Apliki la rapidigilon al aŭtomataj kukurinoj, same kiel al manaj kukurinoj."
+}

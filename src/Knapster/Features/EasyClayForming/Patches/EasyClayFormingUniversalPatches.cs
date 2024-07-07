@@ -81,7 +81,7 @@ public class EasyClayFormingUniversalPatches
         }
         catch (ArgumentNullException ex)
         {
-            ApiEx.Log.Error(ex);
+            ModEx.Mod.Logger.Error(ex);
             return true;
         }
     }

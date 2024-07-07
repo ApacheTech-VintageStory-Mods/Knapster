@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "Nieprawidłowy zakres. Dostępne opcje to: {0}",
+  "Features.Knapster.Scope.Description": "Zmień, czy moduł powinien używać ustawień globalnych czy ustawień na świat.",
+  "Features.Knapster.Scope": "Zakres ustawień: {0}",
+  "Features.Knapster.SetScope": "Zakres ustawień teraz ustawiony na: {0}"
+}

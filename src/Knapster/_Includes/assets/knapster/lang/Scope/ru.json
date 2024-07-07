@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "Недопустимый объем. Допустимые варианты: {0}",
+  "Features.Knapster.Scope.Description": "Изменить, должен ли модуль использовать глобальные настройки или настройки для каждого мира.",
+  "Features.Knapster.Scope": "Объем настроек: {0}",
+  "Features.Knapster.SetScope": "Объем настроек теперь установлен на: {0}"
+}

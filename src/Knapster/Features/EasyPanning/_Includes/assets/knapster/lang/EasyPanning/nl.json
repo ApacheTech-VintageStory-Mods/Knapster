@@ -1,0 +1,5 @@
+{
+  "Features.EasyPanning.Description": "Beheer de instellingen voor pannen.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Wijzig de snelheid waarmee de speler grondstoffen zeef. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Wijzig het tempo waarin de verzadiging wordt verminderd tijdens het pannen. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0."
+}

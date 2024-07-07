@@ -1,0 +1,4 @@
+{
+  "Features.EasyHarvesting.Description": "Manage harvesting settings.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Change the speed at which the player harvests grass with a scythe. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0."
+}

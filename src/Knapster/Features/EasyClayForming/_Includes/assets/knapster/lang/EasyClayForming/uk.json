@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasyClayForming.ClayRequired": "Загальна кількість глини, що потрібна: {0}",
+  "Features.EasyClayForming.Description": "Керуйте налаштуваннями формування глини.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Змініть, чи має робочий елемент негайно завершуватися при використанні. True або False, За замовчуванням: False."
+}

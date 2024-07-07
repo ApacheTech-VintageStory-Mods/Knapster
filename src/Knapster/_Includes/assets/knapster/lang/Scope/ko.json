@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "잘못된 범위입니다. 유효한 옵션은 다음과 같습니다: {0}",
+  "Features.Knapster.Scope.Description": "모드가 전역 설정을 사용할지 또는 각 세계 설정을 사용할지 변경합니다.",
+  "Features.Knapster.Scope": "설정 범위: {0}",
+  "Features.Knapster.SetScope": "설정 범위가 이제 다음으로 설정됩니다: {0}"
+}

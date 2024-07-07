@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "Spravujte nastavenia preplavovania.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč plaví zdroje. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Zmeňte rýchlosť, akou sa nasýtenie vyčerpáva počas preplavovania. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0."
+}

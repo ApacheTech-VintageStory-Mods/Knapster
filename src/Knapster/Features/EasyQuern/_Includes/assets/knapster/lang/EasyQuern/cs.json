@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyQuern.Description": "Spravujte nastavení kamenky.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Změna rychlosti, kterou hráč mleje zdroje v kamenici. Působí jako přímý násobič. Min: 0.0, Max: 10.0, Výchozí: 1.0.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Použijte násobič rychlosti na automatizované mlýny i ruční mlýny."
+}

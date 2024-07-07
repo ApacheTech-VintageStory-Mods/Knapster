@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyMixingBowl.Description": "管理混合碗设置。",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "改变玩家在混合碗中结合资源的速度。作为直接乘数。最小：0.0，最大：10.0，默认：1.0。",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "将速度乘数应用于电动混合碗以及手动混合碗。"
+}

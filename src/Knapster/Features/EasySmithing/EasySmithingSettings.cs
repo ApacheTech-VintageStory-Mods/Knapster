@@ -19,12 +19,12 @@ public class EasySmithingSettings : FeatureSettings, IEasyFeatureSettings
     /// <summary>
     ///     When the mode is set to `Whitelist`, only the players on this list will have the feature enabled.
     /// </summary>
-    public List<Player> Whitelist { get; set; } = new();
+    public List<Player> Whitelist { get; set; } = [];
 
     /// <summary>
     ///     When the mode is set to `Blacklist`, the players on this list will have the feature disabled.
     /// </summary>
-    public List<Player> Blacklist { get; set; } = new();
+    public List<Player> Blacklist { get; set; } = [];
 
     /// <summary>
     ///     Determines the amount of durability that is lost at one time, when using the Easy Smithing feature.

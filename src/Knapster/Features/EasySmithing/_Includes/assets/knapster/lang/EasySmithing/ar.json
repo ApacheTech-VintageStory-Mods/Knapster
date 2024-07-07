@@ -1,0 +1,6 @@
+{
+  "Features.EasySmithing.Description": "إدارة إعدادات الصناعة.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "تغيير تكلفة المتانة لكل استخدام. الحد الأدنى: 1، الحد الأقصى: 10، الافتراضي: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "تغيير ما إذا كان يجب إكمال العمل فوراً عند الاستخدام. صحيح أم خاطئ، الافتراضي: خاطئ."
+}

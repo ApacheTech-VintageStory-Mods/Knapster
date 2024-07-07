@@ -1,0 +1,5 @@
+{
+  "Features.EasyKnapping.Description": "Gerencie as configura��es de cunhagem.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Altere o n�mero de voxels movidos por clique. M�nimo: 1, M�ximo: 8, Padr�o: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Altere se o item de trabalho deve ser conclu�do instantaneamente ao usar. Verdadeiro ou Falso, Padr�o: Falso."
+}

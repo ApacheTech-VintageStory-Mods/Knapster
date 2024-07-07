@@ -4,10 +4,11 @@ using ApacheTech.VintageMods.Knapster.ChatCommands.DataStructures;
 using ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 using ApacheTech.VintageMods.Knapster.ChatCommands.Parsers.Extensions;
 using ApacheTech.VintageMods.Knapster.Extensions;
-using Gantry.Core.DependencyInjection.Registration;
 using Gantry.Services.FileSystem.Configuration;
-using Gantry.Services.FileSystem.DependencyInjection;
-using System.Linq;
+using Gantry.Core.Extensions.DotNet;
+using Gantry.Core.Hosting;
+using Gantry.Core.Hosting.Registration;
+using Gantry.Services.FileSystem.Hosting;
 using Vintagestory.API.Config;
 using Vintagestory.API.Server;
 using Vintagestory.API.Util;
@@ -25,7 +26,16 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     where TSettings : class, IEasyFeatureSettings, new()
 {
     protected IServerNetworkChannel ServerChannel;
-    internal static TSettings Settings { get; private set; } = new();
+
+    internal static TSettings Settings
+    {
+        get
+        {
+            var settings = ModSettings.For(Program.Scope);
+            if (settings is null) return new TSettings();
+            return settings.Feature<TSettings>() ?? new TSettings();
+        }
+    }
 
     /// <summary>
     /// Allows a mod to include Singleton, or Transient services to the IOC Container.
@@ -34,7 +44,7 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     /// <param name="sapi">Access to the server-side API.</param>
     public void ConfigureServerModServices(IServiceCollection services, ICoreServerAPI sapi)
     {
-        services.AddFeatureWorldSettings<TSettings>();
+        services.AddFeatureSettings<TSettings>(Program.Scope);
     }
 
     protected abstract string SubCommandName { get; }
@@ -57,12 +67,11 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     /// <param name="api"></param>
     public override void StartServerSide(ICoreServerAPI api)
     {
-        Settings = ModSettings.World.Feature<TSettings>();
         var parsers = api.ChatCommands.Parsers;
 
         var command = api.ChatCommands.Get("knapster")
             .BeginSubCommand(SubCommandName.ToLowerInvariant())
-            .WithAlias(SubCommandName[..1].ToLowerInvariant())
+            .WithAlias(SubCommandName.ToLowerCaseInitials())
             .WithFeatureSpecifics(FeatureSpecificCommands, parsers)
             .HandleWith(DisplayInfo);
 
@@ -118,7 +127,12 @@ public abstract class FeatureServerSystemBase<TSettings, TPacket> : ServerModSys
     /// <summary>
     ///     Determines whether this feature is enabled, for all the specified players.
     /// </summary>
-    internal static bool IsEnabledFor(IEnumerable<string> players) => players.All(IsEnabledFor);
+    internal static bool IsEnabledForAll(IEnumerable<string> players) => players.All(IsEnabledFor);
+
+    /// <summary>
+    ///     Determines whether this feature is enabled, for all the specified players.
+    /// </summary>
+    internal static bool IsEnabledForAny(IEnumerable<string> players) => players.Any(IsEnabledFor);
 
     /// <summary>
     ///     Determines whether this feature is enabled, for the specified player.

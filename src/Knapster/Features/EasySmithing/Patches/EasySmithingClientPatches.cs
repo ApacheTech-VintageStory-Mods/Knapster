@@ -29,12 +29,12 @@ public class EasySmithingClientPatches
             {
                 Code = new AssetLocation("auto"),
                 Name = LangEx.FeatureString("Knapster", "AutoComplete")
-            }.WithIcon(ApiEx.Client, ApiEx.Client.Gui.Icons.Drawfloodfill_svg);
+            }.WithIcon(ApiEx.Client, ApiEx.Client!.Gui.Icons.Drawfloodfill_svg);
             __result = ___toolModes = ___toolModes.AddToArray(skillItem);
         }
         catch (ArgumentNullException ex)
         {
-            ApiEx.Log.Error(ex);
+            ModEx.Mod.Logger.Error(ex);
         }
     }
 }

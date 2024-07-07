@@ -1,0 +1,6 @@
+{
+  "Features.EasyClayForming.ClayRequired": "Totale vereiste klei: {0}",
+  "Features.EasyClayForming.Description": "Beheer de instellingen voor kleivorming.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Wijzig het aantal voxels dat per klik wordt verplaatst. Min: 1, Max: 8, Standaard: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Wijzig of het werkitem direct wordt voltooid bij gebruik. Waar of Onwaar, Standaard: Onwaar."
+}

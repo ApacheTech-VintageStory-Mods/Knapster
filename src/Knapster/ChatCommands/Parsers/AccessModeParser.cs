@@ -6,7 +6,7 @@ using ApacheTech.VintageMods.Knapster.ChatCommands.DataStructures;
 namespace ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 
 /// <summary>
-///     Parses a string as an <see cref="AccessMode"/> value, allowing partial matches.
+///     Parses a string as a <see cref="AccessMode"/> value, allowing partial matches.
 /// </summary>
 /// <seealso cref="ArgumentParserBase" />
 internal class AccessModeParser : ArgumentParserBase

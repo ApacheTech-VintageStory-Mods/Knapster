@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "Gestionează setările de cernere.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Schimbă viteza la care jucătorul cernă resursele. Acționează ca un multiplicator direct. Minim: 0.0, Maxim: 2.0, Implicit: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Schimbă rata la care saturația este scursă în timpul cernerii. Acționează ca un multiplicator direct. Minim: 0.0, Maxim: 2.0, Implicit: 1.0."
+}

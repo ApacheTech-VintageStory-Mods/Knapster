@@ -6,19 +6,13 @@ namespace ApacheTech.VintageMods.Knapster.ChatCommands.Parsers;
 ///     Allows the user to search for an online player, based on a partial match of their username.
 /// </summary>
 /// <seealso cref="ArgumentParserBase" />
-internal class FuzzyPlayerParser : ArgumentParserBase
+internal class FuzzyPlayerParser(string argName, bool isMandatoryArg) : ArgumentParserBase(argName, isMandatoryArg)
 {
-    /// <summary>
-    ///     Initialises a new instance of the <see cref="FuzzyPlayerParser"/> class.
-    /// </summary>
-    public FuzzyPlayerParser(string argName, bool isMandatoryArg) : base(argName, isMandatoryArg)
-    {
-    }
 
     /// <summary>
     ///     The list of players who's username matches the <see cref="Value"/> search term.
     /// </summary>
-    public List<IPlayer> Results { get; private set; } = new();
+    public List<IPlayer> Results { get; private set; } = [];
 
     /// <summary>
     ///     The search term to filter the list of players with.
@@ -48,8 +42,8 @@ internal class FuzzyPlayerParser : ArgumentParserBase
     private static IEnumerable<IPlayer> FuzzyPlayerSearch(string searchTerm)
     {
         var onlineClients = ApiEx.ServerMain.PlayersByUid;
-        if (onlineClients.TryGetValue(searchTerm, out var onlineClient)) return new List<IPlayer> { onlineClient };
+        if (onlineClients.TryGetValue(searchTerm, out var onlineClient)) return [onlineClient];
         return onlineClients.Values
-            .Where(client => client.PlayerName.StartsWith(searchTerm, true, CultureInfo.InvariantCulture));
+            .Where(client => client.PlayerName.StartsWith(searchTerm, StringComparison.OrdinalIgnoreCase));
     }
 }

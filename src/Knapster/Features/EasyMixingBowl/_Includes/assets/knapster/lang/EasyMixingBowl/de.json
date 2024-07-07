@@ -1,0 +1,5 @@
+{
+    "Features.EasyMixingBowl.Description": "Verwalten der Einstellungen für die Rührschüssel.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description": "Ändern Sie die Geschwindigkeit, mit der der Spieler Ressourcen in einer Rührschüssel kombiniert. Wirkt als direkter Multiplikator. Min: 0.0, Max: 10.0, Standard: 1.0.",
+    "Features.EasyMixingBowl.IncludeAutomated.Description": "Wenden Sie den Geschwindigkeitsmultiplikator auf motorisierte Rührschüsseln sowie auf manuelle Rührschüsseln an."
+}

@@ -1,0 +1,58 @@
+{
+  "ModTitle": "Knapster",
+  "ModDescription": "Facilità di creazione e raccolta, per coloro con scarsa destrezza manuale.",
+
+  "Features.Knapster.ServerCommandDescription": "Consente all'amministratore del server di modificare le impostazioni del mod sul server.",
+ 
+  "Features.EasyHarvesting.Description": "Gestisci le impostazioni di raccolta.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore raccoglie l'erba con una falce. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  
+  "Features.EasyKnapping.Description": "Gestisci le impostazioni di scheggiatura.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Cambia il numero di voxel che vengono spostati per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Cambia se l'attività dovrebbe essere istantaneamente completata all'uso. Vero o Falso, Predefinito: Falso.",
+  
+  "Features.EasyPanning.Description": "Gestisci le impostazioni di setacciatura.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore setaccia le risorse. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Cambia il tasso con cui la saturazione viene ridotta durante la setacciatura. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  
+  "Features.EasyQuern.Description": "Gestisci le impostazioni della macina.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Applica il moltiplicatore di velocità alle quern automatiche, così come alle quern manuali.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore macina le risorse all'interno di una macina. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0.",
+  
+  "Features.EasySmithing.Description": "Gestisci le impostazioni di fabbro.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Cambia il numero di voxel che vengono spostati per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Cambia il costo di durabilità per uso. Minimo: 1, Massimo: 10, Predefinito: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Cambia se l'attività dovrebbe essere istantaneamente completata all'uso. Vero o Falso, Predefinito: Falso.",
+  
+  "Features.EasyMixingBowl.Description": "Gestisci le impostazioni della ciotola per mescolare.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore combina le risorse all'interno di una ciotola per mescolare. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Applica il moltiplicatore di velocità alle ciotole per mescolare automatizzate, così come a quelle manuali.",
+
+  "Features.Knapster.AccessMode.Description": "Cambia la modalità di accesso per la funzione attuale.",
+  "Features.Knapster.Mode": "Modalità {0}: {1}",
+  "Features.Knapster.SetMode": "La modalità {0} è stata impostata su: {1}",
+  "Features.Knapster.InvalidMode": "Modalità di accesso non valida. Opzioni valide sono: {0}",
+  "Features.Knapster.AutoComplete": "Completamento automatico",
+
+  "Features.Knapster.PlayerSearch.NoResults": "La ricerca per '{0}' non ha prodotto risultati. Si prega di riprovare.",
+  "Features.Knapster.PlayerSearch.MultipleResults": "La ricerca per '{0}' ha prodotto risultati multipli. Si prega di affinare i criteri di ricerca.",
+
+  "Features.Knapster.Whitelist.Description": "Aggiungi/Rimuovi giocatori dalla lista bianca per questa funzione.",
+  "Features.Knapster.Whitelist.Results": "I seguenti giocatori sono attualmente nella lista bianca di {0}:",
+  "Features.Knapster.Whitelist.NoResults": "Attualmente non ci sono giocatori nella lista bianca di {0}.",
+  "Features.Knapster.Whitelist.PlayerRemoved": "{0} è stato rimosso dalla lista bianca di {1}.",
+  "Features.Knapster.Whitelist.PlayerAdded": "{0} è stato aggiunto alla lista bianca di {1}.",
+
+  "Features.Knapster.Blacklist.Description": "Aggiungi/Rimuovi giocatori dalla lista nera per questa funzione.",
+  "Features.Knapster.Blacklist.Results": "I seguenti giocatori sono attualmente nella lista nera di {0}:",
+  "Features.Knapster.Blacklist.NoResults": "Attualmente non ci sono giocatori nella lista nera di {0}.",
+  "Features.Knapster.Blacklist.PlayerRemoved": "{0} è stato rimosso dalla lista nera di {1}.",
+  "Features.Knapster.Blacklist.PlayerAdded": "{0} è stato aggiunto alla lista nera di {1}.",
+
+  "Features.Knapster.VoxelsPerClick": "{0} Voxels per Clic: {1}",
+  "Features.Knapster.CostPerClick": "Costo di Durabilità per Clic {0}: {1}",
+  "Features.Knapster.SpeedMultiplier": "Moltiplicatore di Velocità {0}: {1}x",
+  "Features.Knapster.IncludeAutomated": "{0} Includi Versioni Automatizzate: {1}",
+  "Features.Knapster.SaturationMultiplier": "Moltiplicatore di Saturazione {0}: {1}x",
+  "Features.Knapster.InstantComplete": "{0} Completamento Istantaneo: {1}"
+}

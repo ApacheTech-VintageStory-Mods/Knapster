@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyMixingBowl.Description": "Керування налаштуваннями мішалки.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Змінити швидкість, з якою гравець комбінує ресурси у мішалці. Виступає як прямий множник. Мін: 0.0, Макс: 10.0, За замовчуванням: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Застосувати множник швидкості до автоматизованих мішалок, так і до ручних."
+}

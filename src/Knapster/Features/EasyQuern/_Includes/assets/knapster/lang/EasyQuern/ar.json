@@ -1,0 +1,5 @@
+{
+  "Features.EasyQuern.Description": "إدارة إعدادات المطحنة.",
+  "Features.EasyQuern.IncludeAutomated.Description": "قم بتطبيق مضاعف السرعة على الطواحين الآلية، بالإضافة إلى الطواحين اليدوية.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "تغيير سرعة طحن الموارد التي يقوم بها اللاعب داخل المطحنة. يعمل كضربة مباشرة. الحد الأدنى: 0.0 ، الحد الأقصى: 10.0 ، الافتراضي: 1.0."
+}

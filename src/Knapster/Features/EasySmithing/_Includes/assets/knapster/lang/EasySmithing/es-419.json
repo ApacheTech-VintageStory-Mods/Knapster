@@ -1,0 +1,6 @@
+{
+  "Features.EasySmithing.Description": "Administra la configuración de herrería.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Cambia la cantidad de voxels que se mueven por clic. Mínimo: 1, Máximo: 8, Predeterminado: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Cambia el costo de durabilidad por uso. Mínimo: 1, Máximo: 10, Predeterminado: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Cambia si la tarea de trabajo debe completarse al instante al usarla. Verdadero o Falso, Predeterminado: Falso."
+}

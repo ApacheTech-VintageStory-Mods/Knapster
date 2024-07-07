@@ -1,0 +1,5 @@
+{
+  "Features.EasyPanning.Description": "Gestisci le impostazioni di setacciatura.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore setaccia le risorse. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Cambia il tasso con cui la saturazione viene ridotta durante la setacciatura. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0."
+}

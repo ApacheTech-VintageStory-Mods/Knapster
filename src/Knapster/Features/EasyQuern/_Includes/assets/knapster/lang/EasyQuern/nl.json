@@ -1,0 +1,5 @@
+{
+  "Features.EasyQuern.Description": "Beheer quern instellingen.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Pas de snelheidsvermenigvuldiger toe op geautomatiseerde querns, evenals handmatige querns toe.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Verander de snelheid waarmee de speler hulpbronnen maalt in een quern. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0."
+}

@@ -18,7 +18,7 @@ public class EasyQuernPacket
     /// <summary>
     ///     Determines whether to apply the speed multiplier to automated querns.
     /// </summary>
-    public bool IncludeAutomated { get; set; }
+    public bool IncludeAutomated { get; init; }
 
     /// <summary>
     ///     Initialises a new instance of the <see cref="EasyQuernPacket"/> class.

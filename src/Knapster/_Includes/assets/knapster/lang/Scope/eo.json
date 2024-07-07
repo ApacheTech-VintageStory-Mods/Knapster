@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "Nevalida amplekso. Validaj opcioj estas: {0}",
+  "Features.Knapster.Scope.Description": "Ŝanĝi ĉu la modifo devus uzi globalajn agordojn aŭ agordojn por ĉiu mondo.",
+  "Features.Knapster.Scope": "Agordoj amplekso: {0}",
+  "Features.Knapster.SetScope": "Agordoj amplekso nun agordita al: {0}"
+}

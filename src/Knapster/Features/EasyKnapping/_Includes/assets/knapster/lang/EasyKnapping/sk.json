@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyKnapping.Description": "Spravujte nastavenia krosnenia.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Zmeňte, či sa pracovná položka má okamžite dokončiť pri použití. True alebo False, Predvolené: False."
+}

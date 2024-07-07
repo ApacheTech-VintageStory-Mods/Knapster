@@ -1,0 +1,4 @@
+{
+  "Features.EasyHarvesting.Description": "إدارة إعدادات الحصاد.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "تغيير سرعة حصاد العشب بواسطة الفأس. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0."
+}

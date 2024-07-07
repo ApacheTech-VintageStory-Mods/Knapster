@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyMixingBowl.Description": "Spravovať nastavenia miešacej misy.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Zmeniť rýchlosť, s akou hráč kombinuje zdroje v miešacej mise. Pôsobí ako priamy násobič. Min: 0.0, Max: 10.0, Predvolené: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Aplikovať násobič rýchlosti na poháňané miešacie misy, rovnako ako na ručné."
+}

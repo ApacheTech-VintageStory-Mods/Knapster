@@ -1,0 +1,5 @@
+{
+  "Features.EasyMixingBowl.Description": "Upravljanje podešavanjima za mešalicu.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Promenite brzinu kojom igrač kombinuje resurse unutar mešalice. Deluje kao direktni množilac. Min: 0.0, Maks: 10.0, Podrazumevano: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Primena množioca brzine na mešalice sa napajanjem, kao i na ručne mešalice."
+}

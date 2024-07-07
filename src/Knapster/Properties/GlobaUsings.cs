@@ -7,7 +7,6 @@ global using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
 global using ApacheTech.Common.Extensions.Harmony;
 
 global using Gantry.Core;
-global using Gantry.Core.DependencyInjection;
 global using Gantry.Core.ModSystems;
 global using Gantry.Services.HarmonyPatches.Annotations;
 global using Gantry.Services.Network;

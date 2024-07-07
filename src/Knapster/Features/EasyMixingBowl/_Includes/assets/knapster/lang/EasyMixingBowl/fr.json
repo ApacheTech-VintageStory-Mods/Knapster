@@ -1,0 +1,5 @@
+{
+  "Features.EasyMixingBowl.Description": "Gérer les paramètres du bol de mélange.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Changer la vitesse à laquelle le joueur combine les ressources dans un bol de mélange. Agit comme un multiplicateur direct. Min : 0.0, Max : 10.0, Par défaut : 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Appliquer le multiplicateur de vitesse aux bols de mélange automatisés, ainsi qu'aux bols de mélange manuels."
+}

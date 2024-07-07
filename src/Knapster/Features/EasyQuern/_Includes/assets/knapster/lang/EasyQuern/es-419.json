@@ -1,0 +1,5 @@
+{
+  "Features.EasyQuern.Description": "Administrar la configuración del molino de mano.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Aplicar el multiplicador de velocidad a las querns automatizadas, así como a las querns manuales.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Cambiar la velocidad a la que el jugador muele recursos dentro de un molino de mano. Actúa como un multiplicador directo. Mín: 0.0, Máx: 10.0, Predeterminado: 1.0."
+}

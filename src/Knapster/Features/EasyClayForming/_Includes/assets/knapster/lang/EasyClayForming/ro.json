@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasyClayForming.ClayRequired": "Total argilă necesară: {0}",
+  "Features.EasyClayForming.Description": "Gestionează setările de formare a lutului.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Schimbă numărul de voxeluri mutate per clic. Minim: 1, Maxim: 8, Implicit: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Schimbă dacă elementul de lucru trebuie să fie completat instantaneu la utilizare. Adevărat sau Fals, Implicit: Fals."
+}

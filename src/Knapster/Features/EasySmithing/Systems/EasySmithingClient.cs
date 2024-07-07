@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+﻿using Gantry.Core.Hosting;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasySmithingClient : ClientModSystem

@@ -1,0 +1,5 @@
+{
+  "Features.EasyMixingBowl.Description": "إدارة إعدادات وعاء الخلط.",
+  "Features.EasyMixingBowl.SpeedMultiplier.Description": "تغيير سرعة دمج اللاعب للموارد داخل وعاء الخلط. يعمل كمضاعف مباشر. الأدنى: 0.0، الأقصى: 10.0، الافتراضي: 1.0.",
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "تطبيق مضاعف السرعة على أوعية الخلط الآلية، بالإضافة إلى الأوعية اليدوية."
+}

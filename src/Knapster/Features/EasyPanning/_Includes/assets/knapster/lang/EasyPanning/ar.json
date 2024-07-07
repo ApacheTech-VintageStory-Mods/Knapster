@@ -1,0 +1,5 @@
+{
+  "Features.EasyPanning.Description": "إدارة إعدادات التنقية.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "تغيير سرعة تنقية الموارد بواسطة اللاعب. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "تغيير معدل تناقص التشبع أثناء التنقية. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0."
+}

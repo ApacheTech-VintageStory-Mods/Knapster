@@ -1,0 +1,6 @@
+{
+  "Features.EasySmithing.Description": "Gestisci le impostazioni di fabbro.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Cambia il numero di voxel che vengono spostati per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Cambia il costo di durabilità per uso. Minimo: 1, Massimo: 10, Predefinito: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Cambia se l'attività dovrebbe essere istantaneamente completata all'uso. Vero o Falso, Predefinito: Falso."
+}

@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
+﻿using Gantry.Core.Hosting;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyQuernClient : ClientModSystem

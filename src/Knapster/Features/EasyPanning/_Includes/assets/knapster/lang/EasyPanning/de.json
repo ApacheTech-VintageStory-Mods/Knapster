@@ -1,0 +1,5 @@
+{
+    "Features.EasyPanning.Description": "Verwalten Sie die Einstellungen f�r das Goldwaschen.",
+    "Features.EasyPanning.SpeedMultiplier.Description": "�ndern Sie die Geschwindigkeit, mit der der Spieler Ressourcen w�scht. Wirkt als direkter Multiplikator. Min: 0,0, Max: 2,0, Standard: 1,0.",
+    "Features.EasyPanning.SaturationMultiplier.Description": "�ndern Sie das Tempo, mit dem die S�ttigung beim Goldwaschen abnimmt. Wirkt als direkter Multiplikator. Min: 0,0, Max: 2,0, Standard: 1,0."
+}

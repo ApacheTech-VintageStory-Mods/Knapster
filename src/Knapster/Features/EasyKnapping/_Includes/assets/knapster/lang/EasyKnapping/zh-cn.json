@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyKnapping.Description": "管理敲击设置。",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
+  "Features.EasyKnapping.InstantComplete.Description": "更改工作项目是否应在使用时立即完成。是或否，默认：否。"
+}

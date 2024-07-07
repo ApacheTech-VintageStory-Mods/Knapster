@@ -1,0 +1,6 @@
+{
+  "Features.Knapster.InvalidScope": "Ongeldige scope. Geldige opties zijn: {0}",
+  "Features.Knapster.Scope.Description": "Wijzig of de module globale instellingen moet gebruiken of instellingen per wereld.",
+  "Features.Knapster.Scope": "Instellingenbereik: {0}",
+  "Features.Knapster.SetScope": "Instellingenbereik nu ingesteld op: {0}"
+}

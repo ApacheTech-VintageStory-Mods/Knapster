@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "Scop invalid. Opțiunile valabile sunt: {0}",
+  "Features.Knapster.Scope.Description": "Schimbați dacă modulul ar trebui să folosească setările globale sau setările pentru fiecare lume.",
+  "Features.Knapster.Scope": "Scopul setărilor: {0}",
+  "Features.Knapster.SetScope": "Scopul setărilor este acum setat la: {0}"
+}

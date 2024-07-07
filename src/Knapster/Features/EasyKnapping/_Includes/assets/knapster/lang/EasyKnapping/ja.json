@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyKnapping.Description": "石の細工の設定を管理します。",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
+  "Features.EasyKnapping.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。"
+}

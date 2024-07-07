@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasySmithing.Description": "대장 공예 설정 관리.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "사용당 내구도 비용을 변경합니다. 최소: 1, 최대: 10, 기본값: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False."
+}

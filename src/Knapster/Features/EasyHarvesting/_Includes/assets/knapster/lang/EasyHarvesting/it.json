@@ -1,0 +1,4 @@
+{
+  "Features.EasyHarvesting.Description": "Gestisci le impostazioni di raccolta.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore raccoglie l'erba con una falce. Funziona come un moltiplicatore diretto. Minimo: 0.0, Massimo: 2.0, Predefinito: 1.0."
+}

@@ -1,0 +1,4 @@
+{
+  "Features.EasyHarvesting.Description": "Beheer de instellingen voor oogsten.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Wijzig de snelheid waarmee de speler gras maait met een zeis. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0."
+}

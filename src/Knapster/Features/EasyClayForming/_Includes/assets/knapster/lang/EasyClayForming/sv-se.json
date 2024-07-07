@@ -1,0 +1,6 @@
+{
+  "Features.EasyClayForming.ClayRequired": "Totalt ler krävs: {0}",
+  "Features.EasyClayForming.Description": "Hantera inst�llningar f�r lerkonstruktion.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "�ndra antalet voxlar som flyttas per klick. Min: 1, Max: 8, Standard: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "�ndra om arbetsobjektet omedelbart ska slutf�ras vid anv�ndning. Sant eller falskt, Standard: Falskt."
+}

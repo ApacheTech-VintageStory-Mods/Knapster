@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasySmithing.Description": "Spravujte nastavenia kováčstva.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Zmeňte počet voxelov presunutých po kliknutí. Min: 1, Max: 8, Predvolené: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Zmeňte náklady na odolnosť pri použití. Min: 1, Max: 10, Predvolené: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Zmeňte, či sa pracovná položka má okamžite dokončiť pri použití. True alebo False, Predvolené: False."
+}

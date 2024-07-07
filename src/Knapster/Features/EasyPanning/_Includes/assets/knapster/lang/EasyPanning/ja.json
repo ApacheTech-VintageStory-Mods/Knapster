@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "砂金の設定を管理します。",
+  "Features.EasyPanning.SpeedMultiplier.Description": "プレイヤーがリソースをふるい分ける速度を変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
+  "Features.EasyPanning.SaturationMultiplier.Description": "ふるい分け時に飽和度がどれだけ減少するかを変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。"
+}

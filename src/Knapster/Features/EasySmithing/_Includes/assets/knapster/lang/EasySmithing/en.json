@@ -1,0 +1,6 @@
+{
+  "Features.EasySmithing.Description": "Manage smithing settings.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Change the durability cost, per use. Min: 1, Max: 10, Default: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False."
+}

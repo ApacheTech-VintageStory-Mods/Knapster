@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "Administri la lav-agordojn.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Ŝanĝi la rapidon, per kiu la ludanto lavas resursojn. Agas kiel rekte multiplikanto. Minimumo: 0.0, Maksimumo: 2.0, Defaŭlta: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Ŝanĝi la rapidecon, per kiu saturo malplenigas dum la lavo. Agas kiel rekte multiplikanto. Minimumo: 0.0, Maksimumo: 2.0, Defaŭlta: 1.0."
+}

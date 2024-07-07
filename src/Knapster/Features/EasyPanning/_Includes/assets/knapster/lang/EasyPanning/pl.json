@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "Zarządzaj ustawieniami przesiania.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Zmień szybkość, z jaką gracz zbiera surowce przy pomocy rogatek. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Zmień tempo, w jakim następuje utrata nasycenia podczas przesiania. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0."
+}

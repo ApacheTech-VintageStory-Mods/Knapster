@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyQuern.Description": "Керуйте налаштуванням ручного жорна.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Застосуйте множник швидкості до автоматичних жорна, а також до ручних жорна.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець меле ресурси в ручному жорні. Діє як прямий множник. Мін .: 0.0, Макс .: 10.0, За замовчуванням: 1.0."
+}

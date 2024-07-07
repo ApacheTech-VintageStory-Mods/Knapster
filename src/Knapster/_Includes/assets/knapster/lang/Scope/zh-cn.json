@@ -1,0 +1,6 @@
+﻿{
+  "Features.Knapster.InvalidScope": "无效范围。有效选项为：{0}",
+  "Features.Knapster.Scope.Description": "更改模块是否应使用全局设置或每个世界的设置。",
+  "Features.Knapster.Scope": "设置范围：{0}",
+  "Features.Knapster.SetScope": "设置范围现已设置为：{0}"
+}

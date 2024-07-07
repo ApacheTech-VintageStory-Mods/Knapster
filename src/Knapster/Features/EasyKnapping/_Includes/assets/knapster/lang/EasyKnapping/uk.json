@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyKnapping.Description": "Керуйте налаштуваннями кнаппінгу.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Змініть, чи має робочий елемент негайно завершуватися при використанні. True або False, За замовчуванням: False."
+}

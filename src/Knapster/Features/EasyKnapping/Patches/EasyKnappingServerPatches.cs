@@ -19,7 +19,7 @@ public sealed class EasyKnappingServerPatches
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            if (EasyKnappingClient.Settings.InstantComplete)
+            if (EasyKnappingServer.Settings.InstantComplete)
             {
                 AutoComplete(__instance);
             }
@@ -28,7 +28,7 @@ public sealed class EasyKnappingServerPatches
         }
         catch (ArgumentNullException ex)
         {
-            ApiEx.Log.Error(ex);
+            ModEx.Mod.Logger.Error(ex);
             return true;
         }
     }

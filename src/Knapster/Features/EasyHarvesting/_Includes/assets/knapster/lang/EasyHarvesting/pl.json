@@ -1,0 +1,4 @@
+﻿{
+  "Features.EasyHarvesting.Description": "Zarządzaj ustawieniami zbiorów.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Zmień szybkość, z jaką gracz zbiera trawę kosą. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0."
+}

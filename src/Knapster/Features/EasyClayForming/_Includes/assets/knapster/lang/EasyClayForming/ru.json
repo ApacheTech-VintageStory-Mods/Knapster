@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasyClayForming.ClayRequired": "Всего необходимо глины: {0}",
+  "Features.EasyClayForming.Description": "Управление настройками формовки глины.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "Изменяет количество вокселей, перемещаемых при клике. Мин: 1, Макс: 8, По умолчанию: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "Изменяет, следует ли мгновенно завершать рабочий элемент при использовании. True или False, По умолчанию: False."
+}

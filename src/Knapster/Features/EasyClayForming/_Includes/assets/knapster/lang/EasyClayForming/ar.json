@@ -1,0 +1,6 @@
+{
+  "Features.EasyClayForming.ClayRequired": "الكمية الإجمالية المطلوبة من الصلصال: {0}",
+  "Features.EasyClayForming.Description": "إدارة إعدادات تشكيل الصلصال.",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
+  "Features.EasyClayForming.InstantComplete.Description": "تغيير ما إذا كان يجب إكمال العمل فوراً عند الاستخدام. صحيح أم خاطئ، الافتراضي: خاطئ."
+}

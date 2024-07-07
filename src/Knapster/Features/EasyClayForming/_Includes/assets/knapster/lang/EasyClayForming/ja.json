@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasyClayForming.ClayRequired": "必要な粘土の合計量: {0}",
+  "Features.EasyClayForming.Description": "粘土成形の設定を管理します。",
+  "Features.EasyClayForming.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
+  "Features.EasyClayForming.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。"
+}

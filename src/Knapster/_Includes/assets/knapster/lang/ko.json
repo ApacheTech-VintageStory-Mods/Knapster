@@ -3,24 +3,6 @@
   "ModDescription": "소수의 수동 미숙한 사용자를 위한 보다 쉬운 제작 및 수집을 지원합니다.",
 
   "Features.Knapster.ServerCommandDescription": "서버 관리자가 서버에서 모드 설정을 변경할 수 있도록 합니다.",
-  "Features.EasyClayForming.ClayRequired": "필요한 총 점토: {0}",
-  "Features.EasyClayForming.Description": "점토 형성 설정을 관리합니다.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
-  "Features.EasyHarvesting.Description": "수확 설정을 관리합니다.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "낫으로 풀을 수확하는 플레이어의 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
-  "Features.EasyKnapping.Description": "석공 설정을 관리합니다.",
-  "Features.EasyKnapping.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
-  "Features.EasyKnapping.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
-  "Features.EasyPanning.Description": "석금 설정을 관리합니다.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "플레이어가 자원을 채굴하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "석금 중 포화도가 감소하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
-  "Features.EasyQuern.Description": "떼는 세팅 관리합니다.",
-  "Features.EasyQuern.IncludeAutomated.Description": "자동 회전기 및 수동 회전기에 속도 배율을 적용하십시오.",
-    "Features.EasyQuern.SpeedMultiplier.Description": "플레이어가 회전하는 속도를 변경합니다. 직접 곱셈 연산을 수행합니다. 최소: 0.0, 최대: 10.0, 기본: 1.0.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "사용당 내구도 비용을 변경합니다. 최소: 1, 최대: 10, 기본값: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
 
   "Features.Knapster.AccessMode.Description": "현재 기능의 액세스 모드를 변경합니다.",
   "Features.Knapster.Mode": "{0} 모드: {1}",
@@ -46,7 +28,7 @@
   "Features.Knapster.VoxelsPerClick": "{0} 클릭 당 복셀 수: {1}",
   "Features.Knapster.CostPerClick": "{0} 클릭 당 내구도 비용: {1}",
   "Features.Knapster.SpeedMultiplier": "{0} 속도 배수: {1}배",
-  "Features.Knapster.IncludeAutomated": "{0} 자동화된 회전기 포함: {1}",
+  "Features.Knapster.IncludeAutomated": "{0} 자동화된 버전 포함: {1}",
   "Features.Knapster.SaturationMultiplier": "{0} 포화도 배수: {1}배",
   "Features.Knapster.InstantComplete": "{0} 즉시 완료: {1}"
 }

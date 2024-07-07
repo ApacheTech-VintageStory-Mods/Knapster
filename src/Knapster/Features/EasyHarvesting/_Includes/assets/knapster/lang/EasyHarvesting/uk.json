@@ -1,0 +1,4 @@
+﻿{
+  "Features.EasyHarvesting.Description": "Керуйте налаштуваннями збору.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець збирає траву косою. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0."
+}

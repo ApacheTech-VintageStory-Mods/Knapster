@@ -1,0 +1,5 @@
+{
+  "Features.EasyPanning.Description": "Gerencie as configura��es de garimpo.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Altere a velocidade com a qual o jogador garimpa recursos. Age como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Altere a taxa na qual a satura��o � drenada ao garimpar. Age como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0."
+}

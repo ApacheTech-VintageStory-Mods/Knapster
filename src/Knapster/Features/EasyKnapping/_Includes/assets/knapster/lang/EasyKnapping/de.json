@@ -1,0 +1,6 @@
+{
+    "Features.EasyKnapping.Description": "Verwalten Sie die Einstellungen f�r das Knappen.",
+    "Features.EasyKnapping.VoxelsPerClick.Description": "�ndern Sie die Anzahl der Voxels, die pro Klick bewegt werden. Min: 1, Max: 8, Standard: 1.",
+    "Features.EasyKnapping.InstantComplete.Description": "�ndern Sie, ob der Arbeitsauftrag sofort abgeschlossen werden soll, wenn er verwendet wird. Wahr oder Falsch, Standard: Falsch."
+  }
+

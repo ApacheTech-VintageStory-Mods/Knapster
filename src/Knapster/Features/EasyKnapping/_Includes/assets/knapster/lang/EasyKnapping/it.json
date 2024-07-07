@@ -1,0 +1,5 @@
+{
+  "Features.EasyKnapping.Description": "Gestisci le impostazioni di scheggiatura.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Cambia il numero di voxel che vengono spostati per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Cambia se l'attività dovrebbe essere istantaneamente completata all'uso. Vero o Falso, Predefinito: Falso."
+}

@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyQuern.Description": "すり鉢の設定を管理します。",
+  "Features.EasyQuern.IncludeAutomated.Description": "自動すり鉢および手動すり鉢に速度倍率を適用します。",
+  "Features.EasyQuern.SpeedMultiplier.Description": "すり鉢でリソースを挽くプレーヤーの速度を変更します。 直接乗数として機能します。 最小：0.0、最大：10.0、デフォルト：1.0。"
+}

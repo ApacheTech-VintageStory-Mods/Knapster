@@ -25,16 +25,16 @@ public sealed class EasyKnappingClientPatches
                 var voxelPos = FindNextVoxelToRemove(__instance);
 
                 var method = AccessTools.Method(typeof(BlockEntityKnappingSurface), "OnUseOver",
-                    new[] { typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool) });
+                    [typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool)]);
 
-                method.Invoke(__instance, new object[] { byPlayer, voxelPos, facing, mouseMode });
+                method.Invoke(__instance, [byPlayer, voxelPos, facing, mouseMode]);
 
             }
             return false;
         }
         catch (ArgumentNullException ex)
         {
-            ApiEx.Log.Error(ex);
+            ModEx.Mod.Logger.Error(ex);
             return true;
         }
     }

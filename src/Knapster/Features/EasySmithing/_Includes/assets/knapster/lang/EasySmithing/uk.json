@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasySmithing.Description": "Керуйте налаштуваннями ковальства.",
+  "Features.EasySmithing.VoxelsPerClick.Description": "Змініть кількість вокселів, які переміщуються при клацанні. Мін: 1, Макс: 8, За замовчуванням: 1.",
+  "Features.EasySmithing.CostPerClick.Description": "Змініть витрати на міцність при використанні. Мін: 1, Макс: 10, За замовчуванням: 5.",
+  "Features.EasySmithing.InstantComplete.Description": "Змініть, чи має робочий елемент негайно завершуватися при використанні. True або False, За замовчуванням: False."
+}

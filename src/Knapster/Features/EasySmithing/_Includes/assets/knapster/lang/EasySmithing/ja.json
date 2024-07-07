@@ -1,0 +1,6 @@
+﻿{
+  "Features.EasySmithing.Description": "鍛造の設定を管理します。",
+  "Features.EasySmithing.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
+  "Features.EasySmithing.CostPerClick.Description": "使用ごとの耐久コストを変更します。最小: 1、最大: 10、デフォルト: 5。",
+  "Features.EasySmithing.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。"
+}

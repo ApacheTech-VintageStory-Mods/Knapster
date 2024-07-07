@@ -1,0 +1,6 @@
+{
+  "Features.Knapster.InvalidScope": "Portée non valide. Les options valides sont : {0}",
+  "Features.Knapster.Scope.Description": "Modifier si le module doit utiliser les paramètres globaux ou les paramètres par monde.",
+  "Features.Knapster.Scope": "Portée des paramètres : {0}",
+  "Features.Knapster.SetScope": "La portée des paramètres est maintenant définie sur : {0}"
+}

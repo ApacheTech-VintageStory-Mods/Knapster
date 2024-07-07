@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyPanning.Description": "Spravovat nastavení prosepávání.",
+  "Features.EasyPanning.SpeedMultiplier.Description": "Změňte rychlost, jakou hráč prosepává zdroje. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0.",
+  "Features.EasyPanning.SaturationMultiplier.Description": "Změňte míru, jakou se ztrácí sytost při prosepávání. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0."
+}

@@ -1,4 +1,6 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
+﻿using Gantry.Core.Hosting;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyClayFormingClient : ClientModSystem

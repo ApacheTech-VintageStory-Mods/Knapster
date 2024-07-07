@@ -1,0 +1,4 @@
+﻿{
+  "Features.EasyHarvesting.Description": "Управление настройками уборки.",
+  "Features.EasyHarvesting.SpeedMultiplier.Description": "Изменяет скорость, с которой игрок убирает траву серпом. Действует как непосредственный множитель. Мин: 0.0, Макс: 2.0, По умолчанию: 1.0."
+}

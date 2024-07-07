@@ -21,12 +21,12 @@ public class EasyPanningSettings : FeatureSettings, IEasyFeatureSettings
     /// <summary>
     ///     When the mode is set to `Whitelist`, only the players on this list will have the feature enabled.
     /// </summary>
-    public List<Player> Whitelist { get; set; } = new();
+    public List<Player> Whitelist { get; set; } = [];
 
     /// <summary>
     ///     When the mode is set to `Blacklist`, the players on this list will have the feature disabled.
     /// </summary>
-    public List<Player> Blacklist { get; set; } = new();
+    public List<Player> Blacklist { get; set; } = [];
 
     /// <summary>
     ///     Determines the multiplier to apply to the speed of panning, when using the EasyPanning feature.

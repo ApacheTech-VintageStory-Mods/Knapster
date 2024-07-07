@@ -1,0 +1,5 @@
+{
+  "Features.EasyQuern.Description": "Verwalten Sie die Mühleneinstellungen.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Ändern Sie die Geschwindigkeit, mit der der Spieler Ressourcen in einer Mühle mahlt. Wirkt als direkter Multiplikator. Min: 0,0, Max: 10,0, Standard: 1,0.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Wenden Sie den Geschwindigkeitsmultiplikator auf automatisierte Mühlen sowie manuelle Mühlen an."
+}

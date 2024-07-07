@@ -1,0 +1,5 @@
+﻿{
+  "Features.EasyKnapping.Description": "Spravovat nastavení úpravy kamenů.",
+  "Features.EasyKnapping.VoxelsPerClick.Description": "Změňte počet voxelů přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
+  "Features.EasyKnapping.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False."
+}

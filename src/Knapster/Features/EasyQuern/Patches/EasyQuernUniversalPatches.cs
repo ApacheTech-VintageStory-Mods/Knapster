@@ -15,9 +15,9 @@ public class EasyQuernUniversalPatches
         __result *= SpeedMultiplier([.. ___playersGrinding.Keys]);
     }
 
-    private static float SpeedMultiplier(List<string> playersGrinding)
+    public static float SpeedMultiplier(List<string> players)
     {
-        if (playersGrinding.Count == 0 && !ApiEx.OneOf(
+        if (players.Count == 0 && !ApiEx.OneOf(
                 EasyQuernClient.Settings.IncludeAutomated,
                 EasyQuernServer.Settings.IncludeAutomated))
         {
@@ -26,7 +26,7 @@ public class EasyQuernUniversalPatches
 
         if (!ApiEx.Return(
                 () => EasyQuernClient.Settings.Enabled,
-                () => EasyQuernServer.IsEnabledFor(playersGrinding)))
+                () => EasyQuernServer.IsEnabledForAll(players)))
         {
             return 1f;
         }

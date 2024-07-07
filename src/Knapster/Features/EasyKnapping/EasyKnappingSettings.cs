@@ -21,12 +21,12 @@ public class EasyKnappingSettings : FeatureSettings, IEasyFeatureSettings
     /// <summary>
     ///     When the mode is set to `Whitelist`, only the players on this list will have the feature enabled.
     /// </summary>
-    public List<Player> Whitelist { get; set; } = new();
+    public List<Player> Whitelist { get; set; } = [];
 
     /// <summary>
     ///     When the mode is set to `Blacklist`, the players on this list will have the feature disabled.
     /// </summary>
-    public List<Player> Blacklist { get; set; } = new();
+    public List<Player> Blacklist { get; set; } = [];
 
     /// <summary>
     ///     Determines the number of voxels that are handled at one time, when using the Easy Knapping feature.

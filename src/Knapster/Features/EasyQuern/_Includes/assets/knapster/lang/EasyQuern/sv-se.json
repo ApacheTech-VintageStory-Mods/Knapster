@@ -1,0 +1,5 @@
+{
+  "Features.EasyQuern.Description": "Hantera querninställningar.",
+  "Features.EasyQuern.IncludeAutomated.Description": "Tillämpa hastighetsmultiplikatorn på automatiserade kvarnar, liksom manuella kvarnar.",
+  "Features.EasyQuern.SpeedMultiplier.Description": "Ändra hastigheten som spelaren mal resurser i en quern. Fungerar som en direkt multiplikator. Min: 0.0, Max: 10.0, Standard: 1.0."
+}

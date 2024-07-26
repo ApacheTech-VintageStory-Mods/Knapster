@@ -1,18 +1,19 @@
 [
-    // ====================================================================================
-    //  General
-    // ====================================================================================
-  
     {
         "name": "duplicate",
         "color": "F5F5F5",
         "description": "This issue or pull request already exists."
     },
-  
-    // ====================================================================================
-    //  Issues
-    // ====================================================================================
-  
+    {
+        "name": "gantry",
+        "color": "D6F934",
+        "description": "This issue or feature involves the Gantry MDK."
+    },
+    {
+        "name": "documentation",
+        "color": "0075CA",
+        "description": "Improvements or additions to documentation."
+    },
     {
         "name": "issue: needs-triage",
         "color": "FEF2C0",
@@ -43,28 +44,23 @@
         "color": "FEF2C0",
         "description": "This issue has been resolved, and released."
     },
-
-    // ====================================================================================
-    //  Features
-    // ====================================================================================
-  
     {
-        "name": "feature: suggestion",
+        "name": "enhancement: suggestion",
         "color": "006B75",
         "description": "Early feature idea and discussion. It is NOT ready for implementation."
     },
     {
-        "name": "feature: needs-work",
+        "name": "enhancement: needs-work",
         "color": "006B75",
         "description": "Feature needs work before it is approved. It is NOT ready for implementation."
     },
     {
-        "name": "feature: ready-for-review",
+        "name": "enhancement: ready-for-review",
         "color": "006B75",
         "description": "Feature is ready for review. It is NOT ready for implementation."
     },
     {
-        "name": "feature: approved",
+        "name": "enhancement: approved",
         "color": "006B75",
         "description": "Feature was approved. It can be implemented."
     }

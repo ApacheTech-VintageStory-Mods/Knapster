@@ -2,7 +2,7 @@
 name: '🐛 Bug Report'
 about: Did things not work as expected?
 title: "fix: [what is the issue?] in [where is the issue?]"
-labels: 'status:triage'
+labels: 'issue: needs-triage'
 ---
 
 <!---

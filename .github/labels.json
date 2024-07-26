@@ -1,0 +1,71 @@
+[
+    // ====================================================================================
+    //  General
+    // ====================================================================================
+  
+    {
+        "name": "duplicate",
+        "color": "F5F5F5",
+        "description": "This issue or pull request already exists."
+    },
+  
+    // ====================================================================================
+    //  Issues
+    // ====================================================================================
+  
+    {
+        "name": "issue: needs-triage",
+        "color": "FEF2C0",
+        "description": "This is a new issue, and needs some initial triage."
+    },
+    {
+        "name": "issue: needs-feedback",
+        "color": "FEF2C0",
+        "description": "This issue has been passed back to the user to add more feedback."
+    },
+    {
+        "name": "issue: needs-investigation",
+        "color": "FEF2C0",
+        "description": "This issue has been triaged, and requires further invesigation."
+    },
+    {
+        "name": "issue: under-investigation",
+        "color": "FEF2C0",
+        "description": "This issue is currently undergoing a more detailed diagnosis."
+    },
+    {
+        "name": "issue: pending-release",
+        "color": "FEF2C0",
+        "description": "This issue has been revolved, and is pending release."
+    },
+    {
+        "name": "issue: resolved",
+        "color": "FEF2C0",
+        "description": "This issue has been resolved, and released."
+    },
+
+    // ====================================================================================
+    //  Features
+    // ====================================================================================
+  
+    {
+        "name": "feature: suggestion",
+        "color": "006B75",
+        "description": "Early feature idea and discussion. It is NOT ready for implementation."
+    },
+    {
+        "name": "feature: needs-work",
+        "color": "006B75",
+        "description": "Feature needs work before it is approved. It is NOT ready for implementation."
+    },
+    {
+        "name": "feature: ready-for-review",
+        "color": "006B75",
+        "description": "Feature is ready for review. It is NOT ready for implementation."
+    },
+    {
+        "name": "feature: approved",
+        "color": "006B75",
+        "description": "Feature was approved. It can be implemented."
+    }
+]

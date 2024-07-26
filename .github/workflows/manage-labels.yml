@@ -1,8 +1,8 @@
 name: Manage Labels
 
 on:
-  workflow_dispatch:
-      
+  workflow_dispatch: # This ensures the workflow runs only when manually triggered
+
 jobs:
   sync-labels:
     runs-on: ubuntu-latest
@@ -12,7 +12,39 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Sync Labels
-      uses: repo-sync/github-sync-labels@v2.2
+      uses: actions/github-script@v6
       with:
-        access-token: ${{ secrets.GITHUB_TOKEN }}
-        labels: .github/labels.json
+        script: |
+          const fs = require('fs');
+          const path = '.github/labels.json';
+          const labels = JSON.parse(fs.readFileSync(path, 'utf8'));
+
+          for (const label of labels) {
+            try {
+              const existingLabel = await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: label.name,
+              });
+
+              await github.rest.issues.updateLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: label.name,
+                color: label.color,
+                description: label.description,
+              });
+            } catch (error) {
+              if (error.status === 404) {
+                await github.rest.issues.createLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  name: label.name,
+                  color: label.color,
+                  description: label.description,
+                });
+              } else {
+                throw error;
+              }
+            }
+          }

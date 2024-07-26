@@ -1,9 +1,7 @@
 name: Manage Labels
 
 on:
-  push:
-    paths:
-      - '.github/labels.json'
+  workflow_dispatch:
       
 jobs:
   sync-labels:

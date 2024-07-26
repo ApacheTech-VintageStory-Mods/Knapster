@@ -1,0 +1,20 @@
+name: Manage Labels
+
+on:
+  push:
+    paths:
+      - '.github/labels.json'
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Sync Labels
+      uses: andymckay/labeler@v1.0.1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        configuration-path: .github/labels.json

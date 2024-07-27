@@ -12,27 +12,24 @@ public class EasyQuernUniversalPatches
     [HarmonyPatch(typeof(BlockEntityQuern), nameof(BlockEntityQuern.GrindSpeed), MethodType.Getter)]
     public static void Harmony_BlockEntityQuern_GrindSpeed_Getter_Postfix(Dictionary<string, long> ___playersGrinding, ref float __result)
     {
-        __result *= SpeedMultiplier([.. ___playersGrinding.Keys]);
+        __result *= GetSpeedMultiplier([.. ___playersGrinding.Keys]);
     }
 
-    public static float SpeedMultiplier(List<string> players)
+    public static float GetSpeedMultiplier(List<string> players)
     {
-        if (players.Count == 0 && !ApiEx.OneOf(
-                EasyQuernClient.Settings.IncludeAutomated,
-                EasyQuernServer.Settings.IncludeAutomated))
-        {
-            return 1f;
-        }
-
-        if (!ApiEx.Return(
-                () => EasyQuernClient.Settings.Enabled,
-                () => EasyQuernServer.IsEnabledForAll(players)))
-        {
-            return 1f;
-        }
-
-        return ApiEx.OneOf(
-            EasyQuernClient.Settings.SpeedMultiplier,
-            EasyQuernServer.Settings.SpeedMultiplier);
+        if (players.Count == 0 && !IncludeAutomated()) return 1f;
+        return !EnabledForAll(players) ? 1f : SpeedMultiplier;
     }
+
+    private static float SpeedMultiplier = ApiEx.OneOf(
+        EasyQuernClient.Settings.SpeedMultiplier,
+        EasyQuernServer.Settings.SpeedMultiplier);
+
+    private static bool IncludeAutomated() => ApiEx.OneOf(
+        EasyQuernClient.Settings.IncludeAutomated,
+        EasyQuernServer.Settings.IncludeAutomated);
+
+    private static bool EnabledForAll(IEnumerable<string> players) => !ApiEx.Return(
+        () => EasyQuernClient.Settings.Enabled,
+        () => EasyQuernServer.IsEnabledForAll(players));
 }

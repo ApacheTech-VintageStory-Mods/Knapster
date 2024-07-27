@@ -1,20 +1,35 @@
 const fs = require("fs");
 const path = ".github/labels.json";
+
+// Check if the file exists and is readable
+if (!fs.existsSync(path)) {
+    throw new Error(`File not found: ${path}`);
+}
+
 const labels = JSON.parse(fs.readFileSync(path, "utf8"));
 
 // Function to delete all existing labels
 async function deleteAllLabels(github, context) {
-    const existingLabels = await github.rest.issues.listLabelsForRepo({
-        owner: context.repo.owner,
-        repo: context.repo.repo
-    });
-
-    for (const label of existingLabels.data) {
-        await github.rest.issues.deleteLabel({
+    try {
+        const existingLabels = await github.rest.issues.listLabelsForRepo({
             owner: context.repo.owner,
-            repo: context.repo.repo,
-            name: label.name
+            repo: context.repo.repo
         });
+
+        for (const label of existingLabels.data) {
+            try {
+                await github.rest.issues.deleteLabel({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    name: label.name
+                });
+            } catch (error) {
+                console.error(`Failed to delete label: ${label.name}`, error);
+            }
+        }
+    } catch (ex) {
+        console.error("Error fetching existing labels:", ex);
+        throw ex;
     }
 }
 
@@ -30,7 +45,11 @@ async function addLabels(github, context) {
                 description: label.description
             });
         } catch (error) {
-            if (error.status !== 422) { // 422 means unprocessable entity, which could indicate the label already exists.
+            if (error.status === 422) {
+                // Log that the label already exists
+                console.warn(`Label already exists: ${label.name}`);
+            } else {
+                console.error(`Error creating label: ${label.name}`, error);
                 throw error;
             }
         }

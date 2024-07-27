@@ -9,10 +9,10 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout
 
     - name: Sync Labels
-      uses: actions/github-script@v6
+      uses: actions/github-script
       with:
         script: |
           const script = require('./.github/scripts/sync-labels.js');

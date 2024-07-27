@@ -15,6 +15,7 @@ async function deleteAllLabels(github, context) {
             owner: context.repo.owner,
             repo: context.repo.repo
         });
+        console.log(`Found ${existingLabels.length} labels.`);
 
         for (const label of existingLabels.data) {
             try {
@@ -23,6 +24,7 @@ async function deleteAllLabels(github, context) {
                     repo: context.repo.repo,
                     name: label.name
                 });
+                console.log("Deleted label: ", label.name);
             } catch (error) {
                 console.error(`Failed to delete label: ${label.name}`, error);
             }
@@ -44,6 +46,7 @@ async function addLabels(github, context) {
                 color: label.color,
                 description: label.description
             });
+            console.log("Added label: ", label.name);
         } catch (error) {
             if (error.status === 422) {
                 // Log that the label already exists

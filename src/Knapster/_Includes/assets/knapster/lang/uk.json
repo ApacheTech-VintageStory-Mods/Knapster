@@ -1,34 +1,29 @@
-﻿{
-  "ModTitle": "Knapster",
-  "ModDescription": "Спрощує виготовлення та збір ресурсів для тих, хто має обмежену рухливість рук.",
+{
+  "Features.EasyX.InvalidScope": "Недійсна область. Допустимі варіанти: {0}",
+  "Features.EasyX.Scope.Description": "Змініть, чи повинен мод використовувати глобальні налаштування або налаштування для кожного світу.",
+  "Features.EasyX.Scope": "Область налаштувань: {0}",
+  "Features.EasyX.SetScope": "Область налаштувань тепер встановлена на: {0}",
 
-  "Features.Knapster.ServerCommandDescription": "Дозволяє адміністратору сервера змінювати налаштування моду на сервері.",
+  "Features.EasyX.ServerCommandDescription": "Дозволяє адміністратору сервера змінювати налаштування моду на сервері.",
 
-  "Features.Knapster.AccessMode.Description": "Змініть режим доступу для поточної функції.",
-  "Features.Knapster.Mode": "{0} Режим: {1}",
-  "Features.Knapster.SetMode": "Режим {0} тепер встановлено на: {1}",
-  "Features.Knapster.InvalidMode": "Недійсний режим доступу. Допустимі варіанти: {0}",
-  "Features.Knapster.AutoComplete": "Автоматичне Завершення",
+  "Features.EasyX.Mode": "Режим {0}: {1}",
+  "Features.EasyX.SetMode": "Режим {0} тепер встановлений на: {1}",
+  "Features.EasyX.InvalidMode": "Недійсний режим доступу. Допустимі варіанти: {0}",
 
-  "Features.Knapster.PlayerSearch.NoResults": "Пошук '{0}' не дав результатів. Спробуйте ще раз.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "Пошук '{0}' дав кілька результатів. Уточніть свої критерії пошуку.",
+  "Features.EasyX.PlayerSearch.NoResults": "Пошук за '{0}' не дав результатів. Спробуйте ще раз.",
+  "Features.EasyX.PlayerSearch.MultipleResults": "Пошук за '{0}' дав кілька результатів. Уточніть свої пошукові терміни.",
 
-  "Features.Knapster.Whitelist.Description": "Додавання/Видалення гравців з білого списку для цієї функції.",
-  "Features.Knapster.Whitelist.Results": "Наступні гравці в даний момент знаходяться в білому списку для {0}:",
-  "Features.Knapster.Whitelist.NoResults": "На даний момент немає гравців в білому списку для {0}.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} був видалений з білого списку для {1}.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} був доданий до білого списку для {1}.",
+  "Features.EasyX.AccessMode.Description": "Змініть режим доступу для поточної функції.",
 
-  "Features.Knapster.Blacklist.Description": "Додавання/Видалення гравців з чорного списку для цієї функції.",
-  "Features.Knapster.Blacklist.Results": "Наступні гравці в даний момент знаходяться в чорному списку для {0}:",
-  "Features.Knapster.Blacklist.NoResults": "На даний момент немає гравців в чорному списку для {0}.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} був видалений з чорного списку для {1}.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} був доданий до чорного списку для {1}.",
+  "Features.EasyX.Whitelist.Description": "Додати/Видалити гравців із білого списку для цієї функції.",
+  "Features.EasyX.Whitelist.Results": "Наступні гравці зараз у білому списку для {0}:",
+  "Features.EasyX.Whitelist.NoResults": "Зараз немає гравців у білому списку для {0}.",
+  "Features.EasyX.Whitelist.PlayerRemoved": "{0} був видалений із білого списку для {1}.",
+  "Features.EasyX.Whitelist.PlayerAdded": "{0} був доданий до білого списку для {1}.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Вокселів на Клацанні: {1}",
-  "Features.Knapster.CostPerClick": "Витрати на Міцність на Клацанні для {0}: {1}",
-  "Features.Knapster.SpeedMultiplier": "{0} Множник Швидкості: {1}x",
-  "Features.Knapster.IncludeAutomated": "{0} Включити Автоматизовані Версії: {1}",
-  "Features.Knapster.SaturationMultiplier": "{0} Множник Ситості: {1}x",
-  "Features.Knapster.InstantComplete": "{0} Миттєве Завершення: {1}"
+  "Features.EasyX.Blacklist.Description": "Додати/Видалити гравців із чорного списку для цієї функції.",
+  "Features.EasyX.Blacklist.Results": "Наступні гравці зараз у чорному списку для {0}:",
+  "Features.EasyX.Blacklist.NoResults": "Зараз немає гравців у чорному списку для {0}.",
+  "Features.EasyX.Blacklist.PlayerRemoved": "{0} був видалений із чорного списку для {1}.",
+  "Features.EasyX.Blacklist.PlayerAdded": "{0} був доданий до чорного списку для {1}."
 }

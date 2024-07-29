@@ -1,34 +1,29 @@
 {
-  "ModTitle": "Knapster",
-  "ModDescription": "Einfacheres Handwerk und Sammeln f�r Personen mit geringer manueller Geschicklichkeit.",
+  "Features.EasyX.InvalidScope": "Ungültiger Bereich. Gültige Optionen sind: {0}",
+  "Features.EasyX.Scope.Description": "Ändern, ob das Mod globale Einstellungen oder weltspezifische Einstellungen verwenden soll.",
+  "Features.EasyX.Scope": "Einstellungsbereich: {0}",
+  "Features.EasyX.SetScope": "Einstellungsbereich jetzt auf {0} gesetzt.",
 
-  "Features.Knapster.ServerCommandDescription": "Erm�glicht dem Serveradministrator, die Einstellungen f�r die Mod auf dem Server zu �ndern.",
+  "Features.EasyX.ServerCommandDescription": "Ermöglicht dem Serveradministrator, die Einstellungen des Mods auf dem Server zu ändern.",
 
-  "Features.Knapster.AccessMode.Description": "�ndern Sie den Zugriffsmodus f�r das aktuelle Merkmal.",
-  "Features.Knapster.Mode": "{0} Modus: {1}",
-  "Features.Knapster.SetMode": "{0} Modus jetzt auf: {1} gesetzt",
-  "Features.Knapster.InvalidMode": "Ung�ltiger Zugriffsmodus. G�ltige Optionen sind: {0}",
-  "Features.Knapster.AutoComplete": "Automatische Vervollst�ndigung",
+  "Features.EasyX.Mode": "{0} Modus: {1}",
+  "Features.EasyX.SetMode": "Modus {0} jetzt auf {1} gesetzt.",
+  "Features.EasyX.InvalidMode": "Ungültiger Zugriffsmodus. Gültige Optionen sind: {0}",
 
-  "Features.Knapster.PlayerSearch.NoResults": "Die Suche nach '{0}' ergab keine Ergebnisse. Bitte versuchen Sie es erneut.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "Die Suche nach '{0}' ergab mehrere Ergebnisse. Bitte verfeinern Sie Ihre Suchbegriffe.",
+  "Features.EasyX.PlayerSearch.NoResults": "Die Suche nach '{0}' ergab keine Ergebnisse. Bitte versuchen Sie es erneut.",
+  "Features.EasyX.PlayerSearch.MultipleResults": "Die Suche nach '{0}' ergab mehrere Ergebnisse. Bitte verfeinern Sie Ihre Suchbegriffe.",
 
-  "Features.Knapster.Whitelist.Description": "Spieler zur Whitelist f�r dieses Merkmal hinzuf�gen/entfernen.",
-  "Features.Knapster.Whitelist.Results": "Folgende Spieler sind derzeit in der Whitelist f�r {0} enthalten:",
-  "Features.Knapster.Whitelist.NoResults": "Derzeit sind keine Spieler in der Whitelist f�r {0} enthalten.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} wurde aus der Whitelist f�r {1} entfernt.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} wurde zur Whitelist f�r {1} hinzugef�gt.",
+  "Features.EasyX.AccessMode.Description": "Ändern Sie den Zugriffsmodus für die aktuelle Funktion.",
 
-  "Features.Knapster.Blacklist.Description": "Spieler zur Blacklist f�r dieses Merkmal hinzuf�gen/entfernen.",
-  "Features.Knapster.Blacklist.Results": "Folgende Spieler sind derzeit in der Blacklist f�r {0} enthalten:",
-  "Features.Knapster.Blacklist.NoResults": "Derzeit sind keine Spieler in der Blacklist f�r {0} enthalten.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} wurde aus der Blacklist f�r {1} entfernt.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} wurde zur Blacklist f�r {1} hinzugef�gt.",
+  "Features.EasyX.Whitelist.Description": "Spieler zur Whitelist dieser Funktion hinzufügen/entfernen.",
+  "Features.EasyX.Whitelist.Results": "Die folgenden Spieler befinden sich derzeit auf der Whitelist für {0}:",
+  "Features.EasyX.Whitelist.NoResults": "Derzeit befinden sich keine Spieler auf der Whitelist für {0}.",
+  "Features.EasyX.Whitelist.PlayerRemoved": "{0} wurde von der Whitelist für {1} entfernt.",
+  "Features.EasyX.Whitelist.PlayerAdded": "{0} wurde zur Whitelist für {1} hinzugefügt.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Voxels pro Klick: {1}",
-  "Features.Knapster.CostPerClick": "Haltbarkeitskosten pro Klick f�r {0}: {1}",
-  "Features.Knapster.SpeedMultiplier": "Geschwindigkeitsmultiplikator f�r {0}: {1}x",
-  "Features.Knapster.IncludeAutomated": "{0} Automatisierte Versionen einbeziehen: {1}",
-  "Features.Knapster.SaturationMultiplier": "S�ttigungsgradmultiplikator f�r {0}: {1}x",
-  "Features.Knapster.InstantComplete": "Sofortige Fertigstellung f�r {0}: {1}"
+  "Features.EasyX.Blacklist.Description": "Spieler zur Blacklist dieser Funktion hinzufügen/entfernen.",
+  "Features.EasyX.Blacklist.Results": "Die folgenden Spieler befinden sich derzeit auf der Blacklist für {0}:",
+  "Features.EasyX.Blacklist.NoResults": "Derzeit befinden sich keine Spieler auf der Blacklist für {0}.",
+  "Features.EasyX.Blacklist.PlayerRemoved": "{0} wurde von der Blacklist für {1} entfernt.",
+  "Features.EasyX.Blacklist.PlayerAdded": "{0} wurde zur Blacklist für {1} hinzugefügt."
 }

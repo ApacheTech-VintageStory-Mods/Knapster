@@ -1,34 +1,29 @@
 {
-  "ModTitle": "Knapster",
-  "ModDescription": "F�renklar hantverk och insamling f�r dem med nedsatt manuell fingerf�rdighet.",
+  "Features.EasyX.InvalidScope": "Ogiltigt omfång. Giltiga alternativ är: {0}",
+  "Features.EasyX.Scope.Description": "Ändra om modden ska använda globala inställningar eller inställningar per värld.",
+  "Features.EasyX.Scope": "Inställningsomfång: {0}",
+  "Features.EasyX.SetScope": "Inställningsomfång nu inställt på: {0}",
 
-  "Features.Knapster.ServerCommandDescription": "Till�ter serveradministrat�ren att �ndra inst�llningarna f�r modet p� servern.",
+  "Features.EasyX.ServerCommandDescription": "Tillåter serveradministratören att ändra inställningarna för modden på servern.",
 
-  "Features.Knapster.AccessMode.Description": "�ndra �tkomstl�get f�r den aktuella funktionen.",
-  "Features.Knapster.Mode": "{0}-l�ge: {1}",
-  "Features.Knapster.SetMode": "{0}-l�ge �r nu inst�llt p�: {1}",
-  "Features.Knapster.InvalidMode": "Ogiltigt �tkomstl�ge. Giltiga alternativ �r: {0}",
-  "Features.Knapster.AutoComplete": "Automatisk Slutf�rande",
+  "Features.EasyX.Mode": "Läge {0}: {1}",
+  "Features.EasyX.SetMode": "Läge {0} nu inställt på: {1}",
+  "Features.EasyX.InvalidMode": "Ogiltigt åtkomstläge. Giltiga alternativ är: {0}",
 
-  "Features.Knapster.PlayerSearch.NoResults": "S�kningen efter '{0}' gav inga resultat. F�rs�k igen.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "S�kningen efter '{0}' gav flera resultat. F�rb�ttra dina s�kkriterier.",
+  "Features.EasyX.PlayerSearch.NoResults": "Sökningen efter '{0}' gav inga resultat. Försök igen.",
+  "Features.EasyX.PlayerSearch.MultipleResults": "Sökningen efter '{0}' gav flera resultat. Vänligen förfina dina söktermer.",
 
-  "Features.Knapster.Whitelist.Description": "L�gg till/ta bort spelare fr�n vitlistan f�r den h�r funktionen.",
-  "Features.Knapster.Whitelist.Results": "F�ljande spelare finns f�r n�rvarande p� {0}-vitlistan:",
-  "Features.Knapster.Whitelist.NoResults": "Det finns f�r n�rvarande inga spelare p� {0}-vitlistan.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} har tagits bort fr�n {1}-vitlistan.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} har lagts till p� {1}-vitlistan.",
+  "Features.EasyX.AccessMode.Description": "Ändra åtkomstläge för den aktuella funktionen.",
 
-  "Features.Knapster.Blacklist.Description": "L�gg till/ta bort spelare fr�n svartlistan f�r den h�r funktionen.",
-  "Features.Knapster.Blacklist.Results": "F�ljande spelare finns f�r n�rvarande p� {0}-svartlistan:",
-  "Features.Knapster.Blacklist.NoResults": "Det finns f�r n�rvarande inga spelare p� {0}-svartlistan.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} har tagits bort fr�n {1}-svartlistan.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} har lagts till p� {1}-svartlistan.",
+  "Features.EasyX.Whitelist.Description": "Lägg till/Ta bort spelare från vitlistan för denna funktion.",
+  "Features.EasyX.Whitelist.Results": "Följande spelare är för närvarande på vitlistan för {0}:",
+  "Features.EasyX.Whitelist.NoResults": "Det finns för närvarande inga spelare på vitlistan för {0}.",
+  "Features.EasyX.Whitelist.PlayerRemoved": "{0} har tagits bort från vitlistan för {1}.",
+  "Features.EasyX.Whitelist.PlayerAdded": "{0} har lagts till på vitlistan för {1}.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Voxlar per Klick: {1}",
-  "Features.Knapster.CostPerClick": "Kostnad per H�llbarhet per Klick f�r {0}: {1}",
-  "Features.Knapster.SpeedMultiplier": "{0} Hastighetsmultiplikator: {1}x",
-  "Features.Knapster.IncludeAutomated": "{0} Inkludera Automatiserade Versioner: {1}",
-  "Features.Knapster.SaturationMultiplier": "{0} M�ttnadsmultiplikator: {1}x",
-  "Features.Knapster.InstantComplete": "{0} Omedelbar Slutf�rande: {1}"
+  "Features.EasyX.Blacklist.Description": "Lägg till/Ta bort spelare från svartlistan för denna funktion.",
+  "Features.EasyX.Blacklist.Results": "Följande spelare är för närvarande på svartlistan för {0}:",
+  "Features.EasyX.Blacklist.NoResults": "Det finns för närvarande inga spelare på svartlistan för {0}.",
+  "Features.EasyX.Blacklist.PlayerRemoved": "{0} har tagits bort från svartlistan för {1}.",
+  "Features.EasyX.Blacklist.PlayerAdded": "{0} har lagts till på svartlistan för {1}."
 }

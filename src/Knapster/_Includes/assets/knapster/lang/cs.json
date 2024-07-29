@@ -1,34 +1,29 @@
-﻿{
-  "ModTitle": "Knapster",
-  "ModDescription": "Jednodušší výroba a sběr pro ty s nízkou manuální zručností.",
+{
+  "Features.EasyX.InvalidScope": "Neplatný rozsah. Platné možnosti jsou: {0}",
+  "Features.EasyX.Scope.Description": "Změňte, zda by mod měl používat globální nastavení nebo nastavení pro jednotlivé světy.",
+  "Features.EasyX.Scope": "Rozsah nastavení: {0}",
+  "Features.EasyX.SetScope": "Rozsah nastavení nyní nastaven na: {0}",
 
-  "Features.Knapster.ServerCommandDescription": "Umožňuje správci serveru změnit nastavení modu na serveru.",
+  "Features.EasyX.ServerCommandDescription": "Umožňuje správci serveru změnit nastavení modu na serveru.",
 
-  "Features.Knapster.AccessMode.Description": "Změňte režim přístupu pro aktuální funkci.",
-  "Features.Knapster.Mode": "{0} Režim: {1}",
-  "Features.Knapster.SetMode": "Režim {0} nyní nastaven na: {1}",
-  "Features.Knapster.InvalidMode": "Neplatný režim přístupu. Platné možnosti jsou: {0}",
-  "Features.Knapster.AutoComplete": "Automatické dokončení",
+  "Features.EasyX.Mode": "{0} Režim: {1}",
+  "Features.EasyX.SetMode": "Režim {0} nyní nastaven na: {1}",
+  "Features.EasyX.InvalidMode": "Neplatný přístupový režim. Platné možnosti jsou: {0}",
 
-  "Features.Knapster.PlayerSearch.NoResults": "Vyhledávání pro '{0}' nepřineslo žádné výsledky. Zkuste to znovu.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "Vyhledávání pro '{0}' přineslo více výsledků. Upravte své hledací pojmy, prosím.",
+  "Features.EasyX.PlayerSearch.NoResults": "Hledání '{0}' nepřineslo žádné výsledky. Zkuste to prosím znovu.",
+  "Features.EasyX.PlayerSearch.MultipleResults": "Hledání '{0}' přineslo více výsledků. Upřesněte prosím své vyhledávací podmínky.",
 
-  "Features.Knapster.Whitelist.Description": "Přidat/odebrat hráče z bílého seznamu pro tuto funkci.",
-  "Features.Knapster.Whitelist.Results": "Následující hráči jsou momentálně na bílém seznamu pro {0}:",
-  "Features.Knapster.Whitelist.NoResults": "Momentálně nejsou žádní hráči na bílém seznamu pro {0}.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} byl odebrán z bílého seznamu pro {1}.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} byl přidán na bílý seznam pro {1}.",
+  "Features.EasyX.AccessMode.Description": "Změňte přístupový režim pro aktuální funkci.",
 
-  "Features.Knapster.Blacklist.Description": "Přidat/odebrat hráče z černého seznamu pro tuto funkci.",
-  "Features.Knapster.Blacklist.Results": "Následující hráči jsou momentálně na černém seznamu pro {0}:",
-  "Features.Knapster.Blacklist.NoResults": "Momentálně nejsou žádní hráči na černém seznamu pro {0}.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} byl odebrán z černého seznamu pro {1}.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} byl přidán na černý seznam pro {1}.",
+  "Features.EasyX.Whitelist.Description": "Přidat/Odebrat hráče z whitelistu pro tuto funkci.",
+  "Features.EasyX.Whitelist.Results": "Následující hráči jsou aktuálně na whitelistu pro {0}:",
+  "Features.EasyX.Whitelist.NoResults": "Aktuálně nejsou na whitelistu žádní hráči pro {0}.",
+  "Features.EasyX.Whitelist.PlayerRemoved": "{0} byl odebrán z whitelistu pro {1}.",
+  "Features.EasyX.Whitelist.PlayerAdded": "{0} byl přidán na whitelist pro {1}.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Voxelů na Kliknutí: {1}",
-  "Features.Knapster.CostPerClick": "{0} Náklad na Trvanlivost za Kliknutí: {1}",
-  "Features.Knapster.SpeedMultiplier": "{0} Násobitel Rychlosti: {1}x",
-  "Features.Knapster.IncludeAutomated": "{0} Zahrnout automatizované verze: {1}",
-  "Features.Knapster.SaturationMultiplier": "{0} Násobitel Saturace: {1}x",
-  "Features.Knapster.InstantComplete": "{0} Okamžité Dokončení: {1}"
+  "Features.EasyX.Blacklist.Description": "Přidat/Odebrat hráče z blacklistu pro tuto funkci.",
+  "Features.EasyX.Blacklist.Results": "Následující hráči jsou aktuálně na blacklistu pro {0}:",
+  "Features.EasyX.Blacklist.NoResults": "Aktuálně nejsou na blacklistu žádní hráči pro {0}.",
+  "Features.EasyX.Blacklist.PlayerRemoved": "{0} byl odebrán z blacklistu pro {1}.",
+  "Features.EasyX.Blacklist.PlayerAdded": "{0} byl přidán na blacklist pro {1}."
 }

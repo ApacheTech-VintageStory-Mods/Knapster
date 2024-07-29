@@ -1,8 +1,52 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>2.9.5.0</Version>
+		<Version>2.10.0.0</Version>
 		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="_Includes\assets\knapster\lang\ar.json" />
+	  <None Remove="_Includes\assets\knapster\lang\cs.json" />
+	  <None Remove="_Includes\assets\knapster\lang\de.json" />
+	  <None Remove="_Includes\assets\knapster\lang\eo.json" />
+	  <None Remove="_Includes\assets\knapster\lang\es-419.json" />
+	  <None Remove="_Includes\assets\knapster\lang\es-es.json" />
+	  <None Remove="_Includes\assets\knapster\lang\fr.json" />
+	  <None Remove="_Includes\assets\knapster\lang\it.json" />
+	  <None Remove="_Includes\assets\knapster\lang\ja.json" />
+	  <None Remove="_Includes\assets\knapster\lang\ko.json" />
+	  <None Remove="_Includes\assets\knapster\lang\nl.json" />
+	  <None Remove="_Includes\assets\knapster\lang\pl.json" />
+	  <None Remove="_Includes\assets\knapster\lang\pt-br.json" />
+	  <None Remove="_Includes\assets\knapster\lang\pt-pt.json" />
+	  <None Remove="_Includes\assets\knapster\lang\ru.json" />
+	  <None Remove="_Includes\assets\knapster\lang\sk.json" />
+	  <None Remove="_Includes\assets\knapster\lang\sr.json" />
+	  <None Remove="_Includes\assets\knapster\lang\sv-se.json" />
+	  <None Remove="_Includes\assets\knapster\lang\uk.json" />
+	  <None Remove="_Includes\assets\knapster\lang\zh-cn.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\ar.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\cs.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\de.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\eo.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\es-419.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\es-es.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\fr.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\it.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\ja.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\ko.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\nl.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\pl.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\pt-br.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\pt-pt.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\ru.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\sk.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\sr.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\sv-se.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\uk.json" />
+	  <EmbeddedResource Include="_Includes\assets\knapster\lang\zh-cn.json" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<None Include="..\..\docs\LICENCE.md" Link="_Includes\LICENCE.md" />

@@ -22,6 +22,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Content Include="Features\**\_Includes\**\*.*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
 		<ProjectCapability Include="DynamicDependentFile" />
 		<ProjectCapability Include="DynamicFileNesting" />
 	</ItemGroup>

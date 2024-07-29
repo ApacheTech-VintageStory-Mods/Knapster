@@ -1,34 +1,29 @@
 {
-  "ModTitle": "Knapster",
-  "ModDescription": "Facilita la creación y recolección para aquellos con baja destreza manual.",
+  "Features.EasyX.InvalidScope": "Alcance inválido. Las opciones válidas son: {0}",
+  "Features.EasyX.Scope.Description": "Cambiar si el mod debe usar configuraciones globales o configuraciones por mundo.",
+  "Features.EasyX.Scope": "Alcance de configuración: {0}",
+  "Features.EasyX.SetScope": "El alcance de configuración ahora está establecido en: {0}",
 
-  "Features.Knapster.ServerCommandDescription": "Permite al administrador del servidor cambiar la configuración del mod en el servidor.",
+  "Features.EasyX.ServerCommandDescription": "Permite al administrador del servidor cambiar las configuraciones del mod en el servidor.",
 
-  "Features.Knapster.AccessMode.Description": "Cambia el modo de acceso para la función actual.",
-  "Features.Knapster.Mode": "Modo {0}: {1}",
-  "Features.Knapster.SetMode": "El modo {0} ahora se ha establecido en: {1}",
-  "Features.Knapster.InvalidMode": "Modo de acceso no válido. Las opciones válidas son: {0}",
-  "Features.Knapster.AutoComplete": "Auto Completar",
+  "Features.EasyX.Mode": "Modo {0}: {1}",
+  "Features.EasyX.SetMode": "El modo {0} ahora está establecido en: {1}",
+  "Features.EasyX.InvalidMode": "Modo de acceso inválido. Las opciones válidas son: {0}",
 
-  "Features.Knapster.PlayerSearch.NoResults": "La búsqueda de '{0}' no arrojó resultados. Por favor, inténtelo de nuevo.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "La búsqueda de '{0}' arrojó múltiples resultados. Por favor, refina tus términos de búsqueda.",
+  "Features.EasyX.PlayerSearch.NoResults": "La búsqueda de '{0}' no arrojó resultados. Por favor, inténtelo de nuevo.",
+  "Features.EasyX.PlayerSearch.MultipleResults": "La búsqueda de '{0}' arrojó múltiples resultados. Por favor, refine sus términos de búsqueda.",
 
-  "Features.Knapster.Whitelist.Description": "Agregar/Quitar jugadores de la lista blanca para esta función.",
-  "Features.Knapster.Whitelist.Results": "Los siguientes jugadores están actualmente en la lista blanca de {0}:",
-  "Features.Knapster.Whitelist.NoResults": "Actualmente no hay jugadores en la lista blanca de {0}.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} ha sido eliminado de la lista blanca de {1}.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} ha sido añadido a la lista blanca de {1}.",
+  "Features.EasyX.AccessMode.Description": "Cambiar el modo de acceso para la función actual.",
 
-  "Features.Knapster.Blacklist.Description": "Agregar/Quitar jugadores de la lista negra para esta función.",
-  "Features.Knapster.Blacklist.Results": "Los siguientes jugadores están actualmente en la lista negra de {0}:",
-  "Features.Knapster.Blacklist.NoResults": "Actualmente no hay jugadores en la lista negra de {0}.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} ha sido eliminado de la lista negra de {1}.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} ha sido añadido a la lista negra de {1}.",
+  "Features.EasyX.Whitelist.Description": "Agregar/Eliminar jugadores de la lista blanca para esta función.",
+  "Features.EasyX.Whitelist.Results": "Los siguientes jugadores están actualmente en la lista blanca para {0}:",
+  "Features.EasyX.Whitelist.NoResults": "Actualmente no hay jugadores en la lista blanca para {0}.",
+  "Features.EasyX.Whitelist.PlayerRemoved": "{0} ha sido eliminado de la lista blanca para {1}.",
+  "Features.EasyX.Whitelist.PlayerAdded": "{0} ha sido agregado a la lista blanca para {1}.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Voxels por Clic: {1}",
-  "Features.Knapster.CostPerClick": "{0} Costo de Durabilidad por Clic: {1}",
-  "Features.Knapster.SpeedMultiplier": "{0} Multiplicador de Velocidad: {1}x",
-  "Features.Knapster.IncludeAutomated": "{0} Incluir Versiones Automatizadas: {1}",
-  "Features.Knapster.SaturationMultiplier": "{0} Multiplicador de Saturación: {1}x",
-  "Features.Knapster.InstantComplete": "{0} Completado Instantáneo: {1}"
+  "Features.EasyX.Blacklist.Description": "Agregar/Eliminar jugadores de la lista negra para esta función.",
+  "Features.EasyX.Blacklist.Results": "Los siguientes jugadores están actualmente en la lista negra para {0}:",
+  "Features.EasyX.Blacklist.NoResults": "Actualmente no hay jugadores en la lista negra para {0}.",
+  "Features.EasyX.Blacklist.PlayerRemoved": "{0} ha sido eliminado de la lista negra para {1}.",
+  "Features.EasyX.Blacklist.PlayerAdded": "{0} ha sido agregado a la lista negra para {1}."
 }

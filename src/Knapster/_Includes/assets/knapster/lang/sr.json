@@ -1,34 +1,29 @@
 {
-  "ModTitle": "Knapster",
-  "ModDescription": "Facilité de fabrication et de collecte pour ceux ayant une dextérité manuelle limitée.",
+  "Features.EasyX.InvalidScope": "Неважећи опсег. Важеће опције су: {0}",
+  "Features.EasyX.Scope.Description": "Промените да ли мод треба да користи глобална подешавања или подешавања по свету.",
+  "Features.EasyX.Scope": "Опсег подешавања: {0}",
+  "Features.EasyX.SetScope": "Опсег подешавања сада постављен на: {0}",
 
-  "Features.Knapster.ServerCommandDescription": "Permet à l'administrateur du serveur de changer les paramètres du mod sur le serveur.",
+  "Features.EasyX.ServerCommandDescription": "Дозвољава администратору сервера да промени подешавања мода на серверу.",
 
-  "Features.Knapster.AccessMode.Description": "Changez le mode d'accès pour la fonction actuelle.",
-  "Features.Knapster.Mode": "Mode {0} : {1}",
-  "Features.Knapster.SetMode": "Le mode {0} est maintenant défini sur : {1}",
-  "Features.Knapster.InvalidMode": "Mode d'accès invalide. Les options valides sont : {0}",
-  "Features.Knapster.AutoComplete": "Auto-complétion",
+  "Features.EasyX.Mode": "Режим {0}: {1}",
+  "Features.EasyX.SetMode": "Режим {0} сада постављен на: {1}",
+  "Features.EasyX.InvalidMode": "Неважећи приступни режим. Важеће опције су: {0}",
 
-  "Features.Knapster.PlayerSearch.NoResults": "La recherche de '{0}' n'a donné aucun résultat. Veuillez réessayer.",
-  "Features.Knapster.PlayerSearch.MultipleResults": "La recherche de '{0}' a donné plusieurs résultats. Veuillez affiner vos critères de recherche.",
+  "Features.EasyX.PlayerSearch.NoResults": "Претрага за '{0}' није дала резултате. Покушајте поново.",
+  "Features.EasyX.PlayerSearch.MultipleResults": "Претрага за '{0}' дала је више резултата. Молимо прецизирајте своје критеријуме претраге.",
 
-  "Features.Knapster.Whitelist.Description": "Ajouter/Retirer des joueurs de la liste blanche de cette fonction.",
-  "Features.Knapster.Whitelist.Results": "Les joueurs suivants sont actuellement sur la liste blanche de {0} :",
-  "Features.Knapster.Whitelist.NoResults": "Il n'y a actuellement aucun joueur sur la liste blanche de {0}.",
-  "Features.Knapster.Whitelist.PlayerRemoved": "{0} a été retiré de la liste blanche de {1}.",
-  "Features.Knapster.Whitelist.PlayerAdded": "{0} a été ajouté à la liste blanche de {1}.",
+  "Features.EasyX.AccessMode.Description": "Промените приступни режим за тренутну функцију.",
 
-  "Features.Knapster.Blacklist.Description": "Ajouter/Retirer des joueurs de la liste noire de cette fonction.",
-  "Features.Knapster.Blacklist.Results": "Les joueurs suivants sont actuellement sur la liste noire de {0} :",
-  "Features.Knapster.Blacklist.NoResults": "Il n'y a actuellement aucun joueur sur la liste noire de {0}.",
-  "Features.Knapster.Blacklist.PlayerRemoved": "{0} a été retiré de la liste noire de {1}.",
-  "Features.Knapster.Blacklist.PlayerAdded": "{0} a été ajouté à la liste noire de {1}.",
+  "Features.EasyX.Whitelist.Description": "Додај/Уклони играче са беле листе за ову функцију.",
+  "Features.EasyX.Whitelist.Results": "Следећи играчи су тренутно на белој листи за {0}:",
+  "Features.EasyX.Whitelist.NoResults": "Тренутно нема играча на белој листи за {0}.",
+  "Features.EasyX.Whitelist.PlayerRemoved": "{0} је уклоњен са беле листе за {1}.",
+  "Features.EasyX.Whitelist.PlayerAdded": "{0} је додат на белу листу за {1}.",
 
-  "Features.Knapster.VoxelsPerClick": "{0} Voxels par Clic : {1}",
-  "Features.Knapster.CostPerClick": "Coût de Durabilité par Clic {0} : {1}",
-  "Features.Knapster.SpeedMultiplier": "Multiplicateur de Vitesse {0} : {1}x",
-  "Features.Knapster.IncludeAutomated": "{0} Uključi Automatizovane Verzije: {1}",
-  "Features.Knapster.SaturationMultiplier": "Multiplicateur de Saturation {0} : {1}x",
-  "Features.Knapster.InstantComplete": "{0} Complétion Instantanée : {1}"
+  "Features.EasyX.Blacklist.Description": "Додај/Уклони играче са црне листе за ову функцију.",
+  "Features.EasyX.Blacklist.Results": "Следећи играчи су тренутно на црној листи за {0}:",
+  "Features.EasyX.Blacklist.NoResults": "Тренутно нема играча на црној листи за {0}.",
+  "Features.EasyX.Blacklist.PlayerRemoved": "{0} је уклоњен са црне листе за {1}.",
+  "Features.EasyX.Blacklist.PlayerAdded": "{0} је додат на црну листу за {1}."
 }

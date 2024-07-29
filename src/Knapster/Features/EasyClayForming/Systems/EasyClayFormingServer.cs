@@ -1,11 +1,12 @@
 ﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Abstractions;
-using ApacheTech.VintageMods.Knapster.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Settings;
+using Gantry.Services.EasyX.Abstractions;
+using Gantry.Services.EasyX.Extensions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyClayFormingServer : FeatureServerSystemBase<EasyClayFormingSettings, EasyClayFormingPacket>
+public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormingServerSettings, EasyClayFormingClientSettings, IEasyClayFormingSettings>
 {
     protected override string SubCommandName => "ClayForming";
 
@@ -31,21 +32,10 @@ public class EasyClayFormingServer : FeatureServerSystemBase<EasyClayFormingSett
             .EndSubCommand();
     }
 
-    protected sealed override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
+    protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
         sb.AppendLine(LangEx.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
         sb.AppendLine(LangEx.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
-        return TextCommandResult.Success(sb.ToString());
-    }
-
-    protected override EasyClayFormingPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
-    {
-        return EasyClayFormingPacket.Create(
-            enabledForPlayer, 
-            Settings.VoxelsPerClick, 
-            Settings.InstantComplete);
     }
 
     private TextCommandResult OnChangeVoxelsPerClick(TextCommandCallingArgs args)

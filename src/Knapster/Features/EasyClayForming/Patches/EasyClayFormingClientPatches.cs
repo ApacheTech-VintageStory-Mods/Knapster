@@ -1,6 +1,5 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
 using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
-using Vintagestory.API.Config;
 
 // ReSharper disable InconsistentNaming
 

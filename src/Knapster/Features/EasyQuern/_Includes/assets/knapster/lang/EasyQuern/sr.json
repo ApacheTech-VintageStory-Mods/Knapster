@@ -1,5 +1,7 @@
 {
   "Features.EasyQuern.Description": "Управљајте поставкама ручног млина.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Lepljivi dugmići miša: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Kada je aktivno, korisnik neće morati da drži desni taster miša pritisnut kako bi mlin ostao aktivan.",
   "Features.EasyQuern.IncludeAutomated.Description": "Примените множилац брзине на аутоматске ручне млинове, као и на ручне млинове.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Промените брзину којом играч мели ресурсе у ручном млину. Деље као директан множилац. Мин: 0.0, Макс: 10.0, Подразумевано: 1.0."
 }

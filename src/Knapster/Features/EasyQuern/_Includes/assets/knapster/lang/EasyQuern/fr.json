@@ -1,5 +1,7 @@
 {
   "Features.EasyQuern.Description": "Gérer les paramètres du moulin à main.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Boutons de souris collants : {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Lorsque cette option est activée, l'utilisateur n'aura pas besoin de maintenir le bouton droit de la souris enfoncé pour maintenir la meule active.",
   "Features.EasyQuern.IncludeAutomated.Description": "Appliquer le multiplicateur de vitesse aux moulins automatisés, ainsi qu'aux moulins manuels.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Changer la vitesse à laquelle le joueur broie les ressources dans un moulin à main. Agit comme un multiplicateur direct. Min : 0.0, Max : 10.0, Par défaut : 1.0."
 }

@@ -1,5 +1,7 @@
 {
   "Features.EasyQuern.Description": "Gerir definições de moinho de mão.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Botões de rato pegajosos: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Quando ativo, o utilizador não precisará de manter o botão direito do rato pressionado para manter o moinho ativo.",
   "Features.EasyQuern.IncludeAutomated.Description": "Aplicar o multiplicador de velocidade às querns automáticas, bem como às querns manuais.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Alterar a velocidade com que o jogador mói recursos dentro de um moinho de mão. Age como um multiplicador direto. Mín: 0.0, Máx: 10.0, Predefinição: 1.0."
 }

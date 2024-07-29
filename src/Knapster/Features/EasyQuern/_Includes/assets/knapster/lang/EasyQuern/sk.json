@@ -1,5 +1,7 @@
 ﻿{
   "Features.EasyQuern.Description": "Spravovať nastavenia mlyna.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Lepivé tlačidlá myši: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Keď je aktívne, používateľ nemusí držať pravé tlačidlo myši, aby zostal mlyn aktívny.",
   "Features.EasyQuern.IncludeAutomated.Description": "Použite násobič rýchlosti na automatizované mlyny aj ručné mlyny.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Zmena rýchlosti, akou hráč mlie mäsové zdroje v mlyne. Účinkuje ako priamy násobič. Min: 0.0, Max: 10.0, Predvolené: 1.0."
 }

@@ -1,5 +1,7 @@
 ﻿{
   "Features.EasyQuern.Description": "Administrați setările morii de mână.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Butoane de mouse lipicioase: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Când este activ, utilizatorul nu va trebui să mențină apăsat butonul drept al mouse-ului pentru a menține moara activă.",
   "Features.EasyQuern.IncludeAutomated.Description": "Aplicați multiplicatorul de viteză la morile automate, precum și la morile manuale.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Schimbați viteza cu care jucătorul mărunțește resurse într-o moară de mână. Acționează ca un multiplicator direct. Min: 0.0, Max: 10.0, Implicit: 1.0."
 }

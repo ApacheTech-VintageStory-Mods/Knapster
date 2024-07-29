@@ -1,5 +1,7 @@
 {
   "Features.EasyQuern.Description": "Verwalten Sie die Mühleneinstellungen.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Haftende Maustasten: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Wenn aktiv, muss der Benutzer die rechte Maustaste nicht gedrückt halten, um die Mühle aktiv zu halten.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Ändern Sie die Geschwindigkeit, mit der der Spieler Ressourcen in einer Mühle mahlt. Wirkt als direkter Multiplikator. Min: 0,0, Max: 10,0, Standard: 1,0.",
   "Features.EasyQuern.IncludeAutomated.Description": "Wenden Sie den Geschwindigkeitsmultiplikator auf automatisierte Mühlen sowie manuelle Mühlen an."
 }

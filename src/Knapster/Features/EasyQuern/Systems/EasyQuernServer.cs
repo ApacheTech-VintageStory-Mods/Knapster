@@ -1,11 +1,12 @@
 ﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Abstractions;
-using ApacheTech.VintageMods.Knapster.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
+using Gantry.Services.EasyX.Abstractions;
+using Gantry.Services.EasyX.Extensions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyQuernServer : FeatureServerSystemBase<EasyQuernSettings, EasyQuernPacket>
+public class EasyQuernServer : EasyXServerSystemBase<EasyQuernServerSettings, EasyQuernClientSettings, IEasyQuernSettings>
 {
     protected override string SubCommandName => "Quern";
 
@@ -13,6 +14,14 @@ public class EasyQuernServer : FeatureServerSystemBase<EasyQuernSettings, EasyQu
     {
         subCommand
             .WithDescription(LangEx.FeatureString("EasyQuern", "Description"));
+
+        subCommand
+            .BeginSubCommand("mouse")
+            .WithAlias("m")
+            .WithArgs(parsers.Bool("sticky keys"))
+            .WithDescription(LangEx.FeatureString("EasyQuern.StickyMouseButton", "Description"))
+            .HandleWith(OnChangeStickyMouseButton)
+            .EndSubCommand();
 
         subCommand
             .BeginSubCommand("speed")
@@ -31,21 +40,20 @@ public class EasyQuernServer : FeatureServerSystemBase<EasyQuernSettings, EasyQu
             .EndSubCommand();
     }
 
-    protected override EasyQuernPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
+    protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        return EasyQuernPacket.Create(
-            enabledForPlayer,
-            Settings.SpeedMultiplier,
-            Settings.IncludeAutomated);
-    }
-
-    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
+        sb.AppendLine(LangEx.FeatureString("EasyQuern", "StickyMouseButton", SubCommandName, Settings.StickyMouseButton));
         sb.AppendLine(LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
         sb.AppendLine(LangEx.FeatureString("Knapster", "IncludeAutomated", SubCommandName, Settings.IncludeAutomated));
-        return TextCommandResult.Success(sb.ToString());
+    }
+
+    private TextCommandResult OnChangeStickyMouseButton(TextCommandCallingArgs args)
+    {
+        var value = args.Parsers[0].GetValue().To<bool?>() ?? false;
+        Settings.StickyMouseButton = value;
+        var message = LangEx.FeatureString("EasyQuern", "StickyMouseButton", SubCommandName, Settings.StickyMouseButton);
+        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        return TextCommandResult.Success(message);
     }
 
     private TextCommandResult OnChangeSpeedMultiplier(TextCommandCallingArgs args)

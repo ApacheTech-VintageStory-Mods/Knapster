@@ -1,5 +1,7 @@
 ﻿{
   "Features.EasyQuern.Description": "떼는 세팅 관리합니다.",
+  "Features.EasyQuern.StickyMouseButton": "{0} 끈적거리는 마우스 버튼: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "활성화되면 사용자가 쿼른을 계속 활성화하려고 오른쪽 마우스 버튼을 누르고 있을 필요가 없습니다.",
   "Features.EasyQuern.IncludeAutomated.Description": "자동 회전기 및 수동 회전기에 속도 배율을 적용하십시오.",
   "Features.EasyQuern.SpeedMultiplier.Description": "플레이어가 회전하는 속도를 변경합니다. 직접 곱셈 연산을 수행합니다. 최소: 0.0, 최대: 10.0, 기본: 1.0."
 }

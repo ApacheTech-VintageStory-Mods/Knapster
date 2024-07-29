@@ -1,5 +1,7 @@
 {
   "Features.EasyQuern.Description": "Manage quern settings.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Sticky Mouse Buttons: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "When active, the user will not need to keep the right-mouse button held down to keep the quern active.",
   "Features.EasyQuern.SpeedMultiplier.Description": "Change the speed at which the player grinds resources within a quern. Acts as a direct multiplier. Min: 0.0, Max: 10.0, Default: 1.0.",
   "Features.EasyQuern.IncludeAutomated.Description": "Apply the speed multiplier to automated querns, as well as manual querns."
 }

@@ -1,5 +1,7 @@
 ﻿{
   "Features.EasyQuern.Description": "Zarządzaj ustawieniami żarna.",
+  "Features.EasyQuern.StickyMouseButton": "{0} Lepkie przyciski myszy: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "Gdy aktywne, użytkownik nie musi trzymać prawego przycisku myszy, aby utrzymać młyn w ruchu.",
   "Features.EasyQuern.IncludeAutomated.Description": "Zastosuj mnożnik prędkości do zautomatyzowanych żaren oraz ręcznych żaren.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Zmień prędkość, z jaką gracz mieli zasoby w żarnie. Działa jako bezpośredni mnożnik. Min: 0.0, Max: 10.0, Domyślnie: 1.0." 
+  "Features.EasyQuern.SpeedMultiplier.Description": "Zmień prędkość, z jaką gracz mieli zasoby w żarnie. Działa jako bezpośredni mnożnik. Min: 0.0, Max: 10.0, Domyślnie: 1.0."
 }

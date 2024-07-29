@@ -1,5 +1,7 @@
 {
   "Features.EasyQuern.Description": "إدارة إعدادات المطحنة.",
+  "Features.EasyQuern.StickyMouseButton": "{0} أزرار الماوس اللاصقة: {1}",
+  "Features.EasyQuern.StickyMouseButton.Description": "عند التفعيل، لن يحتاج المستخدم إلى الاستمرار في الضغط على زر الماوس الأيمن للحفاظ على تشغيل الطاحونة.",
   "Features.EasyQuern.IncludeAutomated.Description": "قم بتطبيق مضاعف السرعة على الطواحين الآلية، بالإضافة إلى الطواحين اليدوية.",
   "Features.EasyQuern.SpeedMultiplier.Description": "تغيير سرعة طحن الموارد التي يقوم بها اللاعب داخل المطحنة. يعمل كضربة مباشرة. الحد الأدنى: 0.0 ، الحد الأقصى: 10.0 ، الافتراضي: 1.0."
 }

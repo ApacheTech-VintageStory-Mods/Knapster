@@ -1,26 +1,15 @@
-﻿using ApacheTech.VintageMods.Knapster.Abstractions;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyPressing.Settings;
+using Gantry.Services.EasyX.Abstractions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Systems;
 
 [UsedImplicitly]
-public sealed class EasyPressingServer : FeatureServerSystemBase<EasyPressingSettings, EasyPressingPacket>
+public sealed class EasyPressingServer : EasyXServerSystemBase<EasyPressingServerSettings, EasyPressingClientSettings, IEasyPressingSettings>
 {
     protected override string SubCommandName => "FruitPress";
 
     protected override void FeatureSpecificCommands(IChatCommand subCommand, CommandArgumentParsers parsers)
     {
         subCommand.WithDescription(LangEx.FeatureString("EasyPressing", "Description"));
-    }
-
-    protected override EasyPressingPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
-    {
-        return EasyPressingPacket.Create(enabledForPlayer);
-    }
-
-    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
-        return TextCommandResult.Success(sb.ToString());
     }
 }

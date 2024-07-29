@@ -1,25 +1,8 @@
-﻿using Gantry.Core.Hosting;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyPressing.Settings;
+using Gantry.Core.Hosting;
+using Gantry.Services.EasyX.Abstractions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyPressingClient : ClientModSystem
-{
-    internal static EasyPressingPacket Settings = new()
-    {
-        Enabled = false
-    };
-
-    public override void StartClientSide(ICoreClientAPI api)
-    {
-        IOC.Services.Resolve<IClientNetworkService>()
-            .DefaultClientChannel
-            .RegisterMessageType<EasyPressingPacket>()
-            .SetMessageHandler<EasyPressingPacket>(SyncSettingsWithServer);
-    }
-
-    private static void SyncSettingsWithServer(EasyPressingPacket packet)
-    {
-        Settings = packet;
-    }
-}
+public sealed class EasyPressingClient : EasyXClientSystemBase<EasyPressingClientSettings, IEasyPressingSettings>;

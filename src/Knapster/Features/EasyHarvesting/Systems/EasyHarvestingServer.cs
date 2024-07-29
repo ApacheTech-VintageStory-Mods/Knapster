@@ -1,11 +1,12 @@
 ﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Abstractions;
-using ApacheTech.VintageMods.Knapster.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Settings;
+using Gantry.Services.EasyX.Abstractions;
+using Gantry.Services.EasyX.Extensions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
 
 [UsedImplicitly]
-public sealed class EasyHarvestingServer : FeatureServerSystemBase<EasyHarvestingSettings, EasyHarvestingPacket>
+public sealed class EasyHarvestingServer : EasyXServerSystemBase<EasyHarvestingServerSettings, EasyHarvestingClientSettings, IEasyHarvestingSettings>
 {
     protected override string SubCommandName => "Harvesting";
 
@@ -23,17 +24,9 @@ public sealed class EasyHarvestingServer : FeatureServerSystemBase<EasyHarvestin
             .EndSubCommand();
     }
 
-    protected override EasyHarvestingPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
+    protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        return EasyHarvestingPacket.Create(enabledForPlayer, Settings.SpeedMultiplier);
-    }
-
-    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
         sb.Append(LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
-        return TextCommandResult.Success(sb.ToString());
     }
 
     private TextCommandResult OnChangeSpeedMultiplier(TextCommandCallingArgs args)

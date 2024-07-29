@@ -1,6 +1,0 @@
-﻿{
-  "Features.Knapster.InvalidScope": "無効なスコープです。有効なオプションは次のとおりです: {0}",
-  "Features.Knapster.Scope.Description": "モジュールがグローバル設定を使用するか、ワールドごとの設定を使用するかを変更します。",
-  "Features.Knapster.Scope": "設定スコープ: {0}",
-  "Features.Knapster.SetScope": "設定スコープが次のように設定されました: {0}"
-}

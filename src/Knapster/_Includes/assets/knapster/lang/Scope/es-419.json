@@ -1,6 +1,0 @@
-{
-  "Features.Knapster.InvalidScope": "Ámbito no válido. Las opciones válidas son: {0}",
-  "Features.Knapster.Scope.Description": "Cambie si el módulo debe usar la configuración global o la configuración por mundo.",
-  "Features.Knapster.Scope": "Ámbito de configuración: {0}",
-  "Features.Knapster.SetScope": "El ámbito de configuración ahora se establece en: {0}"
-}

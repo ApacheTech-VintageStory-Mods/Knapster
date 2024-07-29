@@ -1,6 +1,0 @@
-{
-  "Features.Knapster.InvalidScope": "Неисправан опсег. Важеће опције су: {0}",
-  "Features.Knapster.Scope.Description": "Промените да ли мод треба користити глобалне подешавања или подешавања по свету.",
-  "Features.Knapster.Scope": "Опсег подешавања: {0}",
-  "Features.Knapster.SetScope": "Опсег подешавања сада је постављен на: {0}"
-}

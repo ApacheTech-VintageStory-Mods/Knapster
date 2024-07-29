@@ -1,6 +1,0 @@
-{
-  "Features.Knapster.InvalidScope": "Escopo inválido. As opções válidas são: {0}",
-  "Features.Knapster.Scope.Description": "Alterar se o módulo deve usar configurações globais ou configurações por mundo.",
-  "Features.Knapster.Scope": "Escopo das configurações: {0}",
-  "Features.Knapster.SetScope": "O escopo das configurações agora está definido para: {0}"
-}

@@ -1,6 +1,0 @@
-﻿{
-  "Features.Knapster.InvalidScope": "Neplatný rozsah. Platné možnosti jsou: {0}",
-  "Features.Knapster.Scope.Description": "Změňte, zda má mod používat globální nastavení nebo nastavení pro každý svět.",
-  "Features.Knapster.Scope": "Rozsah nastavení: {0}",
-  "Features.Knapster.SetScope": "Nastavení rozsahu nyní nastaveno na: {0}"
-}

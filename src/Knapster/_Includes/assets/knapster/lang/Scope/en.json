@@ -1,6 +1,0 @@
-{
-  "Features.Knapster.InvalidScope": "Invalid scope. Valid options are: {0}",
-  "Features.Knapster.Scope.Description": "Change whether the mod should use global settings, or per world settings.",
-  "Features.Knapster.Scope": "Settings Scope: {0}",
-  "Features.Knapster.SetScope": "Settings scope now set to: {0}"
-}

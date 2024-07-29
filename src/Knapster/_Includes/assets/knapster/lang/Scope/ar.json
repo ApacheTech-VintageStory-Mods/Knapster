@@ -1,6 +1,0 @@
-{
-  "Features.Knapster.InvalidScope": "نطاق غير صالح. الخيارات الصالحة هي: {0}",
-  "Features.Knapster.Scope.Description": "تغيير ما إذا كان يجب على الوحدة استخدام الإعدادات العالمية، أو إعدادات كل عالم على حدة.",
-  "Features.Knapster.Scope": "نطاق الإعدادات: {0}",
-  "Features.Knapster.SetScope": "تم تعيين نطاق الإعدادات الآن إلى: {0}"
-}

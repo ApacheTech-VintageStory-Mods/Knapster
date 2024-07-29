@@ -1,13 +1,14 @@
 ﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Abstractions;
-using ApacheTech.VintageMods.Knapster.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
+using Gantry.Services.EasyX.Abstractions;
+using Gantry.Services.EasyX.Extensions;
 
 // ReSharper disable StringLiteralTypo
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyMixingBowlServer : FeatureServerSystemBase<EasyMixingBowlSettings, EasyMixingBowlPacket>
+public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSettings, EasyMixingBowlClientSettings, IEasyMixingBowlSettings>
 {
     protected override string SubCommandName => "MixingBowl";
 
@@ -15,7 +16,7 @@ public class EasyMixingBowlServer : FeatureServerSystemBase<EasyMixingBowlSettin
     {
         try
         {
-            var shouldLoad = base.ShouldLoad(forSide) && ModEx.IsModEnabled("aculinaryartillery");
+            var shouldLoad = base.ShouldLoad(forSide) && ModEx.IsModEnabled("aculinaryartillery", UApi);
             return shouldLoad;
         }
         catch
@@ -46,21 +47,10 @@ public class EasyMixingBowlServer : FeatureServerSystemBase<EasyMixingBowlSettin
             .EndSubCommand();
     }
 
-    protected override EasyMixingBowlPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
+    protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        return EasyMixingBowlPacket.Create(
-            enabledForPlayer,
-            Settings.SpeedMultiplier,
-            Settings.IncludeAutomated);
-    }
-
-    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
         sb.AppendLine(LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
         sb.AppendLine(LangEx.FeatureString("Knapster", "IncludeAutomated", SubCommandName, Settings.IncludeAutomated));
-        return TextCommandResult.Success(sb.ToString());
     }
 
     private TextCommandResult OnChangeSpeedMultiplier(TextCommandCallingArgs args)

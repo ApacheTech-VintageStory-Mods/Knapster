@@ -1,11 +1,12 @@
 ﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Abstractions;
-using ApacheTech.VintageMods.Knapster.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Settings;
+using Gantry.Services.EasyX.Abstractions;
+using Gantry.Services.EasyX.Extensions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
 
 [UsedImplicitly]
-public sealed class EasyKnappingServer : FeatureServerSystemBase<EasyKnappingSettings, EasyKnappingPacket>
+public sealed class EasyKnappingServer : EasyXServerSystemBase<EasyKnappingServerSettings, EasyKnappingClientSettings, IEasyKnappingSettings>
 {
     protected override string SubCommandName => "Knapping";
 
@@ -31,21 +32,10 @@ public sealed class EasyKnappingServer : FeatureServerSystemBase<EasyKnappingSet
             .EndSubCommand();
     }
 
-    protected override EasyKnappingPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
+    protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        return EasyKnappingPacket.Create(
-            enabledForPlayer, 
-            Settings.VoxelsPerClick,
-            Settings.InstantComplete);
-    }
-
-    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
         sb.AppendLine(LangEx.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
         sb.AppendLine(LangEx.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
-        return TextCommandResult.Success(sb.ToString());
     }
 
     private TextCommandResult OnChangeVoxelsPerClick(TextCommandCallingArgs args)

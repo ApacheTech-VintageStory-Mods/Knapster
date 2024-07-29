@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "Gestionează setările de cernere.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Schimbă viteza la care jucătorul cernă resursele. Acționează ca un multiplicator direct. Minim: 0.0, Maxim: 2.0, Implicit: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Schimbă rata la care saturația este scursă în timpul cernerii. Acționează ca un multiplicator direct. Minim: 0.0, Maxim: 2.0, Implicit: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Timpul, în secunde, necesar pentru a cerne un strat de material.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Numărul de picături generate pe strat de material.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Saturația pierdută atunci când se cerne un singur strat de material.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Timp (în secunde) pe strat: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Picături pe strat: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Pierdere de saturaţie pe strat: {1}"
 }

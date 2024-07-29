@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "석금 설정을 관리합니다.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "플레이어가 자원을 채굴하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "석금 중 포화도가 감소하는 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "재료 한 층을 팬닝하는 데 걸리는 시간(초).",
+  "Features.EasyPanning.DropsPerLayer.Description": "재료 한 층당 생성되는 드롭 수.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "재료 한 층을 팬닝할 때 잃는 포화도.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} 레이어당 시간 (초): {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} 레이어당 드롭 수: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} 레이어당 포화 손실: {1}"
 }

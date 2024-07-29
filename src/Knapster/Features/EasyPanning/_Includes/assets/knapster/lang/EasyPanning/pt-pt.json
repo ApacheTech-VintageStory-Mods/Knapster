@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "Gerir as configura��es de garimpo.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Alterar a velocidade com que o jogador garimpa recursos. Funciona como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Alterar a taxa na qual a satura��o � drenada ao garimpar. Funciona como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "O tempo, em segundos, necessário para peneirar uma camada de material.",
+  "Features.EasyPanning.DropsPerLayer.Description": "O número de gotas geradas por camada de material.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "A saturação perdida ao peneirar uma única camada de material.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Tempo (em segundos) por camada: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Gotas por camada: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Perda de saturação por camada: {1}"
 }

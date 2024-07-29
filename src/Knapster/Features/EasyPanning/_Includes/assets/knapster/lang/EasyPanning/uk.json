@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "Керуйте налаштуваннями просіювання.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець просіює ресурси. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Змініть швидкість виснаження ситості під час просіювання. Діє як прямий множник. Мін: 0.0, Макс: 2.0, За замовчуванням: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Час, у секундах, необхідний для просіювання одного шару матеріалу.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Кількість крапель, які генеруються на шар матеріалу.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Насичення, яке втрачається при просіюванні одного шару матеріалу.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Час (в секундах) на шар: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Краплі на шар: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Втрата насичення на шар: {1}"
 }

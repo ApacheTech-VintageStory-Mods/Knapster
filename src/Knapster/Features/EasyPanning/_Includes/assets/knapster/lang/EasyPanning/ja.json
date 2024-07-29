@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "砂金の設定を管理します。",
-  "Features.EasyPanning.SpeedMultiplier.Description": "プレイヤーがリソースをふるい分ける速度を変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。",
-  "Features.EasyPanning.SaturationMultiplier.Description": "ふるい分け時に飽和度がどれだけ減少するかを変更します。直接の乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。"
+  "Features.EasyPanning.SecondsPerLayer.Description": "素材の層を1つふるいにかけるのにかかる時間（秒）。",
+  "Features.EasyPanning.DropsPerLayer.Description": "素材の層ごとに生成されるドロップの数。",
+  "Features.EasyPanning.SaturationPerLayer.Description": "素材の層を1つふるいにかけるときに失われる満腹度。",
+  "Features.EasyPanning.SecondsPerLayer": "{0} レイヤーごとの時間（秒）: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} レイヤーごとのドロップ数: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} レイヤーごとの飽和損失: {1}"
 }

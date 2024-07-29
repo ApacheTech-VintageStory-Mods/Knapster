@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "Hantera inst�llningar f�r brytning.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "�ndra hastigheten som spelaren bryter resurser. Fungerar som en direkt multiplikator. Min: 0.0, Max: 2.0, Standard: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "�ndra hastigheten som m�ttnad minskas medan du bryter. Fungerar som en direkt multiplikator. Min: 0.0, Max: 2.0, Standard: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Tiden, i sekunder, det tar att pannan en lager av material.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Antal droppar som genereras per materiallager.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Mättnaden som förloras när man pannar ett enskilt lager av material.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Tid (i sekunder) per lager: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Droppar per lager: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Mättnadstapp per lager: {1}"
 }

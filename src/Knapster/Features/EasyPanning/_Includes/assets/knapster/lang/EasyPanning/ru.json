@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "Управление настройками просеивания.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Изменяет скорость, с которой игрок просеивает ресурсы. Действует как непосредственный множитель. Мин: 0.0, Макс: 2.0, По умолчанию: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Изменяет скорость уменьшения сатурации во время просеивания. Действует как непосредственный множитель. Мин: 0.0, Макс: 2.0, По умолчанию: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Время, в секундах, необходимое для просеивания одного слоя материала.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Количество капель, создаваемых на слой материала.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Насыщение, теряемое при просеивании одного слоя материала.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Время (в секундах) на слой: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Капли на слой: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Потеря насыщения на слой: {1}"
 }

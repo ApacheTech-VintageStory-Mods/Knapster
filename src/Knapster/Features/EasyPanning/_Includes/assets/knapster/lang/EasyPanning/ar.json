@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "إدارة إعدادات التنقية.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "تغيير سرعة تنقية الموارد بواسطة اللاعب. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "تغيير معدل تناقص التشبع أثناء التنقية. يعمل كعامل مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الافتراضي: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "الوقت، بالثواني، الذي يستغرقه لتحريك طبقة واحدة من المادة.",
+  "Features.EasyPanning.DropsPerLayer.Description": "عدد القطرات التي يتم توليدها لكل طبقة من المادة.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "كمية التشبع المفقودة عند تحريك طبقة واحدة من المادة.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} الوقت (بالثوانى) لكل طبقة: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} القطرات لكل طبقة: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} فقدان التشبع لكل طبقة: {1}"
 }

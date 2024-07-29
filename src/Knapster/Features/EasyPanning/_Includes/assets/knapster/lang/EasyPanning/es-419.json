@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "Administra la configuración de lavado de oro.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Cambia la velocidad a la que el jugador lava recursos. Actúa como un multiplicador directo. Mínimo: 0.0, Máximo: 2.0, Predeterminado: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Cambia la tasa a la que se agota la saturación al lavar. Actúa como un multiplicador directo. Mínimo: 0.0, Máximo: 2.0, Predeterminado: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "El tiempo, en segundos, que tarda en tamizar una capa de material.",
+  "Features.EasyPanning.DropsPerLayer.Description": "La cantidad de gotas generadas por capa de material.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "La saturación perdida al tamizar una capa de material.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Tiempo (en segundos) por capa: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Gotas por capa: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Pérdida de saturación por capa: {1}"
 }

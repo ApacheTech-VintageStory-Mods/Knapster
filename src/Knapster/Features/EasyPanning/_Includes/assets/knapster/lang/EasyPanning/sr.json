@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "Gérer les paramètres de tamisage.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Changez la vitesse à laquelle le joueur tamise les ressources. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Changez le taux de déplétion de la saturation pendant le tamisage. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Vreme, u sekundama, potrebno za prosijavanje jednog sloja materijala.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Broj kapi generisanih po sloju materijala.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Zasićenje izgubljeno pri prosijavanju jednog sloja materijala.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Vrijeme (u sekundama) po sloju: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Kapi po sloju: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Gubitak zasićenja po sloju: {1}"
 }

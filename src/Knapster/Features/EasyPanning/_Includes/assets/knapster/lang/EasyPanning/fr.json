@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "Gérer les paramètres de tamisage.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Changez la vitesse à laquelle le joueur tamise les ressources. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Changez le taux de déplétion de la saturation pendant le tamisage. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Le temps, en secondes, nécessaire pour tamiser une couche de matériau.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Le nombre de gouttes générées par couche de matériau.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "La saturation perdue lors du tamisage d'une couche de matériau.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Temps (en secondes) par couche : {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Gouttes par couche : {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Perte de saturation par couche : {1}"
 }

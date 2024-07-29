@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "Zarządzaj ustawieniami przesiania.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Zmień szybkość, z jaką gracz zbiera surowce przy pomocy rogatek. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Zmień tempo, w jakim następuje utrata nasycenia podczas przesiania. Działa jako mnożnik. Min: 0.0, Max: 2.0, Domyślnie: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Czas, w sekundach, potrzebny do przesiania jednej warstwy materiału.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Liczba kropli generowanych na warstwę materiału.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Utrata nasycenia przy przesiewaniu jednej warstwy materiału.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Czas (w sekundach) na warstwę: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Krople na warstwę: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Utrata nasycenia na warstwę: {1}"
 }

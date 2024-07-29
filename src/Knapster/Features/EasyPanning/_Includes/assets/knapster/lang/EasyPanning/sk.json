@@ -1,5 +1,9 @@
 ﻿{
   "Features.EasyPanning.Description": "Spravujte nastavenia preplavovania.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč plaví zdroje. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Zmeňte rýchlosť, akou sa nasýtenie vyčerpáva počas preplavovania. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "Čas, v sekundách, potrebný na preosievanie jednej vrstvy materiálu.",
+  "Features.EasyPanning.DropsPerLayer.Description": "Počet kvapiek vytvorených na vrstvu materiálu.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "Množstvo strateného nasýtenia pri preosievaní jednej vrstvy materiálu.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Čas (v sekundách) na vrstvu: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Kvapky na vrstvu: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Strata saturácie na vrstvu: {1}"
 }

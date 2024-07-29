@@ -1,5 +1,9 @@
 {
   "Features.EasyPanning.Description": "Manage panning settings.",
-  "Features.EasyPanning.SpeedMultiplier.Description": "Change the speed at which the player pans resources. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
-  "Features.EasyPanning.SaturationMultiplier.Description": "Change the rate at which saturation is drained, while panning. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0."
+  "Features.EasyPanning.SecondsPerLayer.Description": "The time, in seconds, it takes to pan one layer of material.",
+  "Features.EasyPanning.DropsPerLayer.Description": "The number of drops spawned per layer of material.",
+  "Features.EasyPanning.SaturationPerLayer.Description": "The saturation lost when panning a single layer of material.",
+  "Features.EasyPanning.SecondsPerLayer": "{0} Time (in seconds) Per Layer: {1}",
+  "Features.EasyPanning.DropsPerLayer": "{0} Drops Per Layer: {1}",
+  "Features.EasyPanning.SaturationPerLayer": "{0} Saturation Loss Per Layer: {1}"
 }

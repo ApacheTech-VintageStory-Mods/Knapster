@@ -1,4 +1,5 @@
 ﻿using System.Reflection.Emit;
+using ApacheTech.Common.Extensions.Harmony;
 using ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
 
 // ReSharper disable InconsistentNaming
@@ -9,34 +10,36 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Patches;
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyPanningUniversalPatches
 {
-    [HarmonyTranspiler]
+    [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockPan), nameof(BlockPan.OnHeldInteractStop))]
-    public static IEnumerable<CodeInstruction> Harmony_BlockPan_OnHeldInteractStop_Transpiler(IEnumerable<CodeInstruction> instructions)
+    public static bool Harmony_BlockPan_OnHeldInteractStop_Prefix(
+        BlockPan __instance,
+        float secondsUsed,
+        ItemSlot slot,
+        EntityAgent byEntity
+    )
     {
-        var result = new List<CodeInstruction>();
-            
-        foreach (var codeInstruction in instructions)
+        if (byEntity is not EntityPlayer player) return true;
+
+        var sound = __instance.GetField<ILoadedSound>("sound");
+        sound?.Stop();
+        __instance.SetField("sound", null);
+
+        if (!(secondsUsed >= SecondsPerLayer(player) * 0.85)) return false;
+
+        var code = __instance.GetBlockMaterialCode(slot.Itemstack);
+        if (ApiEx.Side.IsServer() && code is not null)
         {
-            result.Add(codeInstruction);
-
-            if (codeInstruction.Is(OpCodes.Ldc_R4, 3.4f))
-            {
-                result.Add(new CodeInstruction(OpCodes.Ldarg_3));
-                result.Add(CodeInstruction.Call(typeof(EasyPanningUniversalPatches), nameof(SpeedMultiplier), new []{ typeof(EntityAgent) }));
-                result.Add(new CodeInstruction(OpCodes.Mul));
-            }
-
-            if (codeInstruction.Is(OpCodes.Ldc_R4, 4f))
-            {
-                result.Add(new CodeInstruction(OpCodes.Ldarg_3));
-                result.Add(CodeInstruction.Call(typeof(EasyPanningUniversalPatches), nameof(SaturationMultiplier), new[] { typeof(EntityAgent) }));
-                result.Add(new CodeInstruction(OpCodes.Mul));
-            }
+            var drops = DropsPerLayer(player);
+            for (var i = 0; i < drops; i++) __instance.CallMethod("CreateDrop", player, code);
         }
-
-        return result;
+        __instance.RemoveMaterial(slot);
+        slot.MarkDirty();
+        var behaviour = player.GetBehavior<EntityBehaviorHunger>();
+        var saturation = SaturationPerLayer(player);
+        behaviour?.ConsumeSaturation(saturation);
+        return false;
     }
-
 
     [HarmonyTranspiler]
     [HarmonyPatch(typeof(BlockPan), nameof(BlockPan.OnHeldInteractStep))]
@@ -45,53 +48,72 @@ public sealed class EasyPanningUniversalPatches
         var result = new List<CodeInstruction>();
         var codeInstructions = instructions.ToArray();
 
-
-        for (var i = 0; i < codeInstructions.Length -1; i++)
+        for (var i = 0; i < codeInstructions.Length - 1; i++)
         {
             var current = codeInstructions[i];
-            var next = codeInstructions[i+1];
-                
-            result.Add(current);
+            var next = codeInstructions[i + 1];
 
-            if (!(current.Is(OpCodes.Ldc_R4, 4f) && next.opcode == OpCodes.Cgt_Un)) continue;
-            result.Add(new CodeInstruction(OpCodes.Ldarg_3));
-            result.Add(CodeInstruction.Call(typeof(EasyPanningUniversalPatches), nameof(SpeedMultiplier), new[] { typeof(EntityAgent) }));
-            result.Add(new CodeInstruction(OpCodes.Mul));
+
+            if (!(current.Is(OpCodes.Ldc_R4, 4f) && next.opcode == OpCodes.Cgt_Un))
+            {
+                result.Add(current);
+            }
+            else
+            {
+                result.Add(new CodeInstruction(OpCodes.Ldarg_3));
+                result.Add(CodeInstruction.Call(typeof(EasyPanningUniversalPatches), nameof(SecondsPerLayer), [typeof(EntityAgent)]));
+            }
         }
 
         result.Add(codeInstructions.Last());
         return result;
     }
 
-    private static float SpeedMultiplier(EntityAgent byEntity)
+    private static float SecondsPerLayer(EntityAgent byEntity)
     {
-        if (byEntity is not EntityPlayer playerEntity) return 1f;
+        if (byEntity is not EntityPlayer playerEntity) return 4f;
 
         if (!ApiEx.Return(
                 () => EasyPanningClient.Settings.Enabled,
                 () => EasyPanningServer.IsEnabledFor(playerEntity.Player)))
         {
-            return 1f;
+            return 4f;
         }
 
         return ApiEx.OneOf(
-            EasyPanningClient.Settings.SpeedMultiplier, 
-            EasyPanningServer.Settings.SpeedMultiplier);
+            EasyPanningClient.Settings.SecondsPerLayer, 
+            EasyPanningServer.Settings.SecondsPerLayer);
     }
 
-    private static float SaturationMultiplier(EntityAgent byEntity)
+    private static int DropsPerLayer(EntityAgent byEntity)
     {
-        if (byEntity is not EntityPlayer playerEntity) return 1f;
+        if (byEntity is not EntityPlayer playerEntity) return 1;
 
         if (!ApiEx.Return(
                 () => EasyPanningClient.Settings.Enabled,
                 () => EasyPanningServer.IsEnabledFor(playerEntity.Player)))
         {
-            return 1f;
+            return 1;
         }
 
         return ApiEx.OneOf(
-            EasyPanningClient.Settings.SaturationMultiplier,
-            EasyPanningServer.Settings.SaturationMultiplier);
+            EasyPanningClient.Settings.DropsPerLayer,
+            EasyPanningServer.Settings.DropsPerLayer);
+    }
+
+    private static float SaturationPerLayer(EntityAgent byEntity)
+    {
+        if (byEntity is not EntityPlayer playerEntity) return 3f;
+
+        if (!ApiEx.Return(
+                () => EasyPanningClient.Settings.Enabled,
+                () => EasyPanningServer.IsEnabledFor(playerEntity.Player)))
+        {
+            return 3f;
+        }
+
+        return ApiEx.OneOf(
+            EasyPanningClient.Settings.SaturationPerLayer,
+            EasyPanningServer.Settings.SaturationPerLayer);
     }
 }

@@ -1,11 +1,12 @@
 ﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Abstractions;
-using ApacheTech.VintageMods.Knapster.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
+using Gantry.Services.EasyX.Abstractions;
+using Gantry.Services.EasyX.Extensions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasySmithingServer : FeatureServerSystemBase<EasySmithingSettings, EasySmithingPacket>
+public class EasySmithingServer : EasyXServerSystemBase<EasySmithingServerSettings, EasySmithingClientSettings, IEasySmithingSettings>
 {
     protected override string SubCommandName => "Smithing";
 
@@ -39,23 +40,11 @@ public class EasySmithingServer : FeatureServerSystemBase<EasySmithingSettings, 
             .EndSubCommand();
     }
 
-    protected override EasySmithingPacket GeneratePacketPerPlayer(IPlayer player, bool enabledForPlayer)
+    protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        return EasySmithingPacket.Create(
-            enabledForPlayer, 
-            Settings.CostPerClick, 
-            Settings.VoxelsPerClick, 
-            Settings.InstantComplete);
-    }
-
-    protected override TextCommandResult DisplayInfo(TextCommandCallingArgs args)
-    {
-        var sb = new StringBuilder();
-        sb.AppendLine(LangEx.FeatureString("Knapster", "Mode", SubCommandName, Settings.Mode));
         sb.AppendLine(LangEx.FeatureString("Knapster", "CostPerClick", SubCommandName, Settings.CostPerClick));
         sb.AppendLine(LangEx.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
         sb.AppendLine(LangEx.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
-        return TextCommandResult.Success(sb.ToString());
     }
 
     private TextCommandResult OnChangeCostPerClick(TextCommandCallingArgs args)

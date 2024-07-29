@@ -1,4 +1,5 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+// ReSharper disable StringLiteralTypo
 
 // ReSharper disable InconsistentNaming
 
@@ -101,12 +102,14 @@ public class EasySmithingUniversalPatches
                     var mat = (EnumVoxelMaterial)anvil.Voxels[x, y, z];
                     if (mat == EnumVoxelMaterial.Slag)
                     {
+                        // Remove Slag.
                         anvil.Voxels[x, y, z] = 0;
                         anvil.CallMethod("onHelveHitSuccess", mat, null, x, y, z);
                         return true;
                     }
-
+                    
                     if (!requireMetalHere || usableMetalVoxel is null || mat != EnumVoxelMaterial.Empty) continue;
+                    // Move voxel into place.
                     anvil.Voxels[x, y, z] = 1;
                     anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
                     anvil.CallMethod("onHelveHitSuccess", mat, usableMetalVoxel, x, y, z);
@@ -116,8 +119,19 @@ public class EasySmithingUniversalPatches
         }
 
         if (usableMetalVoxel is null) return true;
+        // Remove metal (split).
+        AnvilMetalRecovery("Prefix_OnSplit", new Vec3i(usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z), anvil);
         anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
         anvil.CallMethod("onHelveHitSuccess", EnumVoxelMaterial.Metal, null, usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z);
+        AnvilMetalRecovery("Postfix_OnSplit", new Vec3i(usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z), anvil);
         return true;
+    }
+    
+    private static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil __instance)
+    {
+        if (!ModEx.IsModEnabled("metalrecovery")) return;
+        var type = AccessTools.TypeByName("AnvilMetalRecovery.Patches.AnvilDaptor");
+        var method = AccessTools.Method(type, methodName);
+        method?.Invoke(null, [voxelPos, __instance]);
     }
 }

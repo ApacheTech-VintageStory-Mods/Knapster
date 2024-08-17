@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Upravljanje postavkama oranja.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Promijenite brzinu kojom igrač ore zemlju motikom. Djeluje kao izravni množitelj. Min: 0.1, Maks: 2.0, Zadano: 1.0."
+}

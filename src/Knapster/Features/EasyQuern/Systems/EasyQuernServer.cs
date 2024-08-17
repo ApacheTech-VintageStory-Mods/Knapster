@@ -16,16 +16,16 @@ public class EasyQuernServer : EasyXServerSystemBase<EasyQuernServerSettings, Ea
             .WithDescription(LangEx.FeatureString("EasyQuern", "Description"));
 
         subCommand
-            .BeginSubCommand("sticky")
-            .WithAlias("s")
+            .BeginSubCommand("hotkey")
+            .WithAlias("h")
             .WithArgs(parsers.Bool("sticky keys"))
             .WithDescription(LangEx.FeatureString("EasyQuern.StickyMouseButton", "Description"))
             .HandleWith(OnChangeStickyMouseButton)
             .EndSubCommand();
 
         subCommand
-            .BeginSubCommand("time")
-            .WithAlias("t")
+            .BeginSubCommand("speed")
+            .WithAlias("s")
             .WithArgs(parsers.Float("multiplier"))
             .WithDescription(LangEx.FeatureString("EasyQuern.SpeedMultiplier", "Description"))
             .HandleWith(OnChangeSpeedMultiplier)

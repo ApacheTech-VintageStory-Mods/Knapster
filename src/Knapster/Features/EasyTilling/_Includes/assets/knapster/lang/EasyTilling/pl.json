@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Zarządzaj ustawieniami orki.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Zmień prędkość, z jaką gracz orze ziemię motyką. Działa jako bezpośredni mnożnik. Min: 0.1, Max: 2.0, Domyślnie: 1.0."
+}

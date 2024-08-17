@@ -1,12 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>2.10.0.0</Version>
+		<Version>2.11.0.0</Version>
 		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
-	<ItemGroup>
-	  <None Remove="Features\EasyPanning\_Includes\assets\knapster\lang\.gitkeep" />
-	  <None Remove="Features\EasyQuern\_Includes\assets\knapster\lang\.gitkeep" />
-	</ItemGroup>
 
 	<ItemGroup>
 		<None Include="..\..\docs\LICENCE.md" Link="_Includes\LICENCE.md" />
@@ -22,6 +18,6 @@
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(Configuration)|$(Platform)'!='Debug|AnyCPU'">
-	  <PackageReference Include="VintageStory.Gantry" Version="0.7.8" />
+		<PackageReference Include="VintageStory.Gantry" Version="0.7.8" />
 	</ItemGroup>-->
 </Project>

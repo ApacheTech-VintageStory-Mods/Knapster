@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Gestionează setările pentru arat.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Schimbă viteza cu care jucătorul ară pământul cu o sapă. Acționează ca un multiplicator direct. Min: 0,1, Max: 2,0, Implicit: 1,0."
+}

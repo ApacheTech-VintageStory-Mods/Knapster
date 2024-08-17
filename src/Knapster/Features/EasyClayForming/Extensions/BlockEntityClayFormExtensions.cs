@@ -12,8 +12,8 @@ public static class BlockEntityClayFormExtensions
 
     public static void AddVoxel(this BlockEntityClayForm block, int y, Vec3i pos, int radius)
     {
-        var method = AccessTools.Method(typeof(BlockEntityClayForm), "OnAdd", new [] { typeof(int), typeof(Vec3i), typeof(int) });
-        method?.Invoke(block, new object[] { y, pos, radius });
+        var method = AccessTools.Method(typeof(BlockEntityClayForm), "OnAdd", [typeof(int), typeof(Vec3i), typeof(int)]);
+        method?.Invoke(block, [y, pos, radius]);
     }
 
     public static bool CompleteInTurn(this BlockEntityClayForm block, ItemSlot itemSlot)
@@ -26,6 +26,7 @@ public static class BlockEntityClayFormExtensions
                 {
                     if (block.SelectedRecipe is null) return false;
                     if (itemSlot.Empty) return false;
+
                     if (block.SelectedRecipe.Voxels[x, y, z])
                     {
                         if (block.Voxels[x, y, z]) continue;
@@ -146,8 +147,16 @@ public static class BlockEntityClayFormExtensions
                 var actual = block.Voxels[x, y, z];
                 if (expected == actual) continue;
                 result = true;
-                block.Voxels[x, y, z] = expected;
-                block.AvailableVoxels--;
+
+                if (expected)
+                {
+                    block.AddVoxel(y, new Vec3i(x, y, z), 0);
+                }
+                else
+                {
+                    block.CallMethod("OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
+                }
+
                 if (--num == 0) return true;
             }
         }

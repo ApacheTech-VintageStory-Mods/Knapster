@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Beheer instellingen voor ploegen.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Verander de snelheid waarmee de speler akkerland ploegt met een hooivork. Werkt als een directe vermenigvuldiger. Min: 0.1, Max: 2.0, Standaard: 1.0."
+}

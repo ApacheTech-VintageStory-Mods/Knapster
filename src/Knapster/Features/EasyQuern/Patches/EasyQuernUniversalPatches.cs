@@ -35,7 +35,12 @@ public class EasyQuernUniversalPatches
         EasyQuernClient.Settings.IncludeAutomated,
         EasyQuernServer.Settings.IncludeAutomated);
 
-    private static bool EnabledForAll(IEnumerable<string> players) => !ApiEx.Return(
-        () => EasyQuernClient.Settings.Enabled,
-        () => EasyQuernServer.IsEnabledForAll(players));
+    private static bool EnabledForAll(IEnumerable<string> players)
+    {
+        var enabled = ApiEx.Return(
+            () => EasyQuernClient.Settings.Enabled,
+            () => EasyQuernServer.IsEnabledForAll(players));
+
+        return enabled;
+    }
 }

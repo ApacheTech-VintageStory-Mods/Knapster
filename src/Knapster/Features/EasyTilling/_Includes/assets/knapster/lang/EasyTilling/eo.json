@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Administri agordojn por plugado.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Ŝanĝu la rapidon je kiu la ludanto plugas terenon per hoko. Agas kiel rekta multiplikanto. Min: 0.1, Maks: 2.0, Defaŭlto: 1.0."
+}

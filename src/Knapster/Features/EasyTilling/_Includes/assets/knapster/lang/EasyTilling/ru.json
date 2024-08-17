@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Управление настройками вспашки.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Изменение скорости вспашки игроком земли мотыгой. Работает как прямой множитель. Мин: 0,1, Макс: 2,0, По умолчанию: 1,0."
+}

@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Gestisci le impostazioni di aratura.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore ara il terreno con una zappa. Funziona come moltiplicatore diretto. Min: 0.1, Max: 2.0, Predefinito: 1.0."
+}

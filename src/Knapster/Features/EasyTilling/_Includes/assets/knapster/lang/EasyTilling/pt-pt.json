@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Gerir definições de lavoura.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Altere a velocidade a que o jogador lavra o terreno com uma enxada. Funciona como um multiplicador directo. Mín: 0.1, Máx: 2.0, Predefinição: 1.0."
+}

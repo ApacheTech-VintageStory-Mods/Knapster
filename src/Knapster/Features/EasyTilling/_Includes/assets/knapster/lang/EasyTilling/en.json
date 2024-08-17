@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Manage Tilling settings.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Change the speed at which the player tills farmland with a hoe. Acts as a direct multiplier. Min: 0.1, Max: 2.0, Default: 1.0."
+}

@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Správa nastavení orby.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč orie pôdu motykou. Pôsobí ako priamy násobiteľ. Min: 0,1, Max: 2,0, Predvolené: 1,0."
+}

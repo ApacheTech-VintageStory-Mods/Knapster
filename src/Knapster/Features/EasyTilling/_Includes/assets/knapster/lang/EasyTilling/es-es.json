@@ -1,0 +1,4 @@
+{
+  "Features.EasyTilling.Description": "Gestionar ajustes de labranza.",
+  "Features.EasyTilling.SpeedMultiplier.Description": "Cambia la velocidad a la que el jugador labra la tierra con una azada. Actúa como un multiplicador directo. Mín: 0.1, Máx: 2.0, Predeterminado: 1.0."
+}

@@ -64,6 +64,7 @@ public class EasyClayFormingUniversalPatches
             __instance.Api.World.FrameProfiler.Mark("clayform-regenmesh");
             __instance.Api.World.BlockAccessor.MarkBlockDirty(__instance.Pos);
             __instance.Api.World.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
+
             if (!__instance.CallMethod<bool>("HasAnyVoxel"))
             {
                 __instance.AvailableVoxels = 0;

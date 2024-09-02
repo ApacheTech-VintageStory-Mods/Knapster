@@ -1,4 +1,9 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+using Eto.Forms;
+using System.Threading.Tasks;
+using System.Threading;
+using System;
+using ApacheTech.Common.DependencyInjection;
 // ReSharper disable StringLiteralTypo
 
 // ReSharper disable InconsistentNaming
@@ -55,7 +60,7 @@ public class EasySmithingUniversalPatches
                 __instance.CallMethod("SendUseOverPacket", byPlayer, voxelPos);
             }
 
-            OnHit(__instance, instantComplete ? 999 : voxelsPerClick);
+            OnHit(__instance, instantComplete ? 999 : voxelsPerClick, byPlayer);
 
             __instance.CallMethod("RegenMeshAndSelectionBoxes");
             slot.Itemstack.Collectible.DamageItem(__instance.Api.World, byPlayer.Entity, slot, costPerClick);
@@ -75,19 +80,27 @@ public class EasySmithingUniversalPatches
         }
     }
 
-    private static void OnHit(BlockEntityAnvil anvil, int iterations)
+    private static void OnHit(BlockEntityAnvil anvil, int iterations, IPlayer byPlayer)
     {
         while (iterations-- > 0)
         {
-            if (anvil.SelectedRecipe is null) break;
-            if (!TryHelveHammerHit(anvil)) break;
+            try
+            {
+                if (!TryHelveHammerHit(anvil, byPlayer)) break;
+            }
+            catch (Exception ex)
+            {
+                anvil.Api.Logger.Error(ex);
+            }
         }
     }
 
-    public static bool TryHelveHammerHit(BlockEntityAnvil anvil)
+    public static bool TryHelveHammerHit(BlockEntityAnvil anvil, IPlayer byPlayer)
     {
-        if (anvil.CallMethod<bool>("MatchesRecipe")) return false;
         if (anvil.SelectedRecipe is null) return false;
+        anvil.CheckIfFinished(byPlayer);
+        if (anvil.CallMethod<bool>("MatchesRecipe")) return false;
+
         anvil.rotation = 0;
         var recipe = anvil.SelectedRecipe;
         var yMax = recipe.QuantityLayers;

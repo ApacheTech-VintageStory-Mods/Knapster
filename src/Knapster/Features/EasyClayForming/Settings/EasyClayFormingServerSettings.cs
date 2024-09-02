@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyClayFormingServerSettings : FeatureSettings, IEasyXServerSettings<IEasyClayFormingSettings>, IEasyClayFormingSettings
+public class EasyClayFormingServerSettings : EasyClayFormingSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,10 +21,4 @@ public class EasyClayFormingServerSettings : FeatureSettings, IEasyXServerSettin
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public int VoxelsPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public bool InstantComplete { get; set; } = false;
 }

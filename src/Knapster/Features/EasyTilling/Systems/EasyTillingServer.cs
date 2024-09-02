@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyTilling.Systems;
 
 [UsedImplicitly]
-public sealed class EasyTillingServer : EasyXServerSystemBase<EasyTillingServerSettings, EasyTillingClientSettings, IEasyTillingSettings>
+public sealed class EasyTillingServer : EasyXServerSystemBase<EasyTillingServerSettings, EasyTillingClientSettings, EasyTillingSettings>
 {
     protected override string SubCommandName => "Tilling";
 

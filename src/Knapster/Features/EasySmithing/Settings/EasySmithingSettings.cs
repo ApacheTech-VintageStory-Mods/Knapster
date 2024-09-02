@@ -1,20 +1,29 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
+﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
+using ProtoBuf;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
 
 [UsedImplicitly(ImplicitUseTargetFlags.All)]
-public interface IEasySmithingSettings
+
+[ProtoContract]
+[ProtoInclude(100, typeof(EasySmithingClientSettings))]
+public abstract class EasySmithingSettings : FeatureSettings
 {
     /// <summary>
     ///     Determines the amount of durability that is lost at one time, when using the Easy Smithing feature.
     /// </summary>
-    int CostPerClick { get; set; }
+    [ProtoMember(2)]
+    public int CostPerClick { get; set; } = 1;
 
     /// <summary>
     ///     Determines the number of voxels that are handled at one time, when using the Easy Smithing feature.
     /// </summary>
-    int VoxelsPerClick { get; set; }
+    [ProtoMember(3)]
+    public int VoxelsPerClick { get; set; } = 1;
 
     /// <summary>
     ///     Determines whether to instantly complete the current recipe, when using the Easy Smithing feature.
     /// </summary>
-    bool InstantComplete { get; set; }
+    [ProtoMember(4)]
+    public bool InstantComplete { get; set; }
 }

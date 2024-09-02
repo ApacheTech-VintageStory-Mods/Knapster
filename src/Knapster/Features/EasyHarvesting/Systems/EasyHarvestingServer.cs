@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
 
 [UsedImplicitly]
-public sealed class EasyHarvestingServer : EasyXServerSystemBase<EasyHarvestingServerSettings, EasyHarvestingClientSettings, IEasyHarvestingSettings>
+public sealed class EasyHarvestingServer : EasyXServerSystemBase<EasyHarvestingServerSettings, EasyHarvestingClientSettings, EasyHarvestingSettings>
 {
     protected override string SubCommandName => "Harvesting";
 

@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
 
 [UsedImplicitly]
-public sealed class EasyPanningServer : EasyXServerSystemBase<EasyPanningServerSettings, EasyPanningClientSettings, IEasyPanningSettings>
+public sealed class EasyPanningServer : EasyXServerSystemBase<EasyPanningServerSettings, EasyPanningClientSettings, EasyPanningSettings>
 {
     protected override string SubCommandName => "Panning";
 

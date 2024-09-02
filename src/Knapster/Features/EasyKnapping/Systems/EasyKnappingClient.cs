@@ -4,4 +4,4 @@ using Gantry.Services.EasyX.Abstractions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyKnappingClient : EasyXClientSystemBase<EasyKnappingClientSettings, IEasyKnappingSettings>;
+public sealed class EasyKnappingClient : EasyXClientSystemBase<EasyKnappingClientSettings>;

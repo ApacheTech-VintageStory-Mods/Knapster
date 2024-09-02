@@ -11,8 +11,8 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyQuernServerSettings : FeatureSettings, IEasyXServerSettings<IEasyQuernSettings>, IEasyQuernSettings
-{
+public class EasyQuernServerSettings : EasyQuernSettings, IEasyXServerSettings
+{ 
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
 
@@ -21,13 +21,4 @@ public class EasyQuernServerSettings : FeatureSettings, IEasyXServerSettings<IEa
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public float SpeedMultiplier { get; set; } = 1f;
-
-    /// <inheritdoc />
-    public bool IncludeAutomated { get; set; } = false;
-
-    /// <inheritdoc />
-    public bool StickyMouseButton { get; set; } = false;
 }

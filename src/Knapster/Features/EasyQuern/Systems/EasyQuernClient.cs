@@ -4,4 +4,4 @@ using Gantry.Services.EasyX.Abstractions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyQuernClient : EasyXClientSystemBase<EasyQuernClientSettings, IEasyQuernSettings>;
+public class EasyQuernClient : EasyXClientSystemBase<EasyQuernClientSettings>;

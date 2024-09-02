@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyMixingBowlServerSettings : FeatureSettings, IEasyXServerSettings<IEasyMixingBowlSettings>, IEasyMixingBowlSettings
+public class EasyMixingBowlServerSettings : EasyMixingBowlSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,10 +21,4 @@ public class EasyMixingBowlServerSettings : FeatureSettings, IEasyXServerSetting
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public float SpeedMultiplier { get; set; } = 1f;
-
-    /// <inheritdoc />
-    public bool IncludeAutomated { get; set; } = false;
 }

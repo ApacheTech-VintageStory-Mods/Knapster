@@ -1,20 +1,13 @@
-﻿using Gantry.Services.EasyX.Abstractions;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
+using Gantry.Services.EasyX.Abstractions;
 using ProtoBuf;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings;
+namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings; 
 
-[ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyPanningClientSettings : IEasyXClientSettings<IEasyPanningSettings>, IEasyPanningSettings
+[ProtoContract]
+public class EasyPanningClientSettings : EasyPanningSettings, IEasyXClientSettings
 {
     /// <inheritdoc />
+    [ProtoMember(1)]
     public bool Enabled { get; set; } = false;
-
-    /// <inheritdoc />
-    public float SecondsPerLayer { get; set; } = 4f;
-
-    /// <inheritdoc />
-    public int DropsPerLayer { get; set; } = 1;
-
-    /// <inheritdoc />
-    public float SaturationPerLayer { get; set; } = 3f;
 }

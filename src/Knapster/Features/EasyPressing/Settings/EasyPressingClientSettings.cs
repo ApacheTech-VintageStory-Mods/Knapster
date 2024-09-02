@@ -3,9 +3,10 @@ using ProtoBuf;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Settings;
 
-[ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyPressingClientSettings : IEasyXClientSettings<IEasyPressingSettings>, IEasyPressingSettings
+[ProtoContract]
+public class EasyPressingClientSettings : EasyPressingSettings, IEasyXClientSettings
 {
     /// <inheritdoc />
+    [ProtoMember(1)]
     public bool Enabled { get; set; } = false;
 }

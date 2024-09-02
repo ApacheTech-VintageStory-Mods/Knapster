@@ -1,20 +1,13 @@
-﻿using Gantry.Services.EasyX.Abstractions;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
+using Gantry.Services.EasyX.Abstractions;
 using ProtoBuf;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
 
-[ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasySmithingClientSettings : IEasyXClientSettings<IEasySmithingSettings>, IEasySmithingSettings
+[ProtoContract]
+public class EasySmithingClientSettings : EasySmithingSettings, IEasyXClientSettings
 {
     /// <inheritdoc />
+    [ProtoMember(1)]
     public bool Enabled { get; set; } = false;
-
-    /// <inheritdoc />
-    public int CostPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public int VoxelsPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public bool InstantComplete { get; set; } = false;
 }

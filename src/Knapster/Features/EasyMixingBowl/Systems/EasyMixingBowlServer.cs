@@ -8,7 +8,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSettings, EasyMixingBowlClientSettings, IEasyMixingBowlSettings>
+public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSettings, EasyMixingBowlClientSettings, EasyMixingBowlSettings>
 {
     protected override string SubCommandName => "MixingBowl";
 

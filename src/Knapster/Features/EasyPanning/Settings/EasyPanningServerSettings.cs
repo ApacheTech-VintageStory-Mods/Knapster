@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyPanningServerSettings : FeatureSettings, IEasyXServerSettings<IEasyPanningSettings>, IEasyPanningSettings
+public class EasyPanningServerSettings : EasyPanningSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,13 +21,4 @@ public class EasyPanningServerSettings : FeatureSettings, IEasyXServerSettings<I
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public float SecondsPerLayer { get; set; } = 4f;
-
-    /// <inheritdoc />
-    public int DropsPerLayer { get; set; } = 1;
-
-    /// <inheritdoc />
-    public float SaturationPerLayer { get; set; } = 3f;
 }

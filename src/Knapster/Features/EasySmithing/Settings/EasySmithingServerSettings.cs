@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasySmithingServerSettings : FeatureSettings, IEasyXServerSettings<IEasySmithingSettings>, IEasySmithingSettings
+public class EasySmithingServerSettings : EasySmithingSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,13 +21,4 @@ public class EasySmithingServerSettings : FeatureSettings, IEasyXServerSettings<
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public int CostPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public int VoxelsPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public bool InstantComplete { get; set; } = false;
 }

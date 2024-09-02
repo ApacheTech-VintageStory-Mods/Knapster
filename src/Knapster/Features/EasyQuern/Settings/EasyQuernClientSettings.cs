@@ -1,20 +1,13 @@
-﻿using Gantry.Services.EasyX.Abstractions;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Settings;
+using Gantry.Services.EasyX.Abstractions;
 using ProtoBuf;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
 
-[ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyQuernClientSettings : IEasyXClientSettings<IEasyQuernSettings>, IEasyQuernSettings
+[ProtoContract]
+public class EasyQuernClientSettings : EasyQuernSettings, IEasyXClientSettings
 {
     /// <inheritdoc />
+    [ProtoMember(1)]
     public bool Enabled { get; set; } = false;
-
-    /// <inheritdoc />
-    public float SpeedMultiplier { get; set; } = 1f;
-
-    /// <inheritdoc />
-    public bool IncludeAutomated { get; set; } = false;
-
-    /// <inheritdoc />
-    public bool StickyMouseButton { get; set; } = false;
 }

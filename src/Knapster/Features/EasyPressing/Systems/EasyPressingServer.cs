@@ -4,7 +4,7 @@ using Gantry.Services.EasyX.Abstractions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Systems;
 
 [UsedImplicitly]
-public sealed class EasyPressingServer : EasyXServerSystemBase<EasyPressingServerSettings, EasyPressingClientSettings, IEasyPressingSettings>
+public sealed class EasyPressingServer : EasyXServerSystemBase<EasyPressingServerSettings, EasyPressingClientSettings, EasyPressingSettings>
 {
     protected override string SubCommandName => "FruitPress";
 

@@ -3,15 +3,10 @@ using ProtoBuf;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Settings;
 
-[ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyClayFormingClientSettings : IEasyXClientSettings<IEasyClayFormingSettings>, IEasyClayFormingSettings
+[ProtoContract]
+public class EasyClayFormingClientSettings : EasyClayFormingSettings, IEasyXClientSettings 
 {
     /// <inheritdoc />
+    [ProtoMember(1)]
     public bool Enabled { get; set; } = false;
-
-    /// <inheritdoc />
-    public int VoxelsPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public bool InstantComplete { get; set; } = false;
 }

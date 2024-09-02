@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
 
 [UsedImplicitly]
-public sealed class EasyKnappingServer : EasyXServerSystemBase<EasyKnappingServerSettings, EasyKnappingClientSettings, IEasyKnappingSettings>
+public sealed class EasyKnappingServer : EasyXServerSystemBase<EasyKnappingServerSettings, EasyKnappingClientSettings, EasyKnappingSettings>
 {
     protected override string SubCommandName => "Knapping";
 

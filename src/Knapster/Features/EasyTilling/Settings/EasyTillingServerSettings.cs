@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyTilling.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyTillingServerSettings : FeatureSettings, IEasyXServerSettings<IEasyTillingSettings>, IEasyTillingSettings
+public class EasyTillingServerSettings : EasyTillingSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,7 +21,4 @@ public class EasyTillingServerSettings : FeatureSettings, IEasyXServerSettings<I
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public float SpeedMultiplier { get; set; }
 }

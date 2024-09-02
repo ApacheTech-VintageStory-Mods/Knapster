@@ -23,10 +23,10 @@ public sealed class EasyHarvestingUniversalPatches
         var result = new List<CodeInstruction>();
         var codeInstructions = instructions.ToArray();
 
-        for (var i = 0; i < codeInstructions.Length -1; i++)
+        for (var i = 0; i < codeInstructions.Length - 1; i++)
         {
             var current = codeInstructions[i];
-            var next = codeInstructions[i+1];
+            var next = codeInstructions[i + 1];
 
             result.Add(current);
 
@@ -45,7 +45,7 @@ public sealed class EasyHarvestingUniversalPatches
         if (byEntity is not EntityPlayer playerEntity) return 1f;
 
         if (!ApiEx.Return(
-                () => EasyHarvestingClient.Settings.Enabled, 
+                () => EasyHarvestingClient.Settings.Enabled,
                 () => EasyHarvestingServer.IsEnabledFor(playerEntity.Player)))
         {
             return 1f;

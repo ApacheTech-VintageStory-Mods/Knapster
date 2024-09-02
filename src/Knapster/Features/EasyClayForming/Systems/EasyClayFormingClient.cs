@@ -4,4 +4,4 @@ using Gantry.Services.EasyX.Abstractions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyClayFormingClient : EasyXClientSystemBase<EasyClayFormingClientSettings, IEasyClayFormingSettings>;
+public sealed class EasyClayFormingClient : EasyXClientSystemBase<EasyClayFormingClientSettings>;

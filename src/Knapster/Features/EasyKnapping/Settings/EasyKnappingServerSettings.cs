@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyKnappingServerSettings : FeatureSettings, IEasyXServerSettings<IEasyKnappingSettings>, IEasyKnappingSettings
+public class EasyKnappingServerSettings : EasyKnappingSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,10 +21,4 @@ public class EasyKnappingServerSettings : FeatureSettings, IEasyXServerSettings<
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public int VoxelsPerClick { get; set; } = 1;
-
-    /// <inheritdoc />
-    public bool InstantComplete { get; set; } = false;
 }

@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasySmithingServer : EasyXServerSystemBase<EasySmithingServerSettings, EasySmithingClientSettings, IEasySmithingSettings>
+public class EasySmithingServer : EasyXServerSystemBase<EasySmithingServerSettings, EasySmithingClientSettings, EasySmithingSettings>
 {
     protected override string SubCommandName => "Smithing";
 

@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyQuernServer : EasyXServerSystemBase<EasyQuernServerSettings, EasyQuernClientSettings, IEasyQuernSettings>
+public class EasyQuernServer : EasyXServerSystemBase<EasyQuernServerSettings, EasyQuernClientSettings, EasyQuernSettings>
 {
     protected override string SubCommandName => "Quern";
 

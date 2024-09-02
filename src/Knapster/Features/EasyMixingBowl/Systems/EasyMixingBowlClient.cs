@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Abstractions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlClientSettings, IEasyMixingBowlSettings>
+public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlClientSettings>
 {
     public override bool ShouldLoad(EnumAppSide forSide)
     {

@@ -6,7 +6,7 @@ using Gantry.Services.EasyX.Extensions;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormingServerSettings, EasyClayFormingClientSettings, IEasyClayFormingSettings>
+public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormingServerSettings, EasyClayFormingClientSettings, EasyClayFormingSettings>
 {
     protected override string SubCommandName => "ClayForming";
 

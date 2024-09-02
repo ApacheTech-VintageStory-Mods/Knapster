@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyHarvestingServerSettings : FeatureSettings, IEasyXServerSettings<IEasyHarvestingSettings>, IEasyHarvestingSettings
+public class EasyHarvestingServerSettings : EasyHarvestingSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
@@ -21,7 +21,4 @@ public class EasyHarvestingServerSettings : FeatureSettings, IEasyXServerSetting
 
     /// <inheritdoc />
     public List<Player> Blacklist { get; set; } = [];
-
-    /// <inheritdoc />
-    public float SpeedMultiplier { get; set; }
 }

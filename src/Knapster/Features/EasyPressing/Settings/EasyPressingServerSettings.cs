@@ -11,7 +11,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Settings;
 /// <seealso cref="FeatureSettings" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
-public class EasyPressingServerSettings : FeatureSettings, IEasyXServerSettings<IEasyPressingSettings>, IEasyPressingSettings
+public class EasyPressingServerSettings : EasyPressingSettings, IEasyXServerSettings
 {
     /// <inheritdoc />
     public AccessMode Mode { get; set; } = AccessMode.Enabled;

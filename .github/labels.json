@@ -1,5 +1,15 @@
 [
   {
+    "name": "area:accessibility",
+    "color": "F23BE6",
+    "description": "This issue or feature involves accessibility and quality of life."
+  },
+  {
+    "name": "area:chat-commands",
+    "color": "F23BE6",
+    "description": "This issue or feature involves chat commands."
+  },
+  {
     "name": "area:compatibility",
     "color": "F23BE6",
     "description": "This issue or feature involves compatibility between different mods."
@@ -8,6 +18,11 @@
     "name": "area:documentation",
     "color": "F23BE6",
     "description": "Improvements or additions to documentation, or translations."
+  },
+  {
+    "name": "area:game-content",
+    "color": "F23BE6",
+    "description": "This issue or feature involves blocks, items, or other aspects of game content."
   },
   {
     "name": "area:gantry",
@@ -55,9 +70,9 @@
     "description": "Other issues or features need to be completed before work on this work item can continue."
   },
   {
-    "name": "status:triage",
+    "name": "status:in-progress",
     "color": "FEF2C0",
-    "description": "This is a new work item, and needs some initial triage."
+    "description": "Work is currently being done on this work item."
   },
   {
     "name": "status:needs-investigation",
@@ -65,9 +80,9 @@
     "description": "This work item has been triaged, and requires further investigation."
   },
   {
-    "name": "status:in-progress",
+    "name": "status:triage",
     "color": "FEF2C0",
-    "description": "Work is currently being done on this work item."
+    "description": "This is a new work item, and needs some initial triage."
   },
   {
     "name": "vNext",
@@ -98,5 +113,10 @@
     "name": "priority:critical",
     "color": "7A0E1B",
     "description": "Critical priority! Fix and release immediately."
+  },
+  {
+    "name": "priority:low",
+    "color": "0E7A1B",
+    "description": "Low priority. Can be left to a later release."
   }
 ]

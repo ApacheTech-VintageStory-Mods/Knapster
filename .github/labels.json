@@ -25,6 +25,11 @@
     "description": "This issue or feature involves blocks, items, or other aspects of game content."
   },
   {
+    "name": "area:game-mechanics",
+    "color": "F23BE6",
+    "description": "This issue or feature involves altering the core mechanics of the game."
+  },
+  {
     "name": "area:gantry",
     "color": "F23BE6",
     "description": "This issue or feature involves the Gantry MDK."

@@ -75,6 +75,11 @@
     "description": "Other issues or features need to be completed before work on this work item can continue."
   },
   {
+    "name": "status:pending-release",
+    "color": "FEF2C0",
+    "description": "Work on this work item is complete, and is awaiting release."
+  },
+  {
     "name": "status:in-progress",
     "color": "FEF2C0",
     "description": "Work is currently being done on this work item."

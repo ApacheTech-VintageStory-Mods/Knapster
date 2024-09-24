@@ -2,7 +2,7 @@
 name: '🐛 Bug Report'
 about: Did things not work as expected?
 title: "fix: [what is the issue?] in [where is the issue?]"
-labels: 'issue: needs-triage'
+labels: ['status:triage', 'bug']
 assignees: 'ApacheTech'
 ---
 
@@ -44,13 +44,9 @@ Search open/closed issues before submitting. Someone may have reported the same 
 
 <!--- Drag and drop your log files here. %VINTAGE_STORY_DATA%\Logs -->
 
-<!--- client-crash.txt -->
-<!--- client-debug.txt -->
-<!--- client-main.txt -->
-
-<!--- server-crash.txt -->
-<!--- server-debug.txt -->
-<!--- server-main.txt -->
+<!--- The best way to do this is to launch the game, log into your world, make it crash, and then zip
+      your entire Logs folder, and drag it into this report. This will allow us to sift through the
+      logs, and see exactly what was happening at the time of the crash. -->
 
 ## 🌍 Your Environment
 

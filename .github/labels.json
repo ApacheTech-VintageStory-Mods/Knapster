@@ -1,90 +1,102 @@
 [
   {
-    "name": "documentation",
-    "color": "0075CA",
-    "description": "Improvements or additions to documentation."
+    "name": "area:compatibility",
+    "color": "F23BE6",
+    "description": "This issue or feature involves compatibility between different mods."
   },
   {
-    "name": "duplicate",
-    "color": "F5F5F5",
-    "description": "This issue or pull request already exists."
+    "name": "area:documentation",
+    "color": "F23BE6",
+    "description": "Improvements or additions to documentation, or translations."
   },
   {
-    "name": "gantry",
-    "color": "D6F934",
+    "name": "area:gantry",
+    "color": "F23BE6",
     "description": "This issue or feature involves the Gantry MDK."
   },
   {
-    "name": "harmony",
-    "color": "D6F934",
+    "name": "area:harmony",
+    "color": "F23BE6",
     "description": "This issue or feature involves Harmony patches."
   },
   {
-    "name": "compatibility",
-    "color": "D6F934",
-    "description": "This issue or feature involves compatibility between different mods."
-  },
-
-  {
-    "name": "translations: corrections",
-    "color": "F934D6",
-    "description": "Corrections to existing translation files."
+    "name": "closed:done",
+    "color": "030303",
+    "description": "This issue or feature has been completed."
   },
   {
-    "name": "translations: additions",
-    "color": "F934D6",
-    "description": "New translations into different languages."
+    "name": "closed:duplicate",
+    "color": "030303",
+    "description": "This issue or feature is a duplicate of another work item."
   },
-
   {
-    "name": "issue: needs-triage",
+    "name": "closed:inactive",
+    "color": "030303",
+    "description": "This issue or feature has been left dormant, with no feedback from the poster."
+  },
+  {
+    "name": "closed:not-actionable",
+    "color": "000000",
+    "description": "No actions can be taken regarding this issue or feature."
+  },
+  {
+    "name": "needs:user-feedback",
+    "color": "0075CA",
+    "description": "This work item has been passed back to the user to add more feedback."
+  },
+  {
+    "name": "needs:log-files",
+    "color": "0075CA",
+    "description": "This work item requires a zip file full of log files before any actions can be taken."
+  },
+  {
+    "name": "status:blocked",
     "color": "FEF2C0",
-    "description": "This is a new issue, and needs some initial triage."
+    "description": "Other issues or features need to be completed before work on this work item can continue."
   },
   {
-    "name": "issue: needs-feedback",
+    "name": "status:triage",
     "color": "FEF2C0",
-    "description": "This issue has been passed back to the user to add more feedback."
+    "description": "This is a new work item, and needs some initial triage."
   },
   {
-    "name": "issue: needs-investigation",
+    "name": "status:needs-investigation",
     "color": "FEF2C0",
-    "description": "This issue has been triaged, and requires further investigation."
+    "description": "This work item has been triaged, and requires further investigation."
   },
   {
-    "name": "issue: under-investigation",
+    "name": "status:in-progress",
     "color": "FEF2C0",
-    "description": "This issue is currently undergoing a more detailed diagnosis."
+    "description": "Work is currently being done on this work item."
   },
   {
-    "name": "issue: pending-release",
-    "color": "FEF2C0",
-    "description": "This issue has been revolved, and is pending release."
+    "name": "vNext",
+    "color": "E2196F",
+    "description": "Planned for release in the next version."
   },
   {
-    "name": "issue: resolved",
-    "color": "FEF2C0",
-    "description": "This issue has been resolved, and released."
-  },
-
-  {
-    "name": "enhancement: suggestion",
-    "color": "006B75",
-    "description": "Early feature idea and discussion. It is NOT ready for implementation."
+    "name": "feature",
+    "color": "0E7A1B",
+    "description": "A new feature."
   },
   {
-    "name": "enhancement: needs-work",
-    "color": "006B75",
-    "description": "Feature needs work before it is approved. It is NOT ready for implementation."
+    "name": "improvement",
+    "color": "0E7A1B",
+    "description": "An enhancement to an existing feature."
   },
   {
-    "name": "enhancement: ready-for-review",
-    "color": "006B75",
-    "description": "Feature is ready for review. It is NOT ready for implementation."
+    "name": "chore",
+    "color": "0E7A1B",
+    "description": "Maintenance or non-code work."
   },
   {
-    "name": "enhancement: approved",
-    "color": "006B75",
-    "description": "Feature was approved. It can be implemented."
+    "name": "bug",
+    "color": "7A0E1B",
+    "description": "A bug."
+  },
+  {
+    "name": "priority:critical",
+    "color": "7A0E1B",
+    "description": "Critical priority! Fix and release immediately."
   }
 ]

@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyMixingBowlClientSettings))]
-public abstract class EasyMixingBowlSettings : FeatureSettings
+public class EasyMixingBowlSettings : FeatureSettings<EasyMixingBowlServerSettings>
 {
     /// <summary>
     ///     Determines the multiplier to apply to the speed of harvesting with a scythe, when using the EasyMixingBowl feature.

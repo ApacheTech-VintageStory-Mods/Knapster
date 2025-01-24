@@ -1,14 +1,14 @@
-﻿using ProtoBuf;
-using Gantry.Services.FileSystem.Configuration.Abstractions;
+﻿using Gantry.Core.GameContent.ChatCommands.DataStructures;
 using Gantry.Services.EasyX.Abstractions;
-using Gantry.Services.EasyX.ChatCommands.DataStructures;
+using Gantry.Services.FileSystem.Configuration.Abstractions;
+using ProtoBuf;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.
 /// </summary>
-/// <seealso cref="FeatureSettings" />
+/// <seealso cref="FeatureSettings{TSettings}" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
 public class EasySmithingServerSettings : EasySmithingSettings, IEasyXServerSettings

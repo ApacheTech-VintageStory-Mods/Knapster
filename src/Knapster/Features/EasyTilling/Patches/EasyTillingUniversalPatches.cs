@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyTilling.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyTillingUniversalPatches
 {

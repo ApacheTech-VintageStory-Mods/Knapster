@@ -4,7 +4,7 @@
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Server)]
+[HarmonyServerSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyKnappingServerPatches
 {

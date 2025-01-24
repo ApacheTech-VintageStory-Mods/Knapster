@@ -14,6 +14,10 @@
 		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
 		<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
 	</PropertyGroup>
+	
+	<ItemGroup>
+		<InternalsVisibleTo Include="Gantry" />
+	</ItemGroup>
 
 	<PropertyGroup Label="Environment Variables">
 		<!-- Environment Variable not recongised by Visual Studio Analysers. -->
@@ -100,8 +104,8 @@
 			<HintPath>$(EnvironmentVariable)\Lib\protobuf-net.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-		<Reference Include="System.Data.SQLite">
-			<HintPath>$(EnvironmentVariable)\Lib\System.Data.SQLite.dll</HintPath>
+		<Reference Include="System.Collections.Immutable">
+			<HintPath>$(VINTAGE_STORY)\Lib\System.Collections.Immutable.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="Tavis.JsonPatch">

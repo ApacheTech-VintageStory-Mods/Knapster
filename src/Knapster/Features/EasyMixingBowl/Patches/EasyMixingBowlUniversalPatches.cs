@@ -5,7 +5,7 @@ using ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
 namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Patches;
 
 [RequiresMod("aculinaryartillery")]
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyMixingBowlUniversalACulinaryArtilleryPatches
 {

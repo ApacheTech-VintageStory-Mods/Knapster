@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyClayFormingClientSettings))]
-public abstract class EasyClayFormingSettings : FeatureSettings
+public class EasyClayFormingSettings : FeatureSettings<EasyClayFormingServerSettings>
 {
     /// <summary>
     ///     Determines the number of voxels that are handled at one time, when using the Easy ClayForming feature.

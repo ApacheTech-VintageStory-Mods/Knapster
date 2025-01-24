@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyTilling.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyTillingClientSettings))]
-public abstract class EasyTillingSettings : FeatureSettings
+public class EasyTillingSettings : FeatureSettings<EasyTillingServerSettings>
 {
     /// <summary>
     ///     Determines the multiplier to apply to the speed of Tilling with a hoe, when using the EasyTilling feature.

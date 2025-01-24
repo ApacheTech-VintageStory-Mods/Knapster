@@ -4,7 +4,7 @@
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyQuernUniversalPatches
 {

@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyHarvestingUniversalPatches
 {

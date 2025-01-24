@@ -16,7 +16,7 @@ public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSe
     {
         try
         {
-            var shouldLoad = base.ShouldLoad(forSide) && ModEx.IsModEnabled("aculinaryartillery", UApi);
+            var shouldLoad = base.ShouldLoad(forSide) && ApiEx.Current.ModLoader.IsModEnabled("aculinaryartillery");
             return shouldLoad;
         }
         catch

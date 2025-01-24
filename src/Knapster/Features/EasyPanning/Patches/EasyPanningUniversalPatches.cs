@@ -1,12 +1,11 @@
 ﻿using System.Reflection.Emit;
-using ApacheTech.Common.Extensions.Harmony;
 using ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
 
 // ReSharper disable InconsistentNaming
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyPanningUniversalPatches
 {

@@ -6,7 +6,7 @@ using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyClayFormingUniversalPatches
 {

@@ -5,4 +5,4 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyPressingClientSettings))]
-public abstract class EasyPressingSettings : FeatureSettings;
+public class EasyPressingSettings : FeatureSettings<EasyPressingServerSettings>;

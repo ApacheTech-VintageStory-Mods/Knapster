@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyQuernClientSettings))]
-public abstract class EasyQuernSettings : FeatureSettings
+public class EasyQuernSettings : FeatureSettings<EasyQuernServerSettings>
 {
     /// <summary>
     ///     Determines the multiplier to apply to the time it takes to craft something in a quern.

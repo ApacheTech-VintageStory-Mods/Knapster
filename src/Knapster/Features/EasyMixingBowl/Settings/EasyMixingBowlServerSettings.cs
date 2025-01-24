@@ -1,14 +1,14 @@
-﻿using ProtoBuf;
-using Gantry.Services.FileSystem.Configuration.Abstractions;
+﻿using Gantry.Core.GameContent.ChatCommands.DataStructures;
+using ProtoBuf;
 using Gantry.Services.EasyX.Abstractions;
-using Gantry.Services.EasyX.ChatCommands.DataStructures;
+using Gantry.Services.FileSystem.Configuration.Abstractions;
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.
 /// </summary>
-/// <seealso cref="FeatureSettings" />
+/// <seealso cref="FeatureSettings{TSettings}" />
 [JsonObject]
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
 public class EasyMixingBowlServerSettings : EasyMixingBowlSettings, IEasyXServerSettings

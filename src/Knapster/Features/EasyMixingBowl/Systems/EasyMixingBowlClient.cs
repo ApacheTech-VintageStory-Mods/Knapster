@@ -12,7 +12,7 @@ public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlC
     {
         try
         {
-            var shouldLoad = base.ShouldLoad(forSide) && ModEx.IsModEnabled("aculinaryartillery", UApi);
+            var shouldLoad = base.ShouldLoad(forSide) && UApi.ModLoader.IsModEnabled("aculinaryartillery");
             return shouldLoad;
         }
         catch

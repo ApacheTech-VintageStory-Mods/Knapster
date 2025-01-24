@@ -7,7 +7,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasySmithingClientSettings))]
-public abstract class EasySmithingSettings : FeatureSettings
+public class EasySmithingSettings : FeatureSettings<EasySmithingServerSettings>
 {
     /// <summary>
     ///     Determines the amount of durability that is lost at one time, when using the Easy Smithing feature.

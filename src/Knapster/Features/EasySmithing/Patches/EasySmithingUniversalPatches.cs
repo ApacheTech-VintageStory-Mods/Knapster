@@ -1,16 +1,11 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
-using Eto.Forms;
-using System.Threading.Tasks;
-using System.Threading;
-using System;
-using ApacheTech.Common.DependencyInjection;
-// ReSharper disable StringLiteralTypo
 
+// ReSharper disable StringLiteralTypo
 // ReSharper disable InconsistentNaming
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Universal)]
+[HarmonyUniversalPatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasySmithingUniversalPatches
 {
@@ -142,7 +137,7 @@ public class EasySmithingUniversalPatches
     
     private static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil __instance)
     {
-        if (!ModEx.IsModEnabled("metalrecovery")) return;
+        if (!ApiEx.Current.ModLoader.IsModEnabled("metalrecovery")) return;
         var type = AccessTools.TypeByName("AnvilMetalRecovery.Patches.AnvilDaptor");
         var method = AccessTools.Method(type, methodName);
         method?.Invoke(null, [voxelPos, __instance]);

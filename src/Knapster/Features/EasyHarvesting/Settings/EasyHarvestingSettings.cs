@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyHarvestingClientSettings))]
-public abstract class EasyHarvestingSettings : FeatureSettings
+public class EasyHarvestingSettings : FeatureSettings<EasyHarvestingServerSettings>
 {
     /// <summary>
     ///     Determines the multiplier to apply to the speed of harvesting with a scythe, when using the EasyHarvesting feature.

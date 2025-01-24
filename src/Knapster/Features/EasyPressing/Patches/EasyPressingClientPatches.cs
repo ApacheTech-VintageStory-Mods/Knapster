@@ -4,7 +4,7 @@
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyPressingClientPatches
 {

@@ -4,7 +4,7 @@
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Patches;
 
-[HarmonySidedPatch(EnumAppSide.Client)]
+[HarmonyClientSidePatch]
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasySmithingClientPatches
 {

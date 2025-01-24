@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyPanningClientSettings))]
-public abstract class EasyPanningSettings : FeatureSettings
+public class EasyPanningSettings : FeatureSettings<EasyPanningServerSettings>
 {
     /// <summary>
     ///     The time, in seconds, it takes to pan one layer of material.

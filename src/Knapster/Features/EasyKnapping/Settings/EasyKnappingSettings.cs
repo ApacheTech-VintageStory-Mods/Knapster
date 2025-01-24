@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyKnappingClientSettings))]
-public abstract class EasyKnappingSettings : FeatureSettings
+public class EasyKnappingSettings : FeatureSettings<EasyKnappingServerSettings>
 {
     /// <summary>
     ///     Determines the number of voxels that are handled at one time, when using the Easy Knapping feature.

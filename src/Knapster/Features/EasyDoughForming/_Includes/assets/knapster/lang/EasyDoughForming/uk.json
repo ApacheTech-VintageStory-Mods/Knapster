@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Всього необхідного тіста: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Змінюйте кількість вокселів, які переміщуються за клік. Мін: 1, Макс: 8, За замовчуванням: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Змінюйте, чи повинен робочий елемент бути миттєво виконаний під час використання. true, або false, за замовчуванням: false.",
+    "Features.EasyDoughForming.Description":  "Керуйте налаштуваннями формування тіста."
+}

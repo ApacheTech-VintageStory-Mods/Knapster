@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Massa total necessária: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos, por clique. Mín.: 1, Máx.: 8, Padrão: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Altere se o item de trabalho deve ou não ser concluído instantaneamente, em uso. Verdadeiro, ou Falso, Padrão: False.",
+    "Features.EasyDoughForming.Description":  "Gerencie as configurações de formação de massa."
+}

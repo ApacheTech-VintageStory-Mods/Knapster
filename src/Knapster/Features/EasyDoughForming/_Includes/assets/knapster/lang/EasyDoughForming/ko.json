@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "필요한 총 반죽: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "클릭당 이동되는 복셀의 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "작업 항목을 사용 시 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+    "Features.EasyDoughForming.Description":  "반죽 형성 설정을 관리합니다."
+}

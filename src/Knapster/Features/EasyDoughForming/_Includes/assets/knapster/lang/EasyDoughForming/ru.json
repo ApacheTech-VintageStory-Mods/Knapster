@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Всего требуется теста: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Изменяйте, должен ли рабочий элемент быть выполнен мгновенно при использовании. True, или False, по умолчанию: False.",
+    "Features.EasyDoughForming.Description":  "Управляйте настройками формовки теста."
+}

@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Totalt deg som krävs: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Ändra antalet voxlar som flyttas, per klick. Min: 1, Max: 8, Standard: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Ändra om arbetsobjektet ska slutföras omedelbart eller inte vid användning. Sant eller falskt, standard: Falskt.",
+    "Features.EasyDoughForming.Description":  "Hantera inställningar för degformning."
+}

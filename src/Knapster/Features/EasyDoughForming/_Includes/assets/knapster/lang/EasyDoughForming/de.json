@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Gesamter Teig: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Ändern Sie, ob die Arbeitsaufgabe bei der Verwendung sofort abgeschlossen werden soll. Wahr oder Falsch, Standardwert: Falsch.",
+    "Features.EasyDoughForming.Description":  "Verwalten Sie die Einstellungen für die Teigformung."
+}

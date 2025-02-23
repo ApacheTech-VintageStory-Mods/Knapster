@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Ukupno potrebno testo: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Promenite da li radna stavka treba da bude odmah završena, prilikom upotrebe. Istina ili netačno podrazumevano: Lažno.",
+    "Features.EasyDoughForming.Description":  "Upravljajte podešavanjima za formiranje testa."
+}

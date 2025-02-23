@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Quantité totale de pâte nécessaire : {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Modifiez le nombre de voxels déplacés par clic. Min : 1, Max : 8, Par défaut : 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Indiquez si l’élément de travail doit être terminé instantanément ou non, à l’utilisation. Vrai ou Faux, Valeur par défaut : Faux.",
+    "Features.EasyDoughForming.Description":  "Gérer les paramètres de formage de la pâte."
+}

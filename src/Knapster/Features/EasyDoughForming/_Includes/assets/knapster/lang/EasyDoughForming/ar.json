@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "إجمالي العجين المطلوب: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "قم بتغيير عدد فوكسل التي يتم نقلها لكل نقرة. الحد الأدنى: 1 ، الحد الأقصى: 8 ، الافتراضي: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "قم بتغيير ما إذا كان يجب إكمال عنصر العمل على الفور أم لا، عند الاستخدام. صواب أو خطأ ، افتراضي: خطأ.",
+    "Features.EasyDoughForming.Description":  "إدارة إعدادات تشكيل العجين."
+}

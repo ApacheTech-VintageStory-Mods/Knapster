@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Celkové potrebné cesto: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Zmeňte počet voxelov, ktoré sa presunú na jedno kliknutie. Min: 1, Max: 8, Predvolené: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Zmeňte, či sa má pracovná položka okamžite dokončiť pri používaní. True alebo False, predvolené: False.",
+    "Features.EasyDoughForming.Description":  "Spravujte nastavenia tvarovania cesta."
+}

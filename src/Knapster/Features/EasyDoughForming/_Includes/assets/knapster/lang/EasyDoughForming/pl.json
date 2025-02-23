@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Wymagana ilość ciasta: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
+    "Features.EasyDoughForming.Description":  "Zarządzaj ustawieniami formowania ciasta."
+}

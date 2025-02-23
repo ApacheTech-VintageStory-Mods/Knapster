@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Celkové požadované těsto: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Změňte počet přesunutých voxelů na jedno kliknutí. min: 1, max: 8, výchozí: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Změňte to, zda má být pracovní položka při použití okamžitě dokončena. True nebo False, výchozí hodnota: False.",
+    "Features.EasyDoughForming.Description":  "Spravujte nastavení tvarování těsta."
+}

@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "必要な生地の合計:{0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "移動するボクセルの数を、クリックごとに変更します。最小: 1、最大: 8、デフォルト: 1。",
+    "Features.EasyDoughForming.InstantComplete.Description":  "作業項目を使用時にすぐに完了させるかどうかを変更します。True または False、デフォルト: False。",
+    "Features.EasyDoughForming.Description":  "生地形成設定を管理します。"
+}

@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "所需面团总数： {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "更改每次单击移动的体素数。最小值：1，最大值：8，默认值：1。",
+    "Features.EasyDoughForming.InstantComplete.Description":  "更改是否应在使用时立即完成工作项。true 或 false，默认值：false。",
+    "Features.EasyDoughForming.Description":  "管理面团成型设置。"
+}

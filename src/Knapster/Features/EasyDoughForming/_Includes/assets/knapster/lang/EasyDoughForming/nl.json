@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Totaal benodigd deeg: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Wijzig of het werkitem al dan niet onmiddellijk moet worden voltooid, tijdens gebruik. Waar of onwaar, standaard: Onwaar.",
+    "Features.EasyDoughForming.Description":  "Instellingen voor deegvorming beheren."
+}

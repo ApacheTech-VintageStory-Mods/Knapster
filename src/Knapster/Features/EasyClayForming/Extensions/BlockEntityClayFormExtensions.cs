@@ -10,13 +10,16 @@ public static class BlockEntityClayFormExtensions
         return true;
     }
 
-    public static void AddVoxel(this BlockEntityClayForm block, int y, Vec3i pos, int radius)
+    public static void AddVoxel(this BlockEntity block, int y, Vec3i pos, int radius)
     {
-        var method = AccessTools.Method(typeof(BlockEntityClayForm), "OnAdd", [typeof(int), typeof(Vec3i), typeof(int)]);
+        var method = AccessTools.Method($"{block.GetType().FullName}:OnAdd", [typeof(int), typeof(Vec3i), typeof(int)]);
         method?.Invoke(block, [y, pos, radius]);
     }
 
     public static bool CompleteInTurn(this BlockEntityClayForm block, ItemSlot itemSlot)
+        => block.CompleteInTurn(itemSlot, 25);
+
+    public static bool CompleteInTurn(this BlockEntity block, ItemSlot itemSlot, int maxVoxels)
     {
         for (var y = 0; y < 16; y++)
         {
@@ -24,34 +27,42 @@ public static class BlockEntityClayFormExtensions
             {
                 for (var z = 0; z < 16; z++)
                 {
-                    if (block.SelectedRecipe is null) return false;
+                    var recipe = block.GetProperty<object>("SelectedRecipe");
+                    if (recipe is null) return false;
                     if (itemSlot.Empty) return false;
 
-                    if (block.SelectedRecipe.Voxels[x, y, z])
+                    var recipeVoxels = recipe.GetField<bool[,,]>("Voxels");
+                    var progress = block.GetField<bool[,,]>("Voxels");
+                    if (recipeVoxels[x, y, z])
                     {
-                        if (block.Voxels[x, y, z]) continue;
+                        if (progress[x, y, z]) continue;
                         block.AddVoxel(y, new Vec3i(x, y, z), 0);
                     }
                     else
                     {
-                        if (!block.Voxels[x, y, z]) continue;
+                        if (!progress[x, y, z]) continue;
                         block.CallMethod("OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
                     }
 
-                    if (block.AvailableVoxels > 0) continue;
+                    var availableVoxels = block.GetField<int>("AvailableVoxels");
+                    if (availableVoxels > 0) continue;
                     itemSlot.TakeOut(1);
-                    block.AvailableVoxels += 25;
+                    block.SetField("AvailableVoxels", availableVoxels + maxVoxels);
                 }
             }
         }
         return true;
     }
 
-
     public static int TotalClayCost(this BlockEntityClayForm block)
     {
         if (block.SelectedRecipe is null) return -1;
+        return block.SelectedRecipe.Voxels.TotalMaterialCost(block.Voxels, 25);
+    }
 
+    public static int TotalMaterialCost(this bool[,,] recipeVoxels, bool[,,] progress, int maxStackSize)
+    {
+        if (recipeVoxels is null) return -1;
         var voxelsThatNeedFilling = 0;
         var voxelsThatNeedRemoving = 0;
 
@@ -61,19 +72,19 @@ public static class BlockEntityClayFormExtensions
             {
                 for (var z = 0; z < 16; z++)
                 {
-                    if (block.SelectedRecipe.Voxels[x, y, z])
+                    if (recipeVoxels[x, y, z])
                     {
-                        if (!block.Voxels[x, y, z]) voxelsThatNeedFilling++;
+                        if (!progress[x, y, z]) voxelsThatNeedFilling++;
                     }
                     else
                     {
-                        if (block.Voxels[x, y, z]) voxelsThatNeedRemoving++;
+                        if (progress[x, y, z]) voxelsThatNeedRemoving++;
                     }
                 }
             }
         }
 
-        return (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 25;
+        return (voxelsThatNeedFilling - voxelsThatNeedRemoving) / maxStackSize;
     }
 
     public static void AutoComplete(this BlockEntityKnappingSurface block)
@@ -134,17 +145,22 @@ public static class BlockEntityClayFormExtensions
         return 16;
     }
 
-    public static bool AutoCompleteLayer(this BlockEntityClayForm block, int y, int voxels)
+    public static bool AutoCompleteLayer(this BlockEntity block, int y, int voxels)
     {
         if (y >= 16) return false;
         var result = false;
         var num = Math.Max(1, voxels);
+        var recipe = block.GetProperty<object>("SelectedRecipe");
+        var recipeVoxels = recipe?.GetField<bool[,,]>("Voxels");
+        var progress = block.GetField<bool[,,]>("Voxels");
         for (var x = 0; x < 16; x++)
         {
             for (var z = 0; z < 16; z++)
             {
-                var expected = block.SelectedRecipe?.Voxels[x, y, z] ?? false;
-                var actual = block.Voxels[x, y, z];
+                if (recipeVoxels is null) return false;
+
+                var expected = recipeVoxels[x, y, z];
+                var actual = progress[x, y, z];
                 if (expected == actual) continue;
                 result = true;
 

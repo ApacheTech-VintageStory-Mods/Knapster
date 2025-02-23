@@ -18,8 +18,17 @@
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
 		<Reference Include="ArtOfCooking">
-			<HintPath>$(SolutionDir)ref\ArtOfCooking.dll</HintPath>
-			<Private>false</Private>
+			<HintPath>Reference\ArtOfCooking.dll</HintPath>
 		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Reference\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Reference\ArtOfCooking.dll">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 </Project>

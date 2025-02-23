@@ -19,7 +19,7 @@ public class EasyClayFormingClientPatches
             if (__result is null) return;
             if (!EasyClayFormingClient.Settings.Enabled)
             {
-                __result = ___toolModes = ___toolModes.Take(4).ToArray();
+                __result = ___toolModes = [.. ___toolModes.Take(4)];
                 if (__instance.GetToolMode(slot, forPlayer, blockSel) < 4) return;
                 __instance.SetToolMode(slot, forPlayer, blockSel, 0);
                 return;

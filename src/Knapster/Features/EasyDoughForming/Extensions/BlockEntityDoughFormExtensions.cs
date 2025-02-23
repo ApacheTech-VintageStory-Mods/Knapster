@@ -1,22 +1,24 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
+﻿using ArtOfCooking.BlockEntities;
+
+namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
 
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public static class BlockEntityClayFormExtensions
+public static class BlockEntityDoughFormExtensions
 {
-    public static bool AutoComplete(this BlockEntityClayForm block)
+    public static bool AutoComplete(this BlockEntityDoughForm block)
     {
         if (block.SelectedRecipe is null) return false;
         block.Voxels = block.SelectedRecipe.Voxels;
         return true;
     }
 
-    public static void AddVoxel(this BlockEntityClayForm block, int y, Vec3i pos, int radius)
+    public static void AddVoxel(this BlockEntityDoughForm block, int y, Vec3i pos, int radius)
     {
-        var method = AccessTools.Method(typeof(BlockEntityClayForm), "OnAdd", [typeof(int), typeof(Vec3i), typeof(int)]);
+        var method = AccessTools.Method(typeof(BlockEntityDoughForm), "OnAdd", [typeof(int), typeof(Vec3i), typeof(int)]);
         method?.Invoke(block, [y, pos, radius]);
     }
 
-    public static bool CompleteInTurn(this BlockEntityClayForm block, ItemSlot itemSlot)
+    public static bool CompleteInTurn(this BlockEntityDoughForm block, ItemSlot itemSlot)
     {
         for (var y = 0; y < 16; y++)
         {
@@ -47,7 +49,7 @@ public static class BlockEntityClayFormExtensions
         return true;
     }
 
-    public static int TotalClayCost(this BlockEntityClayForm block)
+    public static int TotalDoughCost(this BlockEntityDoughForm block)
     {
         if (block.SelectedRecipe is null) return -1;
 
@@ -114,7 +116,7 @@ public static class BlockEntityClayFormExtensions
         return retVal;
     }
 
-    public static int CurrentLayer(this BlockEntityClayForm block, int layerStart = 0)
+    public static int CurrentLayer(this BlockEntityDoughForm block, int layerStart = 0)
     {
         if (block.SelectedRecipe is null) return 0;
         for (var y = layerStart; y < 16; y++)
@@ -133,7 +135,7 @@ public static class BlockEntityClayFormExtensions
         return 16;
     }
 
-    public static bool AutoCompleteLayer(this BlockEntityClayForm block, int y, int voxels)
+    public static bool AutoCompleteLayer(this BlockEntityDoughForm block, int y, int voxels)
     {
         if (y >= 16) return false;
         var result = false;
@@ -162,7 +164,7 @@ public static class BlockEntityClayFormExtensions
         return result;
     }
 
-    public static void AutoCompleteBySelectionBoxes(this BlockEntityClayForm block)
+    public static void AutoCompleteBySelectionBoxes(this BlockEntityDoughForm block)
     {
         var selectionBoxes = block.GetField<Cuboidf[]>("selectionBoxes");
 

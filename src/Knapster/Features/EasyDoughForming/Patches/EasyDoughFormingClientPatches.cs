@@ -1,5 +1,7 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
 using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
+using ArtOfCooking.BlockEntities;
+using ArtOfCooking.Items;
 
 #pragma warning disable IDE1006 // Naming Styles
 // ReSharper disable InconsistentNaming
@@ -12,12 +14,9 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Patches;
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyDoughFormingClientPatches
 {
-    private const string BlockEntityDoughForm = "ArtOfCooking.BlockEntities.BlockEntityDoughForm";
-    private const string AOCItemDough = "ArtOfCooking.Items.AOCItemDough";
-
     [HarmonyPostfix]
-    [HarmonyPatch(AOCItemDough, "GetToolModes")]
-    public static void ClientPatch_AOCItemDough_GetToolModes_Postfix(Item __instance, ItemSlot slot,
+    [HarmonyPatch(typeof(AOCItemDough), "GetToolModes")]
+    public static void ClientPatch_AOCItemDough_GetToolModes_Postfix(AOCItemDough __instance, ItemSlot slot,
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {
         try
@@ -26,8 +25,8 @@ public class EasyDoughFormingClientPatches
             if (!EasyDoughFormingClient.Settings.Enabled)
             {
                 __result = ___toolModes = [.. ___toolModes.Take(4)];
-                if (__instance.CallMethod<int>("GetToolMode", slot, forPlayer, blockSel) < 4) return;
-                __instance.CallMethod("SetToolMode", slot, forPlayer, blockSel, 0);
+                if (__instance.GetToolMode(slot, forPlayer, blockSel) < 4) return;
+                __instance.SetToolMode(slot, forPlayer, blockSel, 0);
                 return;
             }
 
@@ -46,15 +45,11 @@ public class EasyDoughFormingClientPatches
     }
 
     [HarmonyPostfix]
-    [HarmonyPatch(BlockEntityDoughForm, "GetBlockInfo", MethodType.Normal)]
-    public static void ClientPatch_BlockEntityDoughForm_GetBlockInfo_Postfix(BlockEntity __instance, StringBuilder dsc)
+    [HarmonyPatch(typeof(BlockEntityDoughForm), "GetBlockInfo", MethodType.Normal)]
+    public static void ClientPatch_BlockEntityDoughForm_GetBlockInfo_Postfix(BlockEntityDoughForm __instance, StringBuilder dsc)
     {
-        var selectedRecipe = __instance.GetField<object>("selectedRecipe");
-        var recipeVoxels = selectedRecipe?.GetField<bool[,,]>("Voxels");
-        var progress = __instance.GetField<bool[,,]>("Voxels");
-        var maxStackSize = 36;
-        var totalCost = recipeVoxels.TotalMaterialCost(progress, maxStackSize);
-        if (totalCost == -1) return;
-        dsc.AppendLine(LangEx.FeatureString("EasyDoughForming", "DoughRequired", totalCost));
+        var totalDoughCost = __instance.TotalDoughCost();
+        if (totalDoughCost == -1) return;
+        dsc.AppendLine(LangEx.FeatureString("EasyDoughForming", "DoughRequired", totalDoughCost));
     }
 }

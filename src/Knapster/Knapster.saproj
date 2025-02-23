@@ -1,5 +1,5 @@
 <SmartAssemblyProject ProjectId="{0593dcfa-1e1c-4852-b886-d5b76e1ea057}" Version="2.0">
-    <MainAssemblyFileName>.\bin\Release\net7.0\Knapster.dll</MainAssemblyFileName>
+    <MainAssemblyFileName>.\bin\Debug\net7.0\Knapster.dll</MainAssemblyFileName>
     <FriendlyName>ApacheTech.VintageMods.WaypointExtensions</FriendlyName>
     <CompanyName>ApacheTech Solutions</CompanyName>
     <Configuration Name="Release">
@@ -1222,6 +1222,26 @@
             </Assembly>
             <Assembly AssemblyName="Microsoft.Bcl.AsyncInterfaces, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
                 <Merging Merge="0">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="ApacheTech.Common.FunctionalCSharp, Culture=neutral, PublicKeyToken=null">
+                <Merging Merge="1">
+                    <Pruning />
+                    <Obfuscation />
+                    <ControlFlow />
+                    <MemberRefsProxy />
+                    <ResourcesCompression />
+                </Merging>
+                <Embedding Compress="1" Encrypt="1" />
+            </Assembly>
+            <Assembly AssemblyName="Humanizer, Culture=neutral, PublicKeyToken=979442b78dfc278e">
+                <Merging Merge="1">
                     <Pruning />
                     <Obfuscation />
                     <ControlFlow />

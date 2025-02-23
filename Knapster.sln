@@ -25,6 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6CE6BFD0
 	ProjectSection(SolutionItems) = preProject
 		src\Directory.Build.props = src\Directory.Build.props
 		src\Directory.Build.targets = src\Directory.Build.targets
+		reallyRefresh.bat = reallyRefresh.bat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gantry", "Gantry", "{07BB7BEC-6D2B-472F-8575-104B209EB1DA}"
@@ -41,6 +42,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{0BB53066
 		..\..\..\Gantry\src\Directory.Build.props = ..\..\..\Gantry\src\Directory.Build.props
 		..\..\..\Gantry\src\Directory.Build.targets = ..\..\..\Gantry\src\Directory.Build.targets
 		..\..\..\Gantry\src\Directory.Packages.props = ..\..\..\Gantry\src\Directory.Packages.props
+		..\..\..\Gantry\reallyRefresh.bat = ..\..\..\Gantry\reallyRefresh.bat
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerLauncher", "..\..\..\CoreClrLauncher\src\ServerLauncher\ServerLauncher.csproj", "{203C366C-79A7-4844-B562-ADED19746989}"

@@ -1,4 +1,5 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+using Gantry.Core.Extensions.Api;
 
 // ReSharper disable StringLiteralTypo
 // ReSharper disable InconsistentNaming
@@ -137,7 +138,7 @@ public class EasySmithingUniversalPatches
     
     private static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil __instance)
     {
-        if (!ApiEx.Current.ModLoader.IsModEnabled("metalrecovery")) return;
+        if (!ApiEx.Current.ModLoader.AreAnyModsLoaded("metalrecovery", "anvilmetalrecoveryrevived")) return;
         var type = AccessTools.TypeByName("AnvilMetalRecovery.Patches.AnvilDaptor");
         var method = AccessTools.Method(type, methodName);
         method?.Invoke(null, [voxelPos, __instance]);

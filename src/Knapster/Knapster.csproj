@@ -3,6 +3,12 @@
 		<Version>2.14.0.0</Version>
 		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="Features\EasyTemplate\**" />
+	  <Content Remove="Features\EasyTemplate\**" />
+	  <EmbeddedResource Remove="Features\EasyTemplate\**" />
+	  <None Remove="Features\EasyTemplate\**" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<None Include="..\..\docs\LICENCE.md" Link="_Includes\LICENCE.md" />

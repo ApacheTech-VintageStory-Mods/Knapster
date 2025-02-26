@@ -1,10 +1,7 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
-using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
-using ArtOfCooking.BlockEntities;
-using ArtOfCooking.Blocks;
-using ArtOfCooking.Items;
-using Vintagestory.API.Datastructures;
-using Vintagestory.API.Server;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
+using ApacheTech.Common.Extensions.System;
+using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
+using Gantry.Services.HarmonyPatches.Extensions;
 
 // ReSharper disable StringLiteralTypo
 // ReSharper disable InconsistentNaming
@@ -18,8 +15,8 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Patches;
 public class EasyDoughFormingUniversalPatches
 {
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(BlockEntityDoughForm), "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool))]
-    public static bool UniversalPatch_BlockEntityDoughForm_OnUseOver_Prefix(BlockEntityDoughForm __instance,
+    [HarmonyPatchEx("ArtOfCooking.BlockEntities.BlockEntityDoughForm", "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool))]
+    public static bool UniversalPatch_BlockEntityDoughForm_OnUseOver_Prefix(dynamic __instance,
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {
         var voxelsPerClick = ApiEx.Return(
@@ -38,7 +35,9 @@ public class EasyDoughFormingUniversalPatches
         {
             var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
             if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
-            if (slot.Itemstack.Collectible is not AOCItemDough dough) return true;
+            if (slot.Itemstack.Collectible.GetType().Name != "AOCItemDough") return true;
+            var dough = slot.Itemstack.Collectible.To<Item>();
+
             var blockSel = new BlockSelection { Position = __instance.Pos };
             var toolMode = dough.GetToolMode(slot, byPlayer, blockSel);
 
@@ -51,36 +50,36 @@ public class EasyDoughFormingUniversalPatches
             if (toolMode < 4) return true;
             if (mouseBreakMode) return false;
 
-            if (__instance.Api.Side.IsClient())
+            if (__instance.Api.Side == EnumAppSide.Client)
             {
                 __instance.SendUseOverPacket(byPlayer, voxelPos, facing, false);
             }
 
             dough.SetToolMode(slot, byPlayer, blockSel, 0);
-
-            var currentLayer = __instance.CurrentLayer();
+            var world = ApiEx.Current.World;
+            var currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
             if (instantComplete
-                    ? __instance.CompleteInTurn(slot)
-                    : __instance.AutoCompleteLayer(currentLayer, voxelsPerClick))
+                    ? BlockEntityDoughFormExtensions.CompleteInTurn(__instance, slot)
+                    : BlockEntityDoughFormExtensions.AutoCompleteLayer(__instance, currentLayer, voxelsPerClick))
             {
-                __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
+                world.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
             }
-            __instance.Api.World.FrameProfiler.Mark("doughform-modified");
-            currentLayer = __instance.CurrentLayer();
-            __instance.CallMethod("RegenMeshAndSelectionBoxes", currentLayer);
-            __instance.Api.World.FrameProfiler.Mark("doughform-regenmesh");
-            __instance.Api.World.BlockAccessor.MarkBlockDirty(__instance.Pos);
-            __instance.Api.World.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
+            world.FrameProfiler.Mark("doughform-modified");
+            currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
+            HarmonyReflectionExtensions.CallMethod(__instance, "RegenMeshAndSelectionBoxes", currentLayer);
+            world.FrameProfiler.Mark("doughform-regenmesh");
+            world.BlockAccessor.MarkBlockDirty(__instance.Pos);
+            world.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
 
-            if (!__instance.CallMethod<bool>("HasAnyVoxel"))
+            if (!HarmonyReflectionExtensions.CallMethod<bool>(__instance, "HasAnyVoxel"))
             {
                 __instance.AvailableVoxels = 0;
                 ___workItemStack = null;
-                __instance.Api.World.BlockAccessor.SetBlock(0, __instance.Pos);
+                world.BlockAccessor.SetBlock(0, __instance.Pos);
                 return false;
             }
-            CheckIfFinished(__instance, byPlayer, currentLayer);
-            __instance.Api.World.FrameProfiler.Mark("doughform-checkfinished");
+            __instance.CheckIfFinished(byPlayer, currentLayer);
+            world.FrameProfiler.Mark("doughform-checkfinished");
             __instance.MarkDirty();
 
             if (slot.Itemstack is null) return false;
@@ -91,71 +90,6 @@ public class EasyDoughFormingUniversalPatches
         {
             ModEx.Mod.Logger.Error(ex);
             return true;
-        }
-    }
-
-    public static void CheckIfFinished(BlockEntityDoughForm __instance, IPlayer byPlayer, int layer)
-    {
-        if (__instance.CallMethod<bool>("MatchesRecipe", layer) && __instance.Api.World is IServerWorldAccessor)
-        {
-            __instance.SetField("workItemStack", null);
-            __instance.Voxels = new bool[16, 16, 16];
-            __instance.AvailableVoxels = 0;
-            var outstack = __instance.SelectedRecipe.Output.ResolvedItemstack.Clone();
-            __instance.SetField("selectedRecipeId", -1);
-            __instance.SetField("selectedRecipe", null);
-
-            if (outstack.StackSize == 1 && outstack.Class == EnumItemClass.Block)
-            {
-                if ((outstack?.Collectible.FirstCodePart(0)) == "fakepie")
-                {
-                    var blockform = __instance.Api.World.GetBlock(new AssetLocation("pie-raw")) as BlockPie;
-                    __instance.Api.World.BlockAccessor.SetBlock(blockform.BlockId, __instance.Pos);
-                    var blockEntityPie = __instance.Api.World.BlockAccessor.GetBlockEntity(__instance.Pos) as BlockEntityPie;
-                    byPlayer.InventoryManager.TryGiveItemstack(outstack, false);
-                    blockEntityPie.OnPlaced(byPlayer);
-                    return;
-                }
-                __instance.Api.World.BlockAccessor.SetBlock(outstack.Block.BlockId, __instance.Pos);
-                return;
-            }
-            else
-            {
-                int tries = 500;
-                while (outstack.StackSize > 0 && tries-- > 0)
-                {
-                    if ((outstack?.Collectible.FirstCodePart(0)) == "lavash")
-                    {
-                        var blockform2 = __instance.Api.World.GetBlock(new AssetLocation("artofcooking:shawarma-raw")) as AOCBlockShawarma;
-                        __instance.Api.World.BlockAccessor.SetBlock(blockform2.BlockId, __instance.Pos);
-                        (__instance.Api.World.BlockAccessor.GetBlockEntity(__instance.Pos) as AOCBEShawarma).OnFormed(byPlayer);
-                        return;
-                    }
-                    var dropStack = outstack.Clone();
-                    dropStack.StackSize = Math.Min(outstack.StackSize, outstack.Collectible.MaxStackSize);
-                    outstack.StackSize -= dropStack.StackSize;
-                    var tree = new TreeAttribute();
-                    tree["itemstack"] = new ItemstackAttribute(dropStack);
-                    tree["byentityid"] = new LongAttribute(byPlayer.Entity.EntityId);
-                    __instance.Api.Event.PushEvent("onitemdoughformed", tree);
-                    if (byPlayer.InventoryManager.TryGiveItemstack(dropStack, false))
-                    {
-                        __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/collect"), byPlayer, null, true, 32f, 1f);
-                    }
-                    else
-                    {
-                        __instance.Api.World.SpawnItemEntity(dropStack, __instance.Pos, null);
-                    }
-                }
-                if (tries <= 1)
-                {
-                    var logger = __instance.Api.World.Logger;
-                    string str = "Tried to drop finished dough forming item but failed after 500 times?! Gave up doing so. Out stack was ";
-                    var itemStack = outstack;
-                    logger.Error(str + itemStack?.ToString());
-                }
-                __instance.Api.World.BlockAccessor.SetBlock(0, __instance.Pos);
-            }
         }
     }
 }

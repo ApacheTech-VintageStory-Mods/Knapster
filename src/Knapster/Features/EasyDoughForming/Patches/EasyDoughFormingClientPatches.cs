@@ -1,7 +1,4 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
-using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
-using ArtOfCooking.BlockEntities;
-using ArtOfCooking.Items;
+﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
 
 #pragma warning disable IDE1006 // Naming Styles
 // ReSharper disable InconsistentNaming
@@ -15,8 +12,8 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Patches;
 public class EasyDoughFormingClientPatches
 {
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(AOCItemDough), "GetToolModes")]
-    public static void ClientPatch_AOCItemDough_GetToolModes_Postfix(AOCItemDough __instance, ItemSlot slot,
+    [HarmonyPatch("ArtOfCooking.Items.AOCItemDough", "GetToolModes")]
+    public static void ClientPatch_AOCItemDough_GetToolModes_Postfix(Item __instance, ItemSlot slot,
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {
         try
@@ -45,10 +42,26 @@ public class EasyDoughFormingClientPatches
     }
 
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(BlockEntityDoughForm), "GetBlockInfo", MethodType.Normal)]
-    public static void ClientPatch_BlockEntityDoughForm_GetBlockInfo_Postfix(BlockEntityDoughForm __instance, StringBuilder dsc)
+    [HarmonyPatch("ArtOfCooking.BlockEntities.BlockEntityDoughForm", "GetBlockInfo")]
+    public static void ClientPatch_BlockEntityDoughForm_GetBlockInfo_Postfix(dynamic __instance, StringBuilder dsc)
     {
-        var totalDoughCost = __instance.TotalDoughCost();
+        bool[,,] voxels = __instance.Voxels;
+        bool[,,] recipeVoxels = __instance.SelectedRecipe?.Voxels;
+        if (recipeVoxels is null) return;
+
+        var lengthX = voxels.GetLength(0);
+        var lengthY = voxels.GetLength(1);
+        var lengthZ = voxels.GetLength(2);
+
+        var indices = from y in Enumerable.Range(0, lengthY)
+                      from x in Enumerable.Range(0, lengthX)
+                      from z in Enumerable.Range(0, lengthZ)
+                      select new { x, y, z };
+
+        var voxelsThatNeedFilling = indices.Count(idx => recipeVoxels[idx.x, idx.y, idx.z] && !voxels[idx.x, idx.y, idx.z]);
+        var voxelsThatNeedRemoving = indices.Count(idx => !recipeVoxels[idx.x, idx.y, idx.z] && voxels[idx.x, idx.y, idx.z]);
+
+        var totalDoughCost = (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 36;
         if (totalDoughCost == -1) return;
         dsc.AppendLine(LangEx.FeatureString("EasyDoughForming", "DoughRequired", totalDoughCost));
     }

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>2.14.0.0</Version>
+		<Version>2.14.1.0</Version>
 		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 	</PropertyGroup>
 	<ItemGroup>
@@ -17,18 +17,5 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
-		<Reference Include="ArtOfCooking">
-			<HintPath>Reference\ArtOfCooking.dll</HintPath>
-		</Reference>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Reference\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Update="Reference\ArtOfCooking.dll">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	</ItemGroup>
 </Project>

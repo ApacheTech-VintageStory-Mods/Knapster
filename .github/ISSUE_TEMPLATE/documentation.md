@@ -3,6 +3,7 @@ name: 📚 Documentation / Translations
 about: Find an inaccuracy in the documentation or something missing?
 title: "docs: fix/add [what] to/in [where]"
 labels: ['status:triage', 'area:documentation']
+type: 'Task'
 assignees: 'ApacheTech'
 ---
 

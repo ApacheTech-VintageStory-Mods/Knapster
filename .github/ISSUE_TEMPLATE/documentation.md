@@ -7,16 +7,13 @@ type: 'Task'
 assignees: 'ApacheTech'
 ---
 
-<!---
-Thanks for filing an issue 😄 ! Before you submit, please read the following:
+# 📚 Documentation / Translation Issue
 
-Search open/closed issues before submitting. Someone may have reported the same issue before.
--->
+🔹 **Summary of the Issue**  
+➡️ *Provide a brief, clear description of the problem you're experiencing.*
 
-# 🙋 Documentation Request
+🔹 **Proprosed Fixes**  
+➡️ *What changes do you suggest making?*
 
-<!--- Provide a general summary of what is missing or incorrect in the documentation, or translations. -->
-
-## 💁 Possible Solution
-
-<!--- Not obligatory, but feel free to suggest a content outline for larger topics -->
+✅ **Final Step: Click "Create Issue" to Submit!**  
+🚀 Thank you for helping us improve the mod! Your report is appreciated.

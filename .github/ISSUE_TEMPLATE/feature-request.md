@@ -3,14 +3,17 @@ name: 🙋 Feature Request
 about: Want us to add something?
 title: "feat: add [what] to/in [where]"
 type: 'Feature'
-labels: 'status: triage'
+labels: 'status:planning'
 ---
 
 # 🙋 Feature Request
 
-<!--- Provide a general summary of the feature here -->
+🔹 **Summary of the Feature**  
+➡️ *Provide a brief, clear description of the feature you're proposing.*
 
-## 💻 Examples
+## 📷 **Provide Screenshots / Concept Art / Pseudocode**  
+📌 *Include anything you would like to add to showcase, or flesh out your idea.*  
+➡️ Drag and drop images **here**.
 
-<!-- Examples help us understand the requested feature better -->
-<!-- Attach screenshots or images if they would add detail to your request -->
+✅ **Final Step: Click "Create Issue" to Submit!**  
+🚀 Thank you for helping us improve the mod! Your report is appreciated.

@@ -2,29 +2,41 @@
 name: '🐛 Bug Report'
 about: Did things not work as expected?
 title: "fix: [what is the issue?] in [where is the issue?]"
-labels: ['status:triage', 'bug']
+labels: ['status:triage', 'type:bug']
 type: 'Bug'
 assignees: 'ApacheTech'
 ---
 
 # 🐛 Bug Report
 
-<!--- Provide a general summary of the issue here -->
+🔹 **Summary of the Issue**  
+➡️ *Provide a brief, clear description of the problem you're experiencing.*
 
-## 🌍 **Log Files**
+## 🛠️ **Step 1: Gather Log Files (Required!)**  
 
-### DO NOT SKIP THIS STEP!
+⚠️ **DO NOT SKIP THIS STEP!**  
+- Open the game, log into your world, **make it crash**.
+- Locate your **Logs** folder (`/logs` directory).
+- **Zip the **ENTIRE** Logs folder and **drag & drop** it into this report.**
 
-This is important. Please provide a full copy of your logs folder. The best way to do this is to launch the game, log into your world, make it crash, and then zip your **__ENTIRE__** Logs folder, and drag it into this report. This will allow us to sift through the logs, and see exactly what was happening at the time of the crash. Without a copy of your **__ENTIRE__** Logs folder, we cannot do anything to troubleshoot your issue.
+📌 **Without logs, we cannot troubleshoot your issue.**
 
-<!-- Drag and drop your zip file here. -->
+---
 
-## 💻 Screenshots / Stack Trace
+## 📷 **Step 2: Provide Screenshots / Stack Trace**  
+📌 *Include screenshots, error messages, or stack traces to help diagnose the problem.*  
+➡️ Drag and drop images **here**.
 
-<!-- Please provide steps to reproduce the issue and/or screenshots of the issue, or stack trace results. -->
+---
 
-## 🌍 Your Environment
+## 💻 **Step 3: Your System Details**  
+*This helps us understand if the issue is hardware or software-related.*
 
-* OS: [e.g. Windows, Mac, Linux]
-* Game Version: [e.g. v1.x.y]
-* Mod Version: [e.g. v1.x.y]
+- **🖥️ OS:** _(Windows, Mac, Linux)_  
+- **🕹️ Game Version:** _(e.g., v1.x.y)_  
+- **🧩 Mod Version:** _(e.g., v1.x.y)_  
+
+---
+
+✅ **Final Step: Click "Create Issue" to Submit!**  
+🚀 Thank you for helping us improve the mod! Your report is appreciated.

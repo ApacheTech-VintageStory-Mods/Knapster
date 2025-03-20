@@ -1,5 +1,5 @@
 <SmartAssemblyProject ProjectId="{0593dcfa-1e1c-4852-b886-d5b76e1ea057}" Version="2.0">
-    <MainAssemblyFileName>.\bin\Debug\net7.0\Knapster.dll</MainAssemblyFileName>
+    <MainAssemblyFileName>.\bin\Release\net7.0\Knapster.dll</MainAssemblyFileName>
     <FriendlyName>ApacheTech.VintageMods.WaypointExtensions</FriendlyName>
     <CompanyName>ApacheTech Solutions</CompanyName>
     <Configuration Name="Release">
@@ -329,7 +329,7 @@
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.DependencyInjection, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -345,7 +345,7 @@
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.Extensions.Harmony, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -357,7 +357,7 @@
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.Extensions, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -421,7 +421,7 @@
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.DependencyInjection.Abstractions, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -933,7 +933,7 @@
             </Assembly>
             <Assembly AssemblyName="Gantry, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning Prune="0">
+                    <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>
                     <Obfuscation />
@@ -1182,7 +1182,9 @@
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.BrighterSlim, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning />
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
                     <Obfuscation />
                     <ControlFlow />
                     <MemberRefsProxy />
@@ -1191,7 +1193,7 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="Polly, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc">
-                <Merging Merge="1">
+                <Merging Merge="0">
                     <Pruning />
                     <Obfuscation />
                     <ControlFlow />
@@ -1201,7 +1203,7 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="Polly.Core, Culture=neutral, PublicKeyToken=c8a3ffc3f8f825cc">
-                <Merging Merge="1">
+                <Merging Merge="0">
                     <Pruning />
                     <Obfuscation />
                     <ControlFlow />
@@ -1211,7 +1213,7 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="Microsoft.Bcl.TimeProvider, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-                <Merging Merge="1">
+                <Merging Merge="0">
                     <Pruning />
                     <Obfuscation />
                     <ControlFlow />
@@ -1232,7 +1234,9 @@
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.FunctionalCSharp, Culture=neutral, PublicKeyToken=null">
                 <Merging Merge="1">
-                    <Pruning />
+                    <Pruning Prune="1">
+                        <Exclusion />
+                    </Pruning>
                     <Obfuscation />
                     <ControlFlow />
                     <MemberRefsProxy />
@@ -1241,7 +1245,7 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="Humanizer, Culture=neutral, PublicKeyToken=979442b78dfc278e">
-                <Merging Merge="1">
+                <Merging Merge="0">
                     <Pruning />
                     <Obfuscation />
                     <ControlFlow />

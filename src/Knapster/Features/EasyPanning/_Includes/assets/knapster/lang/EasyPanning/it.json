@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "Gestisci le impostazioni di setacciatura.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Il tempo, in secondi, necessario per setacciare uno strato di materiale.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Il numero di gocce generate per strato di materiale.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "La saturazione persa quando si setaccia un singolo strato di materiale.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Tempo (in secondi) per strato: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Gocce per strato: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Perdita di saturazione per strato: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "Gestisci le impostazioni di panoramica.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} gocce per strato: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Il numero di gocce generate per strato di materiale.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "La saturazione persa durante la panoramica di un singolo strato di materiale.",
+    "Features.EasyPanning.SecondsPerLayer":  "Tempo di {0} (in secondi) per strato: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Il tempo, in secondi, necessario per eseguire la panoramica di uno strato di materiale.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Perdita di saturazione per strato: {1}"
 }

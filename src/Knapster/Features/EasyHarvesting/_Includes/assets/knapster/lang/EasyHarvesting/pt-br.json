@@ -1,4 +1,4 @@
-{
-  "Features.EasyHarvesting.Description": "Gerencie as configura��es de colheita.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "Altere a velocidade com a qual o jogador colhe a grama com uma foice. Age como um multiplicador direto. M�nimo: 0.0, M�ximo: 2.0, Padr�o: 1.0."
+﻿{
+    "Features.EasyHarvesting.Description":  "Gerenciar configurações de coleta.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Altere a velocidade com que o jogador colhe grama com uma foice. Atua como um multiplicador direto. Mín: 0,0, Máx: 2,0, Padrão: 1,0."
 }

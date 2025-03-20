@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "Beheer de instellingen voor pannen.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "De tijd, in seconden, die nodig is om één laag materiaal te pannen.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Het aantal druppels dat per laag materiaal wordt gegenereerd.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "De verzadiging die verloren gaat bij het pannen van één laag materiaal.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Tijd (in seconden) per laag: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Druppels per laag: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Verlies van verzadiging per laag: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "Beheer panning-instellingen.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} druppels per laag: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Het aantal druppels dat per laag materiaal wordt voortgebracht.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "De verzadiging gaat verloren bij het pannen van een enkele laag materiaal.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Tijd (in seconden) Per laag: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "De tijd, in seconden, die nodig is om één laag materiaal te pannen.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} verzadigingsverlies per laag: {1}"
 }

@@ -1,4 +1,4 @@
 ﻿{
-  "Features.EasyHarvesting.Description": "Spravujte nastavenia zberu.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč zbiera trávu kosou. Pôsobí ako priamy násobiteľ. Min: 0.0, Max: 2.0, Predvolené: 1.0."
+    "Features.EasyHarvesting.Description":  "Spravujte nastavenia zberu.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč kosou zbiera trávu. Funguje ako priamy multiplikátor. Min: 0,0, Max: 2,0, Predvolené: 1,0."
 }

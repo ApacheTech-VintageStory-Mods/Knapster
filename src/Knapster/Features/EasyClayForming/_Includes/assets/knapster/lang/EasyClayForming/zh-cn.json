@@ -1,6 +1,6 @@
 ﻿{
-  "Features.EasyClayForming.ClayRequired": "总粘土需求量：{0}",
-  "Features.EasyClayForming.Description": "管理黏土制作设置。",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "更改每次点击移动的体素数量。最小：1，最大：8，默认：1。",
-  "Features.EasyClayForming.InstantComplete.Description": "更改工作项目是否应在使用时立即完成。是或否，默认：否。"
+    "Features.EasyClayForming.InstantComplete.Description":  "更改是否应在使用时立即完成工作项。true 或 false，默认值：false。",
+    "Features.EasyClayForming.ClayRequired":  "所需粘土总数： {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "更改每次单击移动的体素数。最小值：1，最大值：8，默认值：1。",
+    "Features.EasyClayForming.Description":  "管理粘土成型设置。"
 }

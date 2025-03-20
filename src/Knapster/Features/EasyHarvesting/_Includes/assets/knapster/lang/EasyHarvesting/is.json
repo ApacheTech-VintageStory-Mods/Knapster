@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyHarvesting.Description":  "Stjórnaðu uppskerustillingum.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn uppsker gras með ljá. Virkar sem beinn margfaldari. Lágmark: 0.0, hámark: 2.0, sjálfgefið: 1.0."
+}

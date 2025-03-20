@@ -1,5 +1,5 @@
 ﻿{
-  "Features.EasyMixingBowl.Description": "ミキシングボウルの設定を管理します。",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "ミキシングボウル内でプレイヤーがリソースを組み合わせる速度を変更します。直接乗数として機能します。最小：0.0、最大：10.0、デフォルト：1.0。",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "手動のミキシングボウルだけでなく、動力を与えられたミキシングボウルにも速度乗数を適用します。"
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "速度乗数は、動力付きミキシングボウルと手動ミキシングボウルに適用します。",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "プレイヤーがミキシングボウル内でリソースを組み合わせる速度を変更します。直接乗数として機能します。最小: 0.0、最大: 10.0、デフォルト: 1.0。",
+    "Features.EasyMixingBowl.Description":  "ミキシングボウルの設定を管理します。"
 }

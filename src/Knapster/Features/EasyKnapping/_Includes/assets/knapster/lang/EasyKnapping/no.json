@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Endre antall voksler som flyttes, per klikk. Min: 1, Maks: 8, Standard: 1.",
+    "Features.EasyKnapping.InstantComplete.Description":  "Endre om arbeidselementet skal fullføres umiddelbart ved bruk. Sant, eller usann, standard: Usann.",
+    "Features.EasyKnapping.Description":  "Administrer knappeinnstillinger."
+}

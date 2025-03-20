@@ -1,5 +1,5 @@
 ﻿{
-  "Features.EasyMixingBowl.Description": "Zarządzaj ustawieniami miski mieszającej.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Zmień prędkość, z jaką gracz łączy zasoby w misce mieszającej. Działa jako bezpośredni mnożnik. Min: 0.0, Maks: 10.0, Domyślnie: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Zastosuj mnożnik prędkości do miski mieszającej zasilanych, jak i ręcznych."
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Zastosuj mnożnik prędkości do napędzanych misek mieszających, a także do ręcznych misek mieszających.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Zmień prędkość, z jaką gracz łączy zasoby w misce do mieszania. Działa jako bezpośredni mnożnik. Min.: 0.0, Max: 10.0, Default: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Zarządzaj ustawieniami misy miksującej."
 }

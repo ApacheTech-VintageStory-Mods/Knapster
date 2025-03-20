@@ -1,7 +1,7 @@
 ﻿{
-  "Features.EasyQuern.Description": "Керуйте налаштуванням ручного жорна.",
-  "Features.EasyQuern.StickyMouseButton": "{0} Липкі кнопки миші: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "Коли активовано, користувачеві не потрібно утримувати праву кнопку миші, щоб тримати жорна активними.",
-  "Features.EasyQuern.IncludeAutomated.Description": "Застосуйте множник швидкості до автоматичних жорна, а також до ручних жорна.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Змініть швидкість, з якою гравець меле ресурси в ручному жорні. Діє як прямий множник. Мін .: 0.0, Макс .: 10.0, За замовчуванням: 1.0."
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець подрібнює ресурси в межах кверну. Виступає прямим мультиплікатором. Мін: 0.0, Макс.: 10.0, За замовчуванням: 1.0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "Коли ви активні, користувачеві не потрібно утримувати натиснутою праву кнопку миші, щоб кверн залишався активним.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Застосовуйте множник швидкості до автоматичних запитів, а також до ручних квернів.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Липкі кнопки миші: {1}",
+    "Features.EasyQuern.Description":  "Керуйте налаштуваннями quern."
 }

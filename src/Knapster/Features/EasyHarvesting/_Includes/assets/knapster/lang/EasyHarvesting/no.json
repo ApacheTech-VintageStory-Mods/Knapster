@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyHarvesting.Description":  "Administrer innhøstingsinnstillinger.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Endre hastigheten som spilleren høster gress med en ljå. Fungerer som en direkte multiplikator. Min: 0.0, Maks: 2.0, Standard: 1.0."
+}

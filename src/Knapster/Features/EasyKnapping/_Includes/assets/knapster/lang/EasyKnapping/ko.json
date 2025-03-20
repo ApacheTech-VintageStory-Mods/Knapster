@@ -1,5 +1,5 @@
 ﻿{
-  "Features.EasyKnapping.Description": "석공 설정을 관리합니다.",
-  "Features.EasyKnapping.VoxelsPerClick.Description": "클릭 당 이동하는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
-  "Features.EasyKnapping.InstantComplete.Description": "사용 시 작업 항목을 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "클릭당 이동되는 복셀의 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+    "Features.EasyKnapping.InstantComplete.Description":  "작업 항목을 사용 시 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+    "Features.EasyKnapping.Description":  "매듭 설정을 관리합니다."
 }

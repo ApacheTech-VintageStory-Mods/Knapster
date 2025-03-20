@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Notaðu hraðamargfaldarann á rafknúnar blöndunarskálar, sem og handvirkar blöndunarskálar.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn sameinar auðlindir í blöndunarskál. Virkar sem beinn margfaldari. Lágmark: 0.0, hámark: 10.0, sjálfgefið: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Stjórnaðu stillingum blöndunarskálar."
+}

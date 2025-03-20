@@ -1,6 +1,6 @@
 ﻿{
-  "Features.EasySmithing.Description": "Spravovat nastavení kovářství.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Změňte počet voxelů přesunutých při kliknutí. Min: 1, Max: 8, Výchozí: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Změňte trvanlivostní náklady za použití. Min: 1, Max: 10, Výchozí: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Změňte, zda má být pracovní úkol ihned dokončen při použití. True nebo False, Výchozí: False."
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Změňte počet přesunutých voxelů na jedno kliknutí. min: 1, max: 8, výchozí: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Změňte náklady na trvanlivost na jedno použití. min: 1, max: 10, výchozí: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Změňte to, zda má být pracovní položka při použití okamžitě dokončena. True nebo False, výchozí hodnota: False.",
+    "Features.EasySmithing.Description":  "Spravovat nastavení kovářství."
 }

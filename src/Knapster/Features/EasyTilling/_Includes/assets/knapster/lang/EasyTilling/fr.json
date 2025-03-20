@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "Gérer les paramètres de labour.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "Changer la vitesse à laquelle le joueur laboure le terrain avec une houe. Agit comme un multiplicateur direct. Min : 0,1, Max : 2,0, Par défaut : 1,0."
+﻿{
+    "Features.EasyTilling.Description":  "Gérer les paramètres de labourage.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur laboure les terres agricoles à l’aide d’une houe. Agit comme un multiplicateur direct. Min : 0,1, Max : 2,0, par défaut : 1,0."
 }

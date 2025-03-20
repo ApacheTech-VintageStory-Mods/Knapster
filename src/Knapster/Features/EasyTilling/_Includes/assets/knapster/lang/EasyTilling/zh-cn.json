@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "管理耕地设置。",
-  "Features.EasyTilling.SpeedMultiplier.Description": "改变玩家用锄头耕地的速度。 作为直接乘数。 最小值: 0.1, 最大值: 2.0, 默认值: 1.0。"
+﻿{
+    "Features.EasyTilling.Description":  "管理 Tilling 设置。",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "更改玩家用锄头耕种农田的速度。充当直接乘数。最小值：0.1，最大值：2.0，默认值：1.0。"
 }

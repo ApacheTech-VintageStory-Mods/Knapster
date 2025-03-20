@@ -1,7 +1,7 @@
 ﻿{
-  "Features.EasyQuern.Description": "Spravujte nastavení kamenky.",
-  "Features.EasyQuern.StickyMouseButton": "{0} Lepivé tlačítka myši: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "Když je aktivní, uživatel nemusí držet pravé tlačítko myši stisknuté, aby zůstal mlýnek aktivní.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Změna rychlosti, kterou hráč mleje zdroje v kamenici. Působí jako přímý násobič. Min: 0.0, Max: 10.0, Výchozí: 1.0.",
-  "Features.EasyQuern.IncludeAutomated.Description": "Použijte násobič rychlosti na automatizované mlýny i ruční mlýny."
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Změňte rychlost, s jakou hráč mele zdroje v rámci quernu. Působí jako přímý násobitel. Min: 0.0, Max: 10.0, Výchozí: 1.0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "Když je aktivní, uživatel nebude muset držet stisknuté pravé tlačítko myši, aby quern zůstal aktivní.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Aplikujte násobitel rychlosti na automatické querny, stejně jako na manuální querns.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Sticky Tlačítka myši: {1}",
+    "Features.EasyQuern.Description":  "Spravovat nastavení quernu."
 }

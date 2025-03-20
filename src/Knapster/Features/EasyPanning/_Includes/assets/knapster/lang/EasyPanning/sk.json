@@ -1,9 +1,9 @@
 ﻿{
-  "Features.EasyPanning.Description": "Spravujte nastavenia preplavovania.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Čas, v sekundách, potrebný na preosievanie jednej vrstvy materiálu.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Počet kvapiek vytvorených na vrstvu materiálu.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "Množstvo strateného nasýtenia pri preosievaní jednej vrstvy materiálu.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Čas (v sekundách) na vrstvu: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Kvapky na vrstvu: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Strata saturácie na vrstvu: {1}"
+    "Features.EasyPanning.Description":  "Spravujte nastavenia posúvania.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} kvapiek na vrstvu: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Počet kvapiek vytvorených na vrstvu materiálu.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Strata sýtosti pri posúvaní jednej vrstvy materiálu.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Čas (v sekundách) na vrstvu: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Čas v sekundách potrebný na posúvanie jednej vrstvy materiálu.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Strata nasýtenia na vrstvu: {1}"
 }

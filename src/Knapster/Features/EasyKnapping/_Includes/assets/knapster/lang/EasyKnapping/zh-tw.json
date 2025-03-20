@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "更改每次按兩下移動的體素數。最小值：1，最大值：8，預設值：1。",
+    "Features.EasyKnapping.InstantComplete.Description":  "更改是否應在使用時立即完成工作項。true 或 false，預設值：false。",
+    "Features.EasyKnapping.Description":  "管理 knapping 設置。"
+}

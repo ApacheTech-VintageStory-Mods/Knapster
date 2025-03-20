@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "Gérer les paramètres de tamisage.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Vreme, u sekundama, potrebno za prosijavanje jednog sloja materijala.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Broj kapi generisanih po sloju materijala.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "Zasićenje izgubljeno pri prosijavanju jednog sloja materijala.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Vrijeme (u sekundama) po sloju: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Kapi po sloju: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Gubitak zasićenja po sloju: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "Upravljajte podešavanjima za pomicanje.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} kapi po sloju: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Broj kapi koje se mrijeste po sloju materijala.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Zasićenje izgubljeno prilikom pomicanja jednog sloja materijala.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} vreme (u sekundama) po sloju: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Vreme, u sekundi, potrebno je da se podigne jedan sloj materijala.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} gubitak zasićenja po sloju: {1}"
 }

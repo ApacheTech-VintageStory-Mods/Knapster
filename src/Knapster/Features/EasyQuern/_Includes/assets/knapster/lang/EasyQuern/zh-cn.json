@@ -1,7 +1,7 @@
 ﻿{
-  "Features.EasyQuern.Description": "管理磨石设置。",
-  "Features.EasyQuern.StickyMouseButton": "{0} 粘性鼠标按钮: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "激活时，用户无需按住右键即可保持磨坊运作。",
-  "Features.EasyQuern.IncludeAutomated.Description": "将速度乘数应用于自动化的磨石，以及手动磨石。",
-  "Features.EasyQuern.SpeedMultiplier.Description": "更改玩家在磨石内磨碎资源的速度。 作为直接乘数。 最小值：0.0，最大值：10.0，默认值：1.0。"
+    "Features.EasyQuern.SpeedMultiplier.Description":  "更改玩家在 quern 中研磨资源的速度。充当直接乘数。最小值：0.0，最大值：10.0，默认值：1.0。",
+    "Features.EasyQuern.StickyMouseButton.Description":  "激活后，用户无需按住鼠标右键即可使 quern 保持活动状态。",
+    "Features.EasyQuern.IncludeAutomated.Description":  "将速度乘数应用于自动查询以及手动查询。",
+    "Features.EasyQuern.StickyMouseButton":  "{0} 粘性鼠标按钮：{1}",
+    "Features.EasyQuern.Description":  "管理 quern 设置。"
 }

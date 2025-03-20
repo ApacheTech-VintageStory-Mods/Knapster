@@ -1,5 +1,5 @@
-{
-  "Features.EasyKnapping.Description": "إدارة إعدادات النحت.",
-  "Features.EasyKnapping.VoxelsPerClick.Description": "تغيير عدد البكسلات المنقولة في كل نقرة. الحد الأدنى: 1، الحد الأقصى: 8، الافتراضي: 1.",
-  "Features.EasyKnapping.InstantComplete.Description": "تغيير ما إذا كان يجب إكمال العمل فوراً عند الاستخدام. صحيح أم خاطئ، الافتراضي: خاطئ."
+﻿{
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "قم بتغيير عدد فوكسل التي يتم نقلها لكل نقرة. الحد الأدنى: 1 ، الحد الأقصى: 8 ، الافتراضي: 1.",
+    "Features.EasyKnapping.InstantComplete.Description":  "قم بتغيير ما إذا كان يجب إكمال عنصر العمل على الفور أم لا، عند الاستخدام. صواب أو خطأ ، افتراضي: خطأ.",
+    "Features.EasyKnapping.Description":  "إدارة إعدادات القنب."
 }

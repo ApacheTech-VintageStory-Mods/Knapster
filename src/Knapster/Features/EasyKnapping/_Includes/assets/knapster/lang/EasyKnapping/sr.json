@@ -1,5 +1,5 @@
-{
-  "Features.EasyKnapping.Description": "Gérer les paramètres de knapping.",
-  "Features.EasyKnapping.VoxelsPerClick.Description": "Changez le nombre de voxels déplacés par clic. Min : 1, Max : 8, Par défaut : 1.",
-  "Features.EasyKnapping.InstantComplete.Description": "Changez si l'élément de travail doit être complété instantanément à l'utilisation. Vrai ou Faux, Par défaut : Faux."
+﻿{
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasyKnapping.InstantComplete.Description":  "Promenite da li radna stavka treba da bude odmah završena, prilikom upotrebe. Istina ili netačno podrazumevano: Lažno.",
+    "Features.EasyKnapping.Description":  "Upravljanje knaping podešavanja."
 }

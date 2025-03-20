@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "Verwalten Sie die Einstellungen f�r das Goldwaschen.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Die Zeit in Sekunden, die benötigt wird, um eine Schicht Material zu schwenken.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Die Anzahl der Tropfen, die pro Materialschicht erzeugt werden.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "Die Sättigung, die beim Schwenken einer einzelnen Materialschicht verloren geht.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Zeit (in Sekunden) pro Schicht: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Tropfen pro Schicht: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Sättigungsverlust pro Schicht: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "Verwalten Sie die Schwenkeinstellungen.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} Tropfen pro Schicht: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Die Anzahl der Drops, die pro Materialschicht erzeugt werden.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Die Sättigung, die beim Schwenken einer einzelnen Materialschicht verloren geht.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Zeit (in Sekunden) pro Schicht: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Die Zeit in Sekunden, die benötigt wird, um eine Materialschicht zu schwenken.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Sättigungsverlust pro Schicht: {1}"
 }

@@ -1,9 +1,9 @@
 ﻿{
-  "Features.EasyPanning.Description": "管理淘金设置。",
-  "Features.EasyPanning.SecondsPerLayer.Description": "筛选一层材料所需的时间，以秒为单位。",
-  "Features.EasyPanning.DropsPerLayer.Description": "每层材料生成的掉落物数量。",
-  "Features.EasyPanning.SaturationPerLayer.Description": "筛选一层材料时失去的饱和度。",
-  "Features.EasyPanning.SecondsPerLayer": "{0} 每层时间（秒）: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} 每层滴数: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} 每层饱和度损失: {1}"
+    "Features.EasyPanning.Description":  "管理平移设置。",
+    "Features.EasyPanning.DropsPerLayer":  "每层 {0} 滴数：{1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "每层材质生成的水滴数量。",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "平移单个材质层时饱和度丢失。",
+    "Features.EasyPanning.SecondsPerLayer":  "每层{0}时间（秒）：{1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "平移一层材料所需的时间（以秒为单位）。",
+    "Features.EasyPanning.SaturationPerLayer":  "每层{0}饱和损耗：{1}"
 }

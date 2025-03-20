@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "ใช้ตัวคูณความเร็วกับชามผสมแบบใช้พลังงาน เช่นเดียวกับชามผสมแบบแมนนวล",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นรวมทรัพยากรภายในชามผสม ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.0, สูงสุด: 10.0, ค่าเริ่มต้น: 1.0",
+    "Features.EasyMixingBowl.Description":  "จัดการการตั้งค่าชามผสม"
+}

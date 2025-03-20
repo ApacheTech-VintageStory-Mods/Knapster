@@ -1,5 +1,5 @@
-{
-  "Features.EasyMixingBowl.Description": "Gestionar ajustes del bol de mezcla.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Cambiar la velocidad a la que el jugador combina recursos dentro de un bol de mezcla. Actúa como un multiplicador directo. Mín: 0.0, Máx: 10.0, Predeterminado: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Aplicar el multiplicador de velocidad a boles de mezcla automatizados, así como a boles de mezcla manuales."
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Aplique el multiplicador de velocidad a los tazones para mezclar motorizados, así como a los tazones para mezclar manualmente.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Cambia la velocidad a la que el jugador combina recursos dentro de un tazón para mezclar. Actúa como un multiplicador directo. Mín.: 0.0, Máx.: 10.0, Predeterminado: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Administre la configuración del tazón para mezclar."
 }

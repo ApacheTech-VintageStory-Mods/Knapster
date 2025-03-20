@@ -1,6 +1,6 @@
-{
-  "Features.EasyClayForming.ClayRequired": "Arcilla total requerida: {0}",
-  "Features.EasyClayForming.Description": "Administra la configuración de formación de arcilla.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "Cambia la cantidad de voxels que se mueven por clic. Mínimo: 1, Máximo: 8, Predeterminado: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "Cambia si la tarea de trabajo debe completarse al instante al usarla. Verdadero o Falso, Predeterminado: Falso."
+﻿{
+    "Features.EasyClayForming.InstantComplete.Description":  "Cambie si el elemento de trabajo debe completarse instantáneamente o no, al usarlo. Verdadero, o Falso, Predeterminado: Falso.",
+    "Features.EasyClayForming.ClayRequired":  "Arcilla total requerida: {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Cambie el número de vóxeles que se mueven por clic. Mín.: 1, Máx.: 8, Predeterminado: 1.",
+    "Features.EasyClayForming.Description":  "Administre la configuración de formación de arcilla."
 }

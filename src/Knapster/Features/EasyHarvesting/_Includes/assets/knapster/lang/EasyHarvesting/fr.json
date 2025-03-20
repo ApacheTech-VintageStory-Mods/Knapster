@@ -1,4 +1,4 @@
-{
-  "Features.EasyHarvesting.Description": "Gérer les paramètres de récolte.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "Changez la vitesse à laquelle le joueur récolte l'herbe avec une faux. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, Par défaut : 1,0."
+﻿{
+    "Features.EasyHarvesting.Description":  "Gérer les paramètres de récolte.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur récolte l’herbe avec une faux. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, par défaut : 1,0."
 }

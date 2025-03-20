@@ -1,5 +1,5 @@
 ﻿{
-  "Features.EasyMixingBowl.Description": "Управление настройками миксера.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Изменение скорости смешивания игроком ресурсов в миксере. Выступает в качестве прямого множителя. Мин: 0.0, Макс: 10.0, По умолчанию: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Применить множитель скорости к автоматизированным миксерам, так же как и к ручным."
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Применяйте множитель скорости к моторным миксерным чашам, а также к ручным миксерным чашам.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Изменение скорости, с которой игрок объединяет ресурсы в миске для смешивания. Выступает в роли прямого множителя. Мин.: 0.0, Макс.: 10.0, По умолчанию: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Управление настройками миски для смешивания."
 }

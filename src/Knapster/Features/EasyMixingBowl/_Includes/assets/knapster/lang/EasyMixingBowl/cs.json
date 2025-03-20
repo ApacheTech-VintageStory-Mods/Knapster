@@ -1,5 +1,5 @@
 ﻿{
-  "Features.EasyMixingBowl.Description": "Správa nastavení míchací mísy.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Změnit rychlost, s jakou hráč kombinuje zdroje v míchací míse. Funguje jako přímý násobič. Min: 0.0, Max: 10.0, Výchozí: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Aplikovat násobič rychlosti na poháněné míchací mísy, stejně jako na ruční míchací mísy."
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Použijte násobič rychlosti na poháněné mixovací nádoby, stejně jako na ruční mixovací nádoby.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Změňte rychlost, s jakou přehrávač kombinuje zdroje v mixovací nádobě. Působí jako přímý násobitel. Min: 0.0, Max: 10.0, Výchozí: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Spravujte nastavení mixovací nádoby."
 }

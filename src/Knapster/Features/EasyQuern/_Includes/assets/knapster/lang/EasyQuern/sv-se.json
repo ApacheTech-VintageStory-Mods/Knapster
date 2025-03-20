@@ -1,7 +1,7 @@
-{
-  "Features.EasyQuern.Description": "Hantera querninställningar.",
-  "Features.EasyQuern.StickyMouseButton": "{0} Klistriga musknappar: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "När aktiv behöver användaren inte hålla höger musknapp nedtryckt för att hålla kvarnen aktiv.",
-  "Features.EasyQuern.IncludeAutomated.Description": "Tillämpa hastighetsmultiplikatorn på automatiserade kvarnar, liksom manuella kvarnar.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Ändra hastigheten som spelaren mal resurser i en quern. Fungerar som en direkt multiplikator. Min: 0.0, Max: 10.0, Standard: 1.0."
+﻿{
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Ändra hastigheten med vilken spelaren maler resurser inom en quern. Fungerar som en direkt multiplikator. Min: 0,0, Max: 10,0, Standard: 1,0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "När den är aktiv behöver användaren inte hålla ned höger musknapp för att hålla quern aktiv.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Tillämpa hastighetsmultiplikatorn på automatiserade querns, såväl som manuella querns.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Sticky Mouse Knappar: {1}",
+    "Features.EasyQuern.Description":  "Hantera quern-inställningar."
 }

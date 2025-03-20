@@ -1,6 +1,6 @@
 ﻿{
-  "Features.EasySmithing.Description": "Управление настройками кузнечества.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Изменяет количество вокселей, перемещаемых при клике. Мин: 1, Макс: 8, По умолчанию: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Изменяет стоимость прочности при использовании. Мин: 1, Макс: 10, По умолчанию: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Изменяет, следует ли мгновенно завершать рабочий элемент при использовании. True или False, По умолчанию: False."
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Измените стоимость долговечности за использование. Мин: 1, Макс.: 10, По умолчанию: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Изменяйте, должен ли рабочий элемент быть выполнен мгновенно при использовании. True, или False, по умолчанию: False.",
+    "Features.EasySmithing.Description":  "Управление настройками кузнечного дела."
 }

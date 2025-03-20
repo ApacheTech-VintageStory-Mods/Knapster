@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyTilling.Description":  "Administrer innstillinger for jordbearbeiding.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Endre hastigheten som spilleren dyrker jordbruksland med en hakke. Fungerer som en direkte multiplikator. Min: 0.1, Maks: 2.0, Standard: 1.0."
+}

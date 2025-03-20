@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyTilling.Description":  "管理 Tilling 設置。",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "更改玩家用鋤頭耕種農田的速度。充當直接乘數。最小值：0.1，最大值：2.0，預設值：1.0。"
+}

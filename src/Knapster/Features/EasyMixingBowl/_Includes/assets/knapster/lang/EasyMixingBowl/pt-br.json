@@ -1,5 +1,5 @@
-{
-  "Features.EasyMixingBowl.Description": "Gerenciar configurações da tigela de mistura.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Alterar a velocidade com que o jogador combina recursos dentro de uma tigela de mistura. Atua como um multiplicador direto. Mín: 0.0, Máx: 10.0, Padrão: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Aplicar o multiplicador de velocidade tanto em tigelas de mistura automatizadas quanto manuais."
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Aplique o multiplicador de velocidade em tigelas elétricas, bem como em tigelas manuais.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Altere a velocidade com que o jogador combina recursos em uma tigela. Atua como um multiplicador direto. Mín: 0,0, Máx: 10,0, Padrão: 1,0.",
+    "Features.EasyMixingBowl.Description":  "Gerencie as configurações da tigela."
 }

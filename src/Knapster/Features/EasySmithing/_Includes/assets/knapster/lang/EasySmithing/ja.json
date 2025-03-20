@@ -1,6 +1,6 @@
 ﻿{
-  "Features.EasySmithing.Description": "鍛造の設定を管理します。",
-  "Features.EasySmithing.VoxelsPerClick.Description": "クリックごとに移動するボクセルの数を変更します。最小: 1、最大: 8、デフォルト: 1。",
-  "Features.EasySmithing.CostPerClick.Description": "使用ごとの耐久コストを変更します。最小: 1、最大: 10、デフォルト: 5。",
-  "Features.EasySmithing.InstantComplete.Description": "使用時に作業アイテムを即座に完了するかどうかを変更します。TrueまたはFalse、デフォルト: False。"
+    "Features.EasySmithing.VoxelsPerClick.Description":  "移動するボクセルの数を、クリックごとに変更します。最小: 1、最大: 8、デフォルト: 1。",
+    "Features.EasySmithing.CostPerClick.Description":  "使用ごとに耐久性のコストを変更します。最小: 1、最大: 10、デフォルト: 5。",
+    "Features.EasySmithing.InstantComplete.Description":  "作業項目を使用時にすぐに完了させるかどうかを変更します。True または False、デフォルト: False。",
+    "Features.EasySmithing.Description":  "鍛冶場の設定を管理します。"
 }

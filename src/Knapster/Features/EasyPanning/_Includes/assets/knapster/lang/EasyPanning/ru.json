@@ -1,9 +1,9 @@
 ﻿{
-  "Features.EasyPanning.Description": "Управление настройками просеивания.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Время, в секундах, необходимое для просеивания одного слоя материала.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Количество капель, создаваемых на слой материала.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "Насыщение, теряемое при просеивании одного слоя материала.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Время (в секундах) на слой: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Капли на слой: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Потеря насыщения на слой: {1}"
+    "Features.EasyPanning.Description":  "Управление настройками панорамирования.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} капель на слой: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Количество капель, порожденных на слой материала.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Насыщенность теряется при панорамировании одного слоя материала.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Время (в секундах) на слой: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Время, в секундах, необходимое для облицовки одного слоя материала.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Потери насыщенности на слой: {1}"
 }

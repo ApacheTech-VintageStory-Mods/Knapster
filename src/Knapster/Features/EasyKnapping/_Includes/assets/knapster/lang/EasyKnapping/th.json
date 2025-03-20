@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "เปลี่ยนจํานวน voxel ที่ย้ายต่อการคลิก ต่ําสุด: 1, สูงสุด: 8, ค่าเริ่มต้น: 1",
+    "Features.EasyKnapping.InstantComplete.Description":  "เปลี่ยนว่ารายการงานควรเสร็จสมบูรณ์ทันทีในการใช้งานหรือไม่ ค่าเริ่มต้นเป็น TRUE หรือ FALSE: เท็จ",
+    "Features.EasyKnapping.Description":  "จัดการการตั้งค่าการตบ"
+}

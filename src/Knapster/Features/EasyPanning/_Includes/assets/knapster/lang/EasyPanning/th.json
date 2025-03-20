@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyPanning.Description":  "จัดการการตั้งค่าการแพน",
+    "Features.EasyPanning.DropsPerLayer":  "{0} หยดต่อชั้น: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "จํานวนหยดที่วางไข่ต่อชั้นของวัสดุ",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "ความอิ่มตัวจะหายไปเมื่อแพนวัสดุชั้นเดียว",
+    "Features.EasyPanning.SecondsPerLayer":  "เวลา{0} (เป็นวินาที) ต่อเลเยอร์: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "เวลาในไม่กี่วินาทีที่ใช้ในการแพนวัสดุหนึ่งชั้น",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} การสูญเสียความอิ่มตัวต่อชั้น: {1}"
+}

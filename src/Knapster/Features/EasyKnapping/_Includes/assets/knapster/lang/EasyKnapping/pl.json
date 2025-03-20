@@ -1,5 +1,5 @@
 ﻿{
-  "Features.EasyKnapping.Description": "Zarządzaj ustawieniami krzesiw.",
-  "Features.EasyKnapping.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
-  "Features.EasyKnapping.InstantComplete.Description": "Zmień, czy element pracy powinien być natychmiast ukończony po użyciu. Prawda lub Fałsz, Domyślnie: Fałsz."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasyKnapping.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
+    "Features.EasyKnapping.Description":  "Zarządzaj ustawieniami knapowania."
 }

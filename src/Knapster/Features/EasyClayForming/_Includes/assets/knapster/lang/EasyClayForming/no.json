@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyClayForming.InstantComplete.Description":  "Endre om arbeidselementet skal fullføres umiddelbart ved bruk. Sant, eller usann, standard: Usann.",
+    "Features.EasyClayForming.ClayRequired":  "Total leire som kreves: {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Endre antall voksler som flyttes, per klikk. Min: 1, Maks: 8, Standard: 1.",
+    "Features.EasyClayForming.Description":  "Administrer leireformingsinnstillinger."
+}

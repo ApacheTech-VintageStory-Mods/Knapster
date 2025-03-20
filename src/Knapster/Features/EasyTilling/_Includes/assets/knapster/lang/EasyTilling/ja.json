@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "耕作設定を管理します。",
-  "Features.EasyTilling.SpeedMultiplier.Description": "プレイヤーがクワで農地を耕す速度を変更します。 直接乗数として機能します。 最小: 0.1、最大: 2.0、デフォルト: 1.0。"
+﻿{
+    "Features.EasyTilling.Description":  "耕運機の設定を管理します。",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "プレイヤーが鍬で農地を耕す速度を変更します。直接乗数として機能します。最小: 0.1、最大: 2.0、デフォルト: 1.0。"
 }

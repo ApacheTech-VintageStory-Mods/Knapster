@@ -1,4 +1,4 @@
 ﻿{
-  "Features.EasyHarvesting.Description": "Spravovat nastavení sklizně.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "Změňte rychlost, jakou hráč sklízí trávu sekyrou. Jedná se o přímý násobitel. Min: 0.0, Max: 2.0, Výchozí: 1.0."
+    "Features.EasyHarvesting.Description":  "Spravujte nastavení sklizně.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Změňte rychlost, s jakou hráč sklízí trávu kosou. Působí jako přímý násobitel. min: 0.0, max: 2.0, výchozí: 1.0."
 }

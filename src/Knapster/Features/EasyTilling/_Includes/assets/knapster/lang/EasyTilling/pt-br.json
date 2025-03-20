@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "Gerencie configurações de lavra.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "Altere a velocidade com que o jogador ara a terra com uma enxada. Atua como um multiplicador direto. Mín: 0.1, Máx: 2.0, Padrão: 1.0."
+﻿{
+    "Features.EasyTilling.Description":  "Gerencie as configurações de lavoura.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Altere a velocidade com que o jogador lavra terras agrícolas com uma enxada. Atua como um multiplicador direto. Mín: 0,1, Máx: 2,0, Padrão: 1,0."
 }

@@ -1,6 +1,6 @@
-{
-  "Features.EasyClayForming.ClayRequired": "Argila total necessária: {0}",
-  "Features.EasyClayForming.Description": "Gerencie as configura��es de forma��o de argila.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "Altere o n�mero de voxels movidos por clique. M�nimo: 1, M�ximo: 8, Padr�o: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "Altere se o item de trabalho deve ser conclu�do instantaneamente ao usar. Verdadeiro ou Falso, Padr�o: Falso."
+﻿{
+    "Features.EasyClayForming.InstantComplete.Description":  "Altere se o item de trabalho deve ou não ser concluído instantaneamente, durante o uso. Verdadeiro ou Falso, Padrão: Falso.",
+    "Features.EasyClayForming.ClayRequired":  "Argila total necessária: {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos por clique. Mín: 1, Máx: 8, Padrão: 1.",
+    "Features.EasyClayForming.Description":  "Gerencie as configurações de conformação de argila."
 }

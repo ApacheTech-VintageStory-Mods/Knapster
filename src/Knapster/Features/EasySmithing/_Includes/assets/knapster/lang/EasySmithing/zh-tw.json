@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasySmithing.VoxelsPerClick.Description":  "更改每次按兩下移動的體素數。最小值：1，最大值：8，預設值：1。",
+    "Features.EasySmithing.CostPerClick.Description":  "更改每次使用的持久性成本。最小值：1，最大值：10，預設值：5。",
+    "Features.EasySmithing.InstantComplete.Description":  "更改是否應在使用時立即完成工作項。true 或 false，預設值：false。",
+    "Features.EasySmithing.Description":  "管理鍛造設置。"
+}

@@ -1,6 +1,6 @@
-{
-  "Features.EasySmithing.Description": "Gerir as configura��es de forjamento.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Alterar o n�mero de voxels movidos por clique. M�nimo: 1, M�ximo: 8, Padr�o: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Alterar o custo de durabilidade por uso. M�nimo: 1, M�ximo: 10, Padr�o: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Alterar se o item de trabalho deve ser conclu�do instantaneamente ao usar. Verdadeiro ou Falso, Padr�o: Falso."
+﻿{
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos, por clique. Mín.: 1, Máx.: 8, Padrão: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Alterar o custo de durabilidade, por utilização. Min: 1, Max: 10, Padrão: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Altere se o item de trabalho deve ou não ser concluído instantaneamente, em uso. Verdadeiro, ou Falso, Padrão: False.",
+    "Features.EasySmithing.Description":  "Gerencie as configurações de ferraria."
 }

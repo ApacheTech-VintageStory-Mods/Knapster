@@ -1,9 +1,9 @@
 ﻿{
-  "Features.EasyPanning.Description": "Zarządzaj ustawieniami przesiania.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Czas, w sekundach, potrzebny do przesiania jednej warstwy materiału.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Liczba kropli generowanych na warstwę materiału.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "Utrata nasycenia przy przesiewaniu jednej warstwy materiału.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Czas (w sekundach) na warstwę: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Krople na warstwę: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Utrata nasycenia na warstwę: {1}"
+    "Features.EasyPanning.Description":  "Zarządzanie ustawieniami przesuwania.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} kropli na warstwę: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Liczba kropli pojawiających się na warstwę materiału.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Nasycenie utracone podczas panoramowania pojedynczej warstwy materiału.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Czas (w sekundach) na warstwę: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Czas w sekundach potrzebny na rozciągnięcie jednej warstwy materiału.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Strata nasycenia na warstwę: {1}"
 }

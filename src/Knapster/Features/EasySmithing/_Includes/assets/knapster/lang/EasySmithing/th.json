@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasySmithing.VoxelsPerClick.Description":  "เปลี่ยนจํานวน voxel ที่ย้ายต่อการคลิก ต่ําสุด: 1, สูงสุด: 8, ค่าเริ่มต้น: 1",
+    "Features.EasySmithing.CostPerClick.Description":  "เปลี่ยนต้นทุนความทนทานต่อการใช้งาน ต่ําสุด: 1, สูงสุด: 10, ค่าเริ่มต้น: 5",
+    "Features.EasySmithing.InstantComplete.Description":  "เปลี่ยนว่ารายการงานควรเสร็จสมบูรณ์ทันทีในการใช้งานหรือไม่ ค่าเริ่มต้นเป็น TRUE หรือ FALSE: เท็จ",
+    "Features.EasySmithing.Description":  "จัดการการตั้งค่าการตีเหล็ก"
+}

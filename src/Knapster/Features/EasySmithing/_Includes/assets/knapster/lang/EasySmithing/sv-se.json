@@ -1,6 +1,6 @@
-{
-  "Features.EasySmithing.Description": "Hantera inst�llningar f�r smide.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "�ndra antalet voxlar som flyttas per klick. Min: 1, Max: 8, Standard: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "�ndra h�llbarhetskostnaden per anv�ndning. Min: 1, Max: 10, Standard: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "�ndra om arbetsobjektet omedelbart ska slutf�ras vid anv�ndning. Sant eller falskt, Standard: Falskt."
+﻿{
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Ändra antalet voxlar som flyttas, per klick. Min: 1, Max: 8, Standard: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Ändra hållbarhetskostnaden per användning. Min: 1, Max: 10, Standard: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Ändra om arbetsobjektet ska slutföras omedelbart eller inte vid användning. Sant eller falskt, standard: Falskt.",
+    "Features.EasySmithing.Description":  "Hantera smidesinställningar."
 }

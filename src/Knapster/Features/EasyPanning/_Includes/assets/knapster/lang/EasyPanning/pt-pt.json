@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "Gerir as configura��es de garimpo.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "O tempo, em segundos, necessário para peneirar uma camada de material.",
-  "Features.EasyPanning.DropsPerLayer.Description": "O número de gotas geradas por camada de material.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "A saturação perdida ao peneirar uma única camada de material.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Tempo (em segundos) por camada: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Gotas por camada: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Perda de saturação por camada: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "Gerencie as configurações de movimento panorâmico.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} gotas por camada: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "O número de gotas geradas por camada de material.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "A saturação perdida ao mover uma única camada de material.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Tempo (em segundos) por camada: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "O tempo, em segundos, leva para mover uma camada de material.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Perda de saturação por camada: {1}"
 }

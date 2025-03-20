@@ -1,7 +1,7 @@
 ﻿{
-  "Features.EasyQuern.Description": "すり鉢の設定を管理します。",
-  "Features.EasyQuern.StickyMouseButton": "{0} スティッキーマウスボタン: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "アクティブにすると、ユーザーは右クリックを押し続けなくてもクエルンが動作します。",
-  "Features.EasyQuern.IncludeAutomated.Description": "自動すり鉢および手動すり鉢に速度倍率を適用します。",
-  "Features.EasyQuern.SpeedMultiplier.Description": "すり鉢でリソースを挽くプレーヤーの速度を変更します。 直接乗数として機能します。 最小：0.0、最大：10.0、デフォルト：1.0。"
+    "Features.EasyQuern.SpeedMultiplier.Description":  "プレイヤーがクエリン内でリソースを挽く速度を変更します。直接乗数として機能します。最小: 0.0、最大: 10.0、デフォルト: 1.0。",
+    "Features.EasyQuern.StickyMouseButton.Description":  "アクティブな場合、ユーザーはクエリをアクティブに保つためにマウスの右ボタンを押したままにする必要はありません。",
+    "Features.EasyQuern.IncludeAutomated.Description":  "速度乗数を自動クエリンと手動クエリンに適用します。",
+    "Features.EasyQuern.StickyMouseButton":  "{0}スティッキーマウスボタン:{1}",
+    "Features.EasyQuern.Description":  "quern 設定を管理します。"
 }

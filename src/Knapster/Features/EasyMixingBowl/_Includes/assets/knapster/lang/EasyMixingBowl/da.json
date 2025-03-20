@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Anvend hastighedsmultiplikatoren på drevne røreskåle såvel som manuelle røreskåle.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Skift den hastighed, hvormed spilleren kombinerer ressourcer i en røreskål. Fungerer som en direkte multiplikator. Min: 0,0, Maks.: 10,0, Standard: 1,0.",
+    "Features.EasyMixingBowl.Description":  "Administrer indstillinger for røreskål."
+}

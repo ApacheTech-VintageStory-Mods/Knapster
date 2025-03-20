@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "Administra la configuración de lavado de oro.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "El tiempo, en segundos, que tarda en tamizar una capa de material.",
-  "Features.EasyPanning.DropsPerLayer.Description": "La cantidad de gotas generadas por capa de material.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "La saturación perdida al tamizar una capa de material.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Tiempo (en segundos) por capa: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Gotas por capa: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Pérdida de saturación por capa: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "Administrar la configuración de movimiento panorámico.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} gotas por capa: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "El número de gotas generadas por capa de material.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "La saturación se pierde al desplazar una sola capa de material.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Tiempo (en segundos) por capa: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "El tiempo, en segundos, que se tarda en desplazar una capa de material.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Pérdida de saturación por capa: {1}"
 }

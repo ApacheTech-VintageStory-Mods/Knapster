@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyHarvesting.Description":  "จัดการการตั้งค่าการเก็บเกี่ยว",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นเก็บเกี่ยวหญ้าด้วยเคียว ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.0, สูงสุด: 2.0, ค่าเริ่มต้น: 1.0"
+}

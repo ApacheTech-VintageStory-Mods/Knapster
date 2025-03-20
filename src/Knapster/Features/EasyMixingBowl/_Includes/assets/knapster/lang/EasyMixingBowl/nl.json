@@ -1,5 +1,5 @@
-{
-  "Features.EasyMixingBowl.Description": "Beheer instellingen voor mengkom.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Wijzig de snelheid waarmee de speler middelen combineert in een mengkom. Functies als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Pas de snelheidsvermenigvuldiger toe op zowel automatische als handmatige mengkommen."
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Pas de snelheidsvermenigvuldiger toe op aangedreven mengkommen en op handmatige mengkommen.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler grondstoffen combineert in een mengkom. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Beheer de instellingen van de mengkom."
 }

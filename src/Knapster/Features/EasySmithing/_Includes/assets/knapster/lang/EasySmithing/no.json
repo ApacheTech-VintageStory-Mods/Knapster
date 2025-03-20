@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Endre antall voksler som flyttes, per klikk. Min: 1, Maks: 8, Standard: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Endre holdbarhetskostnaden, per bruk. Min: 1, Maks: 10, Standard: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Endre om arbeidselementet skal fullføres umiddelbart ved bruk. Sant, eller usann, standard: Usann.",
+    "Features.EasySmithing.Description":  "Administrer smedinnstillinger."
+}

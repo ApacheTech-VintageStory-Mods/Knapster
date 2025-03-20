@@ -1,0 +1,7 @@
+﻿{
+    "Features.EasyQuern.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นบดทรัพยากรภายในควอน ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.0, สูงสุด: 10.0, ค่าเริ่มต้น: 1.0",
+    "Features.EasyQuern.StickyMouseButton.Description":  "เมื่อใช้งาน ผู้ใช้ไม่จําเป็นต้องกดปุ่มเมาส์ขวาค้างไว้เพื่อให้ quern ทํางานอยู่",
+    "Features.EasyQuern.IncludeAutomated.Description":  "ใช้ตัวคูณความเร็วกับควีนอัตโนมัติเช่นเดียวกับควีนแบบแมนนวล",
+    "Features.EasyQuern.StickyMouseButton":  "{0} ปุ่มเมาส์ติดหนึบ: {1}",
+    "Features.EasyQuern.Description":  "จัดการการตั้งค่าคิวรี"
+}

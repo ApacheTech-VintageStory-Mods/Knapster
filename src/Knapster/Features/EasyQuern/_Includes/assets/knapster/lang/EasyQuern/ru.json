@@ -1,7 +1,7 @@
 ﻿{
-  "Features.EasyQuern.Description": "Управление настройками ручной жернова.",
-  "Features.EasyQuern.StickyMouseButton": "{0} Липкие кнопки мыши: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "Когда активно, пользователю не нужно удерживать правую кнопку мыши, чтобы поддерживать работу жернова.",
-  "Features.EasyQuern.IncludeAutomated.Description": "Применить множитель скорости к автоматическим жерновам, а также к ручным жерновам.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Изменение скорости, с которой игрок молет ресурсы в ручном жернове. Действует как прямой множитель. Мин: 0.0, Макс: 10.0, По умолчанию: 1.0."
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Изменяет скорость, с которой игрок измельчает ресурсы в терне. Выступает в роли прямого множителя. Мин.: 0.0, Макс.: 10.0, По умолчанию: 1.0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "Когда функция активна, пользователю не нужно удерживать правую кнопку мыши нажатой, чтобы поддерживать функцию в активном состоянии.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Применяйте множитель скорости как к автоматическим, так и к ручным квернам.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Липкие кнопки мыши: {1}",
+    "Features.EasyQuern.Description":  "Управление настройками quern."
 }

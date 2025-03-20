@@ -1,6 +1,6 @@
 ﻿{
-  "Features.EasySmithing.Description": "Zarządzaj ustawieniami kowalstwa.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Zmień liczbę voxelów przenoszonych za każdym kliknięciem. Min: 1, Max: 8, Domyślnie: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Zmień koszt wytrzymałości za użycie. Min: 1, Max: 10, Domyślnie: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Zmień, czy element pracy powinien być natychmiast ukończony po użyciu. Prawda lub Fałsz, Domyślnie: Fałsz."
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Zmień koszt trwałości na użycie. Min: 1, Maks.: 10, Domyślnie: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
+    "Features.EasySmithing.Description":  "Zarządzanie ustawieniami kowalstwa."
 }

@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyPanning.Description":  "Stjórna hliðunarstillingum.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} dropar í hverju lagi: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Fjöldi dropa sem hrygna á hvert lag af efni.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Mettunin tapast þegar eitt lag af efni er flett.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Tími (í sekúndum) Á hvert lag: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Tíminn, í sekúndum, sem það tekur að pönnu eitt lag af efni.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} mettunartap á hvert lag: {1}"
+}

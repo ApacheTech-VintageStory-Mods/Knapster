@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Samlet påkrævet dej: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Skift antallet af voxels, der flyttes, pr. klik. Min: 1, Maks.: 8, Standard: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Vælg, om arbejdselementet skal fuldføres øjeblikkeligt ved brug. Sandt eller Falsk, Standard: Falsk.",
+    "Features.EasyDoughForming.Description":  "Administrer indstillinger for dejformning."
+}

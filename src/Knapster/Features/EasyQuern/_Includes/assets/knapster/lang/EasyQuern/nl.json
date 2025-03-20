@@ -1,7 +1,7 @@
-{
-  "Features.EasyQuern.Description": "Beheer quern instellingen.",
-  "Features.EasyQuern.StickyMouseButton": "{0} Plakkerige muisknoppen: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "Wanneer actief, hoeft de gebruiker de rechtermuisknop niet ingedrukt te houden om de kweern actief te houden.",
-  "Features.EasyQuern.IncludeAutomated.Description": "Pas de snelheidsvermenigvuldiger toe op geautomatiseerde querns, evenals handmatige querns toe.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Verander de snelheid waarmee de speler hulpbronnen maalt in een quern. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0."
+﻿{
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler grondstoffen maalt binnen een quern. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "Als de muis actief is, hoeft de gebruiker de rechtermuisknop niet ingedrukt te houden om de quern actief te houden.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Pas de snelheidsvermenigvuldiger toe op geautomatiseerde querns, evenals op handmatige querns.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Sticky muisknoppen: {1}",
+    "Features.EasyQuern.Description":  "Beheer quern-instellingen."
 }

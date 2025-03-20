@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "Управління налаштуваннями обробки ґрунту.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "Зміна швидкості, з якою гравець обробляє ґрунт сапою. Діє як прямий множник. Мін: 0,1, Макс: 2,0, За замовчуванням: 1,0."
+﻿{
+    "Features.EasyTilling.Description":  "Керуйте налаштуваннями Tilling.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець обробляє сільськогосподарські угіддя мотикою. Виступає прямим мультиплікатором. Мін: 0.1, Макс.: 2.0, За замовчуванням: 1.0."
 }

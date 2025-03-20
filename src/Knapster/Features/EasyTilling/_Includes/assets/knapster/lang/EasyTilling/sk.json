@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "Správa nastavení orby.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "Zmeňte rýchlosť, akou hráč orie pôdu motykou. Pôsobí ako priamy násobiteľ. Min: 0,1, Max: 2,0, Predvolené: 1,0."
+﻿{
+    "Features.EasyTilling.Description":  "Spravovať nastavenia obrábania pôdy.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč obrába poľnohospodársku pôdu motykou. Funguje ako priamy multiplikátor. Min: 0,1, Max: 2,0, Predvolené: 1,0."
 }

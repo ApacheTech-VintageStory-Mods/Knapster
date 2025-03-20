@@ -1,9 +1,9 @@
-{
-  "Features.EasyPanning.Description": "إدارة إعدادات التنقية.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "الوقت، بالثواني، الذي يستغرقه لتحريك طبقة واحدة من المادة.",
-  "Features.EasyPanning.DropsPerLayer.Description": "عدد القطرات التي يتم توليدها لكل طبقة من المادة.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "كمية التشبع المفقودة عند تحريك طبقة واحدة من المادة.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} الوقت (بالثوانى) لكل طبقة: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} القطرات لكل طبقة: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} فقدان التشبع لكل طبقة: {1}"
+﻿{
+    "Features.EasyPanning.Description":  "إدارة إعدادات التحريك.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} قطرات لكل طبقة: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "عدد القطرات التي ولدت لكل طبقة من المواد.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "فقد التشبع عند تحريك طبقة واحدة من المواد.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} الوقت (بالثواني) لكل طبقة: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "الوقت ، في الثواني ، يستغرق تحريك طبقة واحدة من المواد.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} خسارة التشبع لكل طبقة: {1}"
 }

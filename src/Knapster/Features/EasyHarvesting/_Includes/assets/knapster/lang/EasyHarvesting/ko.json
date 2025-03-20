@@ -1,4 +1,4 @@
 ﻿{
-  "Features.EasyHarvesting.Description": "수확 설정을 관리합니다.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "낫으로 풀을 수확하는 플레이어의 속도를 변경합니다. 직접 배수로 작용합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0."
- }
+    "Features.EasyHarvesting.Description":  "수확 설정을 관리합니다.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "플레이어가 낫으로 풀을 베는 속도를 변경합니다. 직접 승수 역할을 합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0."
+}

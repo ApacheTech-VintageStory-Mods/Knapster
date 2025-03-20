@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyPanning.Description":  "管理平移設置。",
+    "Features.EasyPanning.DropsPerLayer":  "每層 {0} 滴數：{1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "每層材質生成的水滴數量。",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "平移單個材質層時飽和度丟失。",
+    "Features.EasyPanning.SecondsPerLayer":  "每層{0}時間（秒）：{1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "平移一層材料所需的時間（以秒為單位）。",
+    "Features.EasyPanning.SaturationPerLayer":  "每層{0}飽和損耗：{1}"
+}

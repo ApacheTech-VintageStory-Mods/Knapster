@@ -1,6 +1,6 @@
-{
-  "Features.EasyClayForming.ClayRequired": "Gesamte benötigte Tonerde: {0}",
-  "Features.EasyClayForming.Description": "Verwalten Sie die Einstellungen f�r das Formen von Ton.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "�ndern Sie die Anzahl der Voxels, die pro Klick bewegt werden. Min: 1, Max: 8, Standard: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "�ndern Sie, ob der Arbeitsauftrag sofort abgeschlossen werden soll, wenn er verwendet wird. Wahr oder Falsch, Standard: Falsch."
+﻿{
+    "Features.EasyClayForming.InstantComplete.Description":  "Ändern Sie, ob die Arbeitsaufgabe bei der Verwendung sofort abgeschlossen werden soll. Wahr oder Falsch, Standardwert: Falsch.",
+    "Features.EasyClayForming.ClayRequired":  "Benötigter Ton: {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasyClayForming.Description":  "Verwalten Sie die Einstellungen für die Tonformung."
 }

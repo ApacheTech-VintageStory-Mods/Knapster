@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "إدارة إعدادات الحراثة.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "تغيير السرعة التي يحرث بها اللاعب الأرض بالمعول. يعمل كضرب مباشر. الحد الأدنى: 0.1، الحد الأقصى: 2.0، الافتراضي: 1.0."
+﻿{
+    "Features.EasyTilling.Description":  "إدارة إعدادات الحراثة.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يحث بها اللاعب الأراضي الزراعية بمجرفة. يعمل كمضاعف مباشر. الحد الأدنى: 0.1 ، الحد الأقصى: 2.0 ، الافتراضي: 1.0."
 }

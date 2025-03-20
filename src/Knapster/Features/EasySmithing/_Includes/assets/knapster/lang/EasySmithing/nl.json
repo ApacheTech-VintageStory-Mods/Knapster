@@ -1,6 +1,6 @@
-{
-  "Features.EasySmithing.Description": "Beheer de instellingen voor smeden.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Wijzig het aantal voxels dat per klik wordt verplaatst. Min: 1, Max: 8, Standaard: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Wijzig de duurzaamheidskosten per gebruik. Min: 1, Max: 10, Standaard: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Wijzig of het werkitem direct wordt voltooid bij gebruik. Waar of Onwaar, Standaard: Onwaar."
+﻿{
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasySmithing.CostPerClick.Description":  "Wijzig de duurzaamheidskosten per gebruik. Min: 1, Max: 10, Standaard: 5.",
+    "Features.EasySmithing.InstantComplete.Description":  "Wijzig of het werkitem al dan niet onmiddellijk moet worden voltooid, tijdens gebruik. Waar of onwaar, standaard: Onwaar.",
+    "Features.EasySmithing.Description":  "Beheer de instellingen voor smeden."
 }

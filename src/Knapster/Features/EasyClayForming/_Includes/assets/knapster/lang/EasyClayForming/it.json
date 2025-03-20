@@ -1,6 +1,6 @@
-{
-  "Features.EasyClayForming.ClayRequired": "Argilla totale richiesta: {0}",
-  "Features.EasyClayForming.Description": "Gestisci le impostazioni di formazione dell'argilla.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "Cambia il numero di voxel che vengono spostati per clic. Minimo: 1, Massimo: 8, Predefinito: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "Cambia se l'attività dovrebbe essere istantaneamente completata all'uso. Vero o Falso, Predefinito: Falso."
+﻿{
+    "Features.EasyClayForming.InstantComplete.Description":  "Modificare se l\u0027elemento di lavoro deve essere completato immediatamente, al momento dell\u0027uso. True, o False, impostazione predefinita: False.",
+    "Features.EasyClayForming.ClayRequired":  "Argilla totale richiesta: {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Modifica il numero di voxel che vengono spostati, per clic. Min: 1, Max: 8, Predefinito: 1.",
+    "Features.EasyClayForming.Description":  "Gestisci le impostazioni di formatura dell\u0027argilla."
 }

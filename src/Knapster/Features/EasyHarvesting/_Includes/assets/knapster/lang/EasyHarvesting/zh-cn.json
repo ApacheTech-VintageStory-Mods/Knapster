@@ -1,4 +1,4 @@
 ﻿{
-  "Features.EasyHarvesting.Description": "管理收获设置。",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "更改玩家使用镰刀收割草的速度。作为直接乘数。最小：0.0，最大：2.0，默认：1.0。"
+    "Features.EasyHarvesting.Description":  "管理采集设置。",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "更改玩家用镰刀收割草的速度。充当直接乘数。最小值：0.0，最大值：2.0，默认值：1.0。"
 }

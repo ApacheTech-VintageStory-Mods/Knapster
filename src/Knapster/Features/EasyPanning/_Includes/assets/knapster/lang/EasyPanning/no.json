@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyPanning.Description":  "Administrer panoreringsinnstillinger.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} dråper per lag: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Antall dråper som gytes per lag med materiale.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Metningen går tapt ved panorering av et enkelt lag med materiale.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Tid (i sekunder) Per lag: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Tiden, i sekunder, det tar å panorere ett lag med materiale.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} metningstap per lag: {1}"
+}

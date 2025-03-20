@@ -1,7 +1,7 @@
-{
-  "Features.EasyQuern.Description": "Gestisci le impostazioni della macina.",
-  "Features.EasyQuern.StickyMouseButton": "{0} Pulsanti del mouse adesivi: {1}",
-  "Features.EasyQuern.StickyMouseButton.Description": "Quando attivo, l'utente non avrà bisogno di tenere premuto il pulsante destro del mouse per mantenere attiva la macina.",
-  "Features.EasyQuern.IncludeAutomated.Description": "Applica il moltiplicatore di velocità alle quern automatiche, così come alle quern manuali.",
-  "Features.EasyQuern.SpeedMultiplier.Description": "Cambia la velocità con cui il giocatore macina le risorse all'interno di una macina. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0."
+﻿{
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Cambia la velocità con cui il giocatore macina le risorse all\u0027interno di un quern. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "Quando è attivo, l\u0027utente non avrà bisogno di tenere premuto il tasto destro del mouse per mantenere attivo il quern.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Applica il moltiplicatore di velocità ai quern automatizzati, così come ai quern manuali.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Pulsanti permanenti del mouse: {1}",
+    "Features.EasyQuern.Description":  "Gestisci le impostazioni del quern."
 }

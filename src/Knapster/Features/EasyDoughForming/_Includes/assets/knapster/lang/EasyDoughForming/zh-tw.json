@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "所需麵團總數： {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "更改每次按兩下移動的體素數。最小值：1，最大值：8，預設值：1。",
+    "Features.EasyDoughForming.InstantComplete.Description":  "更改是否應在使用時立即完成工作項。true 或 false，預設值：false。",
+    "Features.EasyDoughForming.Description":  "管理麵團成型設置。"
+}

@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyDoughForming.DoughRequired":  "Heildardeig sem þarf: {0}",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Breyttu fjölda voxels sem eru færðir, fyrir hvern smell. Lágmark: 1, hámark: 8, sjálfgefið: 1.",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Breyta því hvort verkliðnum eigi að vera lokið samstundis eða ekki, við notkun. Satt, eða ósatt, sjálfgefið: Rangt.",
+    "Features.EasyDoughForming.Description":  "Stjórnaðu stillingum fyrir deigmyndun."
+}

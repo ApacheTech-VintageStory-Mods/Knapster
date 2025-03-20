@@ -1,4 +1,4 @@
-{
-  "Features.EasyTilling.Description": "Verwalte Einstellungen zum Pflügen.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "Ändere die Geschwindigkeit, mit der der Spieler Ackerland mit einer Hacke pflügt. Wirkt als direkter Multiplikator. Min: 0,1, Max: 2,0, Standard: 1,0."
+﻿{
+    "Features.EasyTilling.Description":  "Verwalten der Tilling-Einstellungen.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Ändere die Geschwindigkeit, mit der der Spieler Ackerland mit einer Hacke bearbeitet. Wirkt als direkter Multiplikator. Min.: 0.1, Max: 2.0, Standard: 1.0."
 }

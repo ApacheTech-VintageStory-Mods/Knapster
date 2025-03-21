@@ -344,7 +344,7 @@
                 <Embedding Compress="1" Encrypt="1" />
             </Assembly>
             <Assembly AssemblyName="ApacheTech.Common.Extensions.Harmony, Culture=neutral, PublicKeyToken=null">
-                <Merging Merge="1">
+                <Merging Merge="0">
                     <Pruning Prune="1">
                         <Exclusion />
                     </Pruning>

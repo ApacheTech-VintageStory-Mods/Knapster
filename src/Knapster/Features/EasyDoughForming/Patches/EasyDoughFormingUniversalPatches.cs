@@ -1,7 +1,6 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
 using ApacheTech.Common.Extensions.System;
 using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
-using Gantry.Services.HarmonyPatches.Extensions;
 
 // ReSharper disable StringLiteralTypo
 // ReSharper disable InconsistentNaming
@@ -57,7 +56,7 @@ public class EasyDoughFormingUniversalPatches
 
             dough.SetToolMode(slot, byPlayer, blockSel, 0);
             var world = ApiEx.Current.World;
-            var currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
+            int currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
             if (instantComplete
                     ? BlockEntityDoughFormExtensions.CompleteInTurn(__instance, slot)
                     : BlockEntityDoughFormExtensions.AutoCompleteLayer(__instance, currentLayer, voxelsPerClick))

@@ -12,18 +12,9 @@ public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSe
 {
     protected override string SubCommandName => "MixingBowl";
 
-    public override bool ShouldLoad(EnumAppSide forSide)
-    {
-        try
-        {
-            var shouldLoad = base.ShouldLoad(forSide) && ApiEx.Current.ModLoader.IsModEnabled("aculinaryartillery");
-            return shouldLoad;
-        }
-        catch
-        {
-            return false;
-        }
-    }
+    public override bool ShouldLoad(ICoreAPI api)
+        => base.ShouldLoad(api)
+        && api.ModLoader.IsModEnabled("aculinaryartillery");
 
     protected override void FeatureSpecificCommands(IChatCommand subCommand, CommandArgumentParsers parsers)
     {

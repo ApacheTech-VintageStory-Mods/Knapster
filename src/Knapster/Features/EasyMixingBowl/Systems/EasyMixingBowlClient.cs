@@ -8,16 +8,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlClientSettings>
 {
-    public override bool ShouldLoad(EnumAppSide forSide)
-    {
-        try
-        {
-            var shouldLoad = base.ShouldLoad(forSide) && UApi.ModLoader.IsModEnabled("aculinaryartillery");
-            return shouldLoad;
-        }
-        catch
-        {
-            return false;
-        }
-    }
+    public override bool ShouldLoad(ICoreAPI api)
+        => base.ShouldLoad(api)
+        && api.ModLoader.IsModEnabled("aculinaryartillery");
 }

@@ -108,6 +108,14 @@
 			<HintPath>$(VINTAGE_STORY)\Lib\System.Collections.Immutable.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
+		<Reference Include="System.Text.Encodings.Web">
+			<HintPath>$(VINTAGE_STORY)\Lib\System.Text.Encodings.Web.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="System.Text.Json">
+			<HintPath>$(VINTAGE_STORY)\Lib\System.Text.Json.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
 		<Reference Include="Tavis.JsonPatch">
 			<HintPath>$(EnvironmentVariable)\Lib\Tavis.JsonPatch.dll</HintPath>
 			<Private>false</Private>

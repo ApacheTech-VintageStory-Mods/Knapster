@@ -5,7 +5,7 @@ namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public static class BlockEntityDoughFormExtensions
 {
-    private static MethodInfo _onAdd;
+    private static MethodInfo? _onAdd;
 
     public static void AddVoxel(BlockEntity block, int y, Vec3i pos, int radius)
     {

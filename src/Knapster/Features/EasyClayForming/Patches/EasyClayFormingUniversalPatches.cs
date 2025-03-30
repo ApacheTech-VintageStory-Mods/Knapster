@@ -68,7 +68,7 @@ public class EasyClayFormingUniversalPatches
             if (!__instance.CallMethod<bool>("HasAnyVoxel"))
             {
                 __instance.AvailableVoxels = 0;
-                ___workItemStack = null;
+                ___workItemStack = default!;
                 __instance.Api.World.BlockAccessor.SetBlock(0, __instance.Pos);
                 return false;
             }

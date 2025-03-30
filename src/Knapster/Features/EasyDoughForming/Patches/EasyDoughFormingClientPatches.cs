@@ -1,8 +1,5 @@
 ﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
 
-#pragma warning disable IDE1006 // Naming Styles
-// ReSharper disable InconsistentNaming
-
 namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Patches;
 
 [HarmonyClientSidePatch]
@@ -46,7 +43,7 @@ public class EasyDoughFormingClientPatches
     public static void ClientPatch_BlockEntityDoughForm_GetBlockInfo_Postfix(dynamic __instance, StringBuilder dsc)
     {
         bool[,,] voxels = __instance.Voxels;
-        bool[,,] recipeVoxels = __instance.SelectedRecipe?.Voxels;
+        bool[,,]? recipeVoxels = __instance.SelectedRecipe?.Voxels;
         if (recipeVoxels is null) return;
 
         var lengthX = voxels.GetLength(0);

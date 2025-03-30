@@ -34,7 +34,7 @@ public class EasyDoughFormingUniversalPatches
         {
             var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
             if (slot.Itemstack is null || !__instance.CanWorkCurrent) return true;
-            if (slot.Itemstack.Collectible.GetType().Name != "AOCItemDough") return true;
+            if (slot.Itemstack?.Collectible.GetType().Name != "AOCItemDough") return true;
             var dough = slot.Itemstack.Collectible.To<Item>();
 
             var blockSel = new BlockSelection { Position = __instance.Pos };
@@ -73,7 +73,7 @@ public class EasyDoughFormingUniversalPatches
             if (!HarmonyReflectionExtensions.CallMethod<bool>(__instance, "HasAnyVoxel"))
             {
                 __instance.AvailableVoxels = 0;
-                ___workItemStack = null;
+                ___workItemStack = default!;
                 world.BlockAccessor.SetBlock(0, __instance.Pos);
                 return false;
             }

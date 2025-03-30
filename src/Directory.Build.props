@@ -12,6 +12,7 @@
 		<GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
 		<Configurations>Debug;Release;Package</Configurations>
 		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+		<Nullable>enable</Nullable>
 		<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
 	</PropertyGroup>
 	

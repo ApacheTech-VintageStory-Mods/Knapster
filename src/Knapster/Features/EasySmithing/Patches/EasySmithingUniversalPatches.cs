@@ -1,5 +1,12 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+﻿using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
+using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
 using Gantry.Core.Extensions.Api;
+using Gantry.Core.Hosting;
+using Gantry.Services.FileSystem.Abstractions.Contracts;
+using System.IO;
+using System.Reflection;
+using System.Text.Json.Nodes;
+using Vintagestory.API.Config;
 
 // ReSharper disable StringLiteralTypo
 // ReSharper disable InconsistentNaming
@@ -133,14 +140,24 @@ public class EasySmithingUniversalPatches
         anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
         anvil.CallMethod("onHelveHitSuccess", EnumVoxelMaterial.Metal, null, usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z);
         AnvilMetalRecovery("Postfix_OnSplit", new Vec3i(usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z), anvil);
+        //SmithingPlusBitRecovery(anvil, byPlayer);
         return true;
     }
     
-    private static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil __instance)
+    private static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil anvil)
     {
         if (!ApiEx.Current.ModLoader.AreAnyModsLoaded("metalrecovery", "anvilmetalrecoveryrevived")) return;
         var type = AccessTools.TypeByName("AnvilMetalRecovery.Patches.AnvilDaptor");
         var method = AccessTools.Method(type, methodName);
-        method?.Invoke(null, [voxelPos, __instance]);
+        method?.Invoke(null, [voxelPos, anvil]);
+    }
+
+    private static void SmithingPlusBitRecovery(BlockEntityAnvil anvil, IPlayer byPlayer)
+    {
+        if (!ApiEx.Current.ModLoader.AreAnyModsLoaded("smithingplus")) return;
+        if (anvil.WorkItemStack is not { } workItemStack) return;
+        var type = AccessTools.TypeByName("SmithingPlus.BitsRecovery.BitsRecoveryPatches");
+        var method = AccessTools.Method(type, "RecoverBitsFromWorkItem");
+        method?.Invoke(null, [anvil, byPlayer, workItemStack]);
     }
 }

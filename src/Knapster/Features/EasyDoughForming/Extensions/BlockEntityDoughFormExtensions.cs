@@ -2,17 +2,33 @@
 
 namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
 
+/// <summary>
+///     Provides extension methods for manipulating dough forming block entities and related voxel operations in Vintage Story mods.
+/// </summary>
 [UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public static class BlockEntityDoughFormExtensions
 {
     private static MethodInfo? _onAdd;
 
+    /// <summary>
+    ///     Adds a voxel to the dough form at the specified position and layer.
+    /// </summary>
+    /// <param name="block">The dough form block entity.</param>
+    /// <param name="y">The Y layer.</param>
+    /// <param name="pos">The voxel position.</param>
+    /// <param name="radius">The radius for the operation.</param>
     public static void AddVoxel(BlockEntity block, int y, Vec3i pos, int radius)
     {
         _onAdd ??= AccessTools.Method(block.GetType(), "OnAdd", [typeof(int), typeof(Vec3i), typeof(int)]);
         _onAdd?.Invoke(block, [y, pos, radius]);
     }
 
+    /// <summary>
+    ///     Completes the dough form in turn, consuming dough from the provided item slot as needed.
+    /// </summary>
+    /// <param name="block">The dough form block entity.</param>
+    /// <param name="itemSlot">The item slot containing dough.</param>
+    /// <returns>True if the operation was successful; otherwise, false.</returns>
     public static bool CompleteInTurn(dynamic block, ItemSlot itemSlot)
     {
         for (var y = 0; y < 16; y++)
@@ -44,6 +60,11 @@ public static class BlockEntityDoughFormExtensions
         return true;
     }
 
+    /// <summary>
+    ///     Converts a 3D boolean voxel array to a 3D byte array.
+    /// </summary>
+    /// <param name="voxels">The 3D boolean voxel array.</param>
+    /// <returns>A 3D byte array representing the voxels.</returns>
     public static byte[,,] ToBytes(this bool[,,] voxels)
     {
         var retVal = new byte[16, 16, 16];
@@ -60,9 +81,15 @@ public static class BlockEntityDoughFormExtensions
         return retVal;
     }
 
+    /// <summary>
+    ///     Extracts a single layer from a 3D boolean voxel array.
+    /// </summary>
+    /// <param name="voxels">The 3D boolean voxel array.</param>
+    /// <param name="y">The Y layer to extract.</param>
+    /// <returns>A 2D boolean array representing the specified layer.</returns>
     public static bool[,] ForSingleLayer(this bool[,,] voxels, int y)
     {
-        var retVal = new bool[,] { };
+        var retVal = new bool[16, 16];
         for (var x = 0; x < 16; x++)
         {
             for (var z = 0; z < 16; z++)
@@ -73,6 +100,12 @@ public static class BlockEntityDoughFormExtensions
         return retVal;
     }
 
+    /// <summary>
+    ///     Determines the current incomplete layer in the dough form.
+    /// </summary>
+    /// <param name="obj">The dough form block entity.</param>
+    /// <param name="layerStart">The starting layer index.</param>
+    /// <returns>The index of the first incomplete layer, or 16 if all layers are complete.</returns>
     public static int CurrentLayer(this object obj, int layerStart = 0)
     {
         dynamic block = obj;
@@ -93,6 +126,13 @@ public static class BlockEntityDoughFormExtensions
         return 16;
     }
 
+    /// <summary>
+    ///     Automatically completes a specific layer of the dough form, up to a specified number of voxels.
+    /// </summary>
+    /// <param name="obj">The dough form block entity.</param>
+    /// <param name="y">The Y layer to complete.</param>
+    /// <param name="voxels">The maximum number of voxels to complete.</param>
+    /// <returns>True if any voxels were changed; otherwise, false.</returns>
     public static bool AutoCompleteLayer(this object obj, int y, int voxels)
     {
         dynamic block = obj;

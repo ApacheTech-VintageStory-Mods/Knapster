@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "Knapster",
+    "Features.Knapster.IncludeAutomated":  "{0} inkluderer automatiserede versioner: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Mætningsmultiplikator: {1}x",
+    "ModDescription":  "Nemmere at lave og samle for dem med lav manuel fingerfærdighed.",
+    "Features.Knapster.SpeedMultiplier":  "{0} hastighedsmultiplikator: {1}x",
+    "Features.Knapster.InstantComplete":  "{0} Øjeblikkelig fuldført: {1}",
+    "Features.Knapster.AutoComplete":  "Automatisk fuldførelse",
+    "Features.Knapster.CostPerClick":  "{0} holdbarhedsomkostninger pr. klik: {1}",
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxels pr. klik: {1}"
+}

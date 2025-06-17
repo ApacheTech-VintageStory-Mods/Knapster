@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyHarvesting.Description":  "Hasat ayarlarını yönetin.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Oyuncunun bir tırpanla çim hasat etme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 2.0, Varsayılan: 1.0."
+}

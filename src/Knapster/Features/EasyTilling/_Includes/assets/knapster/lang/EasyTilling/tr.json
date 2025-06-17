@@ -1,0 +1,4 @@
+﻿{
+    "Features.EasyTilling.Description":  "Döşeme ayarlarını yönetin.",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Oyuncunun bir çapa ile tarım arazilerini sürme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.1, Maks: 2.0, Varsayılan: 1.0."
+}

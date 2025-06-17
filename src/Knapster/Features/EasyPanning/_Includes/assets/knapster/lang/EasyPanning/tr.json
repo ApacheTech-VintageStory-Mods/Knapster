@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyPanning.Description":  "Kaydırma ayarlarını yönetin.",
+    "Features.EasyPanning.DropsPerLayer":  "Katman başına {0} damla: {1}",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Her malzeme katmanı için ortaya çıkan damla sayısı.",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Tek bir malzeme katmanını kaydırırken kaybedilen doygunluk.",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Katman Başına Süre (saniye cinsinden): {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Saniye cinsinden, bir malzeme katmanını kaydırmak için gereken süre.",
+    "Features.EasyPanning.SaturationPerLayer":  "Katman başına {0} doygunluk kaybı: {1}"
+}

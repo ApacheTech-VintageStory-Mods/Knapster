@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "Knapster Belediyesi",
+    "Features.Knapster.IncludeAutomated":  "{0} otomatik sürümleri içerir: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Doygunluk Çarpanı: {1}x",
+    "ModDescription":  "El becerisi düşük olanlar için daha kolay işçiliği ve toplaması.",
+    "Features.Knapster.SpeedMultiplier":  "{0} Hız Çarpanı: {1}x",
+    "Features.Knapster.InstantComplete":  "{0} Anında Tamamlama: {1}",
+    "Features.Knapster.AutoComplete":  "Otomatik Tamamlama",
+    "Features.Knapster.CostPerClick":  "{0} Dayanıklılık Tıklama Başına Maliyet: {1}",
+    "Features.Knapster.VoxelsPerClick":  "Tıklama Başına {0} Voksel: {1}"
+}

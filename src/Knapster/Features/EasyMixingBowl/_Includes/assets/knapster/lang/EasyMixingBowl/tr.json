@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Hız çarpanını elektrikli karıştırma kaplarına ve ayrıca manuel karıştırma kaplarına uygulayın.",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Oyuncunun kaynakları bir karıştırma kabında birleştirme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 10.0, Varsayılan: 1.0.",
+    "Features.EasyMixingBowl.Description":  "Karıştırma kabı ayarlarını yönetin."
+}

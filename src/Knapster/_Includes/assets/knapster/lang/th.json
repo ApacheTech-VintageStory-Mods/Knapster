@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "แนปสเตอร์",
+    "Features.Knapster.IncludeAutomated":  "{0} รวมเวอร์ชันอัตโนมัติ: {1}",
+    "Features.Knapster.SaturationMultiplier":  "ตัวคูณความอิ่มตัวของ {0}: {1}x",
+    "ModDescription":  "การประดิษฐ์และรวบรวมที่ง่ายขึ้นสําหรับผู้ที่มีความคล่องแคล่วในการทํามือต่ํา",
+    "Features.Knapster.SpeedMultiplier":  "ตัวคูณความเร็ว {0}: {1}x",
+    "Features.Knapster.InstantComplete":  "{0} เสร็จสมบูรณ์ทันที: {1}",
+    "Features.Knapster.AutoComplete":  "เติมอัตโนมัติ",
+    "Features.Knapster.CostPerClick":  "{0} ความทนทานต่อคลิก: {1}",
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxels ต่อคลิก: {1}"
+}

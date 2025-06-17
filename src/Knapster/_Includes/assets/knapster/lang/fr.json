@@ -1,29 +1,11 @@
-{
-  "Features.EasyX.InvalidScope": "Portée invalide. Les options valides sont : {0}",
-  "Features.EasyX.Scope.Description": "Changer si le mod doit utiliser les paramètres globaux ou les paramètres par monde.",
-  "Features.EasyX.Scope": "Portée des paramètres : {0}",
-  "Features.EasyX.SetScope": "Portée des paramètres maintenant définie sur : {0}",
-
-  "Features.EasyX.ServerCommandDescription": "Permet à l'administrateur du serveur de modifier les paramètres du mod sur le serveur.",
-
-  "Features.EasyX.Mode": "Mode {0} : {1}",
-  "Features.EasyX.SetMode": "Mode {0} maintenant défini sur : {1}",
-  "Features.EasyX.InvalidMode": "Mode d'accès invalide. Les options valides sont : {0}",
-
-  "Features.EasyX.PlayerSearch.NoResults": "La recherche de '{0}' n'a donné aucun résultat. Veuillez réessayer.",
-  "Features.EasyX.PlayerSearch.MultipleResults": "La recherche de '{0}' a donné plusieurs résultats. Veuillez affiner vos termes de recherche.",
-
-  "Features.EasyX.AccessMode.Description": "Changer le mode d'accès pour la fonctionnalité actuelle.",
-
-  "Features.EasyX.Whitelist.Description": "Ajouter/Supprimer des joueurs de la liste blanche pour cette fonctionnalité.",
-  "Features.EasyX.Whitelist.Results": "Les joueurs suivants sont actuellement sur la liste blanche pour {0} :",
-  "Features.EasyX.Whitelist.NoResults": "Il n'y a actuellement aucun joueur sur la liste blanche pour {0}.",
-  "Features.EasyX.Whitelist.PlayerRemoved": "{0} a été retiré de la liste blanche pour {1}.",
-  "Features.EasyX.Whitelist.PlayerAdded": "{0} a été ajouté à la liste blanche pour {1}.",
-
-  "Features.EasyX.Blacklist.Description": "Ajouter/Supprimer des joueurs de la liste noire pour cette fonctionnalité.",
-  "Features.EasyX.Blacklist.Results": "Les joueurs suivants sont actuellement sur la liste noire pour {0} :",
-  "Features.EasyX.Blacklist.NoResults": "Il n'y a actuellement aucun joueur sur la liste noire pour {0}.",
-  "Features.EasyX.Blacklist.PlayerRemoved": "{0} a été retiré de la liste noire pour {1}.",
-  "Features.EasyX.Blacklist.PlayerAdded": "{0} a été ajouté à la liste noire pour {1}."
+﻿{
+    "ModTitle":  "Tailleur",
+    "Features.Knapster.IncludeAutomated":  "{0} inclure des versions automatisées : {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Multiplicateur de saturation : {1}x",
+    "ModDescription":  "Fabrication et récolte plus faciles, pour ceux qui ont une faible dextérité manuelle.",
+    "Features.Knapster.SpeedMultiplier":  "Multiplicateur de vitesse {0} : {1}x",
+    "Features.Knapster.InstantComplete":  "{0} Instant Complete : {1}",
+    "Features.Knapster.AutoComplete":  "Saisie semi-automatique",
+    "Features.Knapster.CostPerClick":  "{0} Durabilité Coût par clic : {1}",
+    "Features.Knapster.VoxelsPerClick":  "{0} voxels par clic : {1}"
 }

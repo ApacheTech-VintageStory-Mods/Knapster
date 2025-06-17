@@ -1,29 +1,11 @@
-{
-  "Features.EasyX.InvalidScope": "無効なスコープです。有効なオプションは: {0}",
-  "Features.EasyX.Scope.Description": "モッドがグローバル設定を使用するか、ワールドごとの設定を使用するかを変更します。",
-  "Features.EasyX.Scope": "設定スコープ: {0}",
-  "Features.EasyX.SetScope": "設定スコープが{0}に設定されました。",
-
-  "Features.EasyX.ServerCommandDescription": "サーバー管理者がサーバー上のモッドの設定を変更できるようにします。",
-
-  "Features.EasyX.Mode": "{0} モード: {1}",
-  "Features.EasyX.SetMode": "{0}モードが{1}に設定されました。",
-  "Features.EasyX.InvalidMode": "無効なアクセスモードです。有効なオプションは: {0}",
-
-  "Features.EasyX.PlayerSearch.NoResults": "'{0}'の検索結果はありませんでした。再試行してください。",
-  "Features.EasyX.PlayerSearch.MultipleResults": "'{0}'の検索結果が複数見つかりました。検索条件を絞り込んでください。",
-
-  "Features.EasyX.AccessMode.Description": "現在の機能のアクセスモードを変更します。",
-
-  "Features.EasyX.Whitelist.Description": "この機能のホワイトリストにプレイヤーを追加/削除します。",
-  "Features.EasyX.Whitelist.Results": "現在{0}のホワイトリストに登録されているプレイヤーは次の通りです:",
-  "Features.EasyX.Whitelist.NoResults": "現在{0}のホワイトリストにプレイヤーはいません。",
-  "Features.EasyX.Whitelist.PlayerRemoved": "{0}は{1}のホワイトリストから削除されました。",
-  "Features.EasyX.Whitelist.PlayerAdded": "{0}は{1}のホワイトリストに追加されました。",
-
-  "Features.EasyX.Blacklist.Description": "この機能のブラックリストにプレイヤーを追加/削除します。",
-  "Features.EasyX.Blacklist.Results": "現在{0}のブラックリストに登録されているプレイヤーは次の通りです:",
-  "Features.EasyX.Blacklist.NoResults": "現在{0}のブラックリストにプレイヤーはいません。",
-  "Features.EasyX.Blacklist.PlayerRemoved": "{0}は{1}のブラックリストから削除されました。",
-  "Features.EasyX.Blacklist.PlayerAdded": "{0}は{1}のブラックリストに追加されました。"
+﻿{
+    "ModTitle":  "ナップスター",
+    "Features.Knapster.IncludeAutomated":  "{0} 自動化バージョンを含める: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0}彩度乗数:{1}x",
+    "ModDescription":  "手先の器用さが低い人のための、より簡単なクラフトと収集。",
+    "Features.Knapster.SpeedMultiplier":  "{0}スピードマルチプライヤー:{1}x",
+    "Features.Knapster.InstantComplete":  "{0}インスタントコンプリート:{1}",
+    "Features.Knapster.AutoComplete":  "オートコンプリート",
+    "Features.Knapster.CostPerClick":  "{0} 耐久性のクリックあたりのコスト: {1}",
+    "Features.Knapster.VoxelsPerClick":  "クリックあたりの{0}ボクセル数:{1}"
 }

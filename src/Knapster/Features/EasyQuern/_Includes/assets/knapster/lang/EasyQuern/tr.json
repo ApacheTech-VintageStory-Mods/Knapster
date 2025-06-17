@@ -1,0 +1,7 @@
+﻿{
+    "Features.EasyQuern.SpeedMultiplier.Description":  "Oyuncunun bir quern içinde kaynakları öğütme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 10.0, Varsayılan: 1.0.",
+    "Features.EasyQuern.StickyMouseButton.Description":  "Etkin olduğunda, kullanıcının quern\u0027i etkin tutmak için farenin sağ düğmesini basılı tutması gerekmez.",
+    "Features.EasyQuern.IncludeAutomated.Description":  "Hız çarpanını manuel quern\u0027lerin yanı sıra otomatik quern\u0027lere de uygulayın.",
+    "Features.EasyQuern.StickyMouseButton":  "{0} Yapışkan Fare Düğmeleri: {1}",
+    "Features.EasyQuern.Description":  "Quern ayarlarını yönet."
+}

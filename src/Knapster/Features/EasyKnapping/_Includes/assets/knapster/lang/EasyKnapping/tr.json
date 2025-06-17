@@ -1,0 +1,5 @@
+﻿{
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasyKnapping.InstantComplete.Description":  "İş öğesinin kullanımda anında tamamlanması gerekip gerekmediğini değiştirin. Doğru veya Yanlış, varsayılan: Yanlış.",
+    "Features.EasyKnapping.Description":  "Yontma ayarlarını yönetin."
+}

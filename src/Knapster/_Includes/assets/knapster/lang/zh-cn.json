@@ -1,29 +1,11 @@
-{
-  "Features.EasyX.InvalidScope": "无效范围。有效选项为：{0}",
-  "Features.EasyX.Scope.Description": "更改模组应使用全局设置还是每个世界设置。",
-  "Features.EasyX.Scope": "设置范围：{0}",
-  "Features.EasyX.SetScope": "设置范围现已设定为：{0}",
-
-  "Features.EasyX.ServerCommandDescription": "允许服务器管理员更改服务器上的模组设置。",
-
-  "Features.EasyX.Mode": "{0} 模式：{1}",
-  "Features.EasyX.SetMode": "{0} 模式现已设定为：{1}",
-  "Features.EasyX.InvalidMode": "无效访问模式。有效选项为：{0}",
-
-  "Features.EasyX.PlayerSearch.NoResults": "搜索 '{0}' 无结果。请再试一次。",
-  "Features.EasyX.PlayerSearch.MultipleResults": "搜索 '{0}' 结果过多。请细化搜索词。",
-
-  "Features.EasyX.AccessMode.Description": "更改当前功能的访问模式。",
-
-  "Features.EasyX.Whitelist.Description": "为此功能添加/移除白名单中的玩家。",
-  "Features.EasyX.Whitelist.Results": "以下玩家目前在 {0} 白名单中：",
-  "Features.EasyX.Whitelist.NoResults": "当前没有玩家在 {0} 白名单中。",
-  "Features.EasyX.Whitelist.PlayerRemoved": "{0} 已从 {1} 白名单中移除。",
-  "Features.EasyX.Whitelist.PlayerAdded": "{0} 已添加到 {1} 白名单中。",
-
-  "Features.EasyX.Blacklist.Description": "为此功能添加/移除黑名单中的玩家。",
-  "Features.EasyX.Blacklist.Results": "以下玩家目前在 {0} 黑名单中：",
-  "Features.EasyX.Blacklist.NoResults": "当前没有玩家在 {0} 黑名单中。",
-  "Features.EasyX.Blacklist.PlayerRemoved": "{0} 已从 {1} 黑名单中移除。",
-  "Features.EasyX.Blacklist.PlayerAdded": "{0} 已添加到 {1} 黑名单中。"
+﻿{
+    "ModTitle":  "Knapster",
+    "Features.Knapster.IncludeAutomated":  "{0} 包括自动版本：{1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Saturation Multiplier：{1}x",
+    "ModDescription":  "更容易制作和收集，适合手部灵活性低的人。",
+    "Features.Knapster.SpeedMultiplier":  "{0} 速度倍增器：{1}x",
+    "Features.Knapster.InstantComplete":  "{0} 即时完成：{1}",
+    "Features.Knapster.AutoComplete":  "自动完成",
+    "Features.Knapster.CostPerClick":  "{0} 每次点击的持久性成本：{1}",
+    "Features.Knapster.VoxelsPerClick":  "每次点击的体素数{0}：{1}"
 }

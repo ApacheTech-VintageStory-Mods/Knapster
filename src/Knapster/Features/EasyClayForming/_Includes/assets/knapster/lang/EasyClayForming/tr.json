@@ -1,0 +1,6 @@
+﻿{
+    "Features.EasyClayForming.InstantComplete.Description":  "İş öğesinin kullanımda anında tamamlanması gerekip gerekmediğini değiştirin. Doğru veya Yanlış, varsayılan: Yanlış.",
+    "Features.EasyClayForming.ClayRequired":  "Gerekli toplam kil: {0}",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasyClayForming.Description":  "Kil şekillendirme ayarlarını yönetin."
+}

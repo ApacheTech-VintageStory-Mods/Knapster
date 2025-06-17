@@ -48,16 +48,6 @@
 		<DebugSymbols>true</DebugSymbols>
 	</PropertyGroup>
 
-	<PropertyGroup>
-		<ModPackagerDir>C:\Users\Apache\source\repos\.tools\packager\</ModPackagerDir>
-		<ModPackagerName>ModPackager.exe</ModPackagerName>
-		<ModPackagerPath>$(ModPackagerDir)$(ModPackagerName)</ModPackagerPath>
-
-		<ModInfoGeneratorDir>C:\Users\Apache\source\repos\.tools\mig\</ModInfoGeneratorDir>
-		<ModInfoGeneratorName>mig.exe</ModInfoGeneratorName>
-		<ModInfoGeneratorPath>$(ModInfoGeneratorDir)$(ModInfoGeneratorName)</ModInfoGeneratorPath>
-	</PropertyGroup>
-
 	<ItemGroup Label="Game Imports">
 		<!-- Vintage Story Game Libraries -->
 		<Reference Include="VintagestoryAPI">

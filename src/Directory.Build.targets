@@ -1,9 +1,73 @@
 <Project>
-	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="if $(Configuration) == Debug (&#xD;&#xA;&#xD;&#xA;:: Generator Mod Info file. ::&#xD;&#xA;cd &quot;$(VsModInfoGeneratorDir)&quot;&#xD;&#xA;&quot;$(VsModInfoGenerator)&quot; -a &quot;$(TargetPath)&quot; -o $(TargetDir)&#xD;&#xA;&#xD;&#xA;:: Copy all other relevant files to target directory. ::&#xD;&#xA;xcopy &quot;$(TargetDir)&quot; &quot;$(SolutionDir).debug\$(TargetFramework)\$(ProjectName)&quot; /y /e /c /q&#xD;&#xA;xcopy &quot;$(ProjectDir)_Includes\&quot; &quot;$(SolutionDir).debug\$(TargetFramework)\$(ProjectName)&quot; /y /e /c /q&#xD;&#xA;FOR /D %25%25G IN ($(ProjectDir)Features\**) DO (&#xD;&#xA;    if exist &quot;%25%25G\_Includes\&quot; xcopy &quot;%25%25G\_Includes\&quot; &quot;$(SolutionDir).debug\$(TargetFramework)\$(ProjectName)&quot; /y /e /c /q&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;if $(Configuration) == Package (&#xD;&#xA;&#xD;&#xA;:: Copy all other relevant files to target directory. ::&#xD;&#xA;xcopy &quot;$(ProjectDir)_Includes\&quot; &quot;$(TargetDir)_Includes\&quot; /y /e /c /q&#xD;&#xA;FOR /D %25%25G IN ($(ProjectDir)Features\**) DO (&#xD;&#xA;    if exist &quot;%25%25G\_Includes\&quot; xcopy &quot;%25%25G\_Includes\&quot; &quot;$(TargetDir)_Includes\&quot; /y /e /c /q&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;:: Package the mod. ::&#xD;&#xA;cd &quot;$(VsModPackagerDir)&quot;&#xD;&#xA;&quot;$(VsModPackager)&quot; -a &quot;$(TargetPath)&quot;&#xD;&#xA;&#xD;&#xA;:: Copy mod package to releases directory. ::&#xD;&#xA;copy /y &quot;$(TargetDir)release\*.zip&quot; &quot;$(SolutionDir).releases\$(TargetFramework)&quot;&#xD;&#xA;&#xD;&#xA;)" />
+	
+	<PropertyGroup>
+		<CleanOutputDir>$([System.IO.Path]::GetDirectoryName('$(TargetPath)'))</CleanOutputDir>
+	</PropertyGroup>
+	
+	<Target Name="PackageMod" AfterTargets="PostBuildEvent">
+
+		<Message Text=" → PostBuild: Packaging mod $(ProjectName) in $(Configuration) mode." Importance="high" />
+		<Message Text="   ↳ Patching and Merging Mod Translation Files..." Importance="high" />
+		<Exec Command="$(VsModTranslationPatcherDir)\$(VsModTranslationPatcher) -p $(ProjectDir) -t $(CleanOutputDir) -m $(ModId) -l Information" />
+		
+		<!-- DEBUG Configuration -->
+		<Message Condition="'$(Configuration)' == 'Debug'" Text="   ↳ Generating Mod Info File..." Importance="high" />
+		<Exec Condition="'$(Configuration)' == 'Debug'"
+			  Command="&quot;$(VsModInfoGeneratorDir)\$(VsModInfoGenerator)&quot; -a &quot;$(TargetPath)&quot; -o &quot;$(CleanOutputDir)&quot;" />
+
+		<ItemGroup>
+			<DebugCopyFiles Condition="'$(Configuration)' == 'Debug'" Include="$(TargetDir)\**\*" />
+			<IncludeDirsDebug Condition="'$(Configuration)' == 'Debug'" Include="$(ProjectDir)_Includes\**\*" />
+			<FeatureIncludeDirsDebug Condition="'$(Configuration)' == 'Debug'" Include="$(ProjectDir)Features\**\_Includes\**\*" />
+		</ItemGroup>
+
+		<Copy Condition="'$(Configuration)' == 'Debug'"
+			  SourceFiles="@(DebugCopyFiles)"
+			  DestinationFolder="$(SolutionDir).debug\$(ProjectName)\%(RecursiveDir)"
+			  SkipUnchangedFiles="false" />
+
+		<Copy Condition="'$(Configuration)' == 'Debug'"
+			  SourceFiles="@(IncludeDirsDebug)"
+			  DestinationFolder="$(SolutionDir).debug\$(ProjectName)\%(RecursiveDir)"
+			  SkipUnchangedFiles="false" />
+
+		<Copy Condition="'$(Configuration)' == 'Debug'"
+			  SourceFiles="@(FeatureIncludeDirsDebug)"
+			  DestinationFolder="$(SolutionDir).debug\$(ProjectName)\%(RecursiveDir)"
+			  SkipUnchangedFiles="false" />
+
+
+		<!-- PACKAGE Configuration -->
+		<Message Condition="'$(Configuration)' == 'Package'" Text="   ↳ Copying includes to packaging folder..." Importance="high" />
+
+		<ItemGroup>
+			<IncludeDirsPackage Condition="'$(Configuration)' == 'Package'" Include="$(ProjectDir)_Includes\**\*" />
+			<FeatureIncludeDirsPackage Condition="'$(Configuration)' == 'Package'" Include="$(ProjectDir)Features\**\_Includes\**\*" />
+			<PackagedMods Condition="'$(Configuration)' == 'Package'" Include="$(TargetDir)release\*.zip" />
+		</ItemGroup>
+
+		<Copy Condition="'$(Configuration)' == 'Package'"
+			  SourceFiles="@(IncludeDirsPackage)"
+			  DestinationFolder="$(TargetDir)_Includes\%(RecursiveDir)"
+			  SkipUnchangedFiles="false" />
+
+		<Copy Condition="'$(Configuration)' == 'Package'"
+			  SourceFiles="@(FeatureIncludeDirsPackage)"
+			  DestinationFolder="$(TargetDir)_Includes\%(RecursiveDir)"
+			  SkipUnchangedFiles="false" />
+
+		<Message Condition="'$(Configuration)' == 'Package'" Text="   ↳ Packaging mod using VsModPackager..." Importance="high" />
+		<Exec Condition="'$(Configuration)' == 'Package'"
+			  WorkingDirectory="$(VsModPackagerDir)"
+			  Command="&quot;$(VsModPackagerDir)\$(VsModPackager)&quot; -a &quot;$(TargetPath)&quot;" />
+
+		<Message Condition="'$(Configuration)' == 'Package'" Text="   ↳ Copying package to .releases\" Importance="high" />
+
+		<Copy Condition="'$(Configuration)' == 'Package'"
+			  SourceFiles="@(PackagedMods)"
+			  DestinationFolder="$(SolutionDir).releases\"
+			  SkipUnchangedFiles="false" />
+
 	</Target>
 
-	<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-		<Exec Command="del /f /s /q $(TargetDir) &gt; NUL&#xD;&#xA;rmdir /s /q $(TargetDir)&#xD;&#xA;&#xD;&#xA;if $(Configuration) == Debug (&#xD;&#xA;&#xD;&#xA;del /f /s /q $(SolutionDir).debug\$(TargetFramework)\$(ProjectName) &gt; NUL&#xD;&#xA;rmdir /s /q $(SolutionDir).debug\$(TargetFramework)\$(ProjectName) &gt; NUL&#xD;&#xA;if not exist $(SolutionDir).debug\$(TargetFramework)\$(ProjectName)\ mkdir $(SolutionDir).debug\$(TargetFramework)\$(ProjectName)\&#xD;&#xA;&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;if $(Configuration) == Package (&#xD;&#xA;&#xD;&#xA;del /f /s /q $(SolutionDir).releases\$(TargetFramework)\ &gt; NUL&#xD;&#xA;rmdir /s /q $(SolutionDir).releases\$(TargetFramework)\ &gt; NUL&#xD;&#xA;if not exist $(SolutionDir).releases\$(TargetFramework)\ mkdir $(SolutionDir).releases\$(TargetFramework)\&#xD;&#xA;&#xD;&#xA;)" />
-	</Target>
 </Project>

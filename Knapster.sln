@@ -7,12 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mod", "Mod", "{8CC940C4-5A0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Launcher", "Launcher", "{07BA249A-0514-4379-92D3-F00C7FD02B7D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDFAACE3-F8DA-41B6-A344-1132258696B9}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-		docs\README.md = docs\README.md
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{820A8428-C23A-489C-A3B7-7FB3C9F57547}"
 	ProjectSection(SolutionItems) = preProject
 		docs\LICENCE.md = docs\LICENCE.md
@@ -25,7 +19,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{6CE6BFD0
 	ProjectSection(SolutionItems) = preProject
 		src\Directory.Build.props = src\Directory.Build.props
 		src\Directory.Build.targets = src\Directory.Build.targets
-		reallyRefresh.bat = reallyRefresh.bat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gantry", "Gantry", "{07BB7BEC-6D2B-472F-8575-104B209EB1DA}"
@@ -42,7 +35,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{0BB53066
 		..\..\..\Gantry\src\Directory.Build.props = ..\..\..\Gantry\src\Directory.Build.props
 		..\..\..\Gantry\src\Directory.Build.targets = ..\..\..\Gantry\src\Directory.Build.targets
 		..\..\..\Gantry\src\Directory.Packages.props = ..\..\..\Gantry\src\Directory.Packages.props
-		..\..\..\Gantry\reallyRefresh.bat = ..\..\..\Gantry\reallyRefresh.bat
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerLauncher", "..\..\..\CoreClrLauncher\src\ServerLauncher\ServerLauncher.csproj", "{203C366C-79A7-4844-B562-ADED19746989}"

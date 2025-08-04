@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Version>1.0.0.0</Version>
+		<ModId>xknapster</ModId>
+		<ModName>XKnapster: XSkills Compatibility Addon</ModName>
+		<RootNamespace>XKnapster</RootNamespace>
+		<PackageMod>true</PackageMod>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\docs\LICENCE.md" Link="_Includes\LICENCE.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Knapster\Knapster.csproj">
+			<Private>False</Private>
+		</ProjectReference>
+		<Reference Include="xlib">
+			<HintPath>..\..\ref\xlib_v0.8.16\xlib.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="xskills">
+			<HintPath>..\..\ref\xskills_v0.8.19\xskills.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
+
+	<Import Project="..\..\..\..\..\Gantry\shared\Gantry.Shared\Gantry.Shared.projitems" Label="Shared" />
+
+</Project>

@@ -1,12 +1,9 @@
-﻿// ReSharper disable InconsistentNaming
+﻿using Knapster.Features.EasyMixingBowl.Systems;
 
-using ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Patches;
+namespace Knapster.Features.EasyMixingBowl.Patches;
 
 [RequiresMod("aculinaryartillery")]
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyMixingBowlUniversalACulinaryArtilleryPatches
 {
     [HarmonyPostfix]
@@ -18,22 +15,22 @@ public class EasyMixingBowlUniversalACulinaryArtilleryPatches
 
     public static float SpeedMultiplier(List<string> players)
     {
-        if (players.Count == 0 && !ApiEx.OneOf(
-                EasyMixingBowlClient.Settings.IncludeAutomated,
-                EasyMixingBowlServer.Settings.IncludeAutomated))
+        if (players.Count == 0 && !G.ApiEx.OneOf(
+                EasyMixingBowlClient.Instance.Settings.IncludeAutomated,
+                EasyMixingBowlServer.Instance.Settings.IncludeAutomated))
         {
             return 1f;
         }
 
-        if (!ApiEx.Return(
-                () => EasyMixingBowlClient.Settings.Enabled,
-                () => EasyMixingBowlServer.IsEnabledForAll(players)))
+        if (!G.ApiEx.Return(
+                () => EasyMixingBowlClient.Instance.Settings.Enabled,
+                () => EasyMixingBowlServer.Instance.IsEnabledForAll(players)))
         {
             return 1f;
         }
 
-        return ApiEx.OneOf(
-            EasyMixingBowlClient.Settings.SpeedMultiplier,
-            EasyMixingBowlServer.Settings.SpeedMultiplier);
+        return G.ApiEx.OneOf(
+            EasyMixingBowlClient.Instance.Settings.SpeedMultiplier,
+            EasyMixingBowlServer.Instance.Settings.SpeedMultiplier);
     }
 }

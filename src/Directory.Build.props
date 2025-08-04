@@ -2,6 +2,7 @@
 	<PropertyGroup Label="Framework Versioning">
 		<TargetFramework>net7.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
+		<PackageMod>true</PackageMod>
 	</PropertyGroup>
 
 	<PropertyGroup Label="Project Configuration">
@@ -113,9 +114,4 @@
 		</Reference>
 	</ItemGroup>
 
-	<ItemGroup>
-		<None Include="$(ProjectName).saproj">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
 </Project>

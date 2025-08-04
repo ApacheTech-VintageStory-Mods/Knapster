@@ -1,12 +1,9 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
+﻿using Knapster.Features.EasyHarvesting.Systems;
 using System.Reflection.Emit;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Patches;
+namespace Knapster.Features.EasyHarvesting.Patches;
 
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyHarvestingUniversalPatches
 {
     [HarmonyPrefix]
@@ -44,15 +41,15 @@ public sealed class EasyHarvestingUniversalPatches
     {
         if (byEntity is not EntityPlayer playerEntity) return 1f;
 
-        if (!ApiEx.Return(
-                () => EasyHarvestingClient.Settings.Enabled,
-                () => EasyHarvestingServer.IsEnabledFor(playerEntity.Player)))
+        if (!G.ApiEx.Return(
+                () => EasyHarvestingClient.Instance.Settings.Enabled,
+                () => EasyHarvestingServer.Instance.IsEnabledFor(playerEntity.Player)))
         {
             return 1f;
         }
 
-        return ApiEx.OneOf(
-            EasyHarvestingClient.Settings.SpeedMultiplier,
-            EasyHarvestingServer.Settings.SpeedMultiplier);
+        return G.ApiEx.OneOf(
+            EasyHarvestingClient.Instance.Settings.SpeedMultiplier,
+            EasyHarvestingServer.Instance.Settings.SpeedMultiplier);
     }
 }

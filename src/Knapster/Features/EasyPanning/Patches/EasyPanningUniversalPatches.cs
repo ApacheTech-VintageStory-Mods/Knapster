@@ -1,12 +1,9 @@
 ﻿using System.Reflection.Emit;
-using ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
+using Knapster.Features.EasyPanning.Systems;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Patches;
+namespace Knapster.Features.EasyPanning.Patches;
 
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyPanningUniversalPatches
 {
     [HarmonyPrefix]
@@ -27,7 +24,7 @@ public sealed class EasyPanningUniversalPatches
         if (!(secondsUsed >= SecondsPerLayer(player) * 0.85)) return false;
 
         var code = __instance.GetBlockMaterialCode(slot.Itemstack);
-        if (ApiEx.Side.IsServer() && code is not null)
+        if (G.Side.IsServer() && code is not null)
         {
             var drops = DropsPerLayer(player);
             for (var i = 0; i < drops; i++) __instance.CallMethod("CreateDrop", player, code);
@@ -72,47 +69,47 @@ public sealed class EasyPanningUniversalPatches
     {
         if (byEntity is not EntityPlayer playerEntity) return 4f;
 
-        if (!ApiEx.Return(
-                () => EasyPanningClient.Settings.Enabled,
-                () => EasyPanningServer.IsEnabledFor(playerEntity.Player)))
+        if (!G.ApiEx.Return(
+                () => EasyPanningClient.Instance.Settings.Enabled,
+                () => EasyPanningServer.Instance.IsEnabledFor(playerEntity.Player)))
         {
             return 4f;
         }
 
-        return ApiEx.OneOf(
-            EasyPanningClient.Settings.SecondsPerLayer, 
-            EasyPanningServer.Settings.SecondsPerLayer);
+        return G.ApiEx.OneOf(
+            EasyPanningClient.Instance.Settings.SecondsPerLayer, 
+            EasyPanningServer.Instance.Settings.SecondsPerLayer);
     }
 
     private static int DropsPerLayer(EntityAgent byEntity)
     {
         if (byEntity is not EntityPlayer playerEntity) return 1;
 
-        if (!ApiEx.Return(
-                () => EasyPanningClient.Settings.Enabled,
-                () => EasyPanningServer.IsEnabledFor(playerEntity.Player)))
+        if (!G.ApiEx.Return(
+                () => EasyPanningClient.Instance.Settings.Enabled,
+                () => EasyPanningServer.Instance.IsEnabledFor(playerEntity.Player)))
         {
             return 1;
         }
 
-        return ApiEx.OneOf(
-            EasyPanningClient.Settings.DropsPerLayer,
-            EasyPanningServer.Settings.DropsPerLayer);
+        return G.ApiEx.OneOf(
+            EasyPanningClient.Instance.Settings.DropsPerLayer,
+            EasyPanningServer.Instance.Settings.DropsPerLayer);
     }
 
     private static float SaturationPerLayer(EntityAgent byEntity)
     {
         if (byEntity is not EntityPlayer playerEntity) return 3f;
 
-        if (!ApiEx.Return(
-                () => EasyPanningClient.Settings.Enabled,
-                () => EasyPanningServer.IsEnabledFor(playerEntity.Player)))
+        if (!G.ApiEx.Return(
+                () => EasyPanningClient.Instance.Settings.Enabled,
+                () => EasyPanningServer.Instance.IsEnabledFor(playerEntity.Player)))
         {
             return 3f;
         }
 
-        return ApiEx.OneOf(
-            EasyPanningClient.Settings.SaturationPerLayer,
-            EasyPanningServer.Settings.SaturationPerLayer);
+        return G.ApiEx.OneOf(
+            EasyPanningClient.Instance.Settings.SaturationPerLayer,
+            EasyPanningServer.Instance.Settings.SaturationPerLayer);
     }
 }

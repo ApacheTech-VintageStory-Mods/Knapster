@@ -1,7 +1,5 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasySmithing.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+namespace Knapster.Features.EasySmithing.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasySmithingClient : EasyXClientSystemBase<EasySmithingClientSettings>;
+public class EasySmithingClient : EasyXClientSystemBase<EasySmithingClient, EasySmithingClientSettings>;

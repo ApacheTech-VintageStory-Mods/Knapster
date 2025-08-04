@@ -1,7 +1,5 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyHarvesting.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Systems;
+namespace Knapster.Features.EasyHarvesting.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyHarvestingClient : EasyXClientSystemBase<EasyHarvestingClientSettings>;
+public sealed class EasyHarvestingClient : EasyXClientSystemBase<EasyHarvestingClient, EasyHarvestingClientSettings>;

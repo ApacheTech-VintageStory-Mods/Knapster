@@ -1,7 +1,5 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyPanning.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Systems;
+namespace Knapster.Features.EasyPanning.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyPanningClient : EasyXClientSystemBase<EasyPanningClientSettings>;
+public sealed class EasyPanningClient : EasyXClientSystemBase<EasyPanningClient, EasyPanningClientSettings>;

@@ -1,11 +1,14 @@
-﻿namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
+﻿namespace Knapster.Features.EasyClayForming.Extensions;
 
 /// <summary>
 ///     Provides extension methods for manipulating clay forming block entities and related voxel operations in Vintage Story mods.
 /// </summary>
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public static class BlockEntityClayFormExtensions
 {
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0060:Remove unused parameter", 
+        Justification = "Required by XKnapster")]
+    public static int VoxelsPerClay(IPlayer byPlayer) => 25;
+
     /// <summary>
     ///     Automatically completes the clay form using the selected recipe.
     /// </summary>
@@ -37,7 +40,7 @@ public static class BlockEntityClayFormExtensions
     /// <param name="block">The clay form block entity.</param>
     /// <param name="itemSlot">The item slot containing clay.</param>
     /// <returns>True if the operation was successful; otherwise, false.</returns>
-    public static bool CompleteInTurn(this BlockEntityClayForm block, ItemSlot itemSlot)
+    public static bool CompleteInTurn(this BlockEntityClayForm block, ItemSlot itemSlot, IPlayer byPlayer)
     {
         for (var y = 0; y < 16; y++)
         {
@@ -61,7 +64,8 @@ public static class BlockEntityClayFormExtensions
 
                     if (block.AvailableVoxels > 0) continue;
                     itemSlot.TakeOut(1);
-                    block.AvailableVoxels += 25;
+                    var voxelsPerClay = VoxelsPerClay(byPlayer);
+                    block.AvailableVoxels += voxelsPerClay;
                 }
             }
         }
@@ -73,7 +77,7 @@ public static class BlockEntityClayFormExtensions
     /// </summary>
     /// <param name="block">The clay form block entity.</param>
     /// <returns>The total clay cost, or -1 if no recipe is selected.</returns>
-    public static int TotalClayCost(this BlockEntityClayForm block)
+    public static int TotalClayCost(this BlockEntityClayForm block, IPlayer byPlayer)
     {
         if (block.SelectedRecipe is null) return -1;
 
@@ -98,7 +102,8 @@ public static class BlockEntityClayFormExtensions
             }
         }
 
-        return (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 25;
+        var voxelsPerClay = VoxelsPerClay(byPlayer);
+        return (voxelsThatNeedFilling - voxelsThatNeedRemoving) / voxelsPerClay;
     }
 
     /// <summary>
@@ -252,7 +257,7 @@ public static class BlockEntityClayFormExtensions
     /// <param name="selectionBoxIndex">The index of the selection box.</param>
     public static void SimulateLeftClick(this IPlayer player, int selectionBoxIndex)
     {
-        SimulateClick(player, selectionBoxIndex, false);
+        player.SimulateClick(selectionBoxIndex, false);
     }
 
     /// <summary>
@@ -262,7 +267,7 @@ public static class BlockEntityClayFormExtensions
     /// <param name="selectionBoxIndex">The index of the selection box.</param>
     public static void SimulateRightClick(this IPlayer player, int selectionBoxIndex)
     {
-        SimulateClick(player, selectionBoxIndex, true);
+        player.SimulateClick(selectionBoxIndex, true);
     }
 
     /// <summary>

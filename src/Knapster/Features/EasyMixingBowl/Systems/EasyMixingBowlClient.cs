@@ -1,12 +1,8 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyMixingBowl.Settings;
 
-// ReSharper disable StringLiteralTypo
+namespace Knapster.Features.EasyMixingBowl.Systems;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
-
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlClientSettings>
+public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlClient, EasyMixingBowlClientSettings>
 {
     public override bool ShouldLoad(ICoreAPI api)
         => base.ShouldLoad(api)

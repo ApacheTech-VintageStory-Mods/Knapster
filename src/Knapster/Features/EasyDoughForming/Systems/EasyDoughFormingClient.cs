@@ -1,11 +1,8 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Settings;
-using Gantry.Core.Extensions.Api;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyDoughForming.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
+namespace Knapster.Features.EasyDoughForming.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyDoughFormingClient : EasyXClientSystemBase<EasyDoughFormingClientSettings>
+public sealed class EasyDoughFormingClient : EasyXClientSystemBase<EasyDoughFormingClient, EasyDoughFormingClientSettings>
 {
     public override bool ShouldLoad(ICoreAPI api)
         => base.ShouldLoad(api)

@@ -1,11 +1,8 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
+﻿using Knapster.Features.EasyKnapping.Systems;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Patches;
+namespace Knapster.Features.EasyKnapping.Patches;
 
 [HarmonyServerSidePatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyKnappingServerPatches
 {
     [HarmonyPrefix]
@@ -15,11 +12,11 @@ public sealed class EasyKnappingServerPatches
     {
         try
         {
-            if (!EasyKnappingServer.IsEnabledFor(byPlayer)) return true;
+            if (!EasyKnappingServer.Instance.IsEnabledFor(byPlayer)) return true;
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            if (EasyKnappingServer.Settings.InstantComplete)
+            if (EasyKnappingServer.Instance.Settings.InstantComplete)
             {
                 AutoComplete(__instance);
             }
@@ -28,7 +25,7 @@ public sealed class EasyKnappingServerPatches
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
             return true;
         }
     }

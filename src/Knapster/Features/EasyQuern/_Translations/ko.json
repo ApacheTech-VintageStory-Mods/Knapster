@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "플레이어가 퀘른 내에서 자원을 갈고 가는 속도를 변경합니다. 직접 승수 역할을 합니다. 최소: 0.0, 최대: 10.0, 기본값: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "활성화되면 사용자는 quern을 활성 상태로 유지하기 위해 마우스 오른쪽 버튼을 누르고 있을 필요가 없습니다.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "속도 승수를 자동화된 querns와 manual querns에 적용합니다.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} 고정 마우스 버튼: {1}",
-    "Features.EasyQuern.Description":  "quern 설정을 관리합니다."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

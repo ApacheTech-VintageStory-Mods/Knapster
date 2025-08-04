@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець подрібнює ресурси в межах кверну. Виступає прямим мультиплікатором. Мін: 0.0, Макс.: 10.0, За замовчуванням: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Коли ви активні, користувачеві не потрібно утримувати натиснутою праву кнопку миші, щоб кверн залишався активним.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Застосовуйте множник швидкості до автоматичних запитів, а також до ручних квернів.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Липкі кнопки миші: {1}",
-    "Features.EasyQuern.Description":  "Керуйте налаштуваннями quern."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

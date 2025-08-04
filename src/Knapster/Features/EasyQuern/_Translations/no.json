@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Endre hastigheten som spilleren maler ressurser med i en quern. Fungerer som en direkte multiplikator. Min: 0.0, Maks: 10.0, Standard: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Når den er aktiv, trenger ikke brukeren å holde høyre museknapp nede for å holde quern aktiv.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Bruk hastighetsmultiplikatoren på automatiserte querns, så vel som manuelle querns.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} klebrige museknapper: {1}",
-    "Features.EasyQuern.Description":  "Administrer quern-innstillinger."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

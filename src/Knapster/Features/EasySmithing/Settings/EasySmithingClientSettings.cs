@@ -1,7 +1,4 @@
-﻿using Gantry.Services.EasyX.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
+﻿namespace Knapster.Features.EasySmithing.Settings;
 
 [ProtoContract]
 public class EasySmithingClientSettings : EasySmithingSettings, IEasyXClientSettings

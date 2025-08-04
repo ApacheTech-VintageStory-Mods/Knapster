@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Mude a velocidade com que o jogador tritura recursos dentro de um quern. Atua como multiplicador direto. Mín.: 0.0, Máx.: 10.0, Padrão: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Quando ativo, o usuário não precisará manter o botão direito do mouse pressionado para manter o quern ativo.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Aplique o multiplicador de velocidade a querns automatizados, bem como querns manuais.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Sticky Mouse Buttons: {1}",
-    "Features.EasyQuern.Description":  "Gerencie as configurações de quern."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

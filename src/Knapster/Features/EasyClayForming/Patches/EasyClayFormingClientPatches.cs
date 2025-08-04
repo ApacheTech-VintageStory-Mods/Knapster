@@ -1,12 +1,10 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
-using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
+﻿using Knapster.Features.EasyClayForming.Extensions;
+using Knapster.Features.EasyClayForming.Systems;
 
-// ReSharper disable InconsistentNaming
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Patches;
+namespace Knapster.Features.EasyClayForming.Patches;
 
 [HarmonyClientSidePatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyClayFormingClientPatches
 {
     [HarmonyPostfix]
@@ -17,7 +15,7 @@ public class EasyClayFormingClientPatches
         try
         {
             if (__result is null) return;
-            if (!EasyClayFormingClient.Settings.Enabled)
+            if (!EasyClayFormingClient.Instance.Settings.Enabled)
             {
                 __result = ___toolModes = [.. ___toolModes.Take(4)];
                 if (__instance.GetToolMode(slot, forPlayer, blockSel) < 4) return;
@@ -29,23 +27,23 @@ public class EasyClayFormingClientPatches
             var skillItem = new SkillItem
             {
                 Code = new AssetLocation("auto"),
-                Name = LangEx.FeatureString("Knapster", "AutoComplete")
-            }.WithIcon(ApiEx.Client, ApiEx.Client.Gui.Icons.Drawfloodfill_svg);
+                Name = G.Lang.FeatureString("Knapster", "AutoComplete")
+            }.WithIcon(G.Capi, G.Capi.Gui.Icons.Drawfloodfill_svg);
             __result = ___toolModes = ___toolModes.AddToArray(skillItem);
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
         }
     }
 
 
     [HarmonyPostfix]
     [HarmonyPatch(typeof(BlockEntityClayForm), nameof(BlockEntityClayForm.GetBlockInfo))]
-    public static void ClientPatch_BlockEntityClayForm_GetBlockInfo_Postfix(BlockEntityClayForm __instance, StringBuilder dsc)
+    public static void ClientPatch_BlockEntityClayForm_GetBlockInfo_Postfix(BlockEntityClayForm __instance, IPlayer forPlayer, StringBuilder dsc)
     {
-        var totalClayCost = __instance.TotalClayCost();
+        var totalClayCost = __instance.TotalClayCost(forPlayer);
         if (totalClayCost == -1) return;
-        dsc.AppendLine(LangEx.FeatureString("EasyClayForming", "ClayRequired", totalClayCost));
+        dsc.AppendLine(G.Lang.FeatureString("EasyClayForming", "ClayRequired", totalClayCost));
     }
 }

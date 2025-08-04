@@ -1,73 +1,28 @@
 <Project>
-	
+
 	<PropertyGroup>
 		<CleanOutputDir>$([System.IO.Path]::GetDirectoryName('$(TargetPath)'))</CleanOutputDir>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<BuildOutputFiles Include="$(TargetDir)\**\*" />
+		<IncludeDirs Include="$(ProjectDir)_Includes\**\*" />
+		<FeatureIncludeDirs Include="$(ProjectDir)Features\**\_Includes\**\*" />
+		<PackagedMods Include="$(TargetDir)release\*.zip" />
+	</ItemGroup>
 	
-	<Target Name="PackageMod" AfterTargets="PostBuildEvent">
-
-		<Message Text=" → PostBuild: Packaging mod $(ProjectName) in $(Configuration) mode." Importance="high" />
-		<Message Text="   ↳ Patching and Merging Mod Translation Files..." Importance="high" />
-		<Exec Command="$(VsModTranslationPatcherDir)\$(VsModTranslationPatcher) -p $(ProjectDir) -t $(CleanOutputDir) -m $(ModId) -l Information" />
-		
-		<!-- DEBUG Configuration -->
-		<Message Condition="'$(Configuration)' == 'Debug'" Text="   ↳ Generating Mod Info File..." Importance="high" />
-		<Exec Condition="'$(Configuration)' == 'Debug'"
-			  Command="&quot;$(VsModInfoGeneratorDir)\$(VsModInfoGenerator)&quot; -a &quot;$(TargetPath)&quot; -o &quot;$(CleanOutputDir)&quot;" />
-
-		<ItemGroup>
-			<DebugCopyFiles Condition="'$(Configuration)' == 'Debug'" Include="$(TargetDir)\**\*" />
-			<IncludeDirsDebug Condition="'$(Configuration)' == 'Debug'" Include="$(ProjectDir)_Includes\**\*" />
-			<FeatureIncludeDirsDebug Condition="'$(Configuration)' == 'Debug'" Include="$(ProjectDir)Features\**\_Includes\**\*" />
-		</ItemGroup>
-
-		<Copy Condition="'$(Configuration)' == 'Debug'"
-			  SourceFiles="@(DebugCopyFiles)"
-			  DestinationFolder="$(SolutionDir).debug\$(ProjectName)\%(RecursiveDir)"
-			  SkipUnchangedFiles="false" />
-
-		<Copy Condition="'$(Configuration)' == 'Debug'"
-			  SourceFiles="@(IncludeDirsDebug)"
-			  DestinationFolder="$(SolutionDir).debug\$(ProjectName)\%(RecursiveDir)"
-			  SkipUnchangedFiles="false" />
-
-		<Copy Condition="'$(Configuration)' == 'Debug'"
-			  SourceFiles="@(FeatureIncludeDirsDebug)"
-			  DestinationFolder="$(SolutionDir).debug\$(ProjectName)\%(RecursiveDir)"
-			  SkipUnchangedFiles="false" />
-
-
-		<!-- PACKAGE Configuration -->
-		<Message Condition="'$(Configuration)' == 'Package'" Text="   ↳ Copying includes to packaging folder..." Importance="high" />
-
-		<ItemGroup>
-			<IncludeDirsPackage Condition="'$(Configuration)' == 'Package'" Include="$(ProjectDir)_Includes\**\*" />
-			<FeatureIncludeDirsPackage Condition="'$(Configuration)' == 'Package'" Include="$(ProjectDir)Features\**\_Includes\**\*" />
-			<PackagedMods Condition="'$(Configuration)' == 'Package'" Include="$(TargetDir)release\*.zip" />
-		</ItemGroup>
-
-		<Copy Condition="'$(Configuration)' == 'Package'"
-			  SourceFiles="@(IncludeDirsPackage)"
-			  DestinationFolder="$(TargetDir)_Includes\%(RecursiveDir)"
-			  SkipUnchangedFiles="false" />
-
-		<Copy Condition="'$(Configuration)' == 'Package'"
-			  SourceFiles="@(FeatureIncludeDirsPackage)"
-			  DestinationFolder="$(TargetDir)_Includes\%(RecursiveDir)"
-			  SkipUnchangedFiles="false" />
-
-		<Message Condition="'$(Configuration)' == 'Package'" Text="   ↳ Packaging mod using VsModPackager..." Importance="high" />
-		<Exec Condition="'$(Configuration)' == 'Package'"
-			  WorkingDirectory="$(VsModPackagerDir)"
-			  Command="&quot;$(VsModPackagerDir)\$(VsModPackager)&quot; -a &quot;$(TargetPath)&quot;" />
-
-		<Message Condition="'$(Configuration)' == 'Package'" Text="   ↳ Copying package to .releases\" Importance="high" />
-
-		<Copy Condition="'$(Configuration)' == 'Package'"
-			  SourceFiles="@(PackagedMods)"
-			  DestinationFolder="$(SolutionDir).releases\"
-			  SkipUnchangedFiles="false" />
-
+	<Target Name="PackageMod_RunScript" Condition=" '$(Configuration)' != 'Release' AND '$(PackageMod)' == 'true' " AfterTargets="PostBuildEvent">
+		<Message Text=" → PostBuild: Running mod packaging script for $(ProjectName) in $(Configuration) mode." Importance="high" />
+		<Exec Command="$(VsModPackagerDir)\$(VsModPackager) ^
+			--SolutionDir $(SolutionDir) ^
+			--TargetPath $(TargetPath) ^
+			--TargetDir $(TargetDir) ^
+			--DependenciesDir $(TargetDir) ^
+			--ProjectDir $(ProjectDir) ^
+			--ModId $(ModId) ^
+			--Configuration $(Configuration) ^
+			--VersioningStyle ModInfo ^
+			--LogLevel Verbose" />
 	</Target>
 
 </Project>

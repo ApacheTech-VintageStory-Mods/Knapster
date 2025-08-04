@@ -1,7 +1,4 @@
-﻿using Gantry.Services.EasyX.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
+﻿namespace Knapster.Features.EasyMixingBowl.Settings;
 
 [ProtoContract]
 public class EasyMixingBowlClientSettings : EasyMixingBowlSettings, IEasyXClientSettings

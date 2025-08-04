@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler grondstoffen maalt binnen een quern. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Als de muis actief is, hoeft de gebruiker de rechtermuisknop niet ingedrukt te houden om de quern actief te houden.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Pas de snelheidsvermenigvuldiger toe op geautomatiseerde querns, evenals op handmatige querns.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Sticky muisknoppen: {1}",
-    "Features.EasyQuern.Description":  "Beheer quern-instellingen."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

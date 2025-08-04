@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn malar auðlindir innan quern. Virkar sem beinn margfaldari. Lágmark: 0.0, hámark: 10.0, sjálfgefið: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Þegar hann er virkur þarf notandinn ekki að halda hægri músarhnappi niðri til að halda quern virkum.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Notaðu hraðamargfaldarann á sjálfvirkar querns, sem og handvirkar querns.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Sticky músarhnappar: {1}",
-    "Features.EasyQuern.Description":  "Stjórna quern stillingum."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

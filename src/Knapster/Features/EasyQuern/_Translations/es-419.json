@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Cambia la velocidad a la que el jugador muele recursos dentro de una quern. Actúa como un multiplicador directo. Mín.: 0.0, Máx.: 10.0, Predeterminado: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Cuando esté activo, el usuario no tendrá que mantener pulsado el botón derecho del ratón para mantener activa la consulta.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Aplique el multiplicador de velocidad a las consultas automatizadas, así como a las consultas manuales.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Botones pegajosos del ratón: {1}",
-    "Features.EasyQuern.Description":  "Administre la configuración de consultas."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

@@ -1,18 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>2.14.6.0</Version>
-		<RootNamespace>ApacheTech.VintageMods.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<Version>2.15.0.0</Version>
 		<ModId>knapster</ModId>
 		<ModName>Knapster</ModName>
+		<PackageMod>true</PackageMod>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<None Include="..\..\docs\LICENCE.md" Link="_Includes\LICENCE.md" />
-		<None Include="..\..\docs\README.md" Link="_Includes\README.md" />
-	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
 	</ItemGroup>
-	
+
+	<ItemGroup>
+	  <Folder Include="_Translations\Features\" />
+	  <Folder Include="_Translations\Patches\" />
+	</ItemGroup>
+
+	<Import Project="..\..\..\..\..\Gantry\shared\Gantry.Shared\Gantry.Shared.projitems" Label="Shared" />
 </Project>

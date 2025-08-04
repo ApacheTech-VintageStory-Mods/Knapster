@@ -1,11 +1,8 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Systems;
+﻿using Knapster.Features.EasyKnapping.Systems;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyKnapping.Patches;
+namespace Knapster.Features.EasyKnapping.Patches;
 
 [HarmonyClientSidePatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyKnappingClientPatches
 {
     [HarmonyPrefix]
@@ -15,11 +12,11 @@ public sealed class EasyKnappingClientPatches
     {
         try
         {
-            if (!EasyKnappingClient.Settings.Enabled) return true;
+            if (!EasyKnappingClient.Instance.Settings.Enabled) return true;
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            for (var i = 0; i < EasyKnappingClient.Settings.VoxelsPerClick; i++)
+            for (var i = 0; i < EasyKnappingClient.Instance.Settings.VoxelsPerClick; i++)
             {
                 if (!__instance.CallMethod<bool>("HasAnyVoxel")) return true;
                 var voxelPos = FindNextVoxelToRemove(__instance);
@@ -34,7 +31,7 @@ public sealed class EasyKnappingClientPatches
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
             return true;
         }
     }

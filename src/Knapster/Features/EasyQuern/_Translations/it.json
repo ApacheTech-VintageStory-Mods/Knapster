@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Cambia la velocità con cui il giocatore macina le risorse all\u0027interno di un quern. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Quando è attivo, l\u0027utente non avrà bisogno di tenere premuto il tasto destro del mouse per mantenere attivo il quern.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Applica il moltiplicatore di velocità ai quern automatizzati, così come ai quern manuali.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Pulsanti permanenti del mouse: {1}",
-    "Features.EasyQuern.Description":  "Gestisci le impostazioni del quern."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

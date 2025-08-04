@@ -1,7 +1,4 @@
-﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyHarvesting.Settings;
+﻿namespace Knapster.Features.EasyHarvesting.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyHarvestingClientSettings))]

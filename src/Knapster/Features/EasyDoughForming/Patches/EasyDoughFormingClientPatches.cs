@@ -1,11 +1,10 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
+﻿using Knapster.Features.EasyDoughForming.Systems;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Patches;
+namespace Knapster.Features.EasyDoughForming.Patches;
 
 [HarmonyClientSidePatch]
 [RequiresMod("coreofarts")]
 [RequiresMod("artofcooking")]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyDoughFormingClientPatches
 {
     [HarmonyPostfix]
@@ -16,7 +15,7 @@ public class EasyDoughFormingClientPatches
         try
         {
             if (__result is null) return;
-            if (!EasyDoughFormingClient.Settings.Enabled)
+            if (!EasyDoughFormingClient.Instance.Settings.Enabled)
             {
                 __result = ___toolModes = [.. ___toolModes.Take(4)];
                 if (__instance.GetToolMode(slot, forPlayer, blockSel) < 4) return;
@@ -28,13 +27,13 @@ public class EasyDoughFormingClientPatches
             var skillItem = new SkillItem
             {
                 Code = new AssetLocation("auto"),
-                Name = LangEx.FeatureString("Knapster", "AutoComplete")
-            }.WithIcon(ApiEx.Client, ApiEx.Client.Gui.Icons.Drawfloodfill_svg);
+                Name = G.Lang.FeatureString("Knapster", "AutoComplete")
+            }.WithIcon(G.Capi, G.Capi.Gui.Icons.Drawfloodfill_svg);
             __result = ___toolModes = ___toolModes.AddToArray(skillItem);
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
         }
     }
 
@@ -60,6 +59,6 @@ public class EasyDoughFormingClientPatches
 
         var totalDoughCost = (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 36;
         if (totalDoughCost == -1) return;
-        dsc.AppendLine(LangEx.FeatureString("EasyDoughForming", "DoughRequired", totalDoughCost));
+        dsc.AppendLine(G.Lang.FeatureString("EasyDoughForming", "DoughRequired", totalDoughCost));
     }
 }

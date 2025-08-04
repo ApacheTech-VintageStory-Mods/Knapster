@@ -1,7 +1,5 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyPressing.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyPressing.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPressing.Systems;
+namespace Knapster.Features.EasyPressing.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyPressingClient : EasyXClientSystemBase<EasyPressingClientSettings>;
+public sealed class EasyPressingClient : EasyXClientSystemBase<EasyPressingClient, EasyPressingClientSettings>;

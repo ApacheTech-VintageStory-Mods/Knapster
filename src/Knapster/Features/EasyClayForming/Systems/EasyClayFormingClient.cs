@@ -1,7 +1,5 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyClayForming.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
+namespace Knapster.Features.EasyClayForming.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyClayFormingClient : EasyXClientSystemBase<EasyClayFormingClientSettings>;
+public sealed class EasyClayFormingClient : EasyXClientSystemBase<EasyClayFormingClient, EasyClayFormingClientSettings>;

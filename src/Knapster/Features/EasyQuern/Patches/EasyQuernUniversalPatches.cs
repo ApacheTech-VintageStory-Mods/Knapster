@@ -1,11 +1,8 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
+﻿using Knapster.Features.EasyQuern.Systems;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Patches;
+namespace Knapster.Features.EasyQuern.Patches;
 
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyQuernUniversalPatches
 {
     [HarmonyPrefix]
@@ -23,23 +20,23 @@ public class EasyQuernUniversalPatches
         : !EnabledForAll(players) ? 1f 
         : SpeedMultiplier;
 
-    private static bool StickyMouseButton => ApiEx.OneOf(
-        EasyQuernClient.Settings.StickyMouseButton,
-        EasyQuernServer.Settings.StickyMouseButton);
+    private static bool StickyMouseButton => G.ApiEx.OneOf(
+        EasyQuernClient.Instance.Settings.StickyMouseButton,
+        EasyQuernServer.Instance.Settings.StickyMouseButton);
 
-    private static float SpeedMultiplier => ApiEx.OneOf(
-        EasyQuernClient.Settings.SpeedMultiplier,
-        EasyQuernServer.Settings.SpeedMultiplier);
+    private static float SpeedMultiplier => G.ApiEx.OneOf(
+        EasyQuernClient.Instance.Settings.SpeedMultiplier,
+        EasyQuernServer.Instance.Settings.SpeedMultiplier);
 
-    private  static bool IncludeAutomated() => ApiEx.OneOf(
-        EasyQuernClient.Settings.IncludeAutomated,
-        EasyQuernServer.Settings.IncludeAutomated);
+    private  static bool IncludeAutomated() => G.ApiEx.OneOf(
+        EasyQuernClient.Instance.Settings.IncludeAutomated,
+        EasyQuernServer.Instance.Settings.IncludeAutomated);
 
     private static bool EnabledForAll(IEnumerable<string> players)
     {
-        var enabled = ApiEx.Return(
-            () => EasyQuernClient.Settings.Enabled,
-            () => EasyQuernServer.IsEnabledForAll(players));
+        var enabled = G.ApiEx.Return(
+            () => EasyQuernClient.Instance.Settings.Enabled,
+            () => EasyQuernServer.Instance.IsEnabledForAll(players));
 
         return enabled;
     }

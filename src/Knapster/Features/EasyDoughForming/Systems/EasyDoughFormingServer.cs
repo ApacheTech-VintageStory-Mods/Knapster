@@ -1,13 +1,8 @@
-﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Settings;
-using Gantry.Core.Extensions.Api;
-using Gantry.Services.EasyX.Abstractions;
-using Gantry.Services.EasyX.Extensions;
+﻿using Knapster.Features.EasyDoughForming.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
+namespace Knapster.Features.EasyDoughForming.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughFormingServerSettings, EasyDoughFormingClientSettings, EasyDoughFormingSettings>
+public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughFormingServer, EasyDoughFormingServerSettings, EasyDoughFormingClientSettings, EasyDoughFormingSettings>
 {
     protected override string SubCommandName => "DoughForming";
 
@@ -18,13 +13,13 @@ public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughForm
     protected override void FeatureSpecificCommands(IChatCommand subCommand, CommandArgumentParsers parsers)
     {
         subCommand
-            .WithDescription(LangEx.FeatureString("EasyDoughForming", "Description"));
+            .WithDescription(G.Lang.FeatureString("EasyDoughForming", "Description"));
 
         subCommand
             .BeginSubCommand("voxels")
             .WithAlias("v")
             .WithArgs(parsers.OptionalInt("voxels"))
-            .WithDescription(LangEx.FeatureString("EasyDoughForming.VoxelsPerClick", "Description"))
+            .WithDescription(G.Lang.FeatureString("EasyDoughForming.VoxelsPerClick", "Description"))
             .HandleWith(OnChangeVoxelsPerClick)
             .EndSubCommand();
 
@@ -32,23 +27,23 @@ public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughForm
             .BeginSubCommand("instant")
             .WithAlias("i")
             .WithArgs(parsers.OptionalBool("instant complete"))
-            .WithDescription(LangEx.FeatureString("EasyDoughForming.InstantComplete", "Description"))
+            .WithDescription(G.Lang.FeatureString("EasyDoughForming.InstantComplete", "Description"))
             .HandleWith(OnChangeInstantComplete)
             .EndSubCommand();
     }
 
     protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        sb.AppendLine(LangEx.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
-        sb.AppendLine(LangEx.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
+        sb.AppendLine(G.Lang.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
+        sb.AppendLine(G.Lang.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
     }
 
     private TextCommandResult OnChangeVoxelsPerClick(TextCommandCallingArgs args)
     {
         var value = args.Parsers[0].GetValue().To<int?>() ?? 1;
         Settings.VoxelsPerClick = GameMath.Clamp(value, 1, 8);
-        var message = LangEx.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick);
-        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        var message = G.Lang.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick);
+        ServerChannel?.BroadcastUniquePacket(Sapi.AsServerMain(), GeneratePacket);
         return TextCommandResult.Success(message);
     }
 
@@ -56,8 +51,8 @@ public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughForm
     {
         var value = args.Parsers[0].GetValue().To<bool?>() ?? false;
         Settings.InstantComplete = value;
-        var message = LangEx.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete);
-        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        var message = G.Lang.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete);
+        ServerChannel?.BroadcastUniquePacket(Sapi.AsServerMain(), GeneratePacket);
         return TextCommandResult.Success(message);
     }
 }

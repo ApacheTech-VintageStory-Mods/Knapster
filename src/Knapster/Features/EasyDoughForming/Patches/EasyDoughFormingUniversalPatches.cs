@@ -1,16 +1,12 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Systems;
-using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
+﻿using Knapster.Features.EasyDoughForming.Extensions;
+using Knapster.Features.EasyDoughForming.Systems;
 
-// ReSharper disable StringLiteralTypo
-// ReSharper disable InconsistentNaming
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Patches;
+namespace Knapster.Features.EasyDoughForming.Patches;
 
 [HarmonyUniversalPatch]
 [RequiresMod("coreofarts")]
 [RequiresMod("artofcooking")]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyDoughFormingUniversalPatches
 {
     [HarmonyPrefix]
@@ -18,17 +14,17 @@ public class EasyDoughFormingUniversalPatches
     public static bool UniversalPatch_BlockEntityDoughForm_OnUseOver_Prefix(dynamic __instance,
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {
-        var voxelsPerClick = ApiEx.Return(
-            _ => EasyDoughFormingClient.Settings.VoxelsPerClick,
-            _ => EasyDoughFormingServer.Settings.VoxelsPerClick);
+        var voxelsPerClick = G.ApiEx.Return(
+            _ => EasyDoughFormingClient.Instance.Settings.VoxelsPerClick,
+            _ => EasyDoughFormingServer.Instance.Settings.VoxelsPerClick);
 
-        var instantComplete = ApiEx.Return(
-            _ => EasyDoughFormingClient.Settings.InstantComplete,
-            _ => EasyDoughFormingServer.Settings.InstantComplete);
+        var instantComplete = G.ApiEx.Return(
+            _ => EasyDoughFormingClient.Instance.Settings.InstantComplete,
+            _ => EasyDoughFormingServer.Instance.Settings.InstantComplete);
 
-        var enabled = ApiEx.Return(
-            _ => EasyDoughFormingClient.Settings.Enabled,
-            _ => EasyDoughFormingServer.IsEnabledFor(byPlayer));
+        var enabled = G.ApiEx.Return(
+            _ => EasyDoughFormingClient.Instance.Settings.Enabled,
+            _ => EasyDoughFormingServer.Instance.IsEnabledFor(byPlayer));
 
         try
         {
@@ -55,7 +51,7 @@ public class EasyDoughFormingUniversalPatches
             }
 
             dough.SetToolMode(slot, byPlayer, blockSel, 0);
-            var world = ApiEx.Current.World;
+            var world = G.Uapi.World;
             int currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
             if (instantComplete
                     ? BlockEntityDoughFormExtensions.CompleteInTurn(__instance, slot)
@@ -87,7 +83,7 @@ public class EasyDoughFormingUniversalPatches
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
             return true;
         }
     }

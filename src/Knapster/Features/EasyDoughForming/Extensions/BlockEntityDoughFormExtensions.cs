@@ -1,11 +1,10 @@
 ﻿using System.Reflection;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Extensions;
+namespace Knapster.Features.EasyDoughForming.Extensions;
 
 /// <summary>
 ///     Provides extension methods for manipulating dough forming block entities and related voxel operations in Vintage Story mods.
 /// </summary>
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public static class BlockEntityDoughFormExtensions
 {
     private static MethodInfo? _onAdd;

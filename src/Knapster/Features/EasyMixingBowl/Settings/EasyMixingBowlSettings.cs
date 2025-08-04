@@ -1,7 +1,4 @@
-﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
+﻿namespace Knapster.Features.EasyMixingBowl.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyMixingBowlClientSettings))]

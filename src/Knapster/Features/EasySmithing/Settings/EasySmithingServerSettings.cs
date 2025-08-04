@@ -1,9 +1,4 @@
-﻿using Gantry.Core.GameContent.ChatCommands.DataStructures;
-using Gantry.Services.EasyX.Abstractions;
-using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
+﻿namespace Knapster.Features.EasySmithing.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

@@ -1,7 +1,4 @@
-﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings;
+﻿namespace Knapster.Features.EasyPanning.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyPanningClientSettings))]

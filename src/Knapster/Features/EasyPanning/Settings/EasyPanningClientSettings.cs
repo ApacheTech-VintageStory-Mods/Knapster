@@ -1,7 +1,4 @@
-﻿using Gantry.Services.EasyX.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyPanning.Settings; 
+﻿namespace Knapster.Features.EasyPanning.Settings; 
 
 [ProtoContract]
 public class EasyPanningClientSettings : EasyPanningSettings, IEasyXClientSettings

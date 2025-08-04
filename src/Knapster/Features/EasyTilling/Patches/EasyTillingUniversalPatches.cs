@@ -1,12 +1,9 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyTilling.Systems;
+﻿using Knapster.Features.EasyTilling.Systems;
 using System.Reflection.Emit;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyTilling.Patches;
+namespace Knapster.Features.EasyTilling.Patches;
 
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public sealed class EasyTillingUniversalPatches
 {
     [HarmonyTranspiler]
@@ -49,15 +46,15 @@ public sealed class EasyTillingUniversalPatches
     {
         if (byEntity is not EntityPlayer playerEntity) return 1f;
 
-        if (!ApiEx.Return(
-                () => EasyTillingClient.Settings.Enabled, 
-                () => EasyTillingServer.IsEnabledFor(playerEntity.Player)))
+        if (!G.ApiEx.Return(
+                () => EasyTillingClient.Instance.Settings.Enabled, 
+                () => EasyTillingServer.Instance.IsEnabledFor(playerEntity.Player)))
         {
             return 1f;
         }
 
-        return ApiEx.OneOf(
-            EasyTillingClient.Settings.SpeedMultiplier,
-            EasyTillingServer.Settings.SpeedMultiplier);
+        return G.ApiEx.OneOf(
+            EasyTillingClient.Instance.Settings.SpeedMultiplier,
+            EasyTillingServer.Instance.Settings.SpeedMultiplier);
     }
 }

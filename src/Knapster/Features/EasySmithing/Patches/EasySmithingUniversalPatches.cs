@@ -1,21 +1,10 @@
-﻿using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
-using Gantry.Core.Extensions.Api;
-using Gantry.Core.Hosting;
-using Gantry.Services.FileSystem.Abstractions.Contracts;
-using System.IO;
-using System.Reflection;
-using System.Text.Json.Nodes;
-using Vintagestory.API.Config;
+﻿using Knapster.Features.EasySmithing.Systems;
+using Knapster.Features.EasySmithing.DataStructures;
 
-// ReSharper disable StringLiteralTypo
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Patches;
+namespace Knapster.Features.EasySmithing.Patches;
 
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasySmithingUniversalPatches
+public partial class EasySmithingUniversalPatches
 {
     [HarmonyPrefix]
     [HarmonyPatch(typeof(BlockEntityAnvil), "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockSelection))]
@@ -24,21 +13,21 @@ public class EasySmithingUniversalPatches
     {
         if (__instance.SelectedRecipe?.Voxels is null) return true;
 
-        var costPerClick = ApiEx.Return(
-            _ => EasySmithingClient.Settings.CostPerClick,
-            _ => EasySmithingServer.Settings.CostPerClick);
+        var costPerClick = G.ApiEx.Return(
+            _ => EasySmithingClient.Instance.Settings.CostPerClick,
+            _ => EasySmithingServer.Instance.Settings.CostPerClick);
 
-        var voxelsPerClick = ApiEx.Return(
-            _ => EasySmithingClient.Settings.VoxelsPerClick,
-            _ => EasySmithingServer.Settings.VoxelsPerClick);
+        var voxelsPerClick = G.ApiEx.Return(
+            _ => EasySmithingClient.Instance.Settings.VoxelsPerClick,
+            _ => EasySmithingServer.Instance.Settings.VoxelsPerClick);
 
-        var instantComplete = ApiEx.Return(
-            _ => EasySmithingClient.Settings.InstantComplete,
-            _ => EasySmithingServer.Settings.InstantComplete);
+        var instantComplete = G.ApiEx.Return(
+            _ => EasySmithingClient.Instance.Settings.InstantComplete,
+            _ => EasySmithingServer.Instance.Settings.InstantComplete);
 
-        var enabled = ApiEx.Return(
-            _ => EasySmithingClient.Settings.Enabled,
-            _ => EasySmithingServer.IsEnabledFor(byPlayer));
+        var enabled = G.ApiEx.Return(
+            _ => EasySmithingClient.Instance.Settings.Enabled,
+            _ => EasySmithingServer.Instance.IsEnabledFor(byPlayer));
 
         try
         {
@@ -78,18 +67,22 @@ public class EasySmithingUniversalPatches
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
             return true;
         }
     }
 
-    private static void OnHit(BlockEntityAnvil anvil, int iterations, IPlayer byPlayer)
+    internal static void OnHit(BlockEntityAnvil anvil, int iterations, IPlayer byPlayer)
     {
         while (iterations-- > 0)
         {
             try
             {
-                if (!TryHelveHammerHit(anvil, byPlayer)) break;
+                var result = ProcessHit(anvil, byPlayer);
+                if (result.Action 
+                    is AnvilHitAction.Nothing 
+                    or AnvilHitAction.ItemCompleted)
+                    break;
             }
             catch (Exception ex)
             {
@@ -98,66 +91,88 @@ public class EasySmithingUniversalPatches
         }
     }
 
-    public static bool TryHelveHammerHit(BlockEntityAnvil anvil, IPlayer byPlayer)
+    public static AnvilHitResult ProcessHit(BlockEntityAnvil anvil, IPlayer byPlayer)
     {
-        if (anvil.SelectedRecipe is null) return false;
+        if (anvil.SelectedRecipe is null) return new(AnvilHitAction.Nothing);
         anvil.CheckIfFinished(byPlayer);
-        if (anvil.CallMethod<bool>("MatchesRecipe")) return false;
+        if (anvil.CallMethod<bool>("MatchesRecipe")) return new(AnvilHitAction.ItemCompleted);
 
         anvil.rotation = 0;
         var recipe = anvil.SelectedRecipe;
         var yMax = recipe.QuantityLayers;
         var usableMetalVoxel = anvil.CallMethod<Vec3i>("findFreeMetalVoxel");
         for (var x = 0; x < 16; x++)
-        {
             for (var z = 0; z < 16; z++)
-            {
                 for (var y = 0; y < 6; y++)
                 {
                     var requireMetalHere = y < yMax && recipe.Voxels[x, y, z];
                     var mat = (EnumVoxelMaterial)anvil.Voxels[x, y, z];
-                    if (mat == EnumVoxelMaterial.Slag)
-                    {
-                        // Remove Slag.
-                        anvil.Voxels[x, y, z] = 0;
-                        anvil.CallMethod("onHelveHitSuccess", mat, null, x, y, z);
-                        return true;
-                    }
-                    
+                    if (mat == EnumVoxelMaterial.Slag) return ProcessRemoveSlag(anvil, byPlayer, x, z, y);
                     if (!requireMetalHere || usableMetalVoxel is null || mat != EnumVoxelMaterial.Empty) continue;
-                    // Move voxel into place.
-                    anvil.Voxels[x, y, z] = 1;
-                    anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
-                    anvil.CallMethod("onHelveHitSuccess", mat, usableMetalVoxel, x, y, z);
-                    return true;
+                    return ProcessMove(anvil, byPlayer, usableMetalVoxel, x, z, y, mat);
                 }
-            }
-        }
 
-        if (usableMetalVoxel is null) return true;
-        // Remove metal (split).
-        AnvilMetalRecovery("Prefix_OnSplit", new Vec3i(usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z), anvil);
-        anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
-        anvil.CallMethod("onHelveHitSuccess", EnumVoxelMaterial.Metal, null, usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z);
-        AnvilMetalRecovery("Postfix_OnSplit", new Vec3i(usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z), anvil);
-        //SmithingPlusBitRecovery(anvil, byPlayer);
-        return true;
+        return usableMetalVoxel is null
+            ? new(AnvilHitAction.ItemCompleted)
+            : ProcessSplit(anvil, byPlayer, usableMetalVoxel);
     }
-    
-    private static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil anvil)
+
+    internal static AnvilHitResult ProcessMove(BlockEntityAnvil anvil, IPlayer byPlayer, Vec3i usableMetalVoxel, int x, int z, int y, EnumVoxelMaterial mat)
     {
-        if (!ApiEx.Current.ModLoader.AreAnyModsLoaded("metalrecovery", "anvilmetalrecoveryrevived")) return;
+        anvil.Voxels[x, y, z] = 1;
+        anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
+        OnHitSuccess(anvil, mat, usableMetalVoxel, x, y, z);
+
+        var moves = Math.Abs(usableMetalVoxel.X - x) + Math.Abs(usableMetalVoxel.Z - z);
+        return new(AnvilHitAction.MetalMoved, byPlayer, VoxelPos: new(x, y, z), Moves: moves);
+    }
+
+    internal static AnvilHitResult ProcessRemoveSlag(BlockEntityAnvil anvil, IPlayer byPlayer, int x, int z, int y)
+    {
+        anvil.Voxels[x, y, z] = 0;
+        OnHitSuccess(anvil, EnumVoxelMaterial.Slag, null, x, y, z);
+        return new(AnvilHitAction.SlagRemoved, byPlayer, VoxelPos: new(x, y, z));
+    }
+
+    internal static AnvilHitResult ProcessSplit(BlockEntityAnvil anvil, IPlayer byPlayer, Vec3i usableMetalVoxel)
+    {
+        anvil.Voxels[usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z] = 0;
+        OnHitSuccess(anvil, EnumVoxelMaterial.Metal, null, usableMetalVoxel.X, usableMetalVoxel.Y, usableMetalVoxel.Z);
+
+        // TODO: Move to Knapster.Interop.AnvilMetalRecovery
+        AnvilMetalRecovery("Prefix_OnSplit", usableMetalVoxel, anvil);
+
+        // TODO: Move to Knapster.Interop.SmithingPlus
+        SmithingPlusBitRecovery(anvil, byPlayer);
+
+        return new(AnvilHitAction.MetalSplit, byPlayer, VoxelPos: usableMetalVoxel);
+    }
+
+    internal static void AnvilMetalRecovery(string methodName, Vec3i voxelPos, BlockEntityAnvil anvil)
+    {
+        if (!G.Uapi.ModLoader.AreAnyModsLoaded("metalrecovery", "anvilmetalrecoveryrevived")) return;
         var type = AccessTools.TypeByName("AnvilMetalRecovery.Patches.AnvilDaptor");
         var method = AccessTools.Method(type, methodName);
         method?.Invoke(null, [voxelPos, anvil]);
     }
 
-    private static void SmithingPlusBitRecovery(BlockEntityAnvil anvil, IPlayer byPlayer)
+    internal static void SmithingPlusBitRecovery(BlockEntityAnvil anvil, IPlayer byPlayer)
     {
-        if (!ApiEx.Current.ModLoader.AreAnyModsLoaded("smithingplus")) return;
+        if (!G.Uapi.ModLoader.AreAnyModsLoaded("smithingplus")) return;
         if (anvil.WorkItemStack is not { } workItemStack) return;
         var type = AccessTools.TypeByName("SmithingPlus.BitsRecovery.BitsRecoveryPatches");
         var method = AccessTools.Method(type, "RecoverBitsFromWorkItem");
         method?.Invoke(null, [anvil, byPlayer, workItemStack]);
+    }
+
+    internal static void OnHitSuccess(BlockEntityAnvil anvil, EnumVoxelMaterial mat, Vec3i? usableMetalVoxel, int x, int y, int z)
+    {
+        if (anvil.Api.World.Side == EnumAppSide.Client)
+        {
+            anvil.CallMethod("spawnParticles", new Vec3i(x, y, z), (mat == EnumVoxelMaterial.Empty) ? EnumVoxelMaterial.Metal : mat, null);
+            if (usableMetalVoxel is not null) anvil.CallMethod("spawnParticles", usableMetalVoxel, EnumVoxelMaterial.Metal, null);
+        }
+        anvil.CallMethod("RegenMeshAndSelectionBoxes");
+        anvil.CheckIfFinished(null);
     }
 }

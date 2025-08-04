@@ -1,7 +1,5 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
-using Gantry.Services.EasyX.Abstractions;
+﻿using Knapster.Features.EasyQuern.Settings;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Systems;
+namespace Knapster.Features.EasyQuern.Systems;
 
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyQuernClient : EasyXClientSystemBase<EasyQuernClientSettings>;
+public class EasyQuernClient : EasyXClientSystemBase<EasyQuernClient, EasyQuernClientSettings>;

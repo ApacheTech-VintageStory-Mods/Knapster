@@ -1,7 +1,7 @@
 ﻿{
-    "Features.EasyQuern.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur broie des ressources dans un quern. Agit comme un multiplicateur direct. Min : 0,0, Max : 10,0, par défaut : 1,0.",
-    "Features.EasyQuern.StickyMouseButton.Description":  "Lorsqu’il est actif, l’utilisateur n’aura pas besoin de maintenir le bouton droit de la souris enfoncé pour garder le quern actif.",
-    "Features.EasyQuern.IncludeAutomated.Description":  "Appliquez le multiplicateur de vitesse aux querns automatisés, ainsi qu’aux querns manuels.",
-    "Features.EasyQuern.StickyMouseButton":  "{0} Boutons collants de la souris : {1}",
-    "Features.EasyQuern.Description":  "Gérer les paramètres quern."
+    "Features.EasyQuern.SpeedMultiplier.Description":  null,
+    "Features.EasyQuern.StickyMouseButton.Description":  null,
+    "Features.EasyQuern.IncludeAutomated.Description":  null,
+    "Features.EasyQuern.StickyMouseButton":  null,
+    "Features.EasyQuern.Description":  null
 }

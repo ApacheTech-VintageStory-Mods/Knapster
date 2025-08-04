@@ -1,7 +1,4 @@
-﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyDoughForming.Settings;
+﻿namespace Knapster.Features.EasyDoughForming.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyDoughFormingClientSettings))]

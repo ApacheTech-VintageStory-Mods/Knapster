@@ -1,14 +1,8 @@
-﻿using ApacheTech.Common.Extensions.System;
-using ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Settings;
-using Gantry.Services.EasyX.Abstractions;
-using Gantry.Services.EasyX.Extensions;
+﻿using Knapster.Features.EasyMixingBowl.Settings;
 
-// ReSharper disable StringLiteralTypo
+namespace Knapster.Features.EasyMixingBowl.Systems;
 
-namespace ApacheTech.VintageMods.Knapster.Features.EasyMixingBowl.Systems;
-
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
-public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSettings, EasyMixingBowlClientSettings, EasyMixingBowlSettings>
+public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServer, EasyMixingBowlServerSettings, EasyMixingBowlClientSettings, EasyMixingBowlSettings>
 {
     protected override string SubCommandName => "MixingBowl";
 
@@ -19,13 +13,13 @@ public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSe
     protected override void FeatureSpecificCommands(IChatCommand subCommand, CommandArgumentParsers parsers)
     {
         subCommand
-            .WithDescription(LangEx.FeatureString("EasyMixingBowl", "Description"));
+            .WithDescription(G.Lang.FeatureString("EasyMixingBowl", "Description"));
 
         subCommand
             .BeginSubCommand("speed")
             .WithAlias("s")
             .WithArgs(parsers.Float("multiplier"))
-            .WithDescription(LangEx.FeatureString("EasyMixingBowl.SpeedMultiplier", "Description"))
+            .WithDescription(G.Lang.FeatureString("EasyMixingBowl.SpeedMultiplier", "Description"))
             .HandleWith(OnChangeSpeedMultiplier)
             .EndSubCommand();
 
@@ -33,23 +27,23 @@ public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSe
             .BeginSubCommand("automated")
             .WithAlias("a")
             .WithArgs(parsers.Bool("enabled"))
-            .WithDescription(LangEx.FeatureString("EasyMixingBowl.IncludeAutomated", "Description"))
+            .WithDescription(G.Lang.FeatureString("EasyMixingBowl.IncludeAutomated", "Description"))
             .HandleWith(OnChangeIncludeAutomated)
             .EndSubCommand();
     }
 
     protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        sb.AppendLine(LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
-        sb.AppendLine(LangEx.FeatureString("Knapster", "IncludeAutomated", SubCommandName, Settings.IncludeAutomated));
+        sb.AppendLine(G.Lang.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier));
+        sb.AppendLine(G.Lang.FeatureString("Knapster", "IncludeAutomated", SubCommandName, Settings.IncludeAutomated));
     }
 
     private TextCommandResult OnChangeSpeedMultiplier(TextCommandCallingArgs args)
     {
         var value = args.Parsers[0].GetValue().To<float?>() ?? 1f;
         Settings.SpeedMultiplier = GameMath.Clamp(value, 0f, 10f);
-        var message = LangEx.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier);
-        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        var message = G.Lang.FeatureString("Knapster", "SpeedMultiplier", SubCommandName, Settings.SpeedMultiplier);
+        ServerChannel?.BroadcastUniquePacket(Sapi.AsServerMain(), GeneratePacket);
         return TextCommandResult.Success(message);
     }
 
@@ -57,8 +51,8 @@ public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServerSe
     {
         var value = args.Parsers[0].GetValue().To<bool?>() ?? false;
         Settings.IncludeAutomated = value;
-        var message = LangEx.FeatureString("Knapster", "IncludeAutomated", SubCommandName, Settings.IncludeAutomated);
-        ServerChannel?.BroadcastUniquePacket(GeneratePacket);
+        var message = G.Lang.FeatureString("Knapster", "IncludeAutomated", SubCommandName, Settings.IncludeAutomated);
+        ServerChannel?.BroadcastUniquePacket(Sapi.AsServerMain(), GeneratePacket);
         return TextCommandResult.Success(message);
     }
 }

@@ -1,13 +1,9 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Extensions;
-using ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Systems;
+﻿using Knapster.Features.EasyClayForming.Extensions;
+using Knapster.Features.EasyClayForming.Systems;
 
-// ReSharper disable StringLiteralTypo
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Patches;
+namespace Knapster.Features.EasyClayForming.Patches;
 
 [HarmonyUniversalPatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasyClayFormingUniversalPatches
 {
     [HarmonyPrefix]
@@ -15,17 +11,17 @@ public class EasyClayFormingUniversalPatches
     public static bool UniversalPatch_BlockEntityClayForm_OnUseOver_Prefix(BlockEntityClayForm __instance,
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {
-        var voxelsPerClick = ApiEx.Return(
-            _ => EasyClayFormingClient.Settings.VoxelsPerClick,
-            _ => EasyClayFormingServer.Settings.VoxelsPerClick);
+        var voxelsPerClick = G.ApiEx.Return(
+            _ => EasyClayFormingClient.Instance.Settings.VoxelsPerClick,
+            _ => EasyClayFormingServer.Instance.Settings.VoxelsPerClick);
 
-        var instantComplete = ApiEx.Return(
-            _ => EasyClayFormingClient.Settings.InstantComplete,
-            _ => EasyClayFormingServer.Settings.InstantComplete);
+        var instantComplete = G.ApiEx.Return(
+            _ => EasyClayFormingClient.Instance.Settings.InstantComplete,
+            _ => EasyClayFormingServer.Instance.Settings.InstantComplete);
 
-        var enabled = ApiEx.Return(
-            _ => EasyClayFormingClient.Settings.Enabled,
-            _ => EasyClayFormingServer.IsEnabledFor(byPlayer));
+        var enabled = G.ApiEx.Return(
+            _ => EasyClayFormingClient.Instance.Settings.Enabled,
+            _ => EasyClayFormingServer.Instance.IsEnabledFor(byPlayer));
 
         try
         {
@@ -46,14 +42,14 @@ public class EasyClayFormingUniversalPatches
 
             if (__instance.Api.Side.IsClient())
             {
-                __instance.SendUseOverPacket(byPlayer, voxelPos, facing, false);
+                __instance.CallMethod("SendUseOverPacket", byPlayer, voxelPos, facing, false);
             }
 
             clay.SetToolMode(slot, byPlayer, blockSel, 0);
 
             var currentLayer = __instance.CurrentLayer();
             if (instantComplete
-                    ? __instance.CompleteInTurn(slot)
+                    ? __instance.CompleteInTurn(slot, byPlayer)
                     : __instance.AutoCompleteLayer(currentLayer, voxelsPerClick))
             {
                 __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
@@ -82,7 +78,7 @@ public class EasyClayFormingUniversalPatches
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
             return true;
         }
     }

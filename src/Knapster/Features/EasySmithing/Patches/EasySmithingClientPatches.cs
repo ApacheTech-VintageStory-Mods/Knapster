@@ -1,11 +1,8 @@
-﻿using ApacheTech.VintageMods.Knapster.Features.EasySmithing.Systems;
+﻿using Knapster.Features.EasySmithing.Systems;
 
-// ReSharper disable InconsistentNaming
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Patches;
+namespace Knapster.Features.EasySmithing.Patches;
 
 [HarmonyClientSidePatch]
-[UsedImplicitly(ImplicitUseTargetFlags.WithMembers)]
 public class EasySmithingClientPatches
 {
     [HarmonyPostfix]
@@ -16,9 +13,9 @@ public class EasySmithingClientPatches
         try
         {
             if (__result is null) return;
-            if (!EasySmithingClient.Settings.Enabled)
+            if (!EasySmithingClient.Instance.Settings.Enabled)
             {
-                __result = ___toolModes = ___toolModes.Take(6).ToArray();
+                __result = ___toolModes = [.. ___toolModes.Take(6)];
                 if (__instance.GetToolMode(slot, forPlayer, blockSel) < 6) return;
                 __instance.SetToolMode(slot, forPlayer, blockSel, 0);
                 return;
@@ -28,13 +25,13 @@ public class EasySmithingClientPatches
             var skillItem = new SkillItem
             {
                 Code = new AssetLocation("auto"),
-                Name = LangEx.FeatureString("Knapster", "AutoComplete")
-            }.WithIcon(ApiEx.Client, ApiEx.Client!.Gui.Icons.Drawfloodfill_svg);
+                Name = G.Lang.FeatureString("Knapster", "AutoComplete")
+            }.WithIcon(G.Capi, G.Capi!.Gui.Icons.Drawfloodfill_svg);
             __result = ___toolModes = ___toolModes.AddToArray(skillItem);
         }
         catch (ArgumentNullException ex)
         {
-            ModEx.Mod.Logger.Error(ex);
+            G.Logger.Error(ex);
         }
     }
 }

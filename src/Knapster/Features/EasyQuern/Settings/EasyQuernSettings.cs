@@ -1,7 +1,4 @@
-﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
+﻿namespace Knapster.Features.EasyQuern.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasyQuernClientSettings))]

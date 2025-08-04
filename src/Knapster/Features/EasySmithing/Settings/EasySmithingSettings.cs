@@ -1,9 +1,4 @@
-﻿using Gantry.Services.FileSystem.Configuration.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasySmithing.Settings;
-
-[UsedImplicitly(ImplicitUseTargetFlags.All)]
+﻿namespace Knapster.Features.EasySmithing.Settings;
 
 [ProtoContract]
 [ProtoInclude(100, typeof(EasySmithingClientSettings))]

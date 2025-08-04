@@ -1,9 +1,4 @@
-﻿using Gantry.Core.GameContent.ChatCommands.DataStructures;
-using ProtoBuf;
-using Gantry.Services.EasyX.Abstractions;
-using Gantry.Services.FileSystem.Configuration.Abstractions;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyClayForming.Settings;
+﻿namespace Knapster.Features.EasyClayForming.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

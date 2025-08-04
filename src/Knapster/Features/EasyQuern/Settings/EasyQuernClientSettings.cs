@@ -1,7 +1,4 @@
-﻿using Gantry.Services.EasyX.Abstractions;
-using ProtoBuf;
-
-namespace ApacheTech.VintageMods.Knapster.Features.EasyQuern.Settings;
+﻿namespace Knapster.Features.EasyQuern.Settings;
 
 [ProtoContract]
 public class EasyQuernClientSettings : EasyQuernSettings, IEasyXClientSettings

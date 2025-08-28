@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyDoughForming.Settings;
-
-namespace Knapster.Features.EasyDoughForming.Systems;
+﻿namespace Knapster.Features.EasyDoughForming.Systems;
 
 public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughFormingServer, EasyDoughFormingServerSettings, EasyDoughFormingClientSettings, EasyDoughFormingSettings>
 {

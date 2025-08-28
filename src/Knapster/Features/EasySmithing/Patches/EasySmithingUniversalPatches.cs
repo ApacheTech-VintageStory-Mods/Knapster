@@ -1,5 +1,4 @@
-﻿using Knapster.Features.EasySmithing.Systems;
-using Knapster.Features.EasySmithing.DataStructures;
+﻿using Knapster.Features.EasySmithing.DataStructures;
 
 namespace Knapster.Features.EasySmithing.Patches;
 
@@ -12,23 +11,8 @@ public partial class EasySmithingUniversalPatches
         IPlayer byPlayer, Vec3i voxelPos, BlockSelection blockSel)
     {
         if (__instance.SelectedRecipe?.Voxels is null) return true;
-
-        var costPerClick = G.ApiEx.Return(
-            _ => EasySmithingClient.Instance.Settings.CostPerClick,
-            _ => EasySmithingServer.Instance.Settings.CostPerClick);
-
-        var voxelsPerClick = G.ApiEx.Return(
-            _ => EasySmithingClient.Instance.Settings.VoxelsPerClick,
-            _ => EasySmithingServer.Instance.Settings.VoxelsPerClick);
-
-        var instantComplete = G.ApiEx.Return(
-            _ => EasySmithingClient.Instance.Settings.InstantComplete,
-            _ => EasySmithingServer.Instance.Settings.InstantComplete);
-
-        var enabled = G.ApiEx.Return(
-            _ => EasySmithingClient.Instance.Settings.Enabled,
-            _ => EasySmithingServer.Instance.IsEnabledFor(byPlayer));
-
+        var settings = new GetSmithingSettingsCommand(byPlayer);
+        G.CommandProcessor.Send(settings);
         try
         {
             var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
@@ -37,7 +21,7 @@ public partial class EasySmithingUniversalPatches
 
             var toolMode = hammer.GetToolMode(slot, byPlayer, blockSel);
 
-            if (!enabled)
+            if (!settings.Enabled)
             {
                 if (toolMode > 5) hammer.SetToolMode(slot, byPlayer, blockSel, 0);
                 return true;
@@ -52,10 +36,10 @@ public partial class EasySmithingUniversalPatches
                 __instance.CallMethod("SendUseOverPacket", byPlayer, voxelPos);
             }
 
-            OnHit(__instance, instantComplete ? 999 : voxelsPerClick, byPlayer);
+            OnHit(__instance, settings.InstantComplete ? 999 : settings.VoxelsPerClick, byPlayer);
 
             __instance.CallMethod("RegenMeshAndSelectionBoxes");
-            slot.Itemstack.Collectible.DamageItem(__instance.Api.World, byPlayer.Entity, slot, costPerClick);
+            slot.Itemstack.Collectible.DamageItem(__instance.Api.World, byPlayer.Entity, slot, settings.CostPerClick);
             if (!__instance.CallMethod<bool>("HasAnyMetalVoxel"))
             {
                 __instance.CallMethod("clearWorkSpace");

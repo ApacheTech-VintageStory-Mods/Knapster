@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyPressing.Systems;
-
-namespace Knapster.Features.EasyPressing.Patches;
+﻿namespace Knapster.Features.EasyPressing.Patches;
 
 [HarmonyClientSidePatch]
 public sealed class EasyPressingClientPatches
@@ -9,6 +7,6 @@ public sealed class EasyPressingClientPatches
     [HarmonyPatch(typeof(BlockEntityFruitPress), nameof(BlockEntityFruitPress.CanUnscrew), MethodType.Getter)]
     public static void Harmony_Client_BlockEntityFruitPress_CanUnscrew_Getter_Postfix(ref bool __result)
     {
-        __result = __result || EasyPressingClient.Instance.Settings.Enabled;
+        __result = __result || G.Services.GetRequiredService<EasyPressingClient>().Settings.Enabled;
     }
 }

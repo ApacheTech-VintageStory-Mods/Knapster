@@ -1,5 +1,4 @@
 ﻿using System.Reflection.Emit;
-using Knapster.Features.EasyPanning.Systems;
 
 namespace Knapster.Features.EasyPanning.Patches;
 
@@ -66,50 +65,11 @@ public sealed class EasyPanningUniversalPatches
     }
 
     private static float SecondsPerLayer(EntityAgent byEntity)
-    {
-        if (byEntity is not EntityPlayer playerEntity) return 4f;
-
-        if (!G.ApiEx.Return(
-                () => EasyPanningClient.Instance.Settings.Enabled,
-                () => EasyPanningServer.Instance.IsEnabledFor(playerEntity.Player)))
-        {
-            return 4f;
-        }
-
-        return G.ApiEx.OneOf(
-            EasyPanningClient.Instance.Settings.SecondsPerLayer, 
-            EasyPanningServer.Instance.Settings.SecondsPerLayer);
-    }
+        => G.CommandProcessor.Handle(new GetPanningSecondsPerLayerCommand(byEntity)).SecondsPerLayer;
 
     private static int DropsPerLayer(EntityAgent byEntity)
-    {
-        if (byEntity is not EntityPlayer playerEntity) return 1;
-
-        if (!G.ApiEx.Return(
-                () => EasyPanningClient.Instance.Settings.Enabled,
-                () => EasyPanningServer.Instance.IsEnabledFor(playerEntity.Player)))
-        {
-            return 1;
-        }
-
-        return G.ApiEx.OneOf(
-            EasyPanningClient.Instance.Settings.DropsPerLayer,
-            EasyPanningServer.Instance.Settings.DropsPerLayer);
-    }
+        => G.CommandProcessor.Handle(new GetPanningDropsPerLayerCommand(byEntity)).DropsPerLayer;
 
     private static float SaturationPerLayer(EntityAgent byEntity)
-    {
-        if (byEntity is not EntityPlayer playerEntity) return 3f;
-
-        if (!G.ApiEx.Return(
-                () => EasyPanningClient.Instance.Settings.Enabled,
-                () => EasyPanningServer.Instance.IsEnabledFor(playerEntity.Player)))
-        {
-            return 3f;
-        }
-
-        return G.ApiEx.OneOf(
-            EasyPanningClient.Instance.Settings.SaturationPerLayer,
-            EasyPanningServer.Instance.Settings.SaturationPerLayer);
-    }
+        => G.CommandProcessor.Handle(new GetPanningSaturationPerLayerCommand(byEntity)).SaturationPerLayer;
 }

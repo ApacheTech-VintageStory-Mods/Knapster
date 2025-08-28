@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyQuern.Settings;
-
-namespace Knapster.Features.EasyQuern.Systems;
+﻿namespace Knapster.Features.EasyQuern.Systems;
 
 /// <summary>
 ///     Server-side system for the EasyQuern feature, providing chat commands and settings management for quern automation and speed.

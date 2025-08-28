@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyKnapping.Systems;
-
-namespace Knapster.Features.EasyKnapping.Patches;
+﻿namespace Knapster.Features.EasyKnapping.Patches;
 
 [HarmonyClientSidePatch]
 public sealed class EasyKnappingClientPatches
@@ -12,11 +10,12 @@ public sealed class EasyKnappingClientPatches
     {
         try
         {
-            if (!EasyKnappingClient.Instance.Settings.Enabled) return true;
+            var system = G.Services.GetRequiredService<EasyKnappingClient>();
+            if (!system.Settings.Enabled) return true;
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            for (var i = 0; i < EasyKnappingClient.Instance.Settings.VoxelsPerClick; i++)
+            for (var i = 0; i < system.Settings.VoxelsPerClick; i++)
             {
                 if (!__instance.CallMethod<bool>("HasAnyVoxel")) return true;
                 var voxelPos = FindNextVoxelToRemove(__instance);

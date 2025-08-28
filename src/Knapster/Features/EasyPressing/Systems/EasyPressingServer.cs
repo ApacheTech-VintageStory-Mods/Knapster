@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyPressing.Settings;
-
-namespace Knapster.Features.EasyPressing.Systems;
+﻿namespace Knapster.Features.EasyPressing.Systems;
 
 public sealed class EasyPressingServer : EasyXServerSystemBase<EasyPressingServer, EasyPressingServerSettings, EasyPressingClientSettings, EasyPressingSettings>
 {

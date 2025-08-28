@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyTilling.Settings;
-
-namespace Knapster.Features.EasyTilling.Systems;
+﻿namespace Knapster.Features.EasyTilling.Systems;
 
 public sealed class EasyTillingServer : EasyXServerSystemBase<EasyTillingServer, EasyTillingServerSettings, EasyTillingClientSettings, EasyTillingSettings>
 {

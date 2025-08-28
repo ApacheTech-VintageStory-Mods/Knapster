@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyDoughForming.Systems;
-
-namespace Knapster.Features.EasyDoughForming.Patches;
+﻿namespace Knapster.Features.EasyDoughForming.Patches;
 
 [HarmonyClientSidePatch]
 [RequiresMod("coreofarts")]
@@ -15,7 +13,7 @@ public class EasyDoughFormingClientPatches
         try
         {
             if (__result is null) return;
-            if (!EasyDoughFormingClient.Instance.Settings.Enabled)
+            if (!G.Services.GetRequiredService<EasyDoughFormingClient>().Settings.Enabled)
             {
                 __result = ___toolModes = [.. ___toolModes.Take(4)];
                 if (__instance.GetToolMode(slot, forPlayer, blockSel) < 4) return;

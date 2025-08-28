@@ -1,5 +1,4 @@
-﻿using Knapster.Features.EasyHarvesting.Systems;
-using System.Reflection.Emit;
+﻿using System.Reflection.Emit;
 
 namespace Knapster.Features.EasyHarvesting.Patches;
 
@@ -29,7 +28,7 @@ public sealed class EasyHarvestingUniversalPatches
 
             if (!(current.Is(OpCodes.Ldc_R4, 2f) && next.opcode == OpCodes.Clt)) continue;
             result.Add(new CodeInstruction(OpCodes.Ldarg_3));
-            result.Add(CodeInstruction.Call(typeof(EasyHarvestingUniversalPatches), nameof(SpeedMultiplier), new[] { typeof(EntityAgent) }));
+            result.Add(CodeInstruction.Call(typeof(EasyHarvestingUniversalPatches), nameof(SpeedMultiplier), [typeof(EntityAgent)]));
             result.Add(new CodeInstruction(OpCodes.Mul));
         }
 
@@ -38,18 +37,5 @@ public sealed class EasyHarvestingUniversalPatches
     }
 
     private static float SpeedMultiplier(EntityAgent byEntity)
-    {
-        if (byEntity is not EntityPlayer playerEntity) return 1f;
-
-        if (!G.ApiEx.Return(
-                () => EasyHarvestingClient.Instance.Settings.Enabled,
-                () => EasyHarvestingServer.Instance.IsEnabledFor(playerEntity.Player)))
-        {
-            return 1f;
-        }
-
-        return G.ApiEx.OneOf(
-            EasyHarvestingClient.Instance.Settings.SpeedMultiplier,
-            EasyHarvestingServer.Instance.Settings.SpeedMultiplier);
-    }
+        => G.CommandProcessor.Handle(new GetHarvestingSpeedMultiplierCommand(byEntity)).SpeedMultiplier;
 }

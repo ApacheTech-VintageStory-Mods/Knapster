@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasySmithing.Systems;
-
-namespace Knapster.Features.EasySmithing.Patches;
+﻿namespace Knapster.Features.EasySmithing.Patches;
 
 [HarmonyClientSidePatch]
 public class EasySmithingClientPatches
@@ -10,10 +8,12 @@ public class EasySmithingClientPatches
     public static void ClientPatch_ItemHammer_GetToolModes_Postfix(ItemHammer __instance, ItemSlot slot,
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {
+        var settings = new GetSmithingSettingsCommand(forPlayer);
+        G.CommandProcessor.Send(settings);
         try
         {
             if (__result is null) return;
-            if (!EasySmithingClient.Instance.Settings.Enabled)
+            if (!settings.Enabled)
             {
                 __result = ___toolModes = [.. ___toolModes.Take(6)];
                 if (__instance.GetToolMode(slot, forPlayer, blockSel) < 6) return;

@@ -1,7 +1,4 @@
-﻿using Knapster.Features.EasyClayForming.Extensions;
-using Knapster.Features.EasyClayForming.Systems;
-
-namespace Knapster.Features.EasyClayForming.Patches;
+﻿namespace Knapster.Features.EasyClayForming.Patches;
 
 [HarmonyUniversalPatch]
 public class EasyClayFormingUniversalPatches
@@ -11,18 +8,8 @@ public class EasyClayFormingUniversalPatches
     public static bool UniversalPatch_BlockEntityClayForm_OnUseOver_Prefix(BlockEntityClayForm __instance,
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {
-        var voxelsPerClick = G.ApiEx.Return(
-            _ => EasyClayFormingClient.Instance.Settings.VoxelsPerClick,
-            _ => EasyClayFormingServer.Instance.Settings.VoxelsPerClick);
-
-        var instantComplete = G.ApiEx.Return(
-            _ => EasyClayFormingClient.Instance.Settings.InstantComplete,
-            _ => EasyClayFormingServer.Instance.Settings.InstantComplete);
-
-        var enabled = G.ApiEx.Return(
-            _ => EasyClayFormingClient.Instance.Settings.Enabled,
-            _ => EasyClayFormingServer.Instance.IsEnabledFor(byPlayer));
-
+        var settings = new GetClayFormingSettingsCommand(byPlayer);
+        G.CommandProcessor.Send(settings);
         try
         {
             var slot = byPlayer.InventoryManager.ActiveHotbarSlot;
@@ -31,7 +18,7 @@ public class EasyClayFormingUniversalPatches
             var blockSel = new BlockSelection { Position = __instance.Pos };
             var toolMode = clay.GetToolMode(slot, byPlayer, blockSel);
 
-            if (!enabled)
+            if (!settings.Enabled)
             {
                 if (toolMode > 3) clay.SetToolMode(slot, byPlayer, blockSel, 0);
                 return true;
@@ -48,9 +35,9 @@ public class EasyClayFormingUniversalPatches
             clay.SetToolMode(slot, byPlayer, blockSel, 0);
 
             var currentLayer = __instance.CurrentLayer();
-            if (instantComplete
+            if (settings.InstantComplete
                     ? __instance.CompleteInTurn(slot, byPlayer)
-                    : __instance.AutoCompleteLayer(currentLayer, voxelsPerClick))
+                    : __instance.AutoCompleteLayer(currentLayer, settings.VoxelsPerClick))
             {
                 __instance.Api.World.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
             }

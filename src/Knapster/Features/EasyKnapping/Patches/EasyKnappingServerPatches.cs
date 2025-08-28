@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyKnapping.Systems;
-
-namespace Knapster.Features.EasyKnapping.Patches;
+﻿namespace Knapster.Features.EasyKnapping.Patches;
 
 [HarmonyServerSidePatch]
 public sealed class EasyKnappingServerPatches
@@ -12,11 +10,12 @@ public sealed class EasyKnappingServerPatches
     {
         try
         {
-            if (!EasyKnappingServer.Instance.IsEnabledFor(byPlayer)) return true;
+            var system = G.Services.GetRequiredService<EasyKnappingServer>();
+            if (!system.IsEnabledFor(byPlayer)) return true;
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            if (EasyKnappingServer.Instance.Settings.InstantComplete)
+            if (system.Settings.InstantComplete)
             {
                 AutoComplete(__instance);
             }

@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyPanning.Settings;
-
-namespace Knapster.Features.EasyPanning.Systems;
+﻿namespace Knapster.Features.EasyPanning.Systems;
 
 public sealed class EasyPanningServer : EasyXServerSystemBase<EasyPanningServer, EasyPanningServerSettings, EasyPanningClientSettings, EasyPanningSettings>
 {

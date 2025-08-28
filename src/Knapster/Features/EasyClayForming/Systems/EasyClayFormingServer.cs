@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyClayForming.Settings;
-
-namespace Knapster.Features.EasyClayForming.Systems;
+﻿namespace Knapster.Features.EasyClayForming.Systems;
 
 public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormingServer, EasyClayFormingServerSettings, EasyClayFormingClientSettings, EasyClayFormingSettings>
 {

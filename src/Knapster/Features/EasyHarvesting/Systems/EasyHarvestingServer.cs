@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyHarvesting.Settings;
-
-namespace Knapster.Features.EasyHarvesting.Systems;
+﻿namespace Knapster.Features.EasyHarvesting.Systems;
 
 public sealed class EasyHarvestingServer : EasyXServerSystemBase<EasyHarvestingServer, EasyHarvestingServerSettings, EasyHarvestingClientSettings, EasyHarvestingSettings>
 {

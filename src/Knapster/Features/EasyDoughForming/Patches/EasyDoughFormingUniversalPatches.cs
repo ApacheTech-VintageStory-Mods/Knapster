@@ -1,8 +1,4 @@
-﻿using Knapster.Features.EasyDoughForming.Extensions;
-using Knapster.Features.EasyDoughForming.Systems;
-
-
-namespace Knapster.Features.EasyDoughForming.Patches;
+﻿namespace Knapster.Features.EasyDoughForming.Patches;
 
 [HarmonyUniversalPatch]
 [RequiresMod("coreofarts")]
@@ -14,17 +10,7 @@ public class EasyDoughFormingUniversalPatches
     public static bool UniversalPatch_BlockEntityDoughForm_OnUseOver_Prefix(dynamic __instance,
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {
-        var voxelsPerClick = G.ApiEx.Return(
-            _ => EasyDoughFormingClient.Instance.Settings.VoxelsPerClick,
-            _ => EasyDoughFormingServer.Instance.Settings.VoxelsPerClick);
-
-        var instantComplete = G.ApiEx.Return(
-            _ => EasyDoughFormingClient.Instance.Settings.InstantComplete,
-            _ => EasyDoughFormingServer.Instance.Settings.InstantComplete);
-
-        var enabled = G.ApiEx.Return(
-            _ => EasyDoughFormingClient.Instance.Settings.Enabled,
-            _ => EasyDoughFormingServer.Instance.IsEnabledFor(byPlayer));
+        var settings = G.CommandProcessor.Handle(new GetDoughFormingSettingsCommand(byPlayer));
 
         try
         {
@@ -36,7 +22,7 @@ public class EasyDoughFormingUniversalPatches
             var blockSel = new BlockSelection { Position = __instance.Pos };
             var toolMode = dough.GetToolMode(slot, byPlayer, blockSel);
 
-            if (!enabled)
+            if (!settings.Enabled)
             {
                 if (toolMode > 3) dough.SetToolMode(slot, byPlayer, blockSel, 0);
                 return true;
@@ -53,9 +39,9 @@ public class EasyDoughFormingUniversalPatches
             dough.SetToolMode(slot, byPlayer, blockSel, 0);
             var world = G.Uapi.World;
             int currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
-            if (instantComplete
+            if (settings.InstantComplete
                     ? BlockEntityDoughFormExtensions.CompleteInTurn(__instance, slot)
-                    : BlockEntityDoughFormExtensions.AutoCompleteLayer(__instance, currentLayer, voxelsPerClick))
+                    : BlockEntityDoughFormExtensions.AutoCompleteLayer(__instance, currentLayer, settings.VoxelsPerClick))
             {
                 world.PlaySoundAt(new AssetLocation("sounds/player/clayform.ogg"), byPlayer, byPlayer, true, 8f);
             }

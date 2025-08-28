@@ -1,5 +1,4 @@
-﻿using Knapster.Features.EasyTilling.Systems;
-using System.Reflection.Emit;
+﻿using System.Reflection.Emit;
 
 namespace Knapster.Features.EasyTilling.Patches;
 
@@ -44,17 +43,8 @@ public sealed class EasyTillingUniversalPatches
 
     private static float SpeedMultiplier(EntityAgent byEntity)
     {
-        if (byEntity is not EntityPlayer playerEntity) return 1f;
-
-        if (!G.ApiEx.Return(
-                () => EasyTillingClient.Instance.Settings.Enabled, 
-                () => EasyTillingServer.Instance.IsEnabledFor(playerEntity.Player)))
-        {
-            return 1f;
-        }
-
-        return G.ApiEx.OneOf(
-            EasyTillingClient.Instance.Settings.SpeedMultiplier,
-            EasyTillingServer.Instance.Settings.SpeedMultiplier);
+        var command = new GetTillingSpeedMultiplierCommand(byEntity);
+        G.CommandProcessor.Send(command);
+        return command.TillingSpeedMultiplier;
     }
 }

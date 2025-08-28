@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyMixingBowl.Settings;
-
-namespace Knapster.Features.EasyMixingBowl.Systems;
+﻿namespace Knapster.Features.EasyMixingBowl.Systems;
 
 public class EasyMixingBowlServer : EasyXServerSystemBase<EasyMixingBowlServer, EasyMixingBowlServerSettings, EasyMixingBowlClientSettings, EasyMixingBowlSettings>
 {

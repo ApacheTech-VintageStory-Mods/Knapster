@@ -1,6 +1,6 @@
 <Project>
 	<PropertyGroup Label="Framework Versioning">
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
 		<PackageMod>true</PackageMod>
 	</PropertyGroup>
@@ -94,18 +94,6 @@
 		</Reference>
 		<Reference Include="protobuf-net">
 			<HintPath>$(EnvironmentVariable)\Lib\protobuf-net.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="System.Collections.Immutable">
-			<HintPath>$(VINTAGE_STORY)\Lib\System.Collections.Immutable.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="System.Text.Encodings.Web">
-			<HintPath>$(VINTAGE_STORY)\Lib\System.Text.Encodings.Web.dll</HintPath>
-			<Private>false</Private>
-		</Reference>
-		<Reference Include="System.Text.Json">
-			<HintPath>$(VINTAGE_STORY)\Lib\System.Text.Json.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="Tavis.JsonPatch">

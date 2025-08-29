@@ -19,23 +19,21 @@ public class GetClayFormingSettingsCommand(IPlayer player) : CommandBase
         public override GetClayFormingSettingsCommand Handle(GetClayFormingSettingsCommand command)
         {
             if (command.Player is not EntityPlayer playerEntity) return base.Handle(command);
-            if (!_gantry.ApiEx.Return(
-                    () => _client.Settings.Enabled,
-                    () => _server.IsEnabledFor(playerEntity.Player)))
-            {
+
+            command.Enabled = _gantry.ApiEx.Return(
+                () => _client.Settings.Enabled,
+                () => _server.IsEnabledFor(playerEntity.Player));
+
+            if (!command.Enabled)
                 return base.Handle(command);
-            }
-            command.Enabled = _gantry.ApiEx.OneOf(
-                _client.Settings.Enabled,
-                true);
 
-            command.VoxelsPerClick = _gantry.ApiEx.OneOf(
-                _client.Settings.VoxelsPerClick,
-                _server.Settings.VoxelsPerClick);
+            command.VoxelsPerClick = _gantry.ApiEx.Return(
+                () => _client.Settings.VoxelsPerClick,
+                () => _server.Settings.VoxelsPerClick);
 
-            command.InstantComplete = _gantry.ApiEx.OneOf(
-                _client.Settings.InstantComplete,
-                _server.Settings.InstantComplete);
+            command.InstantComplete = _gantry.ApiEx.Return(
+                () => _client.Settings.InstantComplete,
+                () => _server.Settings.InstantComplete);
 
             return base.Handle(command);
         }

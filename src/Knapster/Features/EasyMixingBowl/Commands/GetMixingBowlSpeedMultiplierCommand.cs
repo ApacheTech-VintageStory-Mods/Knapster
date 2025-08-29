@@ -15,9 +15,9 @@ public class GetMixingBowlSpeedMultiplierCommand(List<string> players) : Command
         private readonly ICoreGantryAPI _gantry = gantry;
         public override GetMixingBowlSpeedMultiplierCommand Handle(GetMixingBowlSpeedMultiplierCommand command)
         {
-            if (command.Players.Count == 0 && !_gantry.ApiEx.OneOf(
-                _client.Settings.IncludeAutomated,
-                _server.Settings.IncludeAutomated))
+            if (command.Players.Count == 0 && !_gantry.ApiEx.Return(
+                () => _client.Settings.IncludeAutomated,
+                () => _server.Settings.IncludeAutomated))
                 return base.Handle(command);
 
             if (!_gantry.ApiEx.Return(
@@ -25,9 +25,9 @@ public class GetMixingBowlSpeedMultiplierCommand(List<string> players) : Command
                     () => _server.IsEnabledForAll(command.Players)))
                 return base.Handle(command);
 
-            command.SpeedMultiplier = _gantry.ApiEx.OneOf(
-                _client.Settings.SpeedMultiplier,
-               _server.Settings.SpeedMultiplier);
+            command.SpeedMultiplier = _gantry.ApiEx.Return(
+                () => _client.Settings.SpeedMultiplier,
+                () => _server.Settings.SpeedMultiplier);
 
             return base.Handle(command);
         }

@@ -22,9 +22,9 @@ public class GetPanningDropsPerLayerCommand(EntityAgent byEntity) : CommandBase
             {
                 return base.Handle(command);
             }
-            command.DropsPerLayer = _gantry.ApiEx.OneOf(
-                _client.Settings.DropsPerLayer,
-                _server.Settings.DropsPerLayer);
+            command.DropsPerLayer = _gantry.ApiEx.Return(
+                () => _client.Settings.DropsPerLayer,
+                () => _server.Settings.DropsPerLayer);
             return base.Handle(command);
         }
     }

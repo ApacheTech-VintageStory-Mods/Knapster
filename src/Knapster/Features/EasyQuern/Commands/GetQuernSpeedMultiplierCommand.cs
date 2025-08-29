@@ -21,21 +21,17 @@ public class GetQuernSpeedMultiplierCommand(List<string> players) : CommandBase
             return base.Handle(command);
         }
 
-        private float SpeedMultiplier => _gantry.ApiEx.OneOf(
-            _client.Settings.SpeedMultiplier,
-            _server.Settings.SpeedMultiplier);
+        private float SpeedMultiplier => _gantry.ApiEx.Return(
+            () => _client.Settings.SpeedMultiplier,
+            () => _server.Settings.SpeedMultiplier);
 
-        private bool IncludeAutomated => _gantry.ApiEx.OneOf(
-            _client.Settings.IncludeAutomated,
-            _server.Settings.IncludeAutomated);
+        private bool IncludeAutomated => _gantry.ApiEx.Return(
+            () => _client.Settings.IncludeAutomated,
+            () => _server.Settings.IncludeAutomated);
 
-        private bool EnabledForAll(IEnumerable<string> players)
-        {
-            var enabled = _gantry.ApiEx.Return(
+        private bool EnabledForAll(IEnumerable<string> players) 
+            => _gantry.ApiEx.Return(
                 () => _client.Settings.Enabled,
                 () => _server.IsEnabledForAll(players));
-
-            return enabled;
-        }
     }
 }   

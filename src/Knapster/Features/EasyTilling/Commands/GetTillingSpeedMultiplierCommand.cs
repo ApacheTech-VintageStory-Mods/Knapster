@@ -26,9 +26,9 @@ internal class GetTillingSpeedMultiplierCommand(EntityAgent agent) : CommandBase
                 return base.Handle(command);
             }
 
-            command.TillingSpeedMultiplier = _gantry.ApiEx.OneOf(
-                _client.Settings.SpeedMultiplier,
-                _server.Settings.SpeedMultiplier);
+            command.TillingSpeedMultiplier = _gantry.ApiEx.Return(
+                () => _client.Settings.SpeedMultiplier,
+                () => _server.Settings.SpeedMultiplier);
 
             return base.Handle(command);
         }

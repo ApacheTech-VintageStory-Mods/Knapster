@@ -16,14 +16,14 @@ public class GetHarvestingSpeedMultiplierCommand(EntityAgent byEntity) : Command
         {
             if (command.ByEntity is not EntityPlayer playerEntity) return base.Handle(command);
             if (!_gantry.ApiEx.Return(
-                    () => _client.Settings.Enabled,
-                    () => _server.IsEnabledFor(playerEntity.Player)))
+                () => _client.Settings.Enabled,
+                () => _server.IsEnabledFor(playerEntity.Player)))
             {
                 return base.Handle(command);
             }
-            command.SpeedMultiplier = _gantry.ApiEx.OneOf(
-                _client.Settings.SpeedMultiplier,
-                _server.Settings.SpeedMultiplier);
+            command.SpeedMultiplier = _gantry.ApiEx.Return(
+                () => _client.Settings.SpeedMultiplier,
+                () => _server.Settings.SpeedMultiplier);
             return base.Handle(command);
         }
     }

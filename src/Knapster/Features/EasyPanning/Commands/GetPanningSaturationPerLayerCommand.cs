@@ -22,9 +22,9 @@ public class GetPanningSaturationPerLayerCommand(EntityAgent byEntity) : Command
             {
                 return base.Handle(command);
             }
-            command.SaturationPerLayer = _gantry.ApiEx.OneOf(
-                _client.Settings.SaturationPerLayer,
-                _server.Settings.SaturationPerLayer);
+            command.SaturationPerLayer = _gantry.ApiEx.Return(
+                () => _client.Settings.SaturationPerLayer,
+                () => _server.Settings.SaturationPerLayer);
             return base.Handle(command);
         }
     }

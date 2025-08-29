@@ -22,9 +22,9 @@ public class GetPanningSecondsPerLayerCommand(EntityAgent byEntity) : CommandBas
             {
                 return base.Handle(command);
             }
-            command.SecondsPerLayer = _gantry.ApiEx.OneOf(
-                _client.Settings.SecondsPerLayer,
-                _server.Settings.SecondsPerLayer);
+            command.SecondsPerLayer = _gantry.ApiEx.Return(
+                () => _client.Settings.SecondsPerLayer,
+                () => _server.Settings.SecondsPerLayer);
             return base.Handle(command);
         }
     }

@@ -1,6 +1,15 @@
 ﻿{
-    "Features.EasyClayForming.InstantComplete.Description":  "更改是否應在使用時立即完成工作項。true 或 false，預設值：false。",
-    "Features.EasyClayForming.ClayRequired":  "所需粘土總數： {0}",
-    "Features.EasyClayForming.VoxelsPerClick.Description":  "更改每次按兩下移動的體素數。最小值：1，最大值：8，預設值：1。",
-    "Features.EasyClayForming.Description":  "管理粘土成型設置。"
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "每次點擊的體素數",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "決定形成黏土時一次處理的體素數量",
+    "Features.EasyClayForming.InstantComplete.Description":  "變更工作專案是否應該在使用時立即完成。True 或 False，預設值：False。",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "即時完成",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "決定是否立即完成目前配方",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "體素",
+    "Features.EasyClayForming.ClayRequired":  "所需黏土總量：{0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "黏土成型",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "黏土成型設定",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "變更每次點擊移動的體素數量。最小值：1，最大值：8，預設值：1。",
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "為玩家提供了一種在遊戲中形成黏土物品的更簡單方法。",
+    "Features.EasyClayForming.Description":  "管理黏土成型設定。",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "體素"
 }

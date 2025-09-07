@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "Knapster",
+    "Features.Knapster.IncludeAutomated":  "{0} bao gồm các phiên bản tự động: {1}",
+    "Features.Knapster.SaturationMultiplier":  "Hệ số độ bão hòa {0}: {1}x",
+    "ModDescription":  "Chế tạo và thu thập dễ dàng hơn, dành cho những người có sự khéo léo thủ công thấp.",
+    "Features.Knapster.SpeedMultiplier":  "Hệ số tốc độ {0}: {1}x",
+    "Features.Knapster.InstantComplete":  "{0} Hoàn thành tức thì: {1}",
+    "Features.Knapster.AutoComplete":  "Tự động hoàn thành",
+    "Features.Knapster.CostPerClick":  "{0} Độ bền Chi phí cho mỗi lần nhấp chuột: {1}",
+    "Features.Knapster.VoxelsPerClick":  "{0} voxel mỗi lần nhấp chuột: {1}"
+}

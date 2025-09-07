@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "ตัวคูณความเร็ว",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นไถพรวนพื้นที่เพาะปลูกด้วยจอบ ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.1, สูงสุด: 2.0, ค่าเริ่มต้น: 1.0",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "ตัวคูณที่จะใช้กับความเร็วของ Tilling ด้วยจอบ",
+    "Features.EasyTilling.ModMenu.TabName":  "ไถพรวน",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "การตั้งค่าการไถพรวน",
     "Features.EasyTilling.Description":  "จัดการการตั้งค่าการไถพรวน",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นไถพรวนพื้นที่เพาะปลูกด้วยจอบ ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.1, สูงสุด: 2.0, ค่าเริ่มต้น: 1.0"
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "ให้วิธีที่ง่ายขึ้นสําหรับผู้เล่นในการไถพรวนพื้นที่เพาะปลูกด้วยจอบ"
 }

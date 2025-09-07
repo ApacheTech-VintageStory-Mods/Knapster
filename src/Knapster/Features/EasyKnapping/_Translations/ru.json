@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Определяет, следует ли мгновенно завершить текущий рецепт",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Воксели за клик",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Воксели",
+    "Features.EasyKnapping.ModMenu.TabName":  "Хлопки",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Мгновенное завершение",
+    "Features.EasyKnapping.Description":  "Управляйте настройками нажатия.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Определяет количество вокселей, которые обрабатываются за один раз при нахлопывании",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ прикреплять предметы в игре.",
     "Features.EasyKnapping.InstantComplete.Description":  "Изменяйте, должен ли рабочий элемент быть выполнен мгновенно при использовании. True, или False, по умолчанию: False.",
-    "Features.EasyKnapping.Description":  "Управляйте настройками нажатия."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Настройки Knapping",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "Воксель"
 }

@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "将速度倍增器应用于电动搅拌碗以及手动搅拌碗。",
-    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "更改播放器在搅拌碗中组合资源的速度。充当直接乘数。最小值：0.0，最大值：10.0，默认值：1.0。",
-    "Features.EasyMixingBowl.Description":  "管理搅拌碗设置。"
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "激活时，用户无需按住鼠标右键即可保持搅拌碗处于活动状态",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "包括自动化",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "搅拌碗设置",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "为玩家提供了一种在搅拌碗中混合资源的更简单方法。",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "搅拌碗",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "确定是否将速度倍增器应用于自动搅拌碗",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "确定应用于搅拌碗使用速度的乘数",
+    "Features.EasyMixingBowl.Description":  "管理搅拌碗设置。",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "粘性鼠标按钮",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "更改玩家在搅拌碗内组合资源的速度。充当直接乘数。最小值：0.0，最大值：10.0，默认值：1.0。",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器"
 }

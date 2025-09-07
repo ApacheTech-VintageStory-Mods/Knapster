@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "フルーツプレスの設定を管理します。"
+    "Features.EasyPressing.Description":  "フルーツプレスの設定を管理します。",
+    "Features.EasyPressing.ModMenu.TabName":  "フルーツプレス",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "プレスを緩める前に完全に圧縮する必要がないようにします。",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "フルーツプレス設定"
 }

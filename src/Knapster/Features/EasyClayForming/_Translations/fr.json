@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels par clic",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Détermine le nombre de voxels qui sont manipulés en même temps, lors de la formation de l’argile",
     "Features.EasyClayForming.InstantComplete.Description":  "Indiquez si l’élément de travail doit être terminé instantanément ou non, à l’utilisation. Vrai ou Faux, Valeur par défaut : Faux.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Complet instantané",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Détermine s’il faut terminer instantanément la recette en cours",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
     "Features.EasyClayForming.ClayRequired":  "Nombre total d’argile nécessaire : {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Formage de l’argile",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Paramètres de formage de l’argile",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Modifiez le nombre de voxels déplacés par clic. Min : 1, Max : 8, Par défaut : 1.",
-    "Features.EasyClayForming.Description":  "Gérez les paramètres de formage de l’argile."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Fournit un moyen plus facile pour les joueurs de former des objets en argile dans le jeu.",
+    "Features.EasyClayForming.Description":  "Gérez les paramètres de formage de l’argile.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels"
 }

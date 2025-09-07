@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Bestemmer antallet af voxels, der håndteres på én gang, når dejen dannes",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
     "Features.EasyDoughForming.DoughRequired":  "Samlet påkrævet dej: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels pr. klik",
+    "Features.EasyDoughForming.Description":  "Administrer indstillinger for dejformning.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Dej formes",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Skift antallet af voxels, der flyttes, pr. klik. Min: 1, Maks.: 8, Standard: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Giver en nemmere måde for spillere at forme dejgenstande på, når de bruger Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Indstillinger for dejformning",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Øjeblikkelig fuldførelse",
     "Features.EasyDoughForming.InstantComplete.Description":  "Vælg, om arbejdselementet skal fuldføres øjeblikkeligt ved brug. Sandt eller Falsk, Standard: Falsk.",
-    "Features.EasyDoughForming.Description":  "Administrer indstillinger for dejformning."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Bestemmer, om den aktuelle opskrift skal fuldføres med det samme",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxels"
 }

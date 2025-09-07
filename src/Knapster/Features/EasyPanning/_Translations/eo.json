@@ -1,9 +1,0 @@
-﻿{
-  "Features.EasyPanning.Description": "Administri la lav-agordojn.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "La tempo, en sekundoj, necesa por pansi unu tavolon de materialo.",
-  "Features.EasyPanning.DropsPerLayer.Description": "La nombro de gutoj generataj por ĉiu tavolo de materialo.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "La saturiĝo perditaj kiam pansante ununuran tavolon de materialo.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Tempo (en sekundoj) je tavolo: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Gutoj je tavolo: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Saturiĝa perdo je tavolo: {1}"
-}

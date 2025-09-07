@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels fyrir hvern smell",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Ákvarðar fjölda voxels sem eru meðhöndlaðir í einu, þegar leir myndast",
     "Features.EasyClayForming.InstantComplete.Description":  "Breyta því hvort verkliðnum eigi að vera lokið samstundis eða ekki, við notkun. Satt, eða ósatt, sjálfgefið: Rangt.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Augnabliki lokið",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Ákvarðar hvort á að klára núverandi uppskrift samstundis",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
     "Features.EasyClayForming.ClayRequired":  "Heildar leir sem þarf: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Leirmyndun",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Leirmyndandi stillingar",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Breyttu fjölda voxels sem eru færðir, fyrir hvern smell. Lágmark: 1, hámark: 8, sjálfgefið: 1.",
-    "Features.EasyClayForming.Description":  "Stjórnaðu leirmyndunarstillingum."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að mynda leirhluti innan leiksins.",
+    "Features.EasyClayForming.Description":  "Stjórnaðu leirmyndunarstillingum.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxels"
 }

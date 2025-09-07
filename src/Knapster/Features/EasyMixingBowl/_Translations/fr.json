@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Appliquez le multiplicateur de vitesse aux bols à mélanger motorisés, ainsi qu’aux bols à mélanger manuels.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Lorsqu’il est actif, l’utilisateur n’aura pas besoin de maintenir le bouton droit de la souris enfoncé pour garder le bol de mixage actif",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Inclure automatisé",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Réglages du bol à mélanger",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Permet aux joueurs de mélanger plus facilement des ressources dans un bol à mélanger.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Cul-de-poule",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Détermine s’il faut appliquer le multiplicateur de vitesse aux bols de mélange automatisés",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Détermine le multiplicateur à appliquer à la vitesse d’utilisation du bol mélangeur",
+    "Features.EasyMixingBowl.Description":  "Gérez les paramètres du bol à mélanger.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Bouton collant de la souris",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur combine les ressources dans un bol à mélanger. Agit comme un multiplicateur direct. Min : 0,0, Max : 10,0, par défaut : 1,0.",
-    "Features.EasyMixingBowl.Description":  "Gérez les paramètres du bol à mélanger."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Multiplicateur de vitesse"
 }

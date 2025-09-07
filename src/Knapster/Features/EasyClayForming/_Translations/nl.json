@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels per klik",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Bepaalt het aantal voxels dat tegelijk wordt gehanteerd bij het vormen van klei",
     "Features.EasyClayForming.InstantComplete.Description":  "Wijzig of het werkitem al dan niet onmiddellijk moet worden voltooid, tijdens gebruik. Waar of onwaar, standaard: Onwaar.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Direct Compleet",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Bepaalt of het huidige recept direct moet worden voltooid",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
     "Features.EasyClayForming.ClayRequired":  "Totale benodigde klei: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Klei vormen",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Instellingen voor kleivorming",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
-    "Features.EasyClayForming.Description":  "Beheer instellingen voor kleivorming."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Biedt een gemakkelijkere manier voor spelers om voorwerpen van klei in het spel te vormen.",
+    "Features.EasyClayForming.Description":  "Beheer instellingen voor kleivorming.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels"
 }

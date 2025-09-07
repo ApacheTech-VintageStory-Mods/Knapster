@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Determina il numero di voxel che vengono maneggiati contemporaneamente, durante la formazione dell\u0027impasto",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
     "Features.EasyDoughForming.DoughRequired":  "Impasto totale richiesto: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxel per clic",
+    "Features.EasyDoughForming.Description":  "Gestisci le impostazioni di formatura dell\u0027impasto.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Formatura dell\u0027impasto",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Modifica il numero di voxel che vengono spostati, per clic. Min: 1, Max: 8, Predefinito: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Fornisce un modo più semplice per i giocatori di formare oggetti di pasta, quando usano Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Impostazioni di formatura dell\u0027impasto",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Completamento istantaneo",
     "Features.EasyDoughForming.InstantComplete.Description":  "Modificare se l\u0027elemento di lavoro deve essere completato immediatamente, al momento dell\u0027uso. True, o False, impostazione predefinita: False.",
-    "Features.EasyDoughForming.Description":  "Gestisci le impostazioni di formatura dell\u0027impasto."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Determina se completare immediatamente la ricetta corrente",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxel"
 }

@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Moltiplicatore di velocità",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Fornisce un modo più semplice per i giocatori di raccogliere l\u0027erba, con una falce.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Determina il moltiplicatore da applicare alla velocità di utilizzo della falce",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Raccolta",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Impostazioni di raccolta",
     "Features.EasyHarvesting.Description":  "Gestisci le impostazioni di raccolta.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Cambia la velocità con cui il giocatore raccoglie l\u0027erba con una falce. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 2.0, Predefinito: 1.0."
 }

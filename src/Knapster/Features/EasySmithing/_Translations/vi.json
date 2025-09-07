@@ -1,0 +1,18 @@
+﻿{
+    "Features.EasySmithing.ModMenu.TabName":  "Smithing",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "voxel",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Chi phí mỗi nhấp chuột",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Xác định số lượng voxel được xử lý cùng một lúc",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Xác định xem có nên hoàn thành ngay lập tức công thức hiện tại hay không",
+    "Features.EasySmithing.Description":  "Quản lý cài đặt rèn.",
+    "Features.EasySmithing.CostPerClick.Description":  "Thay đổi chi phí độ bền, mỗi lần sử dụng. Tối thiểu: 1, Tối đa: 10, Mặc định: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Xác định độ bền bị mất cùng một lúc",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Cài đặt rèn",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Thay đổi số lượng voxel được di chuyển, mỗi lần nhấp. Tối thiểu: 1, Tối đa: 8, Mặc định: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Hoàn thành ngay lập tức",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxel mỗi nhấp chuột",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "Độ bền",
+    "Features.EasySmithing.InstantComplete.Description":  "Thay đổi xem mục công việc có nên được hoàn thành ngay lập tức hay không, khi sử dụng. True hoặc False, mặc định: False.",
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi rèn các vật phẩm trên đe trong trò chơi."
+}

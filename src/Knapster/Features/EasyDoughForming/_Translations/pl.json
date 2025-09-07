@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Określa liczbę wokseli, które są obsługiwane jednocześnie podczas formowania ciasta",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "woksel",
     "Features.EasyDoughForming.DoughRequired":  "Wymagana ilość ciasta: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Woksele na kliknięcie",
+    "Features.EasyDoughForming.Description":  "Zarządzaj ustawieniami formowania ciasta.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Formowanie ciasta",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób formowania ciasta podczas korzystania ze Sztuki Gotowania.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Ustawienia formowania ciasta",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Natychmiastowe uzupełnianie",
     "Features.EasyDoughForming.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
-    "Features.EasyDoughForming.Description":  "Zarządzaj ustawieniami formowania ciasta."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Określa, czy bieżąca receptura ma zostać natychmiast ukończona",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "woksele"
 }

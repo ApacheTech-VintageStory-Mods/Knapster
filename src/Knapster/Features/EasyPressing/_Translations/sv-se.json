@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Hantera frukt: tryck på inställningar.",
+    "Features.EasyPressing.ModMenu.TabName":  "Pressning av frukt",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Gör så att pressen inte behöver vara helt komprimerad innan den kan skruvas loss.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Inställningar för fruktpressning"
 }

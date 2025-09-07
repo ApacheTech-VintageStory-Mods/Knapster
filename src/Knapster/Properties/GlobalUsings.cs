@@ -2,8 +2,15 @@
 
 global using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
 
+global using Gantry.Core.Annotation;
+global using Gantry.Core.Network.Extensions;
+
+global using Gantry.GameContent.Extensions.Gui;
+
 global using Gantry.Services.Brighter.Abstractions;
 global using Gantry.Services.Brighter.Extensions;
+
+global using Knapster.Features.ModMenu.Extensions;
 
 global using Knapster.Features.EasyClayForming.Commands;
 global using Knapster.Features.EasyClayForming.Extensions;
@@ -33,9 +40,9 @@ global using Knapster.Features.EasyPanning.Systems;
 global using Knapster.Features.EasyPressing.Settings;
 global using Knapster.Features.EasyPressing.Systems;
 
-global using Knapster.Features.EasyQuern.Commands;
-global using Knapster.Features.EasyQuern.Settings;
-global using Knapster.Features.EasyQuern.Systems;
+global using Knapster.Features.EasyGrinding.Commands;
+global using Knapster.Features.EasyGrinding.Settings;
+global using Knapster.Features.EasyGrinding.Systems;
 
 global using Knapster.Features.EasySmithing.Commands;
 global using Knapster.Features.EasySmithing.Settings;

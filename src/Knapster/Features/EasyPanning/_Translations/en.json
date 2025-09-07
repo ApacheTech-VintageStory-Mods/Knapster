@@ -5,5 +5,23 @@
   "Features.EasyPanning.SaturationPerLayer.Description": "The saturation lost when panning a single layer of material.",
   "Features.EasyPanning.SecondsPerLayer": "{0} Time (in seconds) Per Layer: {1}",
   "Features.EasyPanning.DropsPerLayer": "{0} Drops Per Layer: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Saturation Loss Per Layer: {1}"
+  "Features.EasyPanning.SaturationPerLayer": "{0} Saturation Loss Per Layer: {1}",
+
+  "Features.EasyPanning.ModMenu.TabName": "Panning",
+  "Features.EasyPanning.ModMenu.lblTitle.Text": "Panning Settings",
+  "Features.EasyPanning.ModMenu.lblDescription.Text": "Provides an easier way for players to pan resources.",
+
+  "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text": "Seconds per Layer",
+  "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText": "Determines the number of seconds per layer when panning",
+  "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular": "second",
+  "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural": "seconds",
+
+  "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text": "Drops per Layer",
+  "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText": "Determines the number of drops per layer when panning",
+  "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular": "drop",
+  "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural": "drops",
+
+  "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text": "Saturation per Layer",
+  "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText": "Determines the saturation per layer when panning",
+  "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit": "saturation"
 }

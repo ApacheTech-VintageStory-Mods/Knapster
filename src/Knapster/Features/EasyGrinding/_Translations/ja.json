@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "プレイヤーがクエルンでリソースを粉砕する簡単な方法を提供します。",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "アクティブな場合、ユーザーは quern をアクティブに保つためにマウスの右ボタンを押したままにする必要はありません。",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} スティッキーマウスボタン:{1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "自動化を含める",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "スピード乗数",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "quernの使用速度に適用する乗数を決定します",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "スティッキーマウスボタン",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "アクティブな場合、ユーザーは質問をアクティブに保つためにマウスの右ボタンを押したままにする必要はありません",
+    "Features.EasyGrinding.Description":  "quern 設定を管理します。",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Quern研削設定",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "プレイヤーがクエルン内で資源を挽く速度を変更します。直接乗数として機能します。最小値: 0.0、最大値: 10.0、デフォルト: 1.0。",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "速度乗数は、手動クーンだけでなく、自動クーンにも適用します。",
+    "Features.EasyGrinding.ModMenu.TabName":  "クエルン研削",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "自動クエリーに速度乗数を適用するかどうかを決定します"
+}

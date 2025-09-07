@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "Sekunde",
     "Features.EasyPanning.Description":  "Verwalten Sie die Schwenkeinstellungen.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} Tropfen pro Schicht: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Die Anzahl der Drops, die pro Materialschicht erzeugt werden.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Panning-Einstellungen",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekunden pro Schicht",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Die Sättigung, die beim Schwenken einer einzelnen Materialschicht verloren geht.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} Tropfen pro Schicht: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Tropfen",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Sättigung pro Schicht",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "Tropfen",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "Sättigung",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Zeit (in Sekunden) pro Schicht: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Die Zeit in Sekunden, die benötigt wird, um eine Materialschicht zu schwenken.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Sättigungsverlust pro Schicht: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Bestimmt die Anzahl der Sekunden pro Layer beim Verschieben",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Bestimmt die Anzahl der Tropfen pro Schicht beim Schwenken",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Tropfen pro Schicht",
+    "Features.EasyPanning.ModMenu.TabName":  "Schwenken",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Die Anzahl der Drops, die pro Materialschicht erzeugt werden.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Bestimmt die Sättigung pro Ebene beim Panning",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Sättigungsverlust pro Schicht: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Nachschlag",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Ressourcen zu schwenken."
 }

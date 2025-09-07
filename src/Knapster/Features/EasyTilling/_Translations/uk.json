@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Множник швидкості",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець обробляє сільськогосподарські угіддя мотикою. Виступає прямим мультиплікатором. Мін: 0.1, Макс.: 2.0, За замовчуванням: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Множник для застосування до швидкості обробки грунту мотикою",
+    "Features.EasyTilling.ModMenu.TabName":  "Обробіток ґрунту",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Налаштування обробітку ґрунту",
     "Features.EasyTilling.Description":  "Керуйте налаштуваннями Tilling.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець обробляє сільськогосподарські угіддя мотикою. Виступає прямим мультиплікатором. Мін: 0.1, Макс.: 2.0, За замовчуванням: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Надає гравцям простіший спосіб обробляти сільськогосподарські угіддя за допомогою мотики."
 }

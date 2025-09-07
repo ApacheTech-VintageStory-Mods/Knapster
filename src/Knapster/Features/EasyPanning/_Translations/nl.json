@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "tweede",
     "Features.EasyPanning.Description":  "Beheer panning-instellingen.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} druppels per laag: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Het aantal druppels dat per laag materiaal wordt voortgebracht.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Instellingen voor pannen",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Seconden per laag",
     "Features.EasyPanning.SaturationPerLayer.Description":  "De verzadiging gaat verloren bij het pannen van een enkele laag materiaal.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} druppels per laag: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "druppels",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Verzadiging per laag",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "druppel",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "verzadiging",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Tijd (in seconden) Per laag: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "De tijd, in seconden, die nodig is om één laag materiaal te pannen.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} verzadigingsverlies per laag: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Bepaalt het aantal seconden per laag bij het pannen",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Bepaalt het aantal druppels per laag bij het pannen",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Druppels per laag",
+    "Features.EasyPanning.ModMenu.TabName":  "Panning",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Het aantal druppels dat per laag materiaal wordt voortgebracht.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Bepaalt de verzadiging per laag bij het pannen",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} verzadigingsverlies per laag: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Seconden",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Biedt spelers een eenvoudigere manier om bronnen te pannen."
 }

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Version>2.15.0.0</Version>
+		<Version>3.0.0.0</Version>
 		<ModId>knapster</ModId>
 		<ModName>Knapster</ModName>
 		<PackageMod>true</PackageMod>
@@ -11,7 +11,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="_Translations\Features\" />
 	  <Folder Include="_Translations\Patches\" />
 	</ItemGroup>
 

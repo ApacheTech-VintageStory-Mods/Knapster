@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "secondo",
     "Features.EasyPanning.Description":  "Gestisci le impostazioni di panoramica.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} gocce per strato: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Il numero di gocce generate per strato di materiale.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Impostazioni di panoramica",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Secondi per strato",
     "Features.EasyPanning.SaturationPerLayer.Description":  "La saturazione persa durante la panoramica di un singolo strato di materiale.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} gocce per strato: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Gocce",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Saturazione per strato",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "goccia",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "saturazione",
     "Features.EasyPanning.SecondsPerLayer":  "Tempo di {0} (in secondi) per strato: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Il tempo, in secondi, necessario per eseguire la panoramica di uno strato di materiale.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Perdita di saturazione per strato: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Determina il numero di secondi per livello durante il panning",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Determina il numero di gocce per strato durante il panning",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Gocce per strato",
+    "Features.EasyPanning.ModMenu.TabName":  "Panning",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Il numero di gocce generate per strato di materiale.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Determina la saturazione per livello durante il panning",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Perdita di saturazione per strato: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Secondi",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Fornisce ai giocatori un modo più semplice per eseguire la panoramica delle risorse."
 }

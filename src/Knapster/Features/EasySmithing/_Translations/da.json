@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Skift antallet af voxels, der flyttes, pr. klik. Min: 1, Maks.: 8, Standard: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Smedearbejde",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "voxels",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Pris pr. klik",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Bestemmer antallet af voxels, der håndteres på én gang",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Bestemmer, om den aktuelle opskrift skal fuldføres med det samme",
+    "Features.EasySmithing.Description":  "Administrer indstillinger for smedning.",
     "Features.EasySmithing.CostPerClick.Description":  "Skift holdbarhedsomkostningerne pr. brug. Min: 1, Maks.: 10, Standard: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Bestemmer mængden af holdbarhed, der går tabt på én gang",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Indstillinger for smedning",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Skift antallet af voxels, der flyttes, pr. klik. Min: 1, Maks.: 8, Standard: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Øjeblikkelig fuldførelse",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels pr. klik",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "holdbarhed",
     "Features.EasySmithing.InstantComplete.Description":  "Vælg, om arbejdselementet skal fuldføres øjeblikkeligt ved brug. Sandt eller Falsk, Standard: Falsk.",
-    "Features.EasySmithing.Description":  "Administrer indstillinger for smedning."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Giver en nemmere måde for spillere at smede genstande på en ambolt i spillet."
 }

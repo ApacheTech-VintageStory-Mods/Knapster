@@ -1,0 +1,15 @@
+﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Xác định số lượng voxel được xử lý cùng một lúc, khi tạo thành bột",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasyDoughForming.DoughRequired":  "Tổng khối bột cần thiết: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxel mỗi nhấp chuột",
+    "Features.EasyDoughForming.Description":  "Quản lý cài đặt tạo hình bột.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Tạo hình bột",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Thay đổi số lượng voxel được di chuyển, mỗi lần nhấp. Tối thiểu: 1, Tối đa: 8, Mặc định: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi tạo thành các vật phẩm bột, khi sử dụng Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Cài đặt tạo hình bột",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Hoàn thành ngay lập tức",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Thay đổi xem mục công việc có nên được hoàn thành ngay lập tức hay không, khi sử dụng. True hoặc False, mặc định: False.",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Xác định xem có nên hoàn thành ngay lập tức công thức hiện tại hay không",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxel"
+}

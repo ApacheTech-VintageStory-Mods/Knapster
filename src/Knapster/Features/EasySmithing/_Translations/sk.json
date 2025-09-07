@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Zmeňte počet voxelov, ktoré sa presunú na jedno kliknutie. Min: 1, Max: 8, Predvolené: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Kováčstvo",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxely",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Cena za kliknutie",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Určuje počet voxelov, ktoré sa spracovávajú naraz",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Určuje, či sa má okamžite dokončiť aktuálny recept",
+    "Features.EasySmithing.Description":  "Spravujte kováčske nastavenia.",
     "Features.EasySmithing.CostPerClick.Description":  "Zmeňte náklady na trvanlivosť na použitie. Min: 1, Max: 10, Predvolené: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Určuje množstvo trvanlivosti, ktoré sa naraz stratí",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Nastavenia kováčstva",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Zmeňte počet voxelov, ktoré sa presunú na jedno kliknutie. Min: 1, Max: 8, Predvolené: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Okamžité dokončenie",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxely na kliknutie",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "trvanlivosť",
     "Features.EasySmithing.InstantComplete.Description":  "Zmeňte, či sa má pracovná položka okamžite dokončiť pri používaní. True alebo False, predvolené: False.",
-    "Features.EasySmithing.Description":  "Spravujte kováčske nastavenia."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Poskytuje hráčom jednoduchší spôsob, ako kováčiť predmety na kovadline v hre."
 }

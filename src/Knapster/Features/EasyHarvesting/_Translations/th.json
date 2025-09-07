@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "ตัวคูณความเร็ว",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "ให้วิธีที่ง่ายขึ้นสําหรับผู้เล่นในการเก็บเกี่ยวหญ้าด้วยเคียว",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "กําหนดตัวคูณที่จะใช้กับความเร็วในการใช้เคียว",
+    "Features.EasyHarvesting.ModMenu.TabName":  "การเก็บเกี่ยว",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "การตั้งค่าการเก็บเกี่ยว",
     "Features.EasyHarvesting.Description":  "จัดการการตั้งค่าการเก็บเกี่ยว",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นเก็บเกี่ยวหญ้าด้วยเคียว ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.0, สูงสุด: 2.0, ค่าเริ่มต้น: 1.0"
 }

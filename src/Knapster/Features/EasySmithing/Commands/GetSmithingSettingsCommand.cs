@@ -18,7 +18,7 @@ public class GetSmithingSettingsCommand(IPlayer player) : CommandBase
         public override GetSmithingSettingsCommand Handle(GetSmithingSettingsCommand command)
         {
 
-            if (command.Player is not EntityPlayer playerEntity) return base.Handle(command);
+            if (command.Player.Entity is not EntityPlayer playerEntity) return base.Handle(command);
 
             command.Enabled = _gantry.ApiEx.Return(
                 () => _client.Settings.Enabled,

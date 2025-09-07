@@ -1,6 +1,0 @@
-﻿{
-  "Features.EasySmithing.Description": "Administri la metado-agordojn.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Ŝanĝi la kvanton de vokseloj movitaj per klako. Minimumo: 1, Maksimumo: 8, Defaŭlta: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Ŝanĝi la daŭreco-koston, per uzo. Minimumo: 1, Maksimumo: 10, Defaŭlta: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Ŝanĝi ĉu la laboraĵo devas esti tuj kompletigita, kiam ĝi estas uzita. Vero, aŭ Malvero, Defaŭlta: Malvero."
-}

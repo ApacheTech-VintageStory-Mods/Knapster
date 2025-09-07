@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Vokels po kliku",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Određuje broj voksela koji se rukuju u jednom trenutku, prilikom formiranja gline",
     "Features.EasyClayForming.InstantComplete.Description":  "Promenite da li radna stavka treba da bude odmah završena, prilikom upotrebe. Istina ili netačno podrazumevano: Lažno.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Instant Kompletan",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Određuje da li će odmah završiti trenutni recept",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "sadržina",
     "Features.EasyClayForming.ClayRequired":  "Ukupna potrebna glina: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Glina Formiranje",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Glina Formiranje Podešavanja",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
-    "Features.EasyClayForming.Description":  "Upravljajte podešavanjima formiranja gline."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da formiraju glinene predmete u igri.",
+    "Features.EasyClayForming.Description":  "Upravljajte podešavanjima formiranja gline.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "sadržina"
 }

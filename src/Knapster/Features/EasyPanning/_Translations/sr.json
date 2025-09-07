@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "Drugi",
     "Features.EasyPanning.Description":  "Upravljajte podešavanjima za pomicanje.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} kapi po sloju: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Broj kapi koje se mrijeste po sloju materijala.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Podešavanja pomicanja",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekundi po sloju",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Zasićenje izgubljeno prilikom pomicanja jednog sloja materijala.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} kapi po sloju: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Kapi",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Zasićenje po sloju",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "Baci",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "Zasićenost",
     "Features.EasyPanning.SecondsPerLayer":  "{0} vreme (u sekundama) po sloju: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Vreme, u sekundi, potrebno je da se podigne jedan sloj materijala.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} gubitak zasićenja po sloju: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Određuje broj sekundi po sloju prilikom pomicanja",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Određuje broj kapi po sloju prilikom pomicanja",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "kapi po sloju",
+    "Features.EasyPanning.ModMenu.TabName":  "Pretraživanje",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Broj kapi koje se mrijeste po sloju materijala.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Određuje zasićenost po sloju prilikom pomicanja",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} gubitak zasićenja po sloju: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Sekundi",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da pan resurse."
 }

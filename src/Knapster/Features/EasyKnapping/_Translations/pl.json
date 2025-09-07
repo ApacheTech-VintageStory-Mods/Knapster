@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Określa, czy bieżąca receptura ma zostać natychmiast ukończona",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Woksele na kliknięcie",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "woksele",
+    "Features.EasyKnapping.ModMenu.TabName":  "Drzemka",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Natychmiastowe uzupełnianie",
+    "Features.EasyKnapping.Description":  "Zarządzaj ustawieniami knapowania.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Określa liczbę wokseli obsługiwanych jednocześnie podczas dzinania",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób na kneptowanie przedmiotów w grze.",
     "Features.EasyKnapping.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
-    "Features.EasyKnapping.Description":  "Zarządzaj ustawieniami knapowania."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Ustawienia drzemki",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "woksel"
 }

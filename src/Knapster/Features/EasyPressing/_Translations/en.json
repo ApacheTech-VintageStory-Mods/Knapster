@@ -1,3 +1,6 @@
 {
-  "Features.EasyPressing.Description": "Manage fruit press settings."
+  "Features.EasyPressing.Description": "Manage fruit press settings.",
+  "Features.EasyPressing.ModMenu.TabName": "Fruit Pressing",
+  "Features.EasyPressing.ModMenu.lblTitle.Text": "Fruit Pressing Settings",
+  "Features.EasyPressing.ModMenu.lblDescription.Text": "Makes it so the press doesn't need to be fully compressed before it can be unscrewed."
 }

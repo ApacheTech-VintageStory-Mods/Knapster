@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "เปลี่ยนจํานวน voxel ที่ย้ายต่อการคลิก ต่ําสุด: 1, สูงสุด: 8, ค่าเริ่มต้น: 1",
+    "Features.EasySmithing.ModMenu.TabName":  "การตีเหล็ก",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "ว็อกเซล",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "ว็อกเซล",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "ต้นทุนต่อคลิก",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "กําหนดจํานวน voxel ที่จัดการในคราวเดียว",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "กําหนดว่าจะทําสูตรปัจจุบันให้เสร็จทันทีหรือไม่",
+    "Features.EasySmithing.Description":  "จัดการการตั้งค่าการตีเหล็ก",
     "Features.EasySmithing.CostPerClick.Description":  "เปลี่ยนต้นทุนความทนทานต่อการใช้งาน ต่ําสุด: 1, สูงสุด: 10, ค่าเริ่มต้น: 5",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "กําหนดจํานวนความทนทานที่สูญเสียไปในคราวเดียว",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "การตั้งค่าการตีเหล็ก",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "เปลี่ยนจํานวน voxel ที่ย้ายต่อการคลิก ต่ําสุด: 1, สูงสุด: 8, ค่าเริ่มต้น: 1",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "เสร็จสมบูรณ์ทันที",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels ต่อคลิก",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "ความทนทาน",
     "Features.EasySmithing.InstantComplete.Description":  "เปลี่ยนว่ารายการงานควรเสร็จสมบูรณ์ทันทีในการใช้งานหรือไม่ ค่าเริ่มต้นเป็น TRUE หรือ FALSE: เท็จ",
-    "Features.EasySmithing.Description":  "จัดการการตั้งค่าการตีเหล็ก"
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "ให้วิธีที่ง่ายขึ้นสําหรับผู้เล่นในการตีเหล็กไอเท็มบนทั่งภายในเกม"
 }

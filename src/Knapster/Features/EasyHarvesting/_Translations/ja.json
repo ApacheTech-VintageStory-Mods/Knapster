@@ -1,4 +1,9 @@
 ﻿{
-    "Features.EasyHarvesting.Description":  "ハーベスティング設定を管理します。",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "プレイヤーが鎌で草を収穫する速度を変更します。直接乗数として機能します。最小: 0.0、最大: 2.0、デフォルト: 1.0。"
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "スピード乗数",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "プレイヤーが鎌を使って草を収穫する簡単な方法を提供します。",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "鎌の使用速度に適用する倍率を決定します",
+    "Features.EasyHarvesting.ModMenu.TabName":  "収穫",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "収穫設定",
+    "Features.EasyHarvesting.Description":  "収穫設定を管理します。",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "プレイヤーが鎌で草を収穫する速度を変える。直接乗数として機能します。最小値: 0.0、最大値: 2.0、デフォルト: 1.0。"
 }

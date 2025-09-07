@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Hệ số tốc độ",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi thu hoạch cỏ, bằng lưỡi hái.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Xác định hệ số nhân để áp dụng cho tốc độ sử dụng lưỡi hái",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Thu hoạch",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Cài đặt thu hoạch",
+    "Features.EasyHarvesting.Description":  "Quản lý cài đặt thu hoạch.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Thay đổi tốc độ người chơi thu hoạch cỏ bằng lưỡi hái. Hoạt động như một hệ số nhân trực tiếp. Tối thiểu: 0.0, Tối đa: 2.0, Mặc định: 1.0."
+}

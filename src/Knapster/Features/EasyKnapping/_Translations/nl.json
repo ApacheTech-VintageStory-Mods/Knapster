@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Bepaalt of het huidige recept direct moet worden voltooid",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels per klik",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels",
+    "Features.EasyKnapping.ModMenu.TabName":  "Knappen",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Direct Compleet",
+    "Features.EasyKnapping.Description":  "Instellingen voor knappen beheren.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Bepaalt het aantal voxels dat tegelijk wordt gehanteerd bij het knappen",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Biedt spelers een gemakkelijkere manier om items in het spel te knappen.",
     "Features.EasyKnapping.InstantComplete.Description":  "Wijzig of het werkitem al dan niet onmiddellijk moet worden voltooid, tijdens gebruik. Waar of onwaar, standaard: Onwaar.",
-    "Features.EasyKnapping.Description":  "Instellingen voor knappen beheren."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Knappen Instellingen",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel"
 }

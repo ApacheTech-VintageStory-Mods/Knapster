@@ -25,7 +25,7 @@ public class EasyDoughFormingClientPatches
             var skillItem = new SkillItem
             {
                 Code = new AssetLocation("auto"),
-                Name = G.Lang.FeatureString("Knapster", "AutoComplete")
+                Name = G.T("Knapster", "AutoComplete")
             }.WithIcon(G.Capi, G.Capi.Gui.Icons.Drawfloodfill_svg);
             __result = ___toolModes = ___toolModes.AddToArray(skillItem);
         }
@@ -57,6 +57,6 @@ public class EasyDoughFormingClientPatches
 
         var totalDoughCost = (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 36;
         if (totalDoughCost == -1) return;
-        dsc.AppendLine(G.Lang.FeatureString("EasyDoughForming", "DoughRequired", totalDoughCost));
+        dsc.AppendLine(G.T("EasyDoughForming", "DoughRequired", totalDoughCost));
     }
 }

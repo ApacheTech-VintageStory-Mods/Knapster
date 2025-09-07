@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Hastighed multiplikator",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Skift den hastighed, hvormed spilleren dyrker landbrugsjord med en hakke. Fungerer som en direkte multiplikator. Min: 0.1, Maks.: 2.0, Standard: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Multiplikatoren, der skal anvendes på hastigheden af jordbearbejdning med en hakke",
+    "Features.EasyTilling.ModMenu.TabName":  "Tilling",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Indstillinger for jordbearbejdning",
     "Features.EasyTilling.Description":  "Administrer indstillinger for jordbearbejdning.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Skift den hastighed, hvormed spilleren dyrker landbrugsjord med en hakke. Fungerer som en direkte multiplikator. Min: 0.1, Maks.: 2.0, Standard: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Giver en nemmere måde for spillere at dyrke landbrugsjord med en hakke."
 }

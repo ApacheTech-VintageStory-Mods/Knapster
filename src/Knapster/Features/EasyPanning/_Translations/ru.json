@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "секунда",
     "Features.EasyPanning.Description":  "Управление настройками панорамирования.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} капель на слой: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Количество капель, порожденных на слой материала.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Настройки панорамирования",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Секунды на слой",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Насыщенность теряется при панорамировании одного слоя материала.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} капель на слой: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "капли",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Насыщенность на слой",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "капля",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "насыщение",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Время (в секундах) на слой: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Время, в секундах, необходимое для облицовки одного слоя материала.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Потери насыщенности на слой: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Определяет количество секунд для каждого слоя при панорамировании",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Определяет количество капель на слой при панорамировании",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Капли на слой",
+    "Features.EasyPanning.ModMenu.TabName":  "Панорамирование",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Количество капель, порожденных на слой материала.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Определяет насыщенность слоя при панорамировании",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Потери насыщенности на слой: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "товары второго сорта",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ панорамирования ресурсов."
 }

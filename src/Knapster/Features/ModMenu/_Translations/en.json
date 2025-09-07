@@ -1,0 +1,32 @@
+{
+  "Features.ModMenu.Title": "Knapster Settings",
+  "Features.ModMenu.Description": "Opens the Knapster Settings GUI",
+  "Features.ModMenu.NoPermission": "You do not have the permissions required to edit the settings for this mod.",
+
+  "Features.ModMenu.lblAccessMode.Text": "Access Mode",
+  "Features.ModMenu.lblAccessMode.HoverText": "Determines how the feature can be accessed by players on the server",
+  "Features.ModMenu.cbxAccessMode.Enabled": "Enabled",
+  "Features.ModMenu.cbxAccessMode.Disabled": "Disabled",
+  "Features.ModMenu.cbxAccessMode.Whitelist": "Whitelist",
+  "Features.ModMenu.cbxAccessMode.Blacklist": "Blacklist",
+
+  "Features.ModMenu.lblWhitelistable.Text": "Add to Whitelist",
+  "Features.ModMenu.lblWhitelistable.HoverText": "Add a player to the whitelist",
+  "Features.ModMenu.btnAddWhitelistPlayer.Text": "Add",
+
+  "Features.ModMenu.lblWhitelisted.Text": "Remove from Whitelist",
+  "Features.ModMenu.lblWhitelisted.HoverText": "Remove a player from the whitelist",
+  "Features.ModMenu.btnRemoveWhitelistedPlayer.Text": "Remove",
+
+  "Features.ModMenu.lblBlacklistable.Text": "Add to Blacklist",
+  "Features.ModMenu.lblBlacklistable.HoverText": "Add a player to the blacklist",
+  "Features.ModMenu.btnAddBlacklistPlayer.Text": "Add",
+
+  "Features.ModMenu.lblBlacklisted.Text": "Remove from Blacklist",
+  "Features.ModMenu.lblBlacklisted.HoverText": "Remove a player from the blacklist",
+  "Features.ModMenu.btnRemoveBlacklistedPlayer.Text": "Remove",
+
+  "Features.ModMenu.btnSaveChanges.Text": "Save Changes",
+
+  "Features.ModMenu.SettingsSaved.Message": "{0} Settings Saved"
+}

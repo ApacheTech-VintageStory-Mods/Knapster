@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Gerencie as configurações de imprensa de frutas.",
+    "Features.EasyPressing.ModMenu.TabName":  "Prensagem de Frutas",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Faz com que a prensa não precise ser totalmente compactada antes de poder ser desenroscada.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Configurações de prensagem de frutas"
 }

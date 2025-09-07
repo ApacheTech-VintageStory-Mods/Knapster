@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "第二",
     "Features.EasyPanning.Description":  "管理平移设置。",
-    "Features.EasyPanning.DropsPerLayer":  "每层 {0} 滴数：{1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "每层材质生成的水滴数量。",
-    "Features.EasyPanning.SaturationPerLayer.Description":  "平移单个材质层时饱和度丢失。",
-    "Features.EasyPanning.SecondsPerLayer":  "每层{0}时间（秒）：{1}",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "平移设置",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "每层秒数",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "平移单层材料时失去的饱和度。",
+    "Features.EasyPanning.DropsPerLayer":  "每层 {0} 滴：{1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "滴",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "每层饱和度",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "落",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "饱和",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} 每层时间（秒）：{1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "平移一层材料所需的时间（以秒为单位）。",
-    "Features.EasyPanning.SaturationPerLayer":  "每层{0}饱和损耗：{1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "确定平移时每层的秒数",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "确定平移时每层的液滴数",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "每层滴数",
+    "Features.EasyPanning.ModMenu.TabName":  "平移",
+    "Features.EasyPanning.DropsPerLayer.Description":  "每层材质生成的掉落数。",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "确定平移时每层的饱和度",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} 每层饱和损失：{1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "秒",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "为玩家提供一种更简单的平移资源的方法。"
 }

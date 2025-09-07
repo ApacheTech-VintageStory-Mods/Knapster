@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Spravujte nastavenia lisu na ovocie.",
+    "Features.EasyPressing.ModMenu.TabName":  "Lisovanie ovocia",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Umožňuje to, aby lis pred odskrutkovaním nemusel byť úplne stlačený.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Nastavenia lisovania ovocia"
 }

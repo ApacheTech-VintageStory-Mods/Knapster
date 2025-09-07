@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "مضاعف السرعة",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يحث بها اللاعب الأراضي الزراعية بمجرفة. يعمل كمضاعف مباشر. الحد الأدنى: 0.1 ، الحد الأقصى: 2.0 ، الافتراضي: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "المضاعف للتطبيق على سرعة الحراثة باستخدام مجرفة",
+    "Features.EasyTilling.ModMenu.TabName":  "الحراثة",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "إعدادات الحراثة",
     "Features.EasyTilling.Description":  "إدارة إعدادات الحراثة.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يحث بها اللاعب الأراضي الزراعية بمجرفة. يعمل كمضاعف مباشر. الحد الأدنى: 0.1 ، الحد الأقصى: 2.0 ، الافتراضي: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لحرث الأراضي الزراعية باستخدام مجرفة."
 }

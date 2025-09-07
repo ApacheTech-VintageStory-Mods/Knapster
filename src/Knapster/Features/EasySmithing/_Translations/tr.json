@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Demircilik",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseller",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "voksel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Tıklama Başına Maliyet",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Bir kerede işlenen voksel sayısını belirler",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Mevcut tarifin anında tamamlanıp tamamlanmayacağını belirler",
+    "Features.EasySmithing.Description":  "Demircilik ayarlarını yönetin.",
     "Features.EasySmithing.CostPerClick.Description":  "Kullanım başına dayanıklılık maliyetini değiştirin. Min: 1, Maks: 10, Varsayılan: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Bir seferde kaybedilen dayanıklılık miktarını belirler",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Demircilik Ayarları",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Anında Tamamlama",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Tıklama Başına Voksel",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "dayanıklılık",
     "Features.EasySmithing.InstantComplete.Description":  "İş öğesinin kullanımda anında tamamlanması gerekip gerekmediğini değiştirin. Doğru veya Yanlış, varsayılan: Yanlış.",
-    "Features.EasySmithing.Description":  "Demircilik ayarlarını yönetin."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Oyuncuların oyun içinde bir örs üzerindeki eşyaları demirlemesi için daha kolay bir yol sağlar."
 }

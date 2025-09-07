@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Determina el número de vóxeles que se manipulan a la vez, al formar masa",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "vóxel",
     "Features.EasyDoughForming.DoughRequired":  "Masa total requerida: {0}",
-    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Cambie el número de vóxeles que se mueven por clic. Mín.: 1, Máx.: 8, Predeterminado: 1.",
-    "Features.EasyDoughForming.InstantComplete.Description":  "Cambie si el elemento de trabajo debe completarse instantáneamente o no, al usarlo. Verdadero, o Falso, Predeterminado: Falso.",
-    "Features.EasyDoughForming.Description":  "Administre la configuración de formación de masa."
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Vóxeles por clic",
+    "Features.EasyDoughForming.Description":  "Administre la configuración de formación de masa.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Formación de masa",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Cambie el número de vóxeles que se mueven, por clic. Mín.: 1, Máx.: 8, Predeterminado: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Proporciona una forma más fácil para que los jugadores formen elementos de masa, cuando usan Arte de cocinar.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Ajustes de formación de masa",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Completo instantáneo",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Cambie si el elemento de trabajo debe completarse instantáneamente, en uso. Verdadero o falso, valor predeterminado: falso.",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Determina si se debe completar instantáneamente la receta actual",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "vóxeles"
 }

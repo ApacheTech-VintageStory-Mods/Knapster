@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Nanesite multiplikator brzine na povered posude za mešanje, kao i ručne posude za mešanje.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Kada je aktivan, korisnik neće morati da drži desni taster miša pritisnut da zadrži posudu za mešanje aktivan",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Uključite automatizovano",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Podešavanja posude za mešanje",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da mešaju resurse u posudi za mešanje.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "mešanje posuda",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Utvrđuje da li da se primeni multiplikator brzine na automatizovane posude za mešanje",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Određuje multiplikator da se primeni na brzinu korišćenja posudu za mešanje",
+    "Features.EasyMixingBowl.Description":  "Upravljajte podešavanjima posude za mešanje.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Lepljiva dugme miša",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Promenite brzinu kojom igrač kombinuje resurse u posudi za mešanje. Deluje kao direktan multiplikator. Min: 0.0, maks: 10.0, podrazumevano: 1.0.",
-    "Features.EasyMixingBowl.Description":  "Upravljajte podešavanjima posude za mešanje."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Brzina multiplikator"
 }

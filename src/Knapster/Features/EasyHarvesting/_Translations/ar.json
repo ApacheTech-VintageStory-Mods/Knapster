@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "مضاعف السرعة",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لحصاد العشب باستخدام المنجل.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "يحدد المضاعف المراد تطبيقه على سرعة استخدام المنجل",
+    "Features.EasyHarvesting.ModMenu.TabName":  "حصاد",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "إعدادات الحصاد",
     "Features.EasyHarvesting.Description":  "إدارة إعدادات الحصاد.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يحصد بها اللاعب العشب بمنجل. يعمل كمضاعف مباشر. الحد الأدنى: 0.0 ، الحد الأقصى: 2.0 ، الافتراضي: 1.0."
 }

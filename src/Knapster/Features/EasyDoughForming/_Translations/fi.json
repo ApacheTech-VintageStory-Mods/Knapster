@@ -1,0 +1,15 @@
+﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Määrittää kerralla käsiteltävien vokselien määrän taikinaa muodostettaessa",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Vokseli",
+    "Features.EasyDoughForming.DoughRequired":  "Tarvittava taikina yhteensä: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels per napsautus",
+    "Features.EasyDoughForming.Description":  "Hallitse taikinan muotoiluasetuksia.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Taikinan muodostus",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "Muuta siirrettävien vokselien määrää napsautusta kohden. Min: 1, Max: 8, Oletus: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan muodostaa taikinaesineitä Art of Cookingia käytettäessä.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Taikinan muovausasetukset",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Välitön täydellinen",
+    "Features.EasyDoughForming.InstantComplete.Description":  "Muuta, valmistuuko työkohde välittömästi käytön yhteydessä. Tosi tai Epätosi, oletus: Epätosi.",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Määrittää, täydennetäänkö nykyinen resepti välittömästi",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Vokselit"
+}

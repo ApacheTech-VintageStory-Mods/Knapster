@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Kowalstwo",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "woksele",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "woksel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Koszt kliknięcia",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Określa liczbę wokseli, które są obsługiwane jednocześnie",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Określa, czy bieżąca receptura ma zostać natychmiast ukończona",
+    "Features.EasySmithing.Description":  "Zarządzanie ustawieniami kowalstwa.",
     "Features.EasySmithing.CostPerClick.Description":  "Zmień koszt trwałości na użycie. Min: 1, Maks.: 10, Domyślnie: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Określa stopień wytrzymałości, który jest tracony w jednym momencie",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Ustawienia kowalstwa",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Natychmiastowe uzupełnianie",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Woksele na kliknięcie",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "czas życia",
     "Features.EasySmithing.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
-    "Features.EasySmithing.Description":  "Zarządzanie ustawieniami kowalstwa."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób wykuwania przedmiotów na kowadle w grze."
 }

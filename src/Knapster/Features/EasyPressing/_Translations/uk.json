@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Керуйте налаштуваннями преса для фруктів.",
+    "Features.EasyPressing.ModMenu.TabName":  "Пресування фруктів",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Робить так, щоб прес не потрібно було повністю стискати, перш ніж його можна буде відкрутити.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Налаштування пресування фруктів"
 }

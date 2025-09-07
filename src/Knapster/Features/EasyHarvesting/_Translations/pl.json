@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Mnożnik prędkości",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób zbierania trawy za pomocą kosy.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Określa mnożnik, który ma być stosowany do szybkości używania kosy",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Żniwa",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Ustawienia zbioru",
     "Features.EasyHarvesting.Description":  "Zarządzaj ustawieniami zbioru.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Zmień prędkość, z jaką gracz zbiera trawę za pomocą kosy. Działa jako bezpośredni mnożnik. Min.: 0.0, Max: 2.0, Domyślnie: 1.0."
 }

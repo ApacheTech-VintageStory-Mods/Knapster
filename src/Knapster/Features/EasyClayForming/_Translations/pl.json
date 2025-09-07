@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Woksele na kliknięcie",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Określa liczbę wokseli, które są obsługiwane jednocześnie podczas formowania gliny",
     "Features.EasyClayForming.InstantComplete.Description":  "Określ, czy element roboczy powinien zostać natychmiast ukończony, podczas użycia. Prawda lub Fałsz, wartość domyślna: Fałsz.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Natychmiastowe uzupełnianie",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Określa, czy bieżąca receptura ma zostać natychmiast ukończona",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "woksel",
     "Features.EasyClayForming.ClayRequired":  "Wymagana ilość gliny: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Formowanie gliny",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Ustawienia formowania gliny",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Zmień liczbę przesuniętych wokseli na kliknięcie. Min: 1, Maks.: 8, Domyślnie: 1.",
-    "Features.EasyClayForming.Description":  "Zarządzaj ustawieniami formowania gliny."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób tworzenia glinianych przedmiotów w grze.",
+    "Features.EasyClayForming.Description":  "Zarządzaj ustawieniami formowania gliny.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "woksele"
 }

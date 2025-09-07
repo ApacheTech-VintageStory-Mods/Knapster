@@ -25,7 +25,7 @@ public class EasySmithingClientPatches
             var skillItem = new SkillItem
             {
                 Code = new AssetLocation("auto"),
-                Name = G.Lang.FeatureString("Knapster", "AutoComplete")
+                Name = G.T("Knapster", "AutoComplete")
             }.WithIcon(G.Capi, G.Capi!.Gui.Icons.Drawfloodfill_svg);
             __result = ___toolModes = ___toolModes.AddToArray(skillItem);
         }

@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Надає гравцям простіший спосіб подрібнення ресурсів у кверні.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "Коли ви активні, користувачеві не потрібно утримувати натиснутою праву кнопку миші, щоб кверн залишався активним.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} Липкі кнопки миші: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Включати автоматизовані",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Множник швидкості",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Визначає множник, який буде застосовано до швидкості використання кверну",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Липка кнопка миші",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "Коли ви активні, користувачеві не потрібно утримувати натиснутою праву кнопку миші, щоб кверн залишався активним",
+    "Features.EasyGrinding.Description":  "Керуйте налаштуваннями quern.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Налаштування шліфування Quern",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець подрібнює ресурси в межах кверну. Виступає прямим мультиплікатором. Мін: 0.0, Макс.: 10.0, За замовчуванням: 1.0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Застосовуйте множник швидкості до автоматичних запитів, а також до ручних квернів.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Шліфування Quern",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Визначає, чи застосовувати множник швидкості до автоматичних запитів"
+}

@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplikator för hastighet",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Ger ett enklare sätt för spelare att skörda gräs, med en lie.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bestämmer multiplikatorn som ska tillämpas på hastigheten för att använda lien",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Skörd",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Inställningar för skörd",
     "Features.EasyHarvesting.Description":  "Hantera avverkningsinställningar.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Ändra hastigheten med vilken spelaren skördar gräs med en lie. Fungerar som en direkt multiplikator. Min: 0,0, Max: 2,0, Standard: 1,0."
 }

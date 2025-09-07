@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Kovački",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "sadržina",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "sadržina",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Cena po kliku",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Određuje broj voksela koji se obrađuju u jednom trenutku",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Određuje da li će odmah završiti trenutni recept",
+    "Features.EasySmithing.Description":  "Upravljajte kovačkim podešavanjima.",
     "Features.EasySmithing.CostPerClick.Description":  "Promenite troškove trajnosti, po upotrebi. Min: 1, Maks: 10, Podrazumevano: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Određuje količinu izdržljivosti koja se gubi u jednom trenutku",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Kovački podešavanja",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Instant Kompletan",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Vokels po kliku",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "izdržljivost",
     "Features.EasySmithing.InstantComplete.Description":  "Promenite da li radna stavka treba da bude odmah završena, prilikom upotrebe. Istina ili netačno podrazumevano: Lažno.",
-    "Features.EasySmithing.Description":  "Upravljajte kovačkim podešavanjima."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da kovač stavke na nakovnju u igri."
 }

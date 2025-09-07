@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Определяет количество вокселей, которые обрабатываются за один раз, при формовании теста",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Воксель",
     "Features.EasyDoughForming.DoughRequired":  "Всего требуется теста: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Воксели за клик",
+    "Features.EasyDoughForming.Description":  "Управляйте настройками формовки теста.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Формовка теста",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ формировать предметы из теста при использовании «Искусства кулинарии».",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Настройки формовки теста",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Мгновенное завершение",
     "Features.EasyDoughForming.InstantComplete.Description":  "Изменяйте, должен ли рабочий элемент быть выполнен мгновенно при использовании. True, или False, по умолчанию: False.",
-    "Features.EasyDoughForming.Description":  "Управляйте настройками формовки теста."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Определяет, следует ли мгновенно завершить текущий рецепт",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Воксели"
 }

@@ -1,6 +1,15 @@
 ﻿{
-    "Features.EasyDoughForming.DoughRequired":  "所需麵團總數： {0}",
-    "Features.EasyDoughForming.VoxelsPerClick.Description":  "更改每次按兩下移動的體素數。最小值：1，最大值：8，預設值：1。",
-    "Features.EasyDoughForming.InstantComplete.Description":  "更改是否應在使用時立即完成工作項。true 或 false，預設值：false。",
-    "Features.EasyDoughForming.Description":  "管理麵團成型設置。"
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "決定形成麵團時一次處理的體素數量",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "體素",
+    "Features.EasyDoughForming.DoughRequired":  "所需麵團總量：{0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "每次點擊的體素數",
+    "Features.EasyDoughForming.Description":  "管理麵團成型設置。",
+    "Features.EasyDoughForming.ModMenu.TabName":  "麵團成型",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "變更每次點擊移動的體素數量。最小值：1，最大值：8，預設值：1。",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "為玩家在使用烹飪藝術時提供一種更簡單的方法來製作麵團物品。",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "麵團成型設置",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "即時完成",
+    "Features.EasyDoughForming.InstantComplete.Description":  "變更工作專案是否應該在使用時立即完成。True 或 False，預設值：False。",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "決定是否立即完成目前配方",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "體素"
 }

@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Applicare il moltiplicatore di velocità alle ciotole di miscelazione alimentate e alle ciotole manuali.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Quando è attivo, l\u0027utente non dovrà tenere premuto il pulsante destro del mouse per mantenere attiva la ciotola",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Includi automatizzato",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Impostazioni del boccale",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Fornisce un modo più semplice per i giocatori di mescolare le risorse in una ciotola.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Terrina",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Determina se applicare il moltiplicatore di velocità alle ciotole di miscelazione automatizzate",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Determina il moltiplicatore da applicare alla velocità di utilizzo del boccale",
+    "Features.EasyMixingBowl.Description":  "Gestisci le impostazioni del boccale.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Pulsante appiccicoso del mouse",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Cambia la velocità con cui il giocatore combina le risorse all\u0027interno di una ciotola. Agisce come un moltiplicatore diretto. Min: 0.0, Max: 10.0, Predefinito: 1.0.",
-    "Features.EasyMixingBowl.Description":  "Gestisci le impostazioni del boccale."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Moltiplicatore di velocità"
 }

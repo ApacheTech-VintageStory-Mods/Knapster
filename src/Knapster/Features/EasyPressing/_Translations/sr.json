@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Upravljajte podešavanjima voća za štampu.",
+    "Features.EasyPressing.ModMenu.TabName":  "Voće Pritiskom",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Čini ga tako da štampa ne mora biti potpuno komprimovana pre nego što se može odvrnuti.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Voće Pritiskom Podešavanja"
 }

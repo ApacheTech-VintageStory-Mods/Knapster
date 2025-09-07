@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "sekúnda",
     "Features.EasyPanning.Description":  "Stjórna hliðunarstillingum.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} dropar í hverju lagi: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Fjöldi dropa sem hrygna á hvert lag af efni.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Stillingar fyrir pönnu",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekúndur á hvert lag",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Mettunin tapast þegar eitt lag af efni er flett.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} dropar í hverju lagi: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Dropar",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Mettun á hvert lag",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "dropi",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "mettun",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Tími (í sekúndum) Á hvert lag: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Tíminn, í sekúndum, sem það tekur að pönnu eitt lag af efni.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} mettunartap á hvert lag: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Ákvarðar fjölda sekúndna á hvert lag við hliðrun",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Ákvarðar fjölda dropa í hverju lagi við hliðrun",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Dropar í hvert lag",
+    "Features.EasyPanning.ModMenu.TabName":  "Pönnu",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Fjöldi dropa sem hrygna á hvert lag af efni.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Ákvarðar mettun á hvert lag við hliðrun",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} mettunartap á hvert lag: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Sekúndur",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Veitir auðveldari leið fyrir leikmenn til að pana auðlindir."
 }

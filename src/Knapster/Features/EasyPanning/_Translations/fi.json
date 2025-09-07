@@ -1,0 +1,23 @@
+﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "toinen",
+    "Features.EasyPanning.Description":  "Hallitse panorointiasetuksia.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Panorointiasetukset",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekuntia kerrosta kohden",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Kylläisyys menetetään panoroimalla yhtä materiaalikerrosta.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} tippaa per kerros: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Drops",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Kylläisyys kerrosta kohden",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "pisara",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "kylläisyys",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} Aika (sekunteina) kerrosta kohti: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Yhden materiaalikerroksen panorointiin kuluva aika sekunteina.",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Määrittää sekuntimäärän kerrosta kohden panoroinnin aikana",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Määrittää pisaroiden määrän kerrosta kohden panoroinnin aikana",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Pisarat per kerros",
+    "Features.EasyPanning.ModMenu.TabName":  "Panorointi",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Materiaalikerrosta kohden syntyneiden pisaroiden määrä.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Määrittää kerroksen kylläisyyden panoroinnin aikana",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Kyllästyshäviö kerrosta kohti: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Sekuntia",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan panoroida resursseja."
+}

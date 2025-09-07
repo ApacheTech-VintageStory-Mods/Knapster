@@ -1,11 +1,11 @@
 ﻿{
-    "ModTitle":  "Knapster",
-    "Features.Knapster.IncludeAutomated":  "{0} 包括自动版本：{1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Saturation Multiplier：{1}x",
-    "ModDescription":  "更容易制作和收集，适合手部灵活性低的人。",
-    "Features.Knapster.SpeedMultiplier":  "{0} 速度倍增器：{1}x",
-    "Features.Knapster.InstantComplete":  "{0} 即时完成：{1}",
+    "ModTitle":  "餐巾",
+    "Features.Knapster.IncludeAutomated":  "{0}包括自动化版本：{1}",
+    "Features.Knapster.SaturationMultiplier":  "{0}饱和倍数：{1}x",
+    "ModDescription":  "更容易制作和收集，适合那些手部灵活性较低的人。",
+    "Features.Knapster.SpeedMultiplier":  "{0}速度倍增器：{1}x",
+    "Features.Knapster.InstantComplete":  "{0}即时完成：{1}",
     "Features.Knapster.AutoComplete":  "自动完成",
-    "Features.Knapster.CostPerClick":  "{0} 每次点击的持久性成本：{1}",
-    "Features.Knapster.VoxelsPerClick":  "每次点击的体素数{0}：{1}"
+    "Features.Knapster.CostPerClick":  "{0} 每次点击的耐久度成本：{1}",
+    "Features.Knapster.VoxelsPerClick":  "每次点击{0}体素数：{1}"
 }

@@ -1,0 +1,14 @@
+﻿{
+    "Features.EasyMixingBowl.IncludeAutomated.Description":  "Käytä nopeuskerrointa sähkökäyttöisiin sekoituskulhoihin sekä manuaalisiin sekoituskulhoihin.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Kun se on aktiivinen, käyttäjän ei tarvitse pitää hiiren oikeaa painiketta painettuna pitääkseen sekoituskulhon aktiivisena",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Sisällytä automatisoitu",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Sekoituskulhon asetukset",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan sekoittaa resursseja sekoituskulhoon.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Sekoituskulho",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Määrittää, käytetäänkö nopeuskerrointa automaattisiin sekoituskulhoihin",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Määrittää sekoituskulhon käyttönopeuteen sovellettavan kertoimen",
+    "Features.EasyMixingBowl.Description":  "Hallitse sekoituskulhon asetuksia.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Sticky Mouse -painike",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Muuta nopeutta, jolla pelaaja yhdistää resursseja sekoituskulhoon. Toimii suorana kertojana. Min: 0.0, Max: 10.0, Oletus: 1.0.",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Nopeuden kerroin"
+}

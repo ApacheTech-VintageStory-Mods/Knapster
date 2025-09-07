@@ -1,6 +1,15 @@
 ﻿{
-    "Features.EasyDoughForming.DoughRequired":  "必要な生地の合計:{0}",
-    "Features.EasyDoughForming.VoxelsPerClick.Description":  "移動するボクセルの数を、クリックごとに変更します。最小: 1、最大: 8、デフォルト: 1。",
-    "Features.EasyDoughForming.InstantComplete.Description":  "作業項目を使用時にすぐに完了させるかどうかを変更します。True または False、デフォルト: False。",
-    "Features.EasyDoughForming.Description":  "生地形成設定を管理します。"
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "生地を形成するときに一度に処理されるボクセルの数を決定します",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "ボクセル",
+    "Features.EasyDoughForming.DoughRequired":  "必要な生地の総数:{0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "クリックあたりのボクセル数",
+    "Features.EasyDoughForming.Description":  "生地成形設定を管理します。",
+    "Features.EasyDoughForming.ModMenu.TabName":  "生地成形",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "クリックごとに移動するボクセルの数を変更します。最小値: 1、最大値: 8、デフォルト: 1。",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Art of Cooking を使用すると、プレイヤーが生地アイテムを簡単に形成する方法を提供します。",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "生地成形設定",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "インスタントコンプリート",
+    "Features.EasyDoughForming.InstantComplete.Description":  "作業項目を使用時に即座に完了するかどうかを変更します。True または False、デフォルト: False。",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "現在のレシピを即座に完了するかどうかを決定します",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "ボクセル"
 }

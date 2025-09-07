@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Násobitel rychlosti",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Změňte rychlost, jakou hráč obdělává zemědělskou půdu motykou. Působí jako přímý násobitel. min: 0.1, max: 2.0, výchozí: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Multiplikátor aplikovatelný na rychlost obdělávání půdy motykou",
+    "Features.EasyTilling.ModMenu.TabName":  "Rostlin",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Nastavení dlaždic",
     "Features.EasyTilling.Description":  "Spravovat nastavení dlaždic.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Změňte rychlost, jakou hráč obdělává zemědělskou půdu motykou. Působí jako přímý násobitel. min: 0.1, max: 2.0, výchozí: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Poskytuje hráčům jednodušší způsob, jak obdělávat zemědělskou půdu s motykou."
 }

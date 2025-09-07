@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Određuje da li će odmah završiti trenutni recept",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Vokels po kliku",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "sadržina",
+    "Features.EasyKnapping.ModMenu.TabName":  "mazohizam",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Instant Kompletan",
+    "Features.EasyKnapping.Description":  "Upravljanje knaping podešavanja.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Određuje broj voksela koji se rukuju u jednom trenutku, kada knapping",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da knap stavke u igri.",
     "Features.EasyKnapping.InstantComplete.Description":  "Promenite da li radna stavka treba da bude odmah završena, prilikom upotrebe. Istina ili netačno podrazumevano: Lažno.",
-    "Features.EasyKnapping.Description":  "Upravljanje knaping podešavanja."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Knapping Podešavanja",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "sadržina"
 }

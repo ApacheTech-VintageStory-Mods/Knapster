@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "قم بتغيير عدد فوكسل التي يتم نقلها لكل نقرة. الحد الأدنى: 1 ، الحد الأقصى: 8 ، الافتراضي: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "يحدد ما إذا كان سيتم إكمال الوصفة الحالية على الفور",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "فوكسل لكل نقرة",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "فوكسل",
+    "Features.EasyKnapping.ModMenu.TabName":  "Knapping",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "إكمال فوري",
+    "Features.EasyKnapping.Description":  "إدارة إعدادات القنب.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "يحدد عدد الفوكسل التي يتم التعامل معها في وقت واحد ، عند الحياكة",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لوضع العناصر داخل اللعبة.",
     "Features.EasyKnapping.InstantComplete.Description":  "قم بتغيير ما إذا كان يجب إكمال عنصر العمل على الفور أم لا، عند الاستخدام. صواب أو خطأ ، افتراضي: خطأ.",
-    "Features.EasyKnapping.Description":  "إدارة إعدادات القنب."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "قم بتغيير عدد فوكسل التي يتم نقلها لكل نقرة. الحد الأدنى: 1 ، الحد الأقصى: 8 ، الافتراضي: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "إعدادات Knapping",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "فوكسل"
 }

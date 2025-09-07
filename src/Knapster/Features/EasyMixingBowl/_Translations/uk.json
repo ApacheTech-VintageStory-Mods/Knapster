@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Застосуйте множник швидкості до чаш для змішування з приводом, а також до чаш для ручного змішування.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Коли опція активна, користувачеві не потрібно утримувати натиснутою праву кнопку миші, щоб міксерна чаша залишалася активною",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Включати автоматизовані",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Налаштування міксерної чаші",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Надає гравцям простіший спосіб змішувати ресурси в мисці для змішування.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Миска для змішування",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Визначає, чи застосовувати множник швидкості до автоматизованих міксерних чаш",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Визначає множник, який слід застосувати до швидкості використання міксерної чаші",
+    "Features.EasyMixingBowl.Description":  "Керуйте налаштуваннями міксерної чаші.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Липка кнопка миші",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець об\u0027єднує ресурси в міксерній чаші. Виступає прямим мультиплікатором. Мін: 0.0, Макс.: 10.0, За замовчуванням: 1.0.",
-    "Features.EasyMixingBowl.Description":  "Керуйте налаштуваннями міксерної чаші."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Множник швидкості"
 }

@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "반죽을 형성할 때 한 번에 처리되는 복셀의 수를 결정합니다.",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "복셀",
     "Features.EasyDoughForming.DoughRequired":  "필요한 총 반죽: {0}",
-    "Features.EasyDoughForming.VoxelsPerClick.Description":  "클릭당 이동되는 복셀의 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
-    "Features.EasyDoughForming.InstantComplete.Description":  "작업 항목을 사용 시 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
-    "Features.EasyDoughForming.Description":  "반죽 형성 설정을 관리합니다."
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "클릭당 복셀 수",
+    "Features.EasyDoughForming.Description":  "반죽 형성 설정을 관리합니다.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "반죽 성형",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "클릭당 이동되는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Art of Cooking을 사용할 때 플레이어가 반죽 아이템을 더 쉽게 만들 수 있는 방법을 제공합니다.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "반죽 형성 설정",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "즉시 완료",
+    "Features.EasyDoughForming.InstantComplete.Description":  "작업 항목이 사용 시 즉시 완료되어야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "현재 레시피를 즉시 완료할지 여부를 결정합니다.",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "복셀"
 }

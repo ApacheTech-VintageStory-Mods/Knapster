@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "sekunda",
     "Features.EasyPanning.Description":  "Spravujte nastavenia posúvania.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} kvapiek na vrstvu: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Počet kvapiek vytvorených na vrstvu materiálu.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Nastavenia posúvania",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekundy na vrstvu",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Strata sýtosti pri posúvaní jednej vrstvy materiálu.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} kvapiek na vrstvu: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Kvapky",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Sýtosť na vrstvu",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "kvapka",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "nasýtenie",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Čas (v sekundách) na vrstvu: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Čas v sekundách potrebný na posúvanie jednej vrstvy materiálu.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Strata nasýtenia na vrstvu: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Určuje počet sekúnd na vrstvu pri posúvaní",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Určuje počet kvapiek na vrstvu pri posúvaní",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Kvapky na vrstvu",
+    "Features.EasyPanning.ModMenu.TabName":  "Ryžovanie",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Počet kvapiek vytvorených na vrstvu materiálu.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Určuje sýtosť na vrstvu pri posúvaní",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Strata nasýtenia na vrstvu: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Sekúnd",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Poskytuje hráčom jednoduchší spôsob posúvania zdrojov."
 }

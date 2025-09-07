@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "andra",
     "Features.EasyPanning.Description":  "Hantera panoreringsinställningar.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} droppar per lager: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Antalet droppar som skapas per lager av material.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Inställningar för panorering",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekunder per lager",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Mättnaden som förloras vid panorering av ett enda lager material.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} droppar per lager: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "droppar",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Mättnad per lager",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "droppe",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "mättnad",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Tid (i sekunder) per lager: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Tiden, i sekunder, det tar att panorera ett lager material.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} mättnadsförlust per lager: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Anger antalet sekunder per lager vid panorering",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Bestämmer antalet droppar per lager vid panorering",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Droppar per lager",
+    "Features.EasyPanning.ModMenu.TabName":  "Panorering",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Antalet droppar som skapas per lager av material.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Bestämmer mättnaden per lager vid panorering",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} mättnadsförlust per lager: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Sekunder",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Ger ett enklare sätt för spelare att panorera resurser."
 }

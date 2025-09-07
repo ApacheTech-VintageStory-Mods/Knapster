@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Hamur oluştururken bir seferde işlenen voksel sayısını belirler",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voksel",
     "Features.EasyDoughForming.DoughRequired":  "Gerekli toplam hamur: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Tıklama Başına Voksel",
+    "Features.EasyDoughForming.Description":  "Hamur şekillendirme ayarlarını yönetin.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Hamur Şekillendirme",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Oyuncuların Yemek Pişirme Sanatı\u0027nı kullanırken hamur öğeleri oluşturmaları için daha kolay bir yol sağlar.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Hamur Şekillendirme Ayarları",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Anında Tamamlama",
     "Features.EasyDoughForming.InstantComplete.Description":  "İş öğesinin kullanımda anında tamamlanması gerekip gerekmediğini değiştirin. Doğru veya Yanlış, varsayılan: Yanlış.",
-    "Features.EasyDoughForming.Description":  "Hamur şekillendirme ayarlarını yönetin."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Mevcut tarifin anında tamamlanıp tamamlanmayacağını belirler",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseller"
 }

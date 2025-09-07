@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Applicera hastighetsmultiplikatorn på motordrivna blandningsskålar, såväl som manuella blandningsskålar.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "När den är aktiv behöver användaren inte hålla höger musknapp intryckt för att hålla blandningsskålen aktiv",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Inkludera automatiserade",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Inställningar för blandningsskål",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Ger ett enklare sätt för spelare att blanda resurser i en mixerskål.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Blandning Skål",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Avgör om hastighetsmultiplikatorn ska tillämpas på automatiserade blandningsskålar",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Bestämmer multiplikatorn som ska tillämpas på hastigheten för att använda blandningsskålen",
+    "Features.EasyMixingBowl.Description":  "Hantera inställningarna för blandningsskålen.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Klibbig musknapp",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Ändra hastigheten med vilken spelaren kombinerar resurser i en mixerskål. Fungerar som en direkt multiplikator. Min: 0,0, Max: 10,0, Standard: 1,0.",
-    "Features.EasyMixingBowl.Description":  "Hantera inställningarna för blandningsskålen."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Multiplikator för hastighet"
 }

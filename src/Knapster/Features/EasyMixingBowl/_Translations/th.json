@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "ใช้ตัวคูณความเร็วกับชามผสมแบบใช้พลังงาน เช่นเดียวกับชามผสมแบบแมนนวล",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "เมื่อใช้งาน ผู้ใช้ไม่จําเป็นต้องกดปุ่มเมาส์ขวาค้างไว้เพื่อให้ชามผสมทํางานอยู่",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "รวมระบบอัตโนมัติ",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "การตั้งค่าชามผสม",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "ให้วิธีที่ง่ายขึ้นสําหรับผู้เล่นในการผสมทรัพยากรในชามผสม",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "ชามผสม",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "กําหนดว่าจะใช้ตัวคูณความเร็วกับชามผสมอัตโนมัติหรือไม่",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "กําหนดตัวคูณที่จะใช้กับความเร็วในการใช้ชามผสม",
+    "Features.EasyMixingBowl.Description":  "จัดการการตั้งค่าชามผสม",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "ปุ่มเมาส์ติดหนึบ",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "เปลี่ยนความเร็วที่ผู้เล่นรวมทรัพยากรภายในชามผสม ทําหน้าที่เป็นตัวคูณโดยตรง ต่ําสุด: 0.0, สูงสุด: 10.0, ค่าเริ่มต้น: 1.0",
-    "Features.EasyMixingBowl.Description":  "จัดการการตั้งค่าชามผสม"
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "ตัวคูณความเร็ว"
 }

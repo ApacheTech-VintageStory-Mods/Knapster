@@ -1,9 +1,0 @@
-﻿namespace Knapster.Features.EasyQuern.Settings;
-
-[ProtoContract]
-public class EasyQuernClientSettings : EasyQuernSettings, IEasyXClientSettings
-{
-    /// <inheritdoc />
-    [ProtoMember(1)]
-    public bool Enabled { get; set; } = false;
-}

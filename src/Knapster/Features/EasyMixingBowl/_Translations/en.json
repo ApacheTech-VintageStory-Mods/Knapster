@@ -1,5 +1,18 @@
 {
   "Features.EasyMixingBowl.Description": "Manage mixing bowl settings.",
   "Features.EasyMixingBowl.SpeedMultiplier.Description": "Change the speed at which the player combines resources within a mixing bowl. Acts as a direct multiplier. Min: 0.0, Max: 10.0, Default: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Apply the speed multiplier to powered mixing bowls, as well as manual mixing bowls."
+  "Features.EasyMixingBowl.IncludeAutomated.Description": "Apply the speed multiplier to powered mixing bowls, as well as manual mixing bowls.",
+
+  "Features.EasyMixingBowl.ModMenu.TabName": "Mixing Bowl",
+  "Features.EasyMixingBowl.ModMenu.lblTitle.Text": "Mixing Bowl Settings",
+  "Features.EasyMixingBowl.ModMenu.lblDescription.Text": "Provides an easier way for players to mix resources in a mixing bowl.",
+
+  "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
+  "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText": "Determines the multiplier to apply to the speed of using the mixing bowl",
+
+  "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text": "Include Automated",
+  "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText": "Determines whether to apply the speed multiplier to automated mixing bowls",
+
+  "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text": "Sticky Mouse Button",
+  "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText": "When active, the user will not need to keep the right-mouse button held down to keep the mixing bowl active"
 }

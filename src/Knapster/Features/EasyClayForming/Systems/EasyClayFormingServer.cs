@@ -1,19 +1,19 @@
 ﻿namespace Knapster.Features.EasyClayForming.Systems;
 
-public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormingServer, EasyClayFormingServerSettings, EasyClayFormingClientSettings, EasyClayFormingSettings>
+public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormingServer, EasyClayFormingServerSettings, EasyClayFormingClientSettings>
 {
     protected override string SubCommandName => "ClayForming";
 
     protected override void FeatureSpecificCommands(IChatCommand subCommand, CommandArgumentParsers parsers)
     {
         subCommand
-            .WithDescription(G.Lang.FeatureString("EasyClayForming", "Description"));
+            .WithDescription(G.T("EasyClayForming", "Description"));
 
         subCommand
             .BeginSubCommand("voxels")
             .WithAlias("v")
             .WithArgs(parsers.OptionalInt("voxels"))
-            .WithDescription(G.Lang.FeatureString("EasyClayForming.VoxelsPerClick", "Description"))
+            .WithDescription(G.T("EasyClayForming.VoxelsPerClick", "Description"))
             .HandleWith(OnChangeVoxelsPerClick)
             .EndSubCommand();
 
@@ -21,22 +21,22 @@ public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormin
             .BeginSubCommand("instant")
             .WithAlias("i")
             .WithArgs(parsers.OptionalBool("instant complete"))
-            .WithDescription(G.Lang.FeatureString("EasyClayForming.InstantComplete", "Description"))
+            .WithDescription(G.T("EasyClayForming.InstantComplete", "Description"))
             .HandleWith(OnChangeInstantComplete)
             .EndSubCommand();
     }
 
     protected override void ExtraDisplayInfo(StringBuilder sb)
     {
-        sb.AppendLine(G.Lang.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
-        sb.AppendLine(G.Lang.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
+        sb.AppendLine(G.T("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick));
+        sb.AppendLine(G.T("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete));
     }
 
     private TextCommandResult OnChangeVoxelsPerClick(TextCommandCallingArgs args)
     {
         var value = args.Parsers[0].GetValue().To<int?>() ?? 1;
         Settings.VoxelsPerClick = GameMath.Clamp(value, 1, 8);
-        var message = G.Lang.FeatureString("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick);
+        var message = G.T("Knapster", "VoxelsPerClick", SubCommandName, Settings.VoxelsPerClick);
         ServerChannel?.BroadcastUniquePacket(Sapi.AsServerMain(), GeneratePacket);
         return TextCommandResult.Success(message);
     }
@@ -45,7 +45,7 @@ public sealed class EasyClayFormingServer : EasyXServerSystemBase<EasyClayFormin
     {
         var value = args.Parsers[0].GetValue().To<bool?>() ?? false;
         Settings.InstantComplete = value;
-        var message = G.Lang.FeatureString("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete);
+        var message = G.T("Knapster", "InstantComplete", SubCommandName, Settings.InstantComplete);
         ServerChannel?.BroadcastUniquePacket(Sapi.AsServerMain() , GeneratePacket);
         return TextCommandResult.Success(message);
     }

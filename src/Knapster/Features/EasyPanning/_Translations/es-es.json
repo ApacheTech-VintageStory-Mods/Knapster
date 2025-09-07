@@ -1,9 +1,23 @@
 ﻿{
-    "Features.EasyPanning.Description":  "Administrar la configuración de movimiento panorámico.",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "segundo",
+    "Features.EasyPanning.Description":  "Administrar la configuración de panorámica.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Configuración de panorámica",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Segundos por capa",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "La saturación perdida al hacer una panorámica de una sola capa de material.",
     "Features.EasyPanning.DropsPerLayer":  "{0} gotas por capa: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "El número de gotas generadas por capa de material.",
-    "Features.EasyPanning.SaturationPerLayer.Description":  "La saturación se pierde al desplazar una sola capa de material.",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "gotas",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Saturación por capa",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "Soltar",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "saturación",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Tiempo (en segundos) por capa: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "El tiempo, en segundos, que se tarda en desplazar una capa de material.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Pérdida de saturación por capa: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Determina el número de segundos por capa al desplazarse",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Determina el número de gotas por capa al desplazarse",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Gotas por capa",
+    "Features.EasyPanning.ModMenu.TabName":  "Panorámica",
+    "Features.EasyPanning.DropsPerLayer.Description":  "El número de gotas generadas por capa de material.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Determina la saturación por capa al encuadrar",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Pérdida de saturación por capa: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "sobras",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Proporciona una forma más fácil para que los jugadores desplacen los recursos."
 }

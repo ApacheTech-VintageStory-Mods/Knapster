@@ -1,3 +1,8 @@
 ﻿namespace Knapster;
 
-internal class Program() : EasyXHost<Program>("knapster", G.SetCore);
+internal sealed class Program() : EasyXHost<Program>("knapster")
+{
+    protected sealed override void OnCoreLoaded(ICoreGantryAPI core) => G.SetCore(core);
+
+    protected override void OnCoreUnloaded() => G.Dispose();
+}

@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Správa nastavení lisu na ovoce."
+    "Features.EasyPressing.Description":  "Správa nastavení lisu na ovoce.",
+    "Features.EasyPressing.ModMenu.TabName":  "Lisování ovoce",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Díky tomu nemusí být lis před odšroubováním zcela stlačen.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Nastavení lisování ovoce"
 }

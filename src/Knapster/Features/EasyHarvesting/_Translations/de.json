@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Geschwindigkeits-Multiplikator",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Gras mit einer Sense zu ernten.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bestimmt den Multiplikator, der auf die Geschwindigkeit der Verwendung der Sense angewendet werden soll",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Ernte",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Harvesting-Einstellungen",
     "Features.EasyHarvesting.Description":  "Verwalten Sie die Harvesting-Einstellungen.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Ändere die Geschwindigkeit, mit der der Spieler mit einer Sense Gras erntet. Wirkt als direkter Multiplikator. Min: 0.0, Max: 2.0, Standard: 1.0."
 }

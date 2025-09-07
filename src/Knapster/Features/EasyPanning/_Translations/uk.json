@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "секунда",
     "Features.EasyPanning.Description":  "Керуйте настройками панорамування.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} Краплі На Шар: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Кількість крапель, що нерестяться на один шар матеріалу.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Налаштування панорамування",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Секунд на шар",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Насиченість втрачається при панорамуванні одного шару матеріалу.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} Краплі На Шар: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Крапель",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Насиченість на шар",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "крапля",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "Насиченість",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Час (в секундах) на шар: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Час, в секундах, необхідний для панорамування одного шару матеріалу.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Втрати насиченості на шар: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Визначає кількість секунд на шар під час панорамування",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Визначає кількість крапель на шар під час панорамування",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Краплі на шар",
+    "Features.EasyPanning.ModMenu.TabName":  "Панорамування",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Кількість крапель, що нерестяться на один шар матеріалу.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Визначає насиченість на шар під час панорамування",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Втрати насиченості на шар: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Секунд",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Надає гравцям простіший спосіб переміщати ресурси."
 }

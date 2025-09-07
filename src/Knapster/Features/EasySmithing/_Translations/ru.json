@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Кузнечное дело",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Воксели",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Воксель",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Цена за клик",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Определяет количество вокселей, обрабатываемых за один раз",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Определяет, следует ли мгновенно завершить текущий рецепт",
+    "Features.EasySmithing.Description":  "Управление настройками кузнечного дела.",
     "Features.EasySmithing.CostPerClick.Description":  "Измените стоимость долговечности за использование. Мин: 1, Макс.: 10, По умолчанию: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Определяет степень прочности, которая теряется за один раз",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Настройки кузнечного дела",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Изменение количества перемещаемых вокселей за клик. Мин.: 1, Макс.: 8, По умолчанию: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Мгновенное завершение",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Воксели за клик",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "долговечность",
     "Features.EasySmithing.InstantComplete.Description":  "Изменяйте, должен ли рабочий элемент быть выполнен мгновенно при использовании. True, или False, по умолчанию: False.",
-    "Features.EasySmithing.Description":  "Управление настройками кузнечного дела."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ кузнеть предметы на наковальне в игре."
 }

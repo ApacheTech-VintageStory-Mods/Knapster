@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "vteřina",
     "Features.EasyPanning.Description":  "Spravovat nastavení posouvání.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} kapek na vrstvu: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Počet kapek vytvořených na vrstvu materiálu.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Nastavení posouvání",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Sekund na vrstvu",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Ztráta sytosti při posouvání jedné vrstvy materiálu.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} kapek na vrstvu: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "kapky",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Sytost na vrstvu",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "kapka",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "sytost",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Čas (v sekundách) na vrstvu: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Čas v sekundách, který trvá posouvání jedné vrstvy materiálu.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} ztráta nasycení na vrstvu: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Určuje počet sekund na vrstvu při posouvání",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Určuje počet tahů na vrstvu při posouvání",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Počet kapek na vrstvu",
+    "Features.EasyPanning.ModMenu.TabName":  "Panorámování",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Počet kapek vytvořených na vrstvu materiálu.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Určuje sytost v každé vrstvě při posouvání",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} ztráta nasycení na vrstvu: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "sekundy",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Poskytuje hráčům snadnější způsob posouvání zdrojů."
 }

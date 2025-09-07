@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos, por clique. Mín.: 1, Máx.: 8, Padrão: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Soares",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Custo por Clique",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Determina o número de voxels que são manipulados ao mesmo tempo",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Determina se a receita atual deve ser concluída instantaneamente",
+    "Features.EasySmithing.Description":  "Gerencie as configurações de ferraria.",
     "Features.EasySmithing.CostPerClick.Description":  "Alterar o custo de durabilidade, por utilização. Min: 1, Max: 10, Padrão: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Determina a quantidade de durabilidade que é perdida de uma só vez",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Configurações de Smithing",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos, por clique. Mín.: 1, Máx.: 8, Padrão: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Conclusão instantânea",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels por Clique",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "Durabilidade",
     "Features.EasySmithing.InstantComplete.Description":  "Altere se o item de trabalho deve ou não ser concluído instantaneamente, em uso. Verdadeiro, ou Falso, Padrão: False.",
-    "Features.EasySmithing.Description":  "Gerencie as configurações de ferraria."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores ferrar itens em uma bigorna dentro do jogo."
 }

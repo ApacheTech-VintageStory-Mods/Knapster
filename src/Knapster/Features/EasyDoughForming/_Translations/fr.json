@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Détermine le nombre de voxels qui sont manipulés en même temps, lors de la formation de la pâte",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
     "Features.EasyDoughForming.DoughRequired":  "Quantité totale de pâte nécessaire : {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels par clic",
+    "Features.EasyDoughForming.Description":  "Gérer les paramètres de formage de la pâte.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Formage de la pâte",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Modifiez le nombre de voxels déplacés par clic. Min : 1, Max : 8, Par défaut : 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Fournit aux joueurs un moyen plus facile de former des articles en pâte lors de l’utilisation de Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Paramètres de formage de la pâte",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Complet instantané",
     "Features.EasyDoughForming.InstantComplete.Description":  "Indiquez si l’élément de travail doit être terminé instantanément ou non, à l’utilisation. Vrai ou Faux, Valeur par défaut : Faux.",
-    "Features.EasyDoughForming.Description":  "Gérer les paramètres de formage de la pâte."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Détermine s’il faut terminer instantanément la recette en cours",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels"
 }

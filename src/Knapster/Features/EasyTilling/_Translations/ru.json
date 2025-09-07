@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Множитель скорости",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Изменяйте скорость, с которой игрок обрабатывает сельскохозяйственные угодья мотыгой. Выступает в роли прямого множителя. Мин.: 0,1, Макс.: 2,0, По умолчанию: 1,0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Множитель для применения к скорости обработки почвы мотыгой",
+    "Features.EasyTilling.ModMenu.TabName":  "Пахать",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Настройки обработки почвы",
     "Features.EasyTilling.Description":  "Управление настройками обработки почвы.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Изменяйте скорость, с которой игрок обрабатывает сельскохозяйственные угодья мотыгой. Выступает в роли прямого множителя. Мин.: 0,1, Макс.: 2,0, По умолчанию: 1,0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ обработки сельскохозяйственных угодий с помощью мотыги."
 }

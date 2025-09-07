@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Вокселів на клік",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Визначає кількість вокселів, які обробляються за один раз, при формуванні глини",
     "Features.EasyClayForming.InstantComplete.Description":  "Змінюйте, чи повинен робочий елемент бути миттєво виконаний під час використання. true, або false, за замовчуванням: false.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Миттєве завершення",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Визначає, чи слід негайно завершити поточний рецепт",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Воксел",
     "Features.EasyClayForming.ClayRequired":  "Всього необхідної глини: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Формування глини",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Налаштування для формування глини",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Змінюйте кількість вокселів, які переміщуються за клік. Мін: 1, Макс: 8, За замовчуванням: 1.",
-    "Features.EasyClayForming.Description":  "Керуйте налаштуваннями формування глини."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Надає гравцям простіший спосіб формувати глиняні предмети в грі.",
+    "Features.EasyClayForming.Description":  "Керуйте налаштуваннями формування глини.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "вокселі"
 }

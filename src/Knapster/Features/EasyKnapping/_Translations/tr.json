@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Mevcut tarifin anında tamamlanıp tamamlanmayacağını belirler",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Tıklama Başına Voksel",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseller",
+    "Features.EasyKnapping.ModMenu.TabName":  "Yontma",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Anında Tamamlama",
+    "Features.EasyKnapping.Description":  "Yontma ayarlarını yönetin.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Yontma sırasında bir kerede işlenen voksel sayısını belirler",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Oyuncuların oyun içindeki öğeleri birleştirmesi için daha kolay bir yol sağlar.",
     "Features.EasyKnapping.InstantComplete.Description":  "İş öğesinin kullanımda anında tamamlanması gerekip gerekmediğini değiştirin. Doğru veya Yanlış, varsayılan: Yanlış.",
-    "Features.EasyKnapping.Description":  "Yontma ayarlarını yönetin."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Knapping Ayarları",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "voksel"
 }

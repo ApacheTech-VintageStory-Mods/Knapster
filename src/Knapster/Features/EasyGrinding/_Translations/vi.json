@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi nghiền tài nguyên trong một quern.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "Khi hoạt động, người dùng sẽ không cần giữ nút chuột phải để giữ cho quern hoạt động.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} các nút chuột dính: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Bao gồm tự động",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Hệ số tốc độ",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Xác định hệ số nhân để áp dụng cho tốc độ sử dụng quern",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Nút chuột dính",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "Khi hoạt động, người dùng sẽ không cần phải giữ nút chuột phải để giữ cho quern hoạt động",
+    "Features.EasyGrinding.Description":  "Quản lý cài đặt quern.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Cài đặt mài Quern",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Thay đổi tốc độ mà người chơi nghiền tài nguyên trong một quern. Hoạt động như một hệ số nhân trực tiếp. Tối thiểu: 0.0, Tối đa: 10.0, Mặc định: 1.0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Áp dụng hệ số tốc độ cho các quern tự động, cũng như quern thủ công.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Mài Quern",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Xác định xem có áp dụng hệ số tốc độ cho các truy vấn tự động hay không"
+}

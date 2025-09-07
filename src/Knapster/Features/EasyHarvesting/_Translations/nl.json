@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Snelheid vermenigvuldiger",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Biedt een gemakkelijkere manier voor spelers om gras te oogsten, met een zeis.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bepaalt de vermenigvuldiger die moet worden toegepast op de snelheid van het gebruik van de zeis",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Oogst",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Instellingen oogsten",
     "Features.EasyHarvesting.Description":  "Beheer oogstinstellingen.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler gras oogst met een zeis. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 2.0, Standaard: 1.0."
 }

@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Multiplikátor rýchlosti",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč obrába poľnohospodársku pôdu motykou. Funguje ako priamy multiplikátor. Min: 0,1, Max: 2,0, Predvolené: 1,0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Násobiteľ, ktorý sa použije na rýchlosť obrábania motykou",
+    "Features.EasyTilling.ModMenu.TabName":  "Obrábanie pôdy",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Nastavenia obrábania pôdy",
     "Features.EasyTilling.Description":  "Spravovať nastavenia obrábania pôdy.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč obrába poľnohospodársku pôdu motykou. Funguje ako priamy multiplikátor. Min: 0,1, Max: 2,0, Predvolené: 1,0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Poskytuje hráčom jednoduchší spôsob obrábania poľnohospodárskej pôdy motykou."
 }

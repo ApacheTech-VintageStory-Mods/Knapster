@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Određuje broj voksela koji se rukuju u jednom trenutku, prilikom formiranja testa",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "sadržina",
     "Features.EasyDoughForming.DoughRequired":  "Ukupno potrebno testo: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Vokels po kliku",
+    "Features.EasyDoughForming.Description":  "Upravljajte podešavanjima za formiranje testa.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Testo Formiranje",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Promenite broj voksela koji se pomeraju, po kliku. Min: 1, Maks: 8, Podrazumevano: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da formiraju stavke testa, kada se koristi Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Podešavanja za formiranje testa",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Instant Kompletan",
     "Features.EasyDoughForming.InstantComplete.Description":  "Promenite da li radna stavka treba da bude odmah završena, prilikom upotrebe. Istina ili netačno podrazumevano: Lažno.",
-    "Features.EasyDoughForming.Description":  "Upravljajte podešavanjima za formiranje testa."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Određuje da li će odmah završiti trenutni recept",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "sadržina"
 }

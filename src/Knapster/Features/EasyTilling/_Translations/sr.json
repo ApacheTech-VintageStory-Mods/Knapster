@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Brzina multiplikator",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Promenite brzinu kojom igrač obrađuje poljoprivredno zemljište motikom. Deluje kao direktan multiplikator. Min: 0.1, Maks: 2.0, Podrazumevano: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Multiplikator koji se primenjuje na brzinu obrade motikom",
+    "Features.EasyTilling.ModMenu.TabName":  "Obrada",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Podešavanja obrade",
     "Features.EasyTilling.Description":  "Upravljajte podešavanjima obrade.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Promenite brzinu kojom igrač obrađuje poljoprivredno zemljište motikom. Deluje kao direktan multiplikator. Min: 0.1, Maks: 2.0, Podrazumevano: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da obrađuju poljoprivredno zemljište, sa motikom."
 }

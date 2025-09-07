@@ -1,4 +1,9 @@
 ﻿{
-    "Features.EasyHarvesting.Description":  "Administre la configuración de cosecha.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Cambia la velocidad a la que el jugador cosecha la hierba con una guadaña. Actúa como un multiplicador directo. Mín.: 0.0, Máx.: 2.0, Predeterminado: 1.0."
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidad",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Proporciona una forma más fácil para que los jugadores cosechen hierba, con una guadaña.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Determina el multiplicador que se aplicará a la velocidad de uso de la guadaña",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Cosecha",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Configuración de cosecha",
+    "Features.EasyHarvesting.Description":  "Administrar la configuración de cosecha.",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Cambia la velocidad a la que el jugador cosecha hierba con una guadaña. Actúa como un multiplicador directo. Mín.: 0.0, Máx.: 2.0, Predeterminado: 1.0."
 }

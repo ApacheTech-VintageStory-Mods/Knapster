@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Hız çarpanını elektrikli karıştırma kaplarına ve ayrıca manuel karıştırma kaplarına uygulayın.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Aktif olduğunda, kullanıcının karıştırma kabını aktif tutmak için farenin sağ düğmesini basılı tutmasına gerek kalmayacaktır",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Otomatikleştirilmiş Dahil Et",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Karıştırma kabı ayarları",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Oyuncuların kaynakları bir karıştırma kabında karıştırması için daha kolay bir yol sağlar.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Karıştırma kabı",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Hız çarpanının otomatik karıştırma kaplarına uygulanıp uygulanmayacağını belirler",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Karıştırma kabının kullanım hızına uygulanacak çarpanı belirler",
+    "Features.EasyMixingBowl.Description":  "Karıştırma kabı ayarlarını yönetin.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Yapışkan Fare Düğmesi",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Oyuncunun kaynakları bir karıştırma kabında birleştirme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 10.0, Varsayılan: 1.0.",
-    "Features.EasyMixingBowl.Description":  "Karıştırma kabı ayarlarını yönetin."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı"
 }

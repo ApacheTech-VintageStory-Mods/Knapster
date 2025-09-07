@@ -1,0 +1,23 @@
+﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "thứ hai",
+    "Features.EasyPanning.Description":  "Quản lý cài đặt xoay.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Cài đặt xoay",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Giây trên mỗi lớp",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "Độ bão hòa bị mất khi lia một lớp vật liệu duy nhất.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} giọt trên mỗi lớp: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Giọt",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Độ bão hòa mỗi lớp",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "rớt",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "Bão hòa",
+    "Features.EasyPanning.SecondsPerLayer":  "Thời gian {0} (tính bằng giây) trên mỗi lớp: {1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "Thời gian, tính bằng giây, cần thiết để xoay một lớp vật liệu.",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Xác định số giây trên mỗi lớp khi lia",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Xác định số giọt trên mỗi lớp khi lia",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Giọt trên mỗi lớp",
+    "Features.EasyPanning.ModMenu.TabName":  "Panning",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Số lượng giọt được sinh ra trên mỗi lớp vật liệu.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Xác định độ bão hòa trên mỗi lớp khi lia",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Mất độ bão hòa trên mỗi lớp: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Giây",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi xoay tài nguyên."
+}

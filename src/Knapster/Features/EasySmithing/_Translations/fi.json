@@ -1,0 +1,18 @@
+﻿{
+    "Features.EasySmithing.ModMenu.TabName":  "Seppätyöt",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Vokselit",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Vokseli",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Klikkauskohtainen hinta",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Määrittää kerralla käsiteltävien vokselien määrän",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Määrittää, täydennetäänkö nykyinen resepti välittömästi",
+    "Features.EasySmithing.Description":  "Hallitse sepän asetuksia.",
+    "Features.EasySmithing.CostPerClick.Description":  "Muuta kestävyyskustannuksia käyttökertaa. Min: 1, Max: 10, Oletus: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Määrittää kerralla menetetyn kestävyyden määrän",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Sepän asetukset",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Muuta siirrettävien vokselien määrää napsautusta kohden. Min: 1, Max: 8, Oletus: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Välitön täydellinen",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels per napsautus",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "kestävyys",
+    "Features.EasySmithing.InstantComplete.Description":  "Muuta, valmistuuko työkohde välittömästi käytön yhteydessä. Tosi tai Epätosi, oletus: Epätosi.",
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan takoa esineitä alasimelle pelin sisällä."
+}

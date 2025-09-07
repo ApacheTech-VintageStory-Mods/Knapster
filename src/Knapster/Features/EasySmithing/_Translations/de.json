@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Schmieden",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxel",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Kosten pro Klick",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Bestimmt die Anzahl der Voxel, die gleichzeitig verarbeitet werden",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Bestimmt, ob das aktuelle Rezept sofort abgeschlossen werden soll",
+    "Features.EasySmithing.Description":  "Verwalten Sie die Schmiedeeinstellungen.",
     "Features.EasySmithing.CostPerClick.Description":  "Ändern Sie die Haltbarkeitskosten pro Nutzung. Min: 1, Max: 10, Standardeinstellung: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Bestimmt die Menge an Haltbarkeit, die auf einmal verloren geht",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Schmiede-Einstellungen",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Sofort abgeschlossen",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxel pro Klick",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "Haltbarkeit",
     "Features.EasySmithing.InstantComplete.Description":  "Ändern Sie, ob die Arbeitsaufgabe bei der Verwendung sofort abgeschlossen werden soll. Wahr oder Falsch, Standardwert: Falsch.",
-    "Features.EasySmithing.Description":  "Verwalten Sie die Schmiedeeinstellungen."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Gegenstände auf einem Amboss innerhalb des Spiels zu schmieden."
 }

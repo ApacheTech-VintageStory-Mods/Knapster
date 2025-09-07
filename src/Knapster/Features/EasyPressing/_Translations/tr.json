@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Meyve presi ayarlarını yönetin.",
+    "Features.EasyPressing.ModMenu.TabName":  "Meyve Sıkma",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Vidaları sökülmeden önce presin tamamen sıkıştırılmasına gerek kalmamasını sağlar.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Meyve Sıkma Ayarları"
 }

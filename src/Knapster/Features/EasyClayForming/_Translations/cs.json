@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxely za kliknutí",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Určuje počet voxelů, se kterými se zpracovává najednou, při vytváření hlíny",
     "Features.EasyClayForming.InstantComplete.Description":  "Změňte to, zda má být pracovní položka při použití okamžitě dokončena. True nebo False, výchozí hodnota: False.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Okamžité dokončení",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Určuje, zda se má aktuální recept okamžitě dokončit",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
     "Features.EasyClayForming.ClayRequired":  "Celkový potřebný počet hlíny: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Tváření hlíny",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Nastavení tvarování hlíny",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Změňte počet přesunutých voxelů na jedno kliknutí. min: 1, max: 8, výchozí: 1.",
-    "Features.EasyClayForming.Description":  "Spravujte nastavení tvarování hlíny."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Poskytuje hráčům snadnější způsob, jak tvořit hliněné předměty ve hře.",
+    "Features.EasyClayForming.Description":  "Spravujte nastavení tvarování hlíny.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxely"
 }

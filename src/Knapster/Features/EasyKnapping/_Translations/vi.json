@@ -1,0 +1,14 @@
+﻿{
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Xác định xem có nên hoàn thành ngay lập tức công thức hiện tại hay không",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxel mỗi nhấp chuột",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "voxel",
+    "Features.EasyKnapping.ModMenu.TabName":  "Ngủ gáy",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Hoàn thành ngay lập tức",
+    "Features.EasyKnapping.Description":  "Quản lý cài đặt knapping.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Xác định số lượng voxel được xử lý cùng một lúc, khi gõ",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi kiếm các vật phẩm trong trò chơi.",
+    "Features.EasyKnapping.InstantComplete.Description":  "Thay đổi xem mục công việc có nên được hoàn thành ngay lập tức hay không, khi sử dụng. True hoặc False, mặc định: False.",
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Thay đổi số lượng voxel được di chuyển, mỗi lần nhấp. Tối thiểu: 1, Tối đa: 8, Mặc định: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Cài đặt Knapping",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel"
+}

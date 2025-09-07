@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Breyttu fjölda voxels sem eru færðir, fyrir hvern smell. Lágmark: 1, hámark: 8, sjálfgefið: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Ákvarðar hvort á að klára núverandi uppskrift samstundis",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels fyrir hvern smell",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "voxels",
+    "Features.EasyKnapping.ModMenu.TabName":  "Hnappur",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Augnabliki lokið",
+    "Features.EasyKnapping.Description":  "Stjórna hnappastillingum.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Ákvarðar fjölda voxels sem eru meðhöndlaðir í einu, þegar hnappað er",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að knapa hluti í leiknum.",
     "Features.EasyKnapping.InstantComplete.Description":  "Breyta því hvort verkliðnum eigi að vera lokið samstundis eða ekki, við notkun. Satt, eða ósatt, sjálfgefið: Rangt.",
-    "Features.EasyKnapping.Description":  "Stjórna hnappastillingum."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Breyttu fjölda voxels sem eru færðir, fyrir hvern smell. Lágmark: 1, hámark: 8, sjálfgefið: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Hnapping stillingar",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel"
 }

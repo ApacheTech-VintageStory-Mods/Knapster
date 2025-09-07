@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "saniye",
     "Features.EasyPanning.Description":  "Kaydırma ayarlarını yönetin.",
-    "Features.EasyPanning.DropsPerLayer":  "Katman başına {0} damla: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "Her malzeme katmanı için ortaya çıkan damla sayısı.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Kaydırma Ayarları",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Katman Başına Saniye",
     "Features.EasyPanning.SaturationPerLayer.Description":  "Tek bir malzeme katmanını kaydırırken kaybedilen doygunluk.",
+    "Features.EasyPanning.DropsPerLayer":  "Katman başına {0} damla: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Damla",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Katman Başına Doygunluk",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "damla",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "doygunluk",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Katman Başına Süre (saniye cinsinden): {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "Saniye cinsinden, bir malzeme katmanını kaydırmak için gereken süre.",
-    "Features.EasyPanning.SaturationPerLayer":  "Katman başına {0} doygunluk kaybı: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Kaydırma sırasında katman başına saniye sayısını belirler",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Kaydırma sırasında katman başına düşme sayısını belirler",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Katman Başına Damla",
+    "Features.EasyPanning.ModMenu.TabName":  "Kaydırma",
+    "Features.EasyPanning.DropsPerLayer.Description":  "Her malzeme katmanı için ortaya çıkan damla sayısı.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Kaydırma sırasında katman başına doygunluğu belirler",
+    "Features.EasyPanning.SaturationPerLayer":  "Katman başına {0} doygunluk kaybı: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Saniye",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Oyuncuların kaynakları kaydırması için daha kolay bir yol sağlar."
 }

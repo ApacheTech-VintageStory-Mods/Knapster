@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Ändra antalet voxlar som flyttas, per klick. Min: 1, Max: 8, Standard: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Smide",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "voxlar",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Kostnad per klick",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Bestämmer antalet voxlar som hanteras samtidigt",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Avgör om det aktuella receptet ska slutföras omedelbart",
+    "Features.EasySmithing.Description":  "Hantera smidesinställningar.",
     "Features.EasySmithing.CostPerClick.Description":  "Ändra hållbarhetskostnaden per användning. Min: 1, Max: 10, Standard: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Bestämmer hur mycket hållbarhet som går förlorad på en gång",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Inställningar för smide",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Ändra antalet voxlar som flyttas, per klick. Min: 1, Max: 8, Standard: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Omedelbart slutförande",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxlar per klick",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "hållbarhet",
     "Features.EasySmithing.InstantComplete.Description":  "Ändra om arbetsobjektet ska slutföras omedelbart eller inte vid användning. Sant eller falskt, standard: Falskt.",
-    "Features.EasySmithing.Description":  "Hantera smidesinställningar."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Ger ett enklare sätt för spelare att smida föremål på ett städ i spelet."
 }

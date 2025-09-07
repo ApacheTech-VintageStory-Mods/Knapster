@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Násobitel rychlosti",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Poskytuje jednodušší způsob, jak pro hráče sklízet trávu, s kosou.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Určuje násobitel, který se použije na rychlost použití kosy",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Sklízení",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Nastavení sklizně",
     "Features.EasyHarvesting.Description":  "Spravujte nastavení sklizně.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Změňte rychlost, s jakou hráč sklízí trávu kosou. Působí jako přímý násobitel. min: 0.0, max: 2.0, výchozí: 1.0."
 }

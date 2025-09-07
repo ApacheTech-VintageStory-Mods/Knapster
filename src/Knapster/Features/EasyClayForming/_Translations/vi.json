@@ -1,0 +1,15 @@
+﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxel mỗi nhấp chuột",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Xác định số lượng voxel được xử lý cùng một lúc, khi tạo thành đất sét",
+    "Features.EasyClayForming.InstantComplete.Description":  "Thay đổi xem mục công việc có nên được hoàn thành ngay lập tức hay không, khi sử dụng. True hoặc False, mặc định: False.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Hoàn thành ngay lập tức",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Xác định xem có nên hoàn thành ngay lập tức công thức hiện tại hay không",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasyClayForming.ClayRequired":  "Tổng lượng đất sét cần thiết: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Hình thành đất sét",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Cài đặt tạo hình đất sét",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Thay đổi số lượng voxel được di chuyển, mỗi lần nhấp. Tối thiểu: 1, Tối đa: 8, Mặc định: 1.",
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi tạo thành các vật phẩm đất sét trong trò chơi.",
+    "Features.EasyClayForming.Description":  "Quản lý cài đặt tạo hình đất sét.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxel"
+}

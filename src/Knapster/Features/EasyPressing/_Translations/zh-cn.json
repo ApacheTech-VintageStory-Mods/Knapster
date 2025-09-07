@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "管理水果压榨机设置。",
+    "Features.EasyPressing.ModMenu.TabName":  "水果压榨",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "使压力机在拧下之前不需要完全压缩。",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "水果压榨设置"
 }

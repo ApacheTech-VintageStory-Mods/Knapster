@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "移動するボクセルの数を、クリックごとに変更します。最小: 1、最大: 8、デフォルト: 1。",
-    "Features.EasySmithing.CostPerClick.Description":  "使用ごとに耐久性のコストを変更します。最小: 1、最大: 10、デフォルト: 5。",
-    "Features.EasySmithing.InstantComplete.Description":  "作業項目を使用時にすぐに完了させるかどうかを変更します。True または False、デフォルト: False。",
-    "Features.EasySmithing.Description":  "鍛冶場の設定を管理します。"
+    "Features.EasySmithing.ModMenu.TabName":  "鍛冶",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "ボクセル",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "ボクセル",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "クリック単価",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "一度に処理されるボクセルの数を決定します",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "現在のレシピを即座に完了するかどうかを決定します",
+    "Features.EasySmithing.Description":  "鍛冶設定を管理します。",
+    "Features.EasySmithing.CostPerClick.Description":  "使用ごとの耐久性コストを変更します。最小値: 1、最大値: 10、デフォルト: 5。",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "一度に失われる耐久度の量を決定します",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "鍛冶設定",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "クリックごとに移動するボクセルの数を変更します。最小値: 1、最大値: 8、デフォルト: 1。",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "インスタントコンプリート",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "クリックあたりのボクセル数",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "耐久性",
+    "Features.EasySmithing.InstantComplete.Description":  "作業項目を使用時に即座に完了するかどうかを変更します。True または False、デフォルト: False。",
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "プレイヤーがゲーム内の金床のアイテムを鍛冶する簡単な方法を提供します。"
 }

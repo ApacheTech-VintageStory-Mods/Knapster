@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos, por clique. Mín.: 1, Máx.: 8, Padrão: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Determina se a receita atual deve ser concluída instantaneamente",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels por Clique",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels",
+    "Features.EasyKnapping.ModMenu.TabName":  "Amassar",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Conclusão instantânea",
+    "Features.EasyKnapping.Description":  "Gerencie as configurações de knapping.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Determina o número de voxels que são manipulados ao mesmo tempo, ao tricotar",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores para knap itens dentro do jogo.",
     "Features.EasyKnapping.InstantComplete.Description":  "Altere se o item de trabalho deve ou não ser concluído instantaneamente, em uso. Verdadeiro, ou Falso, Padrão: False.",
-    "Features.EasyKnapping.Description":  "Gerencie as configurações de knapping."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Altere o número de voxels que são movidos, por clique. Mín.: 1, Máx.: 8, Padrão: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Configurações de Knapping",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel"
 }

@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "更改每次单击移动的体素数。最小值：1，最大值：8，默认值：1。",
-    "Features.EasyKnapping.InstantComplete.Description":  "更改是否应在使用时立即完成工作项。true 或 false，默认值：false。",
-    "Features.EasyKnapping.Description":  "管理 knapping 设置。"
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "确定是否立即完成当前配方",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "每次点击体素数",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "体素",
+    "Features.EasyKnapping.ModMenu.TabName":  "抄袭",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "即时完成",
+    "Features.EasyKnapping.Description":  "管理抄袭设置。",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "确定在 knapping 时一次处理的体素数",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "为玩家提供了一种在游戏中获取物品的更简单方法。",
+    "Features.EasyKnapping.InstantComplete.Description":  "更改工作项是否应在使用时立即完成。True 或 False，默认值：False。",
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "更改每次点击移动的体素数量。最小值：1，最大值：8，默认值：1。",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "抄切设置",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "体素"
 }

@@ -1,6 +1,0 @@
-﻿{
-  "Features.EasyClayForming.ClayRequired": "Entuta argilo postulita: {0}",
-  "Features.EasyClayForming.Description": "Administri la argiloformadajn agordojn.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "Ŝanĝi la kvanton de vokseloj movitaj per klako. Minimumo: 1, Maksimumo: 8, Defaŭlta: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "Ŝanĝi ĉu la laboraĵo devas esti tuj kompletigita, kiam ĝi estas uzita. Vero, aŭ Malvero, Defaŭlta: Malvero."
-}

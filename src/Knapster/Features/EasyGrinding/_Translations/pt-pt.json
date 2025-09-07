@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores triturarem recursos em um quern.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "Quando ativo, o usuário não precisará manter o botão direito do mouse pressionado para manter o quern ativo.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} Sticky Mouse Buttons: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Incluir automatizado",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidade",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Determina o multiplicador a ser aplicado à velocidade de uso do quern",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Botão Sticky Mouse",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "Quando ativo, o usuário não precisará manter o botão direito do mouse pressionado para manter o quern ativo",
+    "Features.EasyGrinding.Description":  "Gerencie as configurações de quern.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Configurações de moagem de Quern",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Mude a velocidade com que o jogador tritura recursos dentro de um quern. Atua como multiplicador direto. Mín.: 0.0, Máx.: 10.0, Padrão: 1.0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Aplique o multiplicador de velocidade a querns automatizados, bem como querns manuais.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Moagem Quern",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Determina se o multiplicador de velocidade deve ser aplicado a querns automatizados"
+}

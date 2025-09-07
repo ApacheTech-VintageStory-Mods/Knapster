@@ -1,5 +1,17 @@
 {
   "Features.EasyKnapping.Description": "Manage knapping settings.",
   "Features.EasyKnapping.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
-  "Features.EasyKnapping.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False."
+  "Features.EasyKnapping.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
+
+  "Features.EasyKnapping.ModMenu.TabName": "Knapping",
+  "Features.EasyKnapping.ModMenu.lblTitle.Text": "Knapping Settings",
+  "Features.EasyKnapping.ModMenu.lblDescription.Text": "Provides an easier way for players to knap items within the game.",
+
+  "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
+  "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time, when knapping",
+  "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
+  "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
+
+  "Features.EasyKnapping.ModMenu.lblInstantComplete.Text": "Instant Complete",
+  "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
 }

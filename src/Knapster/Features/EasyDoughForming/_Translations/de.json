@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Bestimmt die Anzahl der Voxel, die beim Formen des Teigs gleichzeitig verarbeitet werden",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
     "Features.EasyDoughForming.DoughRequired":  "Gesamter Teig: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxel pro Klick",
+    "Features.EasyDoughForming.Description":  "Verwalten Sie die Einstellungen für die Teigformung.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Teigformen",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Teigteile zu formen, wenn sie \"Kunst des Kochens\" verwenden.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Einstellungen für die Teigbildung",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Sofort abgeschlossen",
     "Features.EasyDoughForming.InstantComplete.Description":  "Ändern Sie, ob die Arbeitsaufgabe bei der Verwendung sofort abgeschlossen werden soll. Wahr oder Falsch, Standardwert: Falsch.",
-    "Features.EasyDoughForming.Description":  "Verwalten Sie die Einstellungen für die Teigformung."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Bestimmt, ob das aktuelle Rezept sofort abgeschlossen werden soll",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxel"
 }

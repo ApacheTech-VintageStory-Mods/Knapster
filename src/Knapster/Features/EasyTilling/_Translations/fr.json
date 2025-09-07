@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Multiplicateur de vitesse",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur laboure les terres agricoles à l’aide d’une houe. Agit comme un multiplicateur direct. Min : 0,1, Max : 2,0, par défaut : 1,0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Le multiplicateur à appliquer à la vitesse de Travail du sol à la houe",
+    "Features.EasyTilling.ModMenu.TabName":  "Labourer",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Paramètres de labourage",
     "Features.EasyTilling.Description":  "Gérer les paramètres de labourage.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur laboure les terres agricoles à l’aide d’une houe. Agit comme un multiplicateur direct. Min : 0,1, Max : 2,0, par défaut : 1,0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Fournit aux joueurs un moyen plus facile de labourer les terres agricoles, avec une houe."
 }

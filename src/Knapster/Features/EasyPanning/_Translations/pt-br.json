@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "segundo",
     "Features.EasyPanning.Description":  "Gerencie as configurações de movimento panorâmico.",
-    "Features.EasyPanning.DropsPerLayer":  "{0} gotas por camada: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "O número de gotas geradas por camada de material.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "Configurações de panorâmica",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "Segundos por camada",
     "Features.EasyPanning.SaturationPerLayer.Description":  "A saturação perdida ao deslocar uma única camada de material.",
+    "Features.EasyPanning.DropsPerLayer":  "{0} gotas por camada: {1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "Gotas",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "Saturação por camada",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "deixar cair",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "saturação",
     "Features.EasyPanning.SecondsPerLayer":  "{0} Tempo (em segundos) por camada: {1}",
     "Features.EasyPanning.SecondsPerLayer.Description":  "O tempo, em segundos, que leva para deslocar uma camada de material.",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} Perda de saturação por camada: {1}"
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "Determina o número de segundos por camada durante o movimento panorâmico",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "Determina o número de quedas por camada durante o movimento panorâmico",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "Gotas por camada",
+    "Features.EasyPanning.ModMenu.TabName":  "Panning",
+    "Features.EasyPanning.DropsPerLayer.Description":  "O número de gotas geradas por camada de material.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "Determina a saturação por camada durante o movimento panorâmico",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} Perda de saturação por camada: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "Segundos",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores garimparem recursos."
 }

@@ -16,6 +16,23 @@
 		<Nullable>enable</Nullable>
 		<DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
 	</PropertyGroup>
+
+	<ItemGroup Label="Assembly Metadata">
+		<!-- Dynamic -->
+		<AssemblyMetadata Include="ModDB Page" Value="https://mods.vintagestory.at/$(MSBuildProjectName)" />
+		<AssemblyMetadata Include="Issue Tracker" Value="https://github.com/ApacheTech-VintageStory-Mods/$(MSBuildProjectName)/issues" />
+
+		<!-- Static -->
+		<AssemblyMetadata Include="Visit my Website" Value="https://apachetech.co.uk" />
+		<AssemblyMetadata Include="Subscribe on YouTube" Value="https://youtube.com/@ApacheGamingUK" />
+		<AssemblyMetadata Include="Subscribe on Twitch" Value="https://twitch.tv/ApacheGamingUK" />
+
+		<!-- Monetised -->
+		<AssemblyMetadata Include="Buy Me A Coffee" Value="https://www.buymeacoffee.com/Apache" />
+		<AssemblyMetadata Include="Donate via PayPal" Value="https://bit.ly/APGDonate" />
+		<AssemblyMetadata Include="Join me on Patreon" Value="https://patreon.com/ApacheTechSolutions" />
+		<AssemblyMetadata Include="Amazon Wishlist" Value="https://amzn.eu/7qvKTFu" />
+	</ItemGroup>
 	
 	<ItemGroup>
 		<InternalsVisibleTo Include="Gantry" />

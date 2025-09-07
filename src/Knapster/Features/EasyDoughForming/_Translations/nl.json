@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Bepaalt het aantal voxels dat tegelijk wordt gehanteerd bij het vormen van deeg",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
     "Features.EasyDoughForming.DoughRequired":  "Totaal benodigd deeg: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels per klik",
+    "Features.EasyDoughForming.Description":  "Instellingen voor deegvorming beheren.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Deegvormen",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Biedt spelers een gemakkelijkere manier om deegitems te vormen bij het gebruik van Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Instellingen voor deegvormen",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Direct Compleet",
     "Features.EasyDoughForming.InstantComplete.Description":  "Wijzig of het werkitem al dan niet onmiddellijk moet worden voltooid, tijdens gebruik. Waar of onwaar, standaard: Onwaar.",
-    "Features.EasyDoughForming.Description":  "Instellingen voor deegvorming beheren."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Bepaalt of het huidige recept direct moet worden voltooid",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels"
 }

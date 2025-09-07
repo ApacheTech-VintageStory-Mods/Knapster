@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Mnożnik prędkości",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Zmień prędkość, z jaką gracz uprawia pola uprawne za pomocą motyki. Działa jako bezpośredni mnożnik. Min.: 0.1, Max: 2.0, Default: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Mnożnik stosowany do szybkości uprawy orki motyką",
+    "Features.EasyTilling.ModMenu.TabName":  "Kultywacji",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Ustawienia uprawy gleby",
     "Features.EasyTilling.Description":  "Zarządzaj ustawieniami uprawy roli.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Zmień prędkość, z jaką gracz uprawia pola uprawne za pomocą motyki. Działa jako bezpośredni mnożnik. Min.: 0.1, Max: 2.0, Default: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób uprawy ziemi uprawnej za pomocą motyki."
 }

@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "กําหนดจํานวน voxel ที่จัดการในคราวเดียวเมื่อขึ้นรูปแป้ง",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "ว็อกเซล",
     "Features.EasyDoughForming.DoughRequired":  "แป้งทั้งหมดที่ต้องการ: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels ต่อคลิก",
+    "Features.EasyDoughForming.Description":  "จัดการการตั้งค่าการขึ้นรูปแป้ง",
+    "Features.EasyDoughForming.ModMenu.TabName":  "การขึ้นรูปแป้ง",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "เปลี่ยนจํานวน voxel ที่ย้ายต่อการคลิก ต่ําสุด: 1, สูงสุด: 8, ค่าเริ่มต้น: 1",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "ให้วิธีที่ง่ายขึ้นสําหรับผู้เล่นในการสร้างไอเท็มแป้งเมื่อใช้ Art of Cooking",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "การตั้งค่าการขึ้นรูปแป้ง",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "เสร็จสมบูรณ์ทันที",
     "Features.EasyDoughForming.InstantComplete.Description":  "เปลี่ยนว่ารายการงานควรเสร็จสมบูรณ์ทันทีในการใช้งานหรือไม่ ค่าเริ่มต้นเป็น TRUE หรือ FALSE: เท็จ",
-    "Features.EasyDoughForming.Description":  "จัดการการตั้งค่าการขึ้นรูปแป้ง"
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "กําหนดว่าจะทําสูตรปัจจุบันให้เสร็จทันทีหรือไม่",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "ว็อกเซล"
 }

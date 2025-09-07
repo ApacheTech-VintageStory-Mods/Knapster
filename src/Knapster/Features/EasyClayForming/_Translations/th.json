@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels ต่อคลิก",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "กําหนดจํานวน voxel ที่จัดการในคราวเดียวเมื่อขึ้นรูปดินเหนียว",
     "Features.EasyClayForming.InstantComplete.Description":  "เปลี่ยนว่ารายการงานควรเสร็จสมบูรณ์ทันทีในการใช้งานหรือไม่ ค่าเริ่มต้นเป็น TRUE หรือ FALSE: เท็จ",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "เสร็จสมบูรณ์ทันที",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "กําหนดว่าจะทําสูตรปัจจุบันให้เสร็จทันทีหรือไม่",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "ว็อกเซล",
     "Features.EasyClayForming.ClayRequired":  "ดินเหนียวทั้งหมดที่ต้องการ: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "การขึ้นรูปดินเหนียว",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "การตั้งค่าการขึ้นรูปดินเหนียว",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "เปลี่ยนจํานวน voxel ที่ย้ายต่อการคลิก ต่ําสุด: 1, สูงสุด: 8, ค่าเริ่มต้น: 1",
-    "Features.EasyClayForming.Description":  "จัดการการตั้งค่าการขึ้นรูปดินเหนียว"
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "ให้วิธีที่ง่ายขึ้นสําหรับผู้เล่นในการสร้างไอเท็มดินเหนียวภายในเกม",
+    "Features.EasyClayForming.Description":  "จัดการการตั้งค่าการขึ้นรูปดินเหนียว",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "ว็อกเซล"
 }

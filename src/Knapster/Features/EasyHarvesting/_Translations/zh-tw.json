@@ -1,4 +1,9 @@
 ﻿{
-    "Features.EasyHarvesting.Description":  "管理採集設置。",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "更改玩家用鐮刀收割草的速度。充當直接乘數。最小值：0.0，最大值：2.0，預設值：1.0。"
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "為玩家提供了一種使用鐮刀收割草的更簡單方法。",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "決定應用於鐮刀使用速度的乘數",
+    "Features.EasyHarvesting.ModMenu.TabName":  "收穫",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "收穫設定",
+    "Features.EasyHarvesting.Description":  "管理收穫設定。",
+    "Features.EasyHarvesting.SpeedMultiplier.Description":  "改變玩家用鐮刀收割草的速度。充當直接乘數。最小值：0.0，最大值：2.0，預設值：1.0。"
 }

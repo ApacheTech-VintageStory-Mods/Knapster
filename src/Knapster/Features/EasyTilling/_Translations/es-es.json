@@ -1,4 +1,9 @@
 ﻿{
-    "Features.EasyTilling.Description":  "Administrar la configuración de labranza.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Cambia la velocidad a la que el jugador cultiva las tierras de cultivo con una azada. Actúa como un multiplicador directo. Mín.: 0.1, Máx.: 2.0, Predeterminado: 1.0."
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidad",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Cambia la velocidad a la que el jugador labra las tierras de cultivo con una azada. Actúa como un multiplicador directo. Mín.: 0.1, Máx.: 2.0, Predeterminado: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "El multiplicador para aplicar a la velocidad de labrar con una azada",
+    "Features.EasyTilling.ModMenu.TabName":  "Labranza",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Configuración de labranza",
+    "Features.EasyTilling.Description":  "Administrar la configuración de Labranza.",
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Proporciona una forma más fácil para que los jugadores cultiven tierras de cultivo, con una azada."
 }

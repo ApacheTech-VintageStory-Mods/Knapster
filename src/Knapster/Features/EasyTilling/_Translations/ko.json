@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "속도 승수",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "플레이어가 괭이로 농지를 경작하는 속도를 변경합니다. 직접 승수 역할을 합니다. 최소: 0.1, 최대: 2.0, 기본값: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "괭이로 경작하는 속도에 적용되는 승수",
+    "Features.EasyTilling.ModMenu.TabName":  "경작",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "경작 설정",
     "Features.EasyTilling.Description":  "경작 설정을 관리합니다.",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "플레이어가 괭이로 농지를 경작하는 속도를 변경합니다. 직접 승수 역할을 합니다. 최소: 0.1, 최대: 2.0, 기본값: 1.0."
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "플레이어가 괭이를 사용하여 농지를 경작할 수 있는 더 쉬운 방법을 제공합니다."
 }

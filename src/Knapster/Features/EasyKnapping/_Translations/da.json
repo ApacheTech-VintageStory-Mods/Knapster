@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Skift antallet af voxels, der flyttes, pr. klik. Min: 1, Maks.: 8, Standard: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Bestemmer, om den aktuelle opskrift skal fuldføres med det samme",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels pr. klik",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "voxels",
+    "Features.EasyKnapping.ModMenu.TabName":  "Knapning",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Øjeblikkelig fuldførelse",
+    "Features.EasyKnapping.Description":  "Administrer knappingindstillinger.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Bestemmer antallet af voxels, der håndteres på én gang, når du knapper",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Giver en nemmere måde for spillere at knipse genstande i spillet.",
     "Features.EasyKnapping.InstantComplete.Description":  "Vælg, om arbejdselementet skal fuldføres øjeblikkeligt ved brug. Sandt eller Falsk, Standard: Falsk.",
-    "Features.EasyKnapping.Description":  "Administrer knappingindstillinger."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Skift antallet af voxels, der flyttes, pr. klik. Min: 1, Maks.: 8, Standard: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Knaping indstillinger",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel"
 }

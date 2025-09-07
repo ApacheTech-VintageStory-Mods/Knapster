@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "Pas de snelheidsvermenigvuldiger toe op aangedreven mengkommen en op handmatige mengkommen.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Indien actief, hoeft de gebruiker de rechtermuisknop niet ingedrukt te houden om de mengkom actief te houden",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "Inclusief geautomatiseerd",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "Instellingen mengkom",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "Biedt spelers een eenvoudigere manier om grondstoffen in een mengkom te mengen.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "Mengkom",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Bepaalt of de snelheidsvermenigvuldiger moet worden toegepast op geautomatiseerde mengkommen",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Bepaalt de vermenigvuldiger die moet worden toegepast op de snelheid van het gebruik van de mengkom",
+    "Features.EasyMixingBowl.Description":  "Beheer de instellingen van de mengkom.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "Kleverige muisknop",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler grondstoffen combineert in een mengkom. Werkt als een directe vermenigvuldiger. Min: 0.0, Max: 10.0, Standaard: 1.0.",
-    "Features.EasyMixingBowl.Description":  "Beheer de instellingen van de mengkom."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Snelheid vermenigvuldiger"
 }

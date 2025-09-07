@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Smithing",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxels",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Kosten per klik",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Bepaalt het aantal voxels dat tegelijk wordt verwerkt",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Bepaalt of het huidige recept direct moet worden voltooid",
+    "Features.EasySmithing.Description":  "Beheer de instellingen voor smeden.",
     "Features.EasySmithing.CostPerClick.Description":  "Wijzig de duurzaamheidskosten per gebruik. Min: 1, Max: 10, Standaard: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Bepaalt de mate van duurzaamheid die in één keer verloren gaat",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Instellingen voor smeden",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Wijzig het aantal voxels dat wordt verplaatst, per klik. Min: 1, Max: 8, Standaard: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Direct Compleet",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels per klik",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "duurzaamheid",
     "Features.EasySmithing.InstantComplete.Description":  "Wijzig of het werkitem al dan niet onmiddellijk moet worden voltooid, tijdens gebruik. Waar of onwaar, standaard: Onwaar.",
-    "Features.EasySmithing.Description":  "Beheer de instellingen voor smeden."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Biedt spelers een eenvoudigere manier om items op een aambeeld in het spel te smeden."
 }

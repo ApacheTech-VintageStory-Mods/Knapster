@@ -10,12 +10,12 @@ public sealed class EasyKnappingServerPatches
     {
         try
         {
-            var system = G.Services.GetRequiredService<EasyKnappingServer>();
-            if (!system.IsEnabledFor(byPlayer)) return true;
+            if (G.Side.IsClient()) return true;
+            if (!EasyKnappingServer.Instance.IsEnabledFor(byPlayer)) return true;
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            if (system.Settings.InstantComplete)
+            if (EasyKnappingServer.Instance.Settings.InstantComplete)
             {
                 AutoComplete(__instance);
             }

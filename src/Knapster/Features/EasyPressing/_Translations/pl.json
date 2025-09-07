@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 프레스 설정을 관리합니다."
+    "Features.EasyPressing.Description":  "Zarządzaj ustawieniami prasy do owoców.",
+    "Features.EasyPressing.ModMenu.TabName":  "Wyciskanie owoców",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Sprawia, że prasa nie musi być całkowicie ściśnięta przed jej odkręceniem.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Ustawienia wyciskania owoców"
 }

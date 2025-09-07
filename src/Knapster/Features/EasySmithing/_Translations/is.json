@@ -1,6 +1,18 @@
 ﻿{
-    "Features.EasySmithing.VoxelsPerClick.Description":  "Breyttu fjölda voxels sem eru færðir, fyrir hvern smell. Lágmark: 1, hámark: 8, sjálfgefið: 1.",
+    "Features.EasySmithing.ModMenu.TabName":  "Smíði",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural":  "voxels",
+    "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.Text":  "Kostnaður á smell",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText":  "Ákvarðar fjölda voxels sem eru meðhöndlaðir í einu",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText":  "Ákvarðar hvort á að klára núverandi uppskrift samstundis",
+    "Features.EasySmithing.Description":  "Stjórna smíðastillingum.",
     "Features.EasySmithing.CostPerClick.Description":  "Breyttu endingarkostnaði, fyrir hverja notkun. Lágmark: 1, hámark: 10, sjálfgefið: 5.",
+    "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText":  "Ákvarðar magn endingar sem tapast í einu",
+    "Features.EasySmithing.ModMenu.lblTitle.Text":  "Smíði stillingar",
+    "Features.EasySmithing.VoxelsPerClick.Description":  "Breyttu fjölda voxels sem eru færðir, fyrir hvern smell. Lágmark: 1, hámark: 8, sjálfgefið: 1.",
+    "Features.EasySmithing.ModMenu.lblInstantComplete.Text":  "Augnabliki lokið",
+    "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels fyrir hvern smell",
+    "Features.EasySmithing.ModMenu.intCostPerClick.Unit":  "ending",
     "Features.EasySmithing.InstantComplete.Description":  "Breyta því hvort verkliðnum eigi að vera lokið samstundis eða ekki, við notkun. Satt, eða ósatt, sjálfgefið: Rangt.",
-    "Features.EasySmithing.Description":  "Stjórna smíðastillingum."
+    "Features.EasySmithing.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að smíða hluti á steðja í leiknum."
 }

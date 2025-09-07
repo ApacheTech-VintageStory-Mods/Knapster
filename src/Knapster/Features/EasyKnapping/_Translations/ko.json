@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "클릭당 이동되는 복셀의 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
-    "Features.EasyKnapping.InstantComplete.Description":  "작업 항목을 사용 시 즉시 완료해야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
-    "Features.EasyKnapping.Description":  "매듭 설정을 관리합니다."
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "현재 레시피를 즉시 완료할지 여부를 결정합니다.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "클릭당 복셀 수",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "복셀",
+    "Features.EasyKnapping.ModMenu.TabName":  "냅핑",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "즉시 완료",
+    "Features.EasyKnapping.Description":  "냅핑 설정을 관리합니다.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "냅할 때 한 번에 처리되는 복셀 수를 결정합니다.",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "플레이어가 게임 내에서 아이템을 더 쉽게 잡을 수 있는 방법을 제공합니다.",
+    "Features.EasyKnapping.InstantComplete.Description":  "작업 항목이 사용 시 즉시 완료되어야 하는지 여부를 변경합니다. True 또는 False, 기본값: False.",
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "클릭당 이동되는 복셀 수를 변경합니다. 최소: 1, 최대: 8, 기본값: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "냅핑 설정",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "복셀"
 }

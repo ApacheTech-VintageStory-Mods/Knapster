@@ -1,0 +1,15 @@
+﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels per napsautus",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Määrittää kerralla käsiteltävien vokselien määrän savea muodostettaessa",
+    "Features.EasyClayForming.InstantComplete.Description":  "Muuta, valmistuuko työkohde välittömästi käytön yhteydessä. Tosi tai Epätosi, oletus: Epätosi.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Välitön täydellinen",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Määrittää, täydennetäänkö nykyinen resepti välittömästi",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "Vokseli",
+    "Features.EasyClayForming.ClayRequired":  "Tarvittava savi yhteensä: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Saven muodostaminen",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Saven muovausasetukset",
+    "Features.EasyClayForming.VoxelsPerClick.Description":  "Muuta siirrettävien vokselien määrää napsautusta kohden. Min: 1, Max: 8, Oletus: 1.",
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan muodostaa saviesineitä pelin sisällä.",
+    "Features.EasyClayForming.Description":  "Hallitse saven muovausasetuksia.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Vokselit"
+}

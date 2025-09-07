@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Poskytuje hráčom jednoduchší spôsob, ako brúsiť zdroje v querne.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "Keď je aktívny, používateľ nebude musieť držať stlačené pravé tlačidlo myši, aby udržal quern aktívny.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} Lepkavé tlačidlá myši: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Zahrnúť automatizované",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Multiplikátor rýchlosti",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Určuje násobiteľ, ktorý sa použije na rýchlosť použitia quernu",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Lepkavé tlačidlo myši",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "Keď je aktívny, používateľ nebude musieť držať stlačené pravé tlačidlo myši, aby udržal quern aktívny",
+    "Features.EasyGrinding.Description":  "Spravujte nastavenia quernu.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Nastavenia brúsenia Quern",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč brúsi zdroje v rámci quernu. Funguje ako priamy multiplikátor. Min: 0,0, Max: 10,0, Predvolené: 1,0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Použite násobiteľ rýchlosti na automatické querny, ako aj manuálne querny.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Brúsenie Quern",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Určuje, či sa má použiť násobiteľ rýchlosti na automatické querny"
+}

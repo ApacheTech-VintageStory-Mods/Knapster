@@ -10,12 +10,13 @@ public sealed class EasyKnappingClientPatches
     {
         try
         {
-            var system = G.Services.GetRequiredService<EasyKnappingClient>();
-            if (!system.Settings.Enabled) return true;
+            if (G.Side.IsServer()) return true;
+            var settings = EasyKnappingClient.Instance.Settings;
+            if (!settings.Enabled) return true;
             if (byPlayer.Entity.Controls.CtrlKey) return true;
             if (__instance?.SelectedRecipe?.Voxels is null) return true;
 
-            for (var i = 0; i < system.Settings.VoxelsPerClick; i++)
+            for (var i = 0; i < settings.VoxelsPerClick; i++)
             {
                 if (!__instance.CallMethod<bool>("HasAnyVoxel")) return true;
                 var voxelPos = FindNextVoxelToRemove(__instance);

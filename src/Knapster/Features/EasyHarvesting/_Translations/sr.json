@@ -1,4 +1,9 @@
 ﻿{
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Brzina multiplikator",
+    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Obezbeđuje lakši način za igrače da beru travu, sa kosom.",
+    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Određuje multiplikator koji se primenjuje na brzinu korišćenja kose",
+    "Features.EasyHarvesting.ModMenu.TabName":  "Žetva",
+    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Podešavanja žetve",
     "Features.EasyHarvesting.Description":  "Upravljajte postavkama žetve.",
     "Features.EasyHarvesting.SpeedMultiplier.Description":  "Promenite brzinu kojom igrač bere travu sa kosom. Deluje kao direktan multiplikator. Min: 0.0, Maks: 2.0, Default: 1.0."
 }

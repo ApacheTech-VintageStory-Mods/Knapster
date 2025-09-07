@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að mala auðlindir í quern.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "Þegar hann er virkur þarf notandinn ekki að halda hægri músarhnappi niðri til að halda quern virkum.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} Sticky músarhnappar: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Hafa sjálfvirka með",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Hraði margfaldari",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Ákvarðar margfaldarann sem á að beita fyrir hraða notkunar quern",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Sticky músarhnappur",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "Þegar það er virkt þarf notandinn ekki að halda hægri músarhnappnum niðri til að halda quern virkum",
+    "Features.EasyGrinding.Description":  "Stjórna quern stillingum.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Quern mala stillingar",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn malar auðlindir innan quern. Virkar sem beinn margfaldari. Lágmark: 0.0, hámark: 10.0, sjálfgefið: 1.0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Notaðu hraðamargfaldarann á sjálfvirkar querns, sem og handvirkar querns.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Quern mala",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Ákvarðar hvort nota eigi hraðamargfaldarann á sjálfvirka querns"
+}

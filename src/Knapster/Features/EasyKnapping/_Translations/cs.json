@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Změňte počet přesunutých voxelů na jedno kliknutí. min: 1, max: 8, výchozí: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Určuje, zda se má aktuální recept okamžitě dokončit",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxely za kliknutí",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxely",
+    "Features.EasyKnapping.ModMenu.TabName":  "Stáhnutí",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Okamžité dokončení",
+    "Features.EasyKnapping.Description":  "Spravovat nastavení nakopávání.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Určuje počet voxelů, které jsou zpracovány najednou, při knappingu",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Poskytuje hráčům snadnější způsob, jak knapovat položky ve hře.",
     "Features.EasyKnapping.InstantComplete.Description":  "Změňte to, zda má být pracovní položka při použití okamžitě dokončena. True nebo False, výchozí hodnota: False.",
-    "Features.EasyKnapping.Description":  "Spravovat nastavení nakopávání."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Změňte počet přesunutých voxelů na jedno kliknutí. min: 1, max: 8, výchozí: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Nastavení knapppingu",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel"
 }

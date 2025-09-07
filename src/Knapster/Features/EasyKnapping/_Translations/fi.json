@@ -1,0 +1,14 @@
+﻿{
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Määrittää, täydennetäänkö nykyinen resepti välittömästi",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels per napsautus",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Vokselit",
+    "Features.EasyKnapping.ModMenu.TabName":  "Napauttaminen",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Välitön täydellinen",
+    "Features.EasyKnapping.Description":  "Hallitse napautusasetuksia.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Määrittää kerralla käsiteltävien vokselien määrän napautettaessa",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan napata esineitä pelin sisällä.",
+    "Features.EasyKnapping.InstantComplete.Description":  "Muuta, valmistuuko työkohde välittömästi käytön yhteydessä. Tosi tai Epätosi, oletus: Epätosi.",
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Muuta siirrettävien vokselien määrää napsautusta kohden. Min: 1, Max: 8, Oletus: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Napautusasetukset",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "Vokseli"
+}

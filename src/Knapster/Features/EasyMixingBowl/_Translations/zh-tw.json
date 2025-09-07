@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "將速度倍增器應用於電動攪拌碗以及手動攪拌碗。",
-    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "更改播放機在攪拌碗中組合資源的速度。充當直接乘數。最小值：0.0，最大值：10.0，預設值：1.0。",
-    "Features.EasyMixingBowl.Description":  "管理攪拌碗設置。"
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "啟用時，使用者不需要按住滑鼠右鍵即可讓攪拌碗保持作用中",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "包括自動化",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "攪拌碗設定",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "為玩家提供了一種在攪拌碗中混合資源的更簡單方法。",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "攪拌碗",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "決定是否將速度倍增器套用至自動攪拌碗",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "確定要應用於使用攪拌碗速度的乘數",
+    "Features.EasyMixingBowl.Description":  "管理攪拌碗設定。",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "粘性鼠標按鈕",
+    "Features.EasyMixingBowl.SpeedMultiplier.Description":  "改變玩家在攪拌碗內組合資源的速度。充當直接乘數。最小值：0.0，最大值：10.0，預設值：1.0。",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器"
 }

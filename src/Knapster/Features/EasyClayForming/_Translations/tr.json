@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text":  "Tıklama Başına Voksel",
+    "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Kil oluştururken bir seferde işlenen voksel sayısını belirler",
     "Features.EasyClayForming.InstantComplete.Description":  "İş öğesinin kullanımda anında tamamlanması gerekip gerekmediğini değiştirin. Doğru veya Yanlış, varsayılan: Yanlış.",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.Text":  "Anında Tamamlama",
+    "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText":  "Mevcut tarifin anında tamamlanıp tamamlanmayacağını belirler",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voksel",
     "Features.EasyClayForming.ClayRequired":  "Gerekli toplam kil: {0}",
+    "Features.EasyClayForming.ModMenu.TabName":  "Kil Şekillendirme",
+    "Features.EasyClayForming.ModMenu.lblTitle.Text":  "Kil Şekillendirme Ayarları",
     "Features.EasyClayForming.VoxelsPerClick.Description":  "Tıklama başına taşınan voksel sayısını değiştirin. Min: 1, Maks: 8, Varsayılan: 1.",
-    "Features.EasyClayForming.Description":  "Kil şekillendirme ayarlarını yönetin."
+    "Features.EasyClayForming.ModMenu.lblDescription.Text":  "Oyuncuların oyun içinde kil öğeler oluşturması için daha kolay bir yol sağlar.",
+    "Features.EasyClayForming.Description":  "Kil şekillendirme ayarlarını yönetin.",
+    "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseller"
 }

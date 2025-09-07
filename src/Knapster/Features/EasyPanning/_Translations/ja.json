@@ -1,9 +1,23 @@
 ﻿{
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "秒",
     "Features.EasyPanning.Description":  "パン設定を管理します。",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "パン設定",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "レイヤーあたりの秒数",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "マテリアルの単層をパンすると彩度が失われます。",
     "Features.EasyPanning.DropsPerLayer":  "レイヤーあたりの{0}滴:{1}",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "滴",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "レイヤーごとの彩度",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "落とす",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "飽和",
+    "Features.EasyPanning.SecondsPerLayer":  "{0} レイヤーあたりの時間(秒):{1}",
+    "Features.EasyPanning.SecondsPerLayer.Description":  "材料の 1 つの層をパンするのにかかる時間 (秒単位)。",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "パン時のレイヤーあたりの秒数を決定します",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "パン時のレイヤーあたりのドロップ数を決定します。",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "レイヤーあたりのドロップ数",
+    "Features.EasyPanning.ModMenu.TabName":  "パン",
     "Features.EasyPanning.DropsPerLayer.Description":  "マテリアルのレイヤーごとにスポーンされるドロップの数。",
-    "Features.EasyPanning.SaturationPerLayer.Description":  "マテリアルの 1 つのレイヤーをパンすると、彩度が失われます。",
-    "Features.EasyPanning.SecondsPerLayer":  "レイヤーあたりの{0}時間(秒):{1}",
-    "Features.EasyPanning.SecondsPerLayer.Description":  "材料の1つの層をパンするのにかかる時間は秒単位です。",
-    "Features.EasyPanning.SaturationPerLayer":  "{0} 層あたりの飽和損失:{1}"
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "パン時のレイヤーごとの彩度を決定します",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} 層あたりの飽和損失:{1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "お代わり",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "プレイヤーがリソースをパンする簡単な方法を提供します。"
 }

@@ -1,9 +1,23 @@
 ﻿{
-    "Features.EasyPanning.Description":  "이동 설정을 관리합니다.",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-singular":  "초",
+    "Features.EasyPanning.Description":  "패닝 설정을 관리합니다.",
+    "Features.EasyPanning.ModMenu.lblTitle.Text":  "패닝 설정",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.Text":  "레이어당 초",
+    "Features.EasyPanning.SaturationPerLayer.Description":  "단일 레이어의 재료를 패닝할 때 손실된 채도.",
     "Features.EasyPanning.DropsPerLayer":  "레이어당 {0}방울: {1}",
-    "Features.EasyPanning.DropsPerLayer.Description":  "머티리얼 레이어당 스폰되는 드롭의 수입니다.",
-    "Features.EasyPanning.SaturationPerLayer.Description":  "채도는 단일 재료 레이어를 이동할 때 손실됩니다.",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-plural":  "방울",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.Text":  "레이어당 채도",
+    "Features.EasyPanning.ModMenu.intDropsPerLayer.Unit-singular":  "방울",
+    "Features.EasyPanning.ModMenu.fltSaturationPerLayer.Unit":  "채도",
     "Features.EasyPanning.SecondsPerLayer":  "레이어당 {0} 시간(초): {1}",
-    "Features.EasyPanning.SecondsPerLayer.Description":  "재료의 한 층을 이동하는 데 걸리는 시간(초)입니다.",
-    "Features.EasyPanning.SaturationPerLayer":  "레이어당 {0} 포화 손실: {1}"
+    "Features.EasyPanning.SecondsPerLayer.Description":  "재료 한 층을 패닝하는 데 걸리는 시간(초)입니다.",
+    "Features.EasyPanning.ModMenu.lblSecondsPerLayer.HoverText":  "패닝할 때 레이어당 시간(초)을 결정합니다.",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.HoverText":  "패닝할 때 레이어당 드롭 수를 결정합니다.",
+    "Features.EasyPanning.ModMenu.lblDropsPerLayer.Text":  "레이어당 드롭 수",
+    "Features.EasyPanning.ModMenu.TabName":  "이동",
+    "Features.EasyPanning.DropsPerLayer.Description":  "재료 레이어당 생성되는 드롭 수입니다.",
+    "Features.EasyPanning.ModMenu.lblSaturationPerLayer.HoverText":  "패닝할 때 레이어당 채도를 결정합니다.",
+    "Features.EasyPanning.SaturationPerLayer":  "{0} 레이어당 포화 손실: {1}",
+    "Features.EasyPanning.ModMenu.fltSecondsPerLayer.Unit-plural":  "초",
+    "Features.EasyPanning.ModMenu.lblDescription.Text":  "플레이어가 리소스를 더 쉽게 이동할 수 있는 방법을 제공합니다."
 }

@@ -1,5 +1,14 @@
 ﻿{
     "Features.EasyMixingBowl.IncludeAutomated.Description":  "قم بتطبيق مضاعف السرعة على أوعية الخلط التي تعمل بالطاقة ، وكذلك أوعية الخلط اليدوية.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "عند التنشيط ، لن يحتاج المستخدم إلى إبقاء زر الماوس الأيمن باستمرار للحفاظ على وعاء الخلط نشطا",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.Text":  "تضمين تلقائي",
+    "Features.EasyMixingBowl.ModMenu.lblTitle.Text":  "إعدادات وعاء الخلط",
+    "Features.EasyMixingBowl.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لخلط الموارد في وعاء الخلط.",
+    "Features.EasyMixingBowl.ModMenu.TabName":  "وعاء الخلط",
+    "Features.EasyMixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "يحدد ما إذا كان سيتم تطبيق مضاعف السرعة على أوعية الخلط الآلي",
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "يحدد المضاعف الذي سيتم تطبيقه على سرعة استخدام وعاء الخلط",
+    "Features.EasyMixingBowl.Description":  "إدارة إعدادات وعاء الخلط.",
+    "Features.EasyMixingBowl.ModMenu.lbStickyMouseButton.Text":  "زر الماوس اللاصق",
     "Features.EasyMixingBowl.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يجمع بها اللاعب الموارد داخل وعاء الخلط. يعمل كمضاعف مباشر. الحد الأدنى: 0.0 ، الحد الأقصى: 10.0 ، الافتراضي: 1.0.",
-    "Features.EasyMixingBowl.Description":  "إدارة إعدادات وعاء الخلط."
+    "Features.EasyMixingBowl.ModMenu.lblSpeedMultiplier.Text":  "مضاعف السرعة"
 }

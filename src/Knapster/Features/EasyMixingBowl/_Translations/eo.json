@@ -1,5 +1,0 @@
-﻿{
-  "Features.EasyMixingBowl.Description": "Administri miksiujo-agordojn.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Ŝanĝi la rapidon je kiu la ludanto kombinas rimedojn ene de miksiujo. Funkcias kiel rekta multiplikilo. Min: 0.0, Maks: 10.0, Defaŭlte: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Apliki la rapidan multiplikilon al aŭtomatigitaj miksiujoj, same kiel al manualaj miksiujoj."
-}

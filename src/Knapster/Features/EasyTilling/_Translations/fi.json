@@ -1,0 +1,9 @@
+﻿{
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Nopeuden kerroin",
+    "Features.EasyTilling.SpeedMultiplier.Description":  "Muuta nopeutta, jolla pelaaja muokkaa viljelysmaata kuokalla. Toimii suorana kertojana. Min: 0.1, Max: 2.0, Oletus: 1.0.",
+    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Kuokalla maanmuokkauksen nopeuteen sovellettava kerroin",
+    "Features.EasyTilling.ModMenu.TabName":  "Muokkaus",
+    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Maanmuokkausasetukset",
+    "Features.EasyTilling.Description":  "Hallitse maanmuokkausasetuksia.",
+    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan viljellä viljelysmaata kuokalla."
+}

@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Oyuncuların bir quern\u0027de kaynakları öğütmesi için daha kolay bir yol sağlar.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "Etkin olduğunda, kullanıcının quern\u0027i etkin tutmak için farenin sağ düğmesini basılı tutması gerekmez.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} Yapışkan Fare Düğmeleri: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Otomatikleştirilmiş Dahil Et",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Quern\u0027i kullanma hızına uygulanacak çarpanı belirler",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Yapışkan Fare Düğmesi",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "Etkin olduğunda, kullanıcının quern\u0027i etkin tutmak için farenin sağ düğmesini basılı tutması gerekmez",
+    "Features.EasyGrinding.Description":  "Quern ayarlarını yönet.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Quern Öğütme Ayarları",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Oyuncunun bir quern içinde kaynakları öğütme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 10.0, Varsayılan: 1.0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Hız çarpanını manuel quern\u0027lerin yanı sıra otomatik quern\u0027lere de uygulayın.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Quern Öğütme",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Hız çarpanının otomatik quern\u0027lere uygulanıp uygulanmayacağını belirler"
+}

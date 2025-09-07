@@ -1,6 +1,15 @@
 ﻿{
-    "Features.EasyDoughForming.DoughRequired":  "所需面团总数： {0}",
-    "Features.EasyDoughForming.VoxelsPerClick.Description":  "更改每次单击移动的体素数。最小值：1，最大值：8，默认值：1。",
-    "Features.EasyDoughForming.InstantComplete.Description":  "更改是否应在使用时立即完成工作项。true 或 false，默认值：false。",
-    "Features.EasyDoughForming.Description":  "管理面团成型设置。"
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "确定在形成面团时一次处理的体素数量",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "体素",
+    "Features.EasyDoughForming.DoughRequired":  "所需面团总量：{0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "每次点击体素数",
+    "Features.EasyDoughForming.Description":  "管理面团成型设置。",
+    "Features.EasyDoughForming.ModMenu.TabName":  "面团成型",
+    "Features.EasyDoughForming.VoxelsPerClick.Description":  "更改每次点击移动的体素数量。最小值：1，最大值：8，默认值：1。",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "为玩家在使用烹饪艺术时提供一种更简单的面团物品来形成面团物品的方法。",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "面团成型设置",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "即时完成",
+    "Features.EasyDoughForming.InstantComplete.Description":  "更改工作项是否应在使用时立即完成。True 或 False，默认值：False。",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "确定是否立即完成当前配方",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "体素"
 }

@@ -11,7 +11,7 @@
 		<PackagedMods Include="$(TargetDir)release\*.zip" />
 	</ItemGroup>
 	
-	<Target Name="PackageMod_RunScript" Condition=" '$(Configuration)' != 'Release' AND '$(PackageMod)' == 'true' " AfterTargets="PostBuildEvent">
+	<Target Name="PackageMod_RunScript" Condition=" '$(Configuration)' != 'Release' AND '$(PackageMod)' == 'true' " AfterTargets="PostBuildEvent">		
 		<Message Text=" → PostBuild: Running mod packaging script for $(ProjectName) in $(Configuration) mode." Importance="high" />
 		<Exec Command="$(VsModPackagerDir)\$(VsModPackager) ^
 			--SolutionDir $(SolutionDir) ^

@@ -1,0 +1,16 @@
+﻿{
+    "Features.EasyGrinding.ModMenu.lblDescription.Text":  "Ger ett enklare sätt för spelare att grinda resurser i en quern.",
+    "Features.EasyGrinding.StickyMouseButton.Description":  "När den är aktiv behöver användaren inte hålla ned höger musknapp för att hålla quern aktiv.",
+    "Features.EasyGrinding.StickyMouseButton":  "{0} Sticky Mouse Knappar: {1}",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text":  "Inkludera automatiserade",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text":  "Multiplikator för hastighet",
+    "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText":  "Bestämmer multiplikatorn som ska tillämpas på hastigheten för att använda quern",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text":  "Klibbig musknapp",
+    "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText":  "När den är aktiv behöver användaren inte hålla höger musknapp intryckt för att hålla quern aktiv",
+    "Features.EasyGrinding.Description":  "Hantera quern-inställningar.",
+    "Features.EasyGrinding.ModMenu.lblTitle.Text":  "Inställningar för Quern-malning",
+    "Features.EasyGrinding.SpeedMultiplier.Description":  "Ändra hastigheten med vilken spelaren maler resurser inom en quern. Fungerar som en direkt multiplikator. Min: 0,0, Max: 10,0, Standard: 1,0.",
+    "Features.EasyGrinding.IncludeAutomated.Description":  "Tillämpa hastighetsmultiplikatorn på automatiserade querns, såväl som manuella querns.",
+    "Features.EasyGrinding.ModMenu.TabName":  "Quern slipning",
+    "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText":  "Avgör om hastighetsmultiplikatorn ska tillämpas på automatiserade querns"
+}

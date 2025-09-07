@@ -1,6 +1,15 @@
 ﻿{
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Určuje počet voxelů, které jsou zpracovány najednou, při tvarování těsta",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
     "Features.EasyDoughForming.DoughRequired":  "Celkové požadované těsto: {0}",
+    "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxely za kliknutí",
+    "Features.EasyDoughForming.Description":  "Spravujte nastavení tvarování těsta.",
+    "Features.EasyDoughForming.ModMenu.TabName":  "Tvarování těsta",
     "Features.EasyDoughForming.VoxelsPerClick.Description":  "Změňte počet přesunutých voxelů na jedno kliknutí. min: 1, max: 8, výchozí: 1.",
+    "Features.EasyDoughForming.ModMenu.lblDescription.Text":  "Poskytuje hráčům snadnější způsob, jak tvořit předměty z těsta při použití Art of Cooking.",
+    "Features.EasyDoughForming.ModMenu.lblTitle.Text":  "Nastavení tvarování těsta",
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text":  "Okamžité dokončení",
     "Features.EasyDoughForming.InstantComplete.Description":  "Změňte to, zda má být pracovní položka při použití okamžitě dokončena. True nebo False, výchozí hodnota: False.",
-    "Features.EasyDoughForming.Description":  "Spravujte nastavení tvarování těsta."
+    "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText":  "Určuje, zda se má aktuální recept okamžitě dokončit",
+    "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxely"
 }

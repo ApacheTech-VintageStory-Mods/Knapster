@@ -1,3 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Stjórna ávaxtapressustillingum."
+    "Features.EasyPressing.Description":  "Stjórna ávaxtapressustillingum.",
+    "Features.EasyPressing.ModMenu.TabName":  "Pressa ávexti",
+    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Gerir það að verkum að pressan þurfi ekki að vera þjappað að fullu áður en hægt er að skrúfa hana af.",
+    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Stillingar fyrir ávaxtapressu"
 }

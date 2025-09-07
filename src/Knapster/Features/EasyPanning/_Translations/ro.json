@@ -1,9 +1,0 @@
-﻿{
-  "Features.EasyPanning.Description": "Gestionează setările de cernere.",
-  "Features.EasyPanning.SecondsPerLayer.Description": "Timpul, în secunde, necesar pentru a cerne un strat de material.",
-  "Features.EasyPanning.DropsPerLayer.Description": "Numărul de picături generate pe strat de material.",
-  "Features.EasyPanning.SaturationPerLayer.Description": "Saturația pierdută atunci când se cerne un singur strat de material.",
-  "Features.EasyPanning.SecondsPerLayer": "{0} Timp (în secunde) pe strat: {1}",
-  "Features.EasyPanning.DropsPerLayer": "{0} Picături pe strat: {1}",
-  "Features.EasyPanning.SaturationPerLayer": "{0} Pierdere de saturaţie pe strat: {1}"
-}

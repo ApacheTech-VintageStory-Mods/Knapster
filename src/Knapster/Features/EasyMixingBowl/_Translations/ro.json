@@ -1,5 +1,0 @@
-﻿{
-  "Features.EasyMixingBowl.Description": "Gestionează setările pentru bolul de amestecare.",
-  "Features.EasyMixingBowl.SpeedMultiplier.Description": "Modifică viteza cu care jucătorul combină resursele într-un bol de amestecare. Funcționează ca un multiplicator direct. Min: 0.0, Max: 10.0, Implicit: 1.0.",
-  "Features.EasyMixingBowl.IncludeAutomated.Description": "Aplică multiplicatorul de viteză atât pentru boalele de amestecare automate, cât și pentru cele manuale."
-}

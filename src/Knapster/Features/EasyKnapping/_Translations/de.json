@@ -1,5 +1,14 @@
 ﻿{
-    "Features.EasyKnapping.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.HoverText":  "Bestimmt, ob das aktuelle Rezept sofort abgeschlossen werden soll",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.Text":  "Voxel pro Klick",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Voxel",
+    "Features.EasyKnapping.ModMenu.TabName":  "Knappen",
+    "Features.EasyKnapping.ModMenu.lblInstantComplete.Text":  "Sofort abgeschlossen",
+    "Features.EasyKnapping.Description":  "Verwalten der Knapping-Einstellungen.",
+    "Features.EasyKnapping.ModMenu.lblVoxelsPerClick.HoverText":  "Bestimmt die Anzahl der Voxel, die beim Knappen gleichzeitig verarbeitet werden",
+    "Features.EasyKnapping.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Gegenstände im Spiel zu platzieren.",
     "Features.EasyKnapping.InstantComplete.Description":  "Ändern Sie, ob die Arbeitsaufgabe bei der Verwendung sofort abgeschlossen werden soll. Wahr oder Falsch, Standardwert: Falsch.",
-    "Features.EasyKnapping.Description":  "Verwalten der Knapping-Einstellungen."
+    "Features.EasyKnapping.VoxelsPerClick.Description":  "Ändern Sie die Anzahl der Voxel, die pro Klick verschoben werden. Min: 1, Max: 8, Standardeinstellung: 1.",
+    "Features.EasyKnapping.ModMenu.lblTitle.Text":  "Knapping-Einstellungen",
+    "Features.EasyKnapping.ModMenu.intVoxelsPerClick.Unit-singular":  "Voxel"
 }

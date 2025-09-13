@@ -1,4 +1,6 @@
-﻿namespace Knapster.Features.EasyPressing.Settings;
+﻿using Newtonsoft.Json.Converters;
+
+namespace Knapster.Features.EasyPressing.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.
@@ -11,6 +13,7 @@ public class EasyPressingServerSettings : FeatureSettings<EasyPressingServerSett
     /// <inheritdoc />
     [ProtoMember(1)]
     [DefaultValue(AccessMode.Enabled)]
+    [JsonConverter(typeof(StringEnumConverter))]
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
 
     /// <inheritdoc />

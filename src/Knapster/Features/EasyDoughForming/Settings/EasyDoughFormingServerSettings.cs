@@ -1,4 +1,6 @@
-﻿namespace Knapster.Features.EasyDoughForming.Settings;
+﻿using Newtonsoft.Json.Converters;
+
+namespace Knapster.Features.EasyDoughForming.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.
@@ -11,6 +13,7 @@ public class EasyDoughFormingServerSettings : FeatureSettings<EasyDoughFormingSe
     /// <inheritdoc />
     [ProtoMember(1)]
     [DefaultValue(AccessMode.Enabled)]
+    [JsonConverter(typeof(StringEnumConverter))]
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
 
     /// <inheritdoc />

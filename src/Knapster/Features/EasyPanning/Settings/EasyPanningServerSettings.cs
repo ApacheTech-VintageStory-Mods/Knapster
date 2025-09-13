@@ -1,4 +1,6 @@
-﻿namespace Knapster.Features.EasyPanning.Settings;
+﻿using Newtonsoft.Json.Converters;
+
+namespace Knapster.Features.EasyPanning.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.
@@ -11,6 +13,7 @@ public class EasyPanningServerSettings : FeatureSettings<EasyPanningServerSettin
     /// <inheritdoc />
     [ProtoMember(1)]
     [DefaultValue(AccessMode.Enabled)]
+    [JsonConverter(typeof(StringEnumConverter))]
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
 
     /// <inheritdoc />

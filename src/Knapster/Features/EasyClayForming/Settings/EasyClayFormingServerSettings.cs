@@ -1,4 +1,6 @@
-﻿namespace Knapster.Features.EasyClayForming.Settings;
+﻿using Newtonsoft.Json.Converters;
+
+namespace Knapster.Features.EasyClayForming.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.
@@ -11,6 +13,7 @@ public class EasyClayFormingServerSettings : FeatureSettings<EasyClayFormingServ
     /// <inheritdoc />
     [ProtoMember(1)]
     [DefaultValue(AccessMode.Enabled)]
+    [JsonConverter(typeof(StringEnumConverter))]
     public AccessMode Mode { get; set; } = AccessMode.Enabled;
 
     /// <inheritdoc />

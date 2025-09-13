@@ -17,7 +17,7 @@ public class EasyClayFormingUniversalPatches
             if (slot.Itemstack.Collectible is not ItemClay clay) return true;
             var blockSel = new BlockSelection { Position = __instance.Pos };
             var toolMode = clay.GetToolMode(slot, byPlayer, blockSel);
-            
+
 
             if (!settings.Enabled)
             {

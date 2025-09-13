@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyDoughForming.Settings;
+﻿namespace Knapster.Features.EasyDoughForming.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyPanning.Settings;
+﻿namespace Knapster.Features.EasyPanning.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

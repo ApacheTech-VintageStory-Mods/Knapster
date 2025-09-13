@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyTilling.Settings;
+﻿namespace Knapster.Features.EasyTilling.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

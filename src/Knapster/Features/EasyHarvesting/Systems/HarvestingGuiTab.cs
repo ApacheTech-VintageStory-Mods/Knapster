@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyHarvesting.Systems;
+﻿namespace Knapster.Features.EasyHarvesting.Systems;
 
 public class HarvestingGuiTab(EasyHarvestingServerSettings settings)
     : EasyXGuiTab<EasyHarvestingServerSettings>("EasyHarvesting", settings)

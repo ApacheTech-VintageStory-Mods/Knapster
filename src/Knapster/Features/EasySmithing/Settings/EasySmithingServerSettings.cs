@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasySmithing.Settings;
+﻿namespace Knapster.Features.EasySmithing.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

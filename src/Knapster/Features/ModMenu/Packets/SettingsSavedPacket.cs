@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.ModMenu.Packets;
+﻿namespace Knapster.Features.ModMenu.Packets;
 
 [ProtoContract(ImplicitFields = ImplicitFields.AllPublic)]
 public class SettingsSavedPacket

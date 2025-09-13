@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyGrinding.Systems;
+﻿namespace Knapster.Features.EasyGrinding.Systems;
 
 public class GrindingGuiTab(EasyGrindingServerSettings settings)
     : EasyXGuiTab<EasyGrindingServerSettings>("EasyGrinding", settings)

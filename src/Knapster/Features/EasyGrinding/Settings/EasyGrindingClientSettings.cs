@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyGrinding.Settings;
+﻿namespace Knapster.Features.EasyGrinding.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod (client-side).

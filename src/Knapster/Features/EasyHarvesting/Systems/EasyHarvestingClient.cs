@@ -1,7 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue;
-using Knapster.Features.ModMenu.Extensions;
-
-namespace Knapster.Features.EasyHarvesting.Systems;
+﻿namespace Knapster.Features.EasyHarvesting.Systems;
 
 public sealed class EasyHarvestingClient : EasyXClientSystemBase<EasyHarvestingClient, EasyHarvestingClientSettings, EasyHarvestingServerSettings>
 {

@@ -1,7 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue;
-using Knapster.Features.ModMenu.Extensions;
-
-namespace Knapster.Features.EasyKnapping.Systems;
+﻿namespace Knapster.Features.EasyKnapping.Systems;
 
 public sealed class EasyKnappingClient : EasyXClientSystemBase<EasyKnappingClient, EasyKnappingClientSettings, EasyKnappingServerSettings>
 {

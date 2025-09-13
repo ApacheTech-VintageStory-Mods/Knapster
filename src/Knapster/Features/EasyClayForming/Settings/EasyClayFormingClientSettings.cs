@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyClayForming.Settings;
+﻿namespace Knapster.Features.EasyClayForming.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod (client-side).

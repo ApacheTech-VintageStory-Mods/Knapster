@@ -1,4 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\..\..\Gantry\shared\Gantry.Shared\Gantry.Shared.projitems" Label="Shared" />
+	
 	<PropertyGroup>
 		<Version>3.0.0.0</Version>
 		<ModId>knapster</ModId>
@@ -7,12 +9,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
+		<Folder Include="_Translations\Patches\" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="_Translations\Patches\" />
-	</ItemGroup>
-
-	<Import Project="..\..\..\..\..\Gantry\shared\Gantry.Shared\Gantry.Shared.projitems" Label="Shared" />
 </Project>

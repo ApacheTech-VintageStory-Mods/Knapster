@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyTilling.Systems;
+﻿namespace Knapster.Features.EasyTilling.Systems;
 
 public class TillingGuiTab(EasyTillingServerSettings settings)
     : EasyXGuiTab<EasyTillingServerSettings>("EasyTilling", settings)

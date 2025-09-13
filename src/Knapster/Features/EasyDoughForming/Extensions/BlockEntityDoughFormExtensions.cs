@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace Knapster.Features.EasyDoughForming.Extensions;
+﻿namespace Knapster.Features.EasyDoughForming.Extensions;
 
 /// <summary>
 ///     Provides extension methods for manipulating dough forming block entities and related voxel operations in Vintage Story mods.
@@ -47,7 +45,7 @@ public static class BlockEntityDoughFormExtensions
                     else
                     {
                         if (!block.Voxels[x, y, z]) continue;
-                        HarmonyReflectionExtensions.CallMethod(block, "OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
+                        AccessToolsEx.CallMethod(block, "OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
                     }
 
                     if (block.AvailableVoxels > 0) continue;
@@ -153,7 +151,7 @@ public static class BlockEntityDoughFormExtensions
                 }
                 else
                 {
-                    HarmonyReflectionExtensions.CallMethod(block, "OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
+                    AccessToolsEx.CallMethod(block, "OnRemove", y, new Vec3i(x, y, z), BlockFacing.DOWN, 0);
                 }
 
                 if (--num == 0) return true;

@@ -1,7 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue;
-using Knapster.Features.ModMenu.Extensions;
-
-namespace Knapster.Features.EasyMixingBowl.Systems;
+﻿namespace Knapster.Features.EasyMixingBowl.Systems;
 
 public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlClient, EasyMixingBowlClientSettings, EasyMixingBowlServerSettings>
 {

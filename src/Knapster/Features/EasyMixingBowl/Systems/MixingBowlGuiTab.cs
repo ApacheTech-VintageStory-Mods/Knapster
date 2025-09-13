@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyMixingBowl.Systems;
+﻿namespace Knapster.Features.EasyMixingBowl.Systems;
 
 public class MixingBowlGuiTab(EasyMixingBowlServerSettings settings)
     : EasyXGuiTab<EasyMixingBowlServerSettings>("EasyMixingBowl", settings)

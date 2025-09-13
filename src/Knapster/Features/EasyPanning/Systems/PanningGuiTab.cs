@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyPanning.Systems;
+﻿namespace Knapster.Features.EasyPanning.Systems;
 
 public class PanningGuiTab(EasyPanningServerSettings settings)
     : EasyXGuiTab<EasyPanningServerSettings>("EasyPanning", settings)

@@ -1,6 +1,4 @@
-﻿using Knapster.Features.EasyGrinding.Systems;
-
-namespace Knapster.Features.EasyGrinding.Commands;
+﻿namespace Knapster.Features.EasyGrinding.Commands;
 
 public class GetGrindingSpeedMultiplierCommand(List<string> players) : CommandBase
 {

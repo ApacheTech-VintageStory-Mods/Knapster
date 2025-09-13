@@ -1,15 +1,4 @@
-﻿global using ApacheTech.Common.BrighterSlim;
-
-global using ApacheTech.Common.DependencyInjection.Abstractions.Extensions;
-
-global using Gantry.Core.Annotation;
-global using Gantry.Core.Network.Extensions;
-
-global using Gantry.GameContent.Extensions.Gui;
-
-global using Gantry.Services.Brighter.Abstractions;
-global using Gantry.Services.Brighter.Extensions;
-
+﻿global using Knapster.Features.ModMenu.Dialogue.Abstractions;
 global using Knapster.Features.ModMenu.Extensions;
 
 global using Knapster.Features.EasyClayForming.Commands;

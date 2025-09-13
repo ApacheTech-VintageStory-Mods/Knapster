@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyPressing.Settings;
+﻿namespace Knapster.Features.EasyPressing.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

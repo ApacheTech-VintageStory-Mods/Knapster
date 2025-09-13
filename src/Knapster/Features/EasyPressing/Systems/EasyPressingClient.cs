@@ -1,7 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue;
-using Knapster.Features.ModMenu.Extensions;
-
-namespace Knapster.Features.EasyPressing.Systems;
+﻿namespace Knapster.Features.EasyPressing.Systems;
 
 public sealed class EasyPressingClient : EasyXClientSystemBase<EasyPressingClient, EasyPressingClientSettings, EasyPressingServerSettings>
 {

@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyDoughForming.Systems;
+﻿namespace Knapster.Features.EasyDoughForming.Systems;
 
 public class DoughFormingGuiTab(EasyDoughFormingServerSettings settings)
     : EasyXGuiTab<EasyDoughFormingServerSettings>("EasyDoughForming", settings)

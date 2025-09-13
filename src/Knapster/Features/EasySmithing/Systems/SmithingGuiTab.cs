@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasySmithing.Systems;
+﻿namespace Knapster.Features.EasySmithing.Systems;
 
 public class SmithingGuiTab(EasySmithingServerSettings settings)
     : EasyXGuiTab<EasySmithingServerSettings>("EasySmithing", settings)

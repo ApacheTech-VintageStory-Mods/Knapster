@@ -1,6 +1,4 @@
-﻿using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.EasyKnapping.Systems;
+﻿namespace Knapster.Features.EasyKnapping.Systems;
 
 public class KnappingGuiTab(EasyKnappingServerSettings settings)
     : EasyXGuiTab<EasyKnappingServerSettings>("EasyKnapping", settings)

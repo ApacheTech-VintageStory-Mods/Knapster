@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyHarvesting.Settings;
+﻿namespace Knapster.Features.EasyHarvesting.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod.

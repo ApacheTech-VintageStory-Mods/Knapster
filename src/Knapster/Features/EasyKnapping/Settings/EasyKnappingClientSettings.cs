@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace Knapster.Features.EasyKnapping.Settings;
+﻿namespace Knapster.Features.EasyKnapping.Settings;
 
 /// <summary>
 ///     Represents user-controllable settings used for the mod (client-side).

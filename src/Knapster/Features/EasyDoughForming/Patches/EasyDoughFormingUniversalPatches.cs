@@ -47,12 +47,12 @@ public class EasyDoughFormingUniversalPatches
             }
             world.FrameProfiler.Mark("doughform-modified");
             currentLayer = BlockEntityDoughFormExtensions.CurrentLayer(__instance);
-            HarmonyReflectionExtensions.CallMethod(__instance, "RegenMeshAndSelectionBoxes", currentLayer);
+            AccessToolsEx.CallMethod(__instance, "RegenMeshAndSelectionBoxes", currentLayer);
             world.FrameProfiler.Mark("doughform-regenmesh");
             world.BlockAccessor.MarkBlockDirty(__instance.Pos);
             world.BlockAccessor.MarkBlockEntityDirty(__instance.Pos);
 
-            if (!HarmonyReflectionExtensions.CallMethod<bool>(__instance, "HasAnyVoxel"))
+            if (!AccessToolsEx.CallMethod<bool>(__instance, "HasAnyVoxel"))
             {
                 __instance.AvailableVoxels = 0;
                 ___workItemStack = default!;

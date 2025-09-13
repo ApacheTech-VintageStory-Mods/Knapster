@@ -34,6 +34,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientLauncher", "..\..\..\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{0BB53066-B8A1-4171-88C3-852E036D8F03}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\..\Gantry\.gitignore = ..\..\..\Gantry\.gitignore
 		..\..\..\Gantry\src\Directory.Build.props = ..\..\..\Gantry\src\Directory.Build.props
 		..\..\..\Gantry\src\Directory.Build.targets = ..\..\..\Gantry\src\Directory.Build.targets
 		..\..\..\Gantry\src\Directory.Packages.props = ..\..\..\Gantry\src\Directory.Packages.props

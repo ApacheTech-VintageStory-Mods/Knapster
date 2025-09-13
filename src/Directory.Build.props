@@ -33,16 +33,11 @@
 		<AssemblyMetadata Include="Join me on Patreon" Value="https://patreon.com/ApacheTechSolutions" />
 		<AssemblyMetadata Include="Amazon Wishlist" Value="https://amzn.eu/7qvKTFu" />
 	</ItemGroup>
-	
+
 	<ItemGroup>
+		<ProjectReference Include="..\..\..\..\..\Gantry\src\Gantry\Gantry.csproj" />
 		<InternalsVisibleTo Include="Gantry" />
 	</ItemGroup>
-
-	<PropertyGroup Label="Environment Variables">
-		<!-- Environment Variable not recongised by Visual Studio Analysers. -->
-		<!-- ReSharper disable once UnknownProperty -->
-		<EnvironmentVariable>$(VINTAGE_STORY)</EnvironmentVariable>
-	</PropertyGroup>
 
 	<ItemGroup>
 		<Content Include="Features\**\_Includes\**\*.*">
@@ -69,52 +64,52 @@
 	<ItemGroup Label="Game Imports">
 		<!-- Vintage Story Game Libraries -->
 		<Reference Include="VintagestoryAPI">
-			<HintPath>$(EnvironmentVariable)\VintagestoryAPI.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\VintagestoryAPI.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="VintagestoryLib">
-			<HintPath>$(EnvironmentVariable)\VintagestoryLib.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\VintagestoryLib.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="VSCreativeMod">
-			<HintPath>$(EnvironmentVariable)\Mods\VSCreativeMod.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Mods\VSCreativeMod.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="VSSurvivalMod">
-			<HintPath>$(EnvironmentVariable)\Mods\VSSurvivalMod.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Mods\VSSurvivalMod.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="VSEssentials">
-			<HintPath>$(EnvironmentVariable)\Mods\VSEssentials.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Mods\VSEssentials.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<!-- Vintage Story Included Libraries -->
 		<Reference Include="Eto">
-			<HintPath>$(EnvironmentVariable)\Eto.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Eto.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="0Harmony">
-			<HintPath>$(EnvironmentVariable)\Lib\0Harmony.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Lib\0Harmony.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="AnimatedGif">
-			<HintPath>$(EnvironmentVariable)\Lib\AnimatedGif.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Lib\AnimatedGif.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="cairo-sharp">
-			<HintPath>$(EnvironmentVariable)\Lib\cairo-sharp.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Lib\cairo-sharp.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="Newtonsoft.Json">
-			<HintPath>$(EnvironmentVariable)\Lib\Newtonsoft.Json.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Lib\Newtonsoft.Json.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="protobuf-net">
-			<HintPath>$(EnvironmentVariable)\Lib\protobuf-net.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Lib\protobuf-net.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 		<Reference Include="Tavis.JsonPatch">
-			<HintPath>$(EnvironmentVariable)\Lib\Tavis.JsonPatch.dll</HintPath>
+			<HintPath>$(VINTAGE_STORY)\Lib\Tavis.JsonPatch.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
 	</ItemGroup>

@@ -10,11 +10,7 @@ public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlC
 
     public override bool ShouldLoad(ICoreAPI api)
     {
-        if (!api.ModLoader.IsModEnabled("aculinaryartillery"))
-        {
-            G.Logger.Warning("EasyMixingBowl is disabled because A Culinary Artillery mod is not loaded.");
-            return false;
-        }
+        if (!api.ModLoader.IsModEnabled("aculinaryartillery")) return false;
         return base.ShouldLoad(api);
     }
 }

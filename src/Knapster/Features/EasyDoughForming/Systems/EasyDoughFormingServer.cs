@@ -6,11 +6,9 @@ public sealed class EasyDoughFormingServer : EasyXServerSystemBase<EasyDoughForm
 
     public override bool ShouldLoad(ICoreAPI api)
     {
-        if (!api.ModLoader.AreAllModsLoaded("artofcooking", "coreofarts"))
-        {
-            G.Logger.Warning("EasyDoughForming is disabled because Art of Cooking and Core of Arts mods are not loaded.");
-            return false;
-        }
+        // https://mods.vintagestory.at/coreofarts
+        // https://mods.vintagestory.at/artofcooking
+        if (!api.ModLoader.AreAllModsLoaded("artofcooking", "coreofarts")) return false;
         return base.ShouldLoad(api);
     }
 

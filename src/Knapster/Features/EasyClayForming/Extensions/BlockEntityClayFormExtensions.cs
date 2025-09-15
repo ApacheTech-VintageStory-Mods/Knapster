@@ -231,7 +231,7 @@ public static class BlockEntityClayFormExtensions
     /// <param name="block">The clay form block entity.</param>
     public static void AutoCompleteBySelectionBoxes(this BlockEntityClayForm block)
     {
-        var selectionBoxes = block.GetField<Cuboidf[]>("selectionBoxes");
+        var selectionBoxes = block.GetField<Cuboidf[]>("selectionBoxes")!;
 
         for (var i = 0; i < block.SelectedRecipe.QuantityLayers - 1; i++)
         {

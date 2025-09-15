@@ -153,8 +153,8 @@ public partial class EasySmithingUniversalPatches
     {
         if (anvil.Api.World.Side == EnumAppSide.Client)
         {
-            anvil.CallMethod("spawnParticles", new Vec3i(x, y, z), (mat == EnumVoxelMaterial.Empty) ? EnumVoxelMaterial.Metal : mat, null);
-            if (usableMetalVoxel is not null) anvil.CallMethod("spawnParticles", usableMetalVoxel, EnumVoxelMaterial.Metal, null);
+            anvil.CallMethod("spawnParticles", new Vec3i(x, y, z), (mat == EnumVoxelMaterial.Empty) ? EnumVoxelMaterial.Metal : mat, null!);
+            if (usableMetalVoxel is not null) anvil.CallMethod("spawnParticles", usableMetalVoxel, EnumVoxelMaterial.Metal, null!);
         }
         anvil.CallMethod("RegenMeshAndSelectionBoxes");
         anvil.CheckIfFinished(null);

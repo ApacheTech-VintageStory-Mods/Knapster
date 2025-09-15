@@ -18,7 +18,7 @@ public sealed class EasyPanningUniversalPatches
 
         var sound = __instance.GetField<ILoadedSound>("sound");
         sound?.Stop();
-        __instance.SetField("sound", null);
+        __instance.SetField("sound", null!);
 
         if (!(secondsUsed >= SecondsPerLayer(player) * 0.85)) return false;
 

@@ -1,8 +1,4 @@
-﻿using Gantry.GameContent.GUI.Abstractions;
-using Gantry.GameContent.GUI.Helpers;
-using Knapster.Features.ModMenu.Dialogue.Abstractions;
-
-namespace Knapster.Features.ModMenu.Dialogue;
+﻿namespace Knapster.Features.ModMenu.Dialogue;
 
 internal class ModMenuDialogue : GenericDialogue
 {
@@ -13,7 +9,7 @@ internal class ModMenuDialogue : GenericDialogue
     private static string T(string code, params object[] args) 
         => G.T("ModMenu", code, args);
 
-    public ModMenuDialogue(ICoreGantryAPI gantry, List<ComposableGuiTab> tabs) : base(gantry)
+    public ModMenuDialogue(ICoreGantryAPI gantry, List<ComposableGuiTab> tabs, ModFileScope scope) : base(gantry)
     {
         Title = T("Title");
         Alignment = EnumDialogArea.CenterMiddle;
@@ -23,7 +19,9 @@ internal class ModMenuDialogue : GenericDialogue
 
         var font = CairoFont.WhiteDetailText().WithFontSize(17f);
         var maxWidth = 200.0;
-        foreach (var tab in tabs.OrderBy(p => p.Name))
+
+        var generalTab = new GeneralSettingsGuiTab(Gantry, scope);
+        foreach (var tab in tabs.OrderBy(p => p.Name).Prepend(generalTab))
         {
             tab.Active = false;
             tab.DataInt = _tabs.Count;

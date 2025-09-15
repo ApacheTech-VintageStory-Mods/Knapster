@@ -28,5 +28,14 @@
 
   "Features.ModMenu.btnSaveChanges.Text": "Save Changes",
 
+  "Features.ModMenu.GeneralSettings.TabName": "General Settings",
+  "Features.ModMenu.GeneralSettings.lblTitle.Text": "General Settings",
+  "Features.ModMenu.GeneralSettings.lblDescription.Text": "Here, you can change whether the mod uses Global settings, or Per World settings.",
+  "Features.ModMenu.GeneralSettings.cbxScope.Option.World": "Per World",
+  "Features.ModMenu.GeneralSettings.cbxScope.Option.Global": "Global",
+  "Features.ModMenu.GeneralSettings.lblScope.Text": "Scope",
+  "Features.ModMenu.GeneralSettings.lblScope.HoveText": "Whether the mod uses Global settings, or Per World settings",
+  "Features.ModMenu.GeneralSettings.btnSaveChanges.Text": "Save Scope",
+
   "Features.ModMenu.SettingsSaved.Message": "{0} Settings Saved"
 }

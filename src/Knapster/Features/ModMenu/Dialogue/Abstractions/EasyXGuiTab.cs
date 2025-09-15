@@ -1,7 +1,4 @@
-﻿using Gantry.Core.Network.Extensions;
-using Gantry.GameContent.GUI.Abstractions;
-using Knapster.Features.ModMenu.Packets;
-using System.Numerics;
+﻿using System.Numerics;
 using Vintagestory.API.Util;
 
 namespace Knapster.Features.ModMenu.Dialogue.Abstractions;
@@ -9,8 +6,6 @@ namespace Knapster.Features.ModMenu.Dialogue.Abstractions;
 public abstract class EasyXGuiTab<TSettings> : ComposableGuiTab
     where TSettings : FeatureSettings<TSettings>, IEasyXServerSettings, new()
 {
-    protected const int HOVER_TEXT_WIDTH = 260;
-
     private string _selectedWhitelistablePlayerId = string.Empty;
     private string _selectedWhitelistedPlayerId = string.Empty;
     private string _selectedBlacklistablePlayerId = string.Empty;
@@ -22,8 +17,6 @@ public abstract class EasyXGuiTab<TSettings> : ComposableGuiTab
     protected IClientNetworkChannel? ClientChannel { get; } = null!;
     protected GenericDialogue? Parent { get; set; }
     protected GuiComposer Composer { get; private set; } = null!;
-    protected CairoFont LabelFont { get; } = CairoFont.WhiteSmallText();
-    protected CairoFont HoverTextFont { get; } = CairoFont.WhiteDetailText();
 
     protected EasyXGuiTab(string featureName, TSettings settings)
     {
@@ -88,13 +81,6 @@ public abstract class EasyXGuiTab<TSettings> : ComposableGuiTab
         var cbxBlacklistedPlayers = composer.GetDropDown("cbxBlacklistedPlayers");
         cbxBlacklistedPlayers?.SetSelectedIndex(0);
         _selectedBlacklistedPlayerId = cbxBlacklistedPlayers?.SelectedValue ?? string.Empty;
-    }
-
-    protected void SetRowBounds(ElementBounds leftUnder, ElementBounds rightUnder, out ElementBounds left, out ElementBounds right)
-    {
-        var leftPad = leftUnder == Bounds ? 15 : 10;
-        left = ElementBounds.FixedSize(200, 30).FixedUnder(leftUnder, leftPad);
-        right = ElementBounds.FixedSize(370, 30).FixedUnder(rightUnder, 10).FixedRightOf(left, 10);
     }
 
     protected virtual void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)

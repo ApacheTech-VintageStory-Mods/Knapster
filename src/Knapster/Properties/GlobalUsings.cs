@@ -1,4 +1,5 @@
-﻿global using Knapster.Features.ModMenu.Dialogue.Abstractions;
+﻿global using Gantry.Services.EasyX.Dialogue;
+
 global using Knapster.Features.ModMenu.Extensions;
 
 global using Knapster.Features.EasyClayForming.Commands;
@@ -22,7 +23,6 @@ global using Knapster.Features.EasyMixingBowl.Commands;
 global using Knapster.Features.EasyMixingBowl.Settings;
 global using Knapster.Features.EasyMixingBowl.Systems;
 
-global using Knapster.Features.EasyPanning.Commands;
 global using Knapster.Features.EasyPanning.Settings;
 global using Knapster.Features.EasyPanning.Systems;
 
@@ -37,6 +37,5 @@ global using Knapster.Features.EasySmithing.Commands;
 global using Knapster.Features.EasySmithing.Settings;
 global using Knapster.Features.EasySmithing.Systems;
 
-global using Knapster.Features.EasyTilling.Commands;
 global using Knapster.Features.EasyTilling.Settings;
 global using Knapster.Features.EasyTilling.Systems;

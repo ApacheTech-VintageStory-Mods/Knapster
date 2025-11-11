@@ -4,7 +4,7 @@ public sealed class EasyTillingClient : EasyXClientSystemBase<EasyTillingClient,
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new TillingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new TillingGuiTab(Core, ServerSettings));
     }
 }

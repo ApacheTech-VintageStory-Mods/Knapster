@@ -4,7 +4,7 @@ public class EasySmithingClient : EasyXClientSystemBase<EasySmithingClient, Easy
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new SmithingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new SmithingGuiTab(Core, ServerSettings));
     }
 }

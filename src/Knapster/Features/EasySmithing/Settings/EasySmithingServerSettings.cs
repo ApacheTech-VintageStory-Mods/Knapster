@@ -29,6 +29,7 @@ public class EasySmithingServerSettings : FeatureSettings<EasySmithingServerSett
     /// </summary>
     [ProtoMember(4)]
     [DefaultValue(1)]
+    [ChatCommand("cost", Aliases = ["c"], MinValue = 1, MaxValue = 10, DefaultValue = 1)]
     public int CostPerClick { get; set; } = 1;
 
     /// <summary>
@@ -36,11 +37,13 @@ public class EasySmithingServerSettings : FeatureSettings<EasySmithingServerSett
     /// </summary>
     [ProtoMember(5)]
     [DefaultValue(1)]
+    [ChatCommand("voxels", Aliases = ["v"], MinValue = 1, MaxValue = 8, DefaultValue = 1)]
     public int VoxelsPerClick { get; set; } = 1;
 
     /// <summary>
     ///     Determines whether to instantly complete the current recipe, when using the Easy Smithing feature.
     /// </summary>
     [ProtoMember(6)]
+    [ChatCommand("instant", Aliases = ["i"])]
     public bool InstantComplete { get; set; } = false;
 }

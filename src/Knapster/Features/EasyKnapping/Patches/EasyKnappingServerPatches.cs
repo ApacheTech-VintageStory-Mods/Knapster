@@ -1,10 +1,10 @@
 ﻿namespace Knapster.Features.EasyKnapping.Patches;
 
-[HarmonyServerSidePatch]
+[HarmonyServerPatch]
 public sealed class EasyKnappingServerPatches
 {
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(BlockEntityKnappingSurface), "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool))]
+    [HarmonyServerPatch(typeof(BlockEntityKnappingSurface), "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool))]
     public static bool ServerPatch_BlockEntityKnappingSurface_OnUseOver_Prefix(
         BlockEntityKnappingSurface __instance, IPlayer byPlayer)
     {

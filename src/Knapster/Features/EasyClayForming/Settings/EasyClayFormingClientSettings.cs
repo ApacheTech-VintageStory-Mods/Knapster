@@ -16,7 +16,7 @@ public class EasyClayFormingClientSettings : IEasyXClientSettings
     ///     Determines the number of voxels that are handled at one time, when using the Easy Clay Forming feature.
     /// </summary>
     [ProtoMember(2)]
-    [DefaultValue(1)]
+    [DefaultValue(1)]   
     public int VoxelsPerClick { get; set; } = 1;
 
     /// <summary>

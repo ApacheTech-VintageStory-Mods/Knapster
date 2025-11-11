@@ -1,12 +1,12 @@
 ﻿namespace Knapster.Features.EasyDoughForming.Patches;
 
-[HarmonyClientSidePatch]
+[HarmonyClientPatch]
 [RequiresMod("coreofarts")]
 [RequiresMod("artofcooking")]
 public class EasyDoughFormingClientPatches
 {
     [HarmonyPostfix]
-    [HarmonyPatch("ArtOfCooking.Items.AOCItemDough", "GetToolModes")]
+    [HarmonyClientPatch("ArtOfCooking.Items.AOCItemDough", "GetToolModes")]
     public static void ClientPatch_AOCItemDough_GetToolModes_Postfix(Item __instance, ItemSlot slot,
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {
@@ -36,7 +36,7 @@ public class EasyDoughFormingClientPatches
     }
 
     [HarmonyPostfix]
-    [HarmonyPatch("ArtOfCooking.BlockEntities.BlockEntityDoughForm", "GetBlockInfo")]
+    [HarmonyClientPatch("ArtOfCooking.BlockEntities.BlockEntityDoughForm", "GetBlockInfo")]
     public static void ClientPatch_BlockEntityDoughForm_GetBlockInfo_Postfix(dynamic __instance, StringBuilder dsc)
     {
         bool[,,] voxels = __instance.Voxels;
@@ -57,6 +57,6 @@ public class EasyDoughFormingClientPatches
 
         var totalDoughCost = (voxelsThatNeedFilling - voxelsThatNeedRemoving) / 36;
         if (totalDoughCost == -1) return;
-        dsc.AppendLine(G.T("EasyDoughForming", "DoughRequired", totalDoughCost));
+        dsc.AppendLine(G.T("DoughForming", "DoughRequired", totalDoughCost));
     }
 }

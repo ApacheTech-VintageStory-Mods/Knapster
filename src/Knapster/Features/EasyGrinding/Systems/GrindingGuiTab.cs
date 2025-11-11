@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyGrinding.Systems;
 
-public class GrindingGuiTab(EasyGrindingServerSettings settings)
-    : EasyXGuiTab<EasyGrindingServerSettings>("EasyGrinding", settings)
+public class GrindingGuiTab(ICoreGantryAPI core, EasyGrindingServerSettings settings)
+    : EasyXGuiTab<EasyGrindingServerSettings>(core, "Grinding", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

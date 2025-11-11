@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyHarvesting.Systems;
 
-public class HarvestingGuiTab(EasyHarvestingServerSettings settings)
-    : EasyXGuiTab<EasyHarvestingServerSettings>("EasyHarvesting", settings)
+public class HarvestingGuiTab(ICoreGantryAPI core, EasyHarvestingServerSettings settings)
+    : EasyXGuiTab<EasyHarvestingServerSettings>(core, "Harvesting", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

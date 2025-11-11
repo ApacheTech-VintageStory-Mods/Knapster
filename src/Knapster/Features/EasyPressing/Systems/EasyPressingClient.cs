@@ -4,7 +4,7 @@ public sealed class EasyPressingClient : EasyXClientSystemBase<EasyPressingClien
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new PressingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new PressingGuiTab(Core, ServerSettings));
     }
 }

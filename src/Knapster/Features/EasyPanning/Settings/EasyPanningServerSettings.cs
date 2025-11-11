@@ -29,6 +29,7 @@ public class EasyPanningServerSettings : FeatureSettings<EasyPanningServerSettin
     /// </summary>
     [ProtoMember(4)]
     [DefaultValue(1)]
+    [ChatCommand("drops", Aliases = ["d"], MinValue = 1, MaxValue = 10, DefaultValue = 1)]
     public int DropsPerLayer { get; set; } = 1;
 
     /// <summary>
@@ -36,6 +37,7 @@ public class EasyPanningServerSettings : FeatureSettings<EasyPanningServerSettin
     /// </summary>
     [ProtoMember(5)]
     [DefaultValue(4f)]
+    [ChatCommand("seconds", Aliases = ["s"], MinValue = 0f, MaxValue = 10f, DefaultValue = 4f)]
     public float SecondsPerLayer { get; set; } = 4f;
 
     /// <summary>
@@ -43,5 +45,6 @@ public class EasyPanningServerSettings : FeatureSettings<EasyPanningServerSettin
     /// </summary>
     [ProtoMember(6)]
     [DefaultValue(3f)]
+    [ChatCommand("saturation", Aliases = ["sat"], MinValue = 0f, MaxValue = 10f, DefaultValue = 3f)]
     public float SaturationPerLayer { get; set; } = 3f;
 }

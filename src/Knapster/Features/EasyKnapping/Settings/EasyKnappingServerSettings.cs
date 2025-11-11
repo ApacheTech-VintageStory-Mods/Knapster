@@ -29,11 +29,13 @@ public class EasyKnappingServerSettings : FeatureSettings<EasyKnappingServerSett
     /// </summary>
     [ProtoMember(4)]
     [DefaultValue(1)]
+    [ChatCommand("voxels", Aliases = ["v"], MinValue = 1, MaxValue = 8, DefaultValue = 1)]
     public int VoxelsPerClick { get; set; } = 1;
 
     /// <summary>
     ///     Determines whether to instantly complete the current recipe.
     /// </summary>
     [ProtoMember(5)]
+    [ChatCommand("instant", Aliases = ["i"])]
     public bool InstantComplete { get; set; } = false;
 }

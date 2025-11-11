@@ -4,7 +4,7 @@ public sealed class EasyPanningClient : EasyXClientSystemBase<EasyPanningClient,
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new PanningGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new PanningGuiTab(Core, ServerSettings));
     }
 }

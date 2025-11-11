@@ -4,7 +4,7 @@ public sealed class EasyHarvestingClient : EasyXClientSystemBase<EasyHarvestingC
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new HarvestingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new HarvestingGuiTab(Core, ServerSettings));
     }
 }

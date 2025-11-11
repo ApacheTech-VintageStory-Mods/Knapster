@@ -29,5 +29,6 @@ public class EasyTillingServerSettings : FeatureSettings<EasyTillingServerSettin
     /// </summary>
     [ProtoMember(4)]
     [DefaultValue(1f)]
+    [ChatCommand("speed", Aliases = ["s"], MinValue = 0.1f, MaxValue = 2f, DefaultValue = 1f)]
     public float SpeedMultiplier { get; set; } = 1f;
 }

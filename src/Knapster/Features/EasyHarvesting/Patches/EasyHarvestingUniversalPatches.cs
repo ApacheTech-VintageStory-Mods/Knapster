@@ -6,14 +6,14 @@ namespace Knapster.Features.EasyHarvesting.Patches;
 public sealed class EasyHarvestingUniversalPatches
 {
     [HarmonyPrefix]
-    [HarmonyPatch(typeof(ItemScythe), nameof(ItemScythe.OnHeldAttackStop))]
+    [HarmonyUniversalPatch(typeof(ItemScythe), nameof(ItemScythe.OnHeldAttackStop))]
     public static void UniversalPatch_ItemScythe_OnHeldAttackStop_Prefix(ref float secondsPassed, EntityAgent byEntity)
     {
         secondsPassed /= SpeedMultiplier(byEntity);
     }
 
     [HarmonyTranspiler]
-    [HarmonyPatch(typeof(ItemScythe), nameof(ItemScythe.OnHeldAttackStep))]
+    [HarmonyUniversalPatch(typeof(ItemScythe), nameof(ItemScythe.OnHeldAttackStep))]
     public static IEnumerable<CodeInstruction> UniversalPatch_ItemScythe_OnHeldAttackStep_Transpiler(IEnumerable<CodeInstruction> instructions)
     {
         var result = new List<CodeInstruction>();

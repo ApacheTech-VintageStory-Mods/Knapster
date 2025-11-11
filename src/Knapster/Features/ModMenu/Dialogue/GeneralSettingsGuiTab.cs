@@ -14,7 +14,7 @@ internal class GeneralSettingsGuiTab : ComposableGuiTab
         _scope = scope;
     }
 
-    public override ElementBounds Bounds { get; set; } = ElementBounds.Fixed(0, 25, 500, 30);
+    public override ElementBounds Bounds { get; set; } = ElementBounds.Fixed(0, 25, 600, 30);
 
     public override GuiComposer ComposePart(GenericDialogue parent, GuiComposer composer)
     {

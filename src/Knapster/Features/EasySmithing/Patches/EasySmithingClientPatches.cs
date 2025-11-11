@@ -1,10 +1,10 @@
 ﻿namespace Knapster.Features.EasySmithing.Patches;
 
-[HarmonyClientSidePatch]
+[HarmonyClientPatch]
 public class EasySmithingClientPatches
 {
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(ItemHammer), nameof(ItemHammer.GetToolModes))]
+    [HarmonyClientPatch(typeof(ItemHammer), nameof(ItemHammer.GetToolModes))]
     public static void ClientPatch_ItemHammer_GetToolModes_Postfix(ItemHammer __instance, ItemSlot slot,
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {

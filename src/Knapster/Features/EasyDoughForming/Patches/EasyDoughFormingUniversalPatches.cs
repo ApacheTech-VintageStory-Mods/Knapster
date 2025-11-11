@@ -6,7 +6,7 @@
 public class EasyDoughFormingUniversalPatches
 {
     [HarmonyPrefix]
-    [HarmonyPatchEx("ArtOfCooking.BlockEntities.BlockEntityDoughForm", "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool))]
+    [HarmonyUniversalPatch("ArtOfCooking.BlockEntities.BlockEntityDoughForm", "OnUseOver", typeof(IPlayer), typeof(Vec3i), typeof(BlockFacing), typeof(bool))]
     public static bool UniversalPatch_BlockEntityDoughForm_OnUseOver_Prefix(dynamic __instance,
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {

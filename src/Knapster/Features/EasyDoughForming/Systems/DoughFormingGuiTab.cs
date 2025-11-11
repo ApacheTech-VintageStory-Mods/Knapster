@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyDoughForming.Systems;
 
-public class DoughFormingGuiTab(EasyDoughFormingServerSettings settings)
-    : EasyXGuiTab<EasyDoughFormingServerSettings>("EasyDoughForming", settings)
+public class DoughFormingGuiTab(ICoreGantryAPI core, EasyDoughFormingServerSettings settings)
+    : EasyXGuiTab<EasyDoughFormingServerSettings>(core, "DoughForming", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

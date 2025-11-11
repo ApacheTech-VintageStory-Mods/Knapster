@@ -1,4 +1,4 @@
 ﻿namespace Knapster.Features.EasyPressing.Systems;
 
-public class PressingGuiTab(EasyPressingServerSettings settings)
-    : EasyXGuiTab<EasyPressingServerSettings>("EasyPressing", settings);
+public class PressingGuiTab(ICoreGantryAPI core, EasyPressingServerSettings settings)
+    : EasyXGuiTab<EasyPressingServerSettings>(core, "Pressing", settings);

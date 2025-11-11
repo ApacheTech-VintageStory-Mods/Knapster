@@ -6,7 +6,7 @@ namespace Knapster.Features.EasyTilling.Patches;
 public sealed class EasyTillingUniversalPatches
 {
     [HarmonyTranspiler]
-    [HarmonyPatch(typeof(ItemHoe), nameof(ItemScythe.OnHeldInteractStep))]
+    [HarmonyUniversalPatch(typeof(ItemHoe), nameof(ItemScythe.OnHeldInteractStep))]
     public static IEnumerable<CodeInstruction> UniversalPatch_ItemHoe_OnHeldInteractStep_Transpiler(IEnumerable<CodeInstruction> instructions)
     {
         var result = new List<CodeInstruction>();
@@ -43,8 +43,17 @@ public sealed class EasyTillingUniversalPatches
 
     private static float SpeedMultiplier(EntityAgent byEntity)
     {
-        var command = new GetTillingSpeedMultiplierCommand(byEntity);
-        G.CommandProcessor.Send(command);
-        return command.TillingSpeedMultiplier;
+        if (byEntity is not EntityPlayer playerEntity) return 3f;
+
+        if (!G.ApiEx.Return(
+                () => EasyTillingClient.Instance.Settings.Enabled,
+                () => EasyTillingServer.Instance.IsEnabledFor(playerEntity.Player)))
+        {
+            return 3f;
+        }
+
+        return G.ApiEx.Return(
+            () => EasyTillingClient.Instance.Settings.SpeedMultiplier,
+            () => EasyTillingServer.Instance.Settings.SpeedMultiplier);
     }
 }

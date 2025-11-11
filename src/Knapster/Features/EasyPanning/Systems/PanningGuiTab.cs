@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyPanning.Systems;
 
-public class PanningGuiTab(EasyPanningServerSettings settings)
-    : EasyXGuiTab<EasyPanningServerSettings>("EasyPanning", settings)
+public class PanningGuiTab(ICoreGantryAPI core, EasyPanningServerSettings settings)
+    : EasyXGuiTab<EasyPanningServerSettings>(core, "Panning", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {
@@ -34,7 +34,7 @@ public class PanningGuiTab(EasyPanningServerSettings settings)
         fltSecondsPerLayer.SetValues(Settings.SecondsPerLayer, 0.1f, 10f, 0.1f, 1, $" {P("fltSecondsPerLayer.Unit", Settings.SecondsPerLayer)}");
 
         var intDropsPerLayer = composer.GetSliderNew("intDropsPerLayer");
-        intDropsPerLayer.SetValues(Settings.DropsPerLayer, 0, 10, 1, $" {P("intDropsPerLayer.Unit", Settings.DropsPerLayer)}");
+        intDropsPerLayer.SetValues(Settings.DropsPerLayer, 1, 10, 1, $" {P("intDropsPerLayer.Unit", Settings.DropsPerLayer)}");
         
         composer.GetSlider<float>("fltSaturationPerLayer").SetValues(Settings.SaturationPerLayer, 0.1f, 10f, 0.1f, 1, $" {F("fltSaturationPerLayer.Unit")}");
     }

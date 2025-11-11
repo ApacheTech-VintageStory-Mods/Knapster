@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasySmithing.Systems;
 
-public class SmithingGuiTab(EasySmithingServerSettings settings)
-    : EasyXGuiTab<EasySmithingServerSettings>("EasySmithing", settings)
+public class SmithingGuiTab(ICoreGantryAPI core, EasySmithingServerSettings settings)
+    : EasyXGuiTab<EasySmithingServerSettings>(core, "Smithing", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

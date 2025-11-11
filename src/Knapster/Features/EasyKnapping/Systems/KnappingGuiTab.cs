@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyKnapping.Systems;
 
-public class KnappingGuiTab(EasyKnappingServerSettings settings)
-    : EasyXGuiTab<EasyKnappingServerSettings>("EasyKnapping", settings)
+public class KnappingGuiTab(ICoreGantryAPI core, EasyKnappingServerSettings settings)
+    : EasyXGuiTab<EasyKnappingServerSettings>(core, "Knapping", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

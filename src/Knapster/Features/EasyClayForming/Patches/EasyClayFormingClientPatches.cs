@@ -1,10 +1,10 @@
 ﻿namespace Knapster.Features.EasyClayForming.Patches;
 
-[HarmonyClientSidePatch]
+[HarmonyClientPatch]
 public class EasyClayFormingClientPatches
 {
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(ItemClay), nameof(ItemClay.GetToolModes))]
+    [HarmonyClientPatch(typeof(ItemClay), nameof(ItemClay.GetToolModes))]
     public static void ClientPatch_ItemClay_GetToolModes_Postfix(ItemClay __instance, ItemSlot slot,
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {
@@ -37,11 +37,11 @@ public class EasyClayFormingClientPatches
 
 
     [HarmonyPostfix]
-    [HarmonyPatch(typeof(BlockEntityClayForm), nameof(BlockEntityClayForm.GetBlockInfo))]
+    [HarmonyClientPatch(typeof(BlockEntityClayForm), nameof(BlockEntityClayForm.GetBlockInfo))]
     public static void ClientPatch_BlockEntityClayForm_GetBlockInfo_Postfix(BlockEntityClayForm __instance, IPlayer forPlayer, StringBuilder dsc)
     {
         var totalClayCost = __instance.TotalClayCost(forPlayer);
         if (totalClayCost == -1) return;
-        dsc.AppendLine(G.T("EasyClayForming", "ClayRequired", totalClayCost));
+        dsc.AppendLine(G.T("ClayForming", "ClayRequired", totalClayCost));
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyMixingBowl.Systems;
 
-public class MixingBowlGuiTab(EasyMixingBowlServerSettings settings)
-    : EasyXGuiTab<EasyMixingBowlServerSettings>("EasyMixingBowl", settings)
+public class MixingBowlGuiTab(ICoreGantryAPI core, EasyMixingBowlServerSettings settings)
+    : EasyXGuiTab<EasyMixingBowlServerSettings>(core, "MixingBowl", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

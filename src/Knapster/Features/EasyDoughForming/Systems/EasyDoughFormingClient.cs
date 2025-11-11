@@ -4,13 +4,15 @@ public sealed class EasyDoughFormingClient : EasyXClientSystemBase<EasyDoughForm
 {
     public override bool ShouldLoad(ICoreAPI api)
     {
+        // https://mods.vintagestory.at/coreofarts
+        // https://mods.vintagestory.at/artofcooking
         if (!api.ModLoader.AreAllModsLoaded("artofcooking", "coreofarts")) return false;
         return base.ShouldLoad(api);
     }
 
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new DoughFormingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new DoughFormingGuiTab(Core, ServerSettings));
     }
 }

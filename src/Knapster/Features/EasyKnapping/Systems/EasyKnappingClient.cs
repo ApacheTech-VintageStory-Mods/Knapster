@@ -4,7 +4,7 @@ public sealed class EasyKnappingClient : EasyXClientSystemBase<EasyKnappingClien
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new KnappingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new KnappingGuiTab(Core, ServerSettings));
     }
 }

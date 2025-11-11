@@ -4,7 +4,7 @@ public sealed class EasyClayFormingClient : EasyXClientSystemBase<EasyClayFormin
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new ClayFormingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new ClayFormingGuiTab(Core, ServerSettings));
     }
 }

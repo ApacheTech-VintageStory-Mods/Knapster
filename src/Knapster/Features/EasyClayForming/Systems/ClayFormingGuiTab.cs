@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyClayForming.Systems;
 
-public class ClayFormingGuiTab(EasyClayFormingServerSettings settings)
-    : EasyXGuiTab<EasyClayFormingServerSettings>("EasyClayForming", settings)
+public class ClayFormingGuiTab(ICoreGantryAPI core, EasyClayFormingServerSettings settings)
+    : EasyXGuiTab<EasyClayFormingServerSettings>(core, "ClayForming", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

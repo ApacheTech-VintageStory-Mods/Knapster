@@ -4,8 +4,8 @@ public sealed class EasyMixingBowlClient : EasyXClientSystemBase<EasyMixingBowlC
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new MixingBowlGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new MixingBowlGuiTab(Core, ServerSettings));
     }
 
     public override bool ShouldLoad(ICoreAPI api)

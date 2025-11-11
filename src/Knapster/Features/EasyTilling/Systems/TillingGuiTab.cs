@@ -1,7 +1,7 @@
 ﻿namespace Knapster.Features.EasyTilling.Systems;
 
-public class TillingGuiTab(EasyTillingServerSettings settings)
-    : EasyXGuiTab<EasyTillingServerSettings>("EasyTilling", settings)
+public class TillingGuiTab(ICoreGantryAPI core, EasyTillingServerSettings settings)
+    : EasyXGuiTab<EasyTillingServerSettings>(core, "Tilling", settings)
 {
     protected override void ComposeFeatureSettings(GuiComposer composer, ElementBounds left, ElementBounds right)
     {

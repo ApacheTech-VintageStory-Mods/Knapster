@@ -29,17 +29,20 @@ public class EasyMixingBowlServerSettings : FeatureSettings<EasyMixingBowlServer
     /// </summary>
     [ProtoMember(4)]
     [DefaultValue(1f)]
+    [ChatCommand("speed", Aliases = ["s"], MinValue = 0.1f, MaxValue = 10f, DefaultValue = 1f)]
     public float SpeedMultiplier { get; set; } = 1f;
 
     /// <summary>
     ///     Determines whether to apply the speed multiplier to automated mixing bowls.
     /// </summary>
     [ProtoMember(5)]
+    [ChatCommand("automated", Aliases = ["a"])]
     public bool IncludeAutomated { get; set; } = false;
 
     /// <summary>
     ///     When active, the user will not need to keep the right-mouse button held down to keep the mixing bowl active.
     /// </summary>
     [ProtoMember(6)]
+    [ChatCommand("sticky-button", Aliases = ["sb"])]
     public bool StickyMouseButton { get; set; } = false;
 }

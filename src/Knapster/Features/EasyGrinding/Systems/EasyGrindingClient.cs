@@ -4,7 +4,7 @@ public class EasyGrindingClient : EasyXClientSystemBase<EasyGrindingClient, Easy
 {
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.AddSettingsTab(() => new GrindingGuiTab(ServerSettings));
         base.StartClientSide(api);
+        api.AddSettingsTab(() => new GrindingGuiTab(Core, ServerSettings));
     }
 }

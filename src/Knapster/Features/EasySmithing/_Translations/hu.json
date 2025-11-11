@@ -1,0 +1,22 @@
+﻿{
+    "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.Smithing.ModMenu.intCostPerClick.Unit":  "tartósság",
+    "Features.Smithing.ModMenu.lblInstantComplete.Text":  "Azonnali befejezés",
+    "Features.Smithing.InstantComplete.Description":  "Módosítsa, hogy a munkaelem azonnal be kell-e fejeződnie a használat során. Igaz vagy Hamis, Alapértelmezett: Hamis.",
+    "Features.Smithing.CostPerClick":  "{0} Tartóssági költség kattintásonként: {1}",
+    "Features.ModMenu.Smithing.TabName":  "Kovácsolás",
+    "Features.Smithing.ModMenu.lblCostPerClick.Text":  "Kattintásonkénti költség",
+    "Features.Smithing.VoxelsPerClick.Description":  "Módosíthatja a kattintásonként mozgatott voxelek számát. Min: 1, Max: 8, Alapértelmezett: 1.",
+    "Features.Smithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels kattintásonként",
+    "Features.Smithing.Description":  "Kezelje a kovácsolási beállításokat.",
+    "Features.Smithing.ModMenu.TabName":  "Kovácsolás",
+    "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-plural":  "voxelek",
+    "Features.Smithing.InstantComplete":  "{0} Azonnali kiegészítés: {1}",
+    "Features.Smithing.VoxelsPerClick":  "{0} Voxel kattintásonként: {1}",
+    "Features.Smithing.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára, hogy tárgyakat kovácsoljanak egy üllőn a játékon belül.",
+    "Features.Smithing.ModMenu.lblInstantComplete.HoverText":  "Meghatározza, hogy azonnal befejezze-e az aktuális receptet",
+    "Features.Smithing.CostPerClick.Description":  "Módosítsa a tartóssági költséget használatonként. Min: 1, Max: 10, Alapértelmezett: 5.",
+    "Features.Smithing.ModMenu.lblVoxelsPerClick.HoverText":  "Meghatározza az egyszerre kezelt voxelek számát",
+    "Features.Smithing.ModMenu.lblCostPerClick.HoverText":  "Meghatározza az egyszerre elveszett tartósság mértékét",
+    "Features.Smithing.ModMenu.lblTitle.Text":  "Kovácsolási beállítások"
+}

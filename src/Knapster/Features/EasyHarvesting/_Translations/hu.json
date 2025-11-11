@@ -1,0 +1,11 @@
+﻿{
+    "Features.Harvesting.SpeedMultiplier.Description":  "Változtassa meg azt a sebességet, amellyel a játékos kaszával betakarítja a füvet. Közvetlen szorzóként működik. Min: 0,0, Max: 2,0, Alapértelmezett: 1,0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Betakarítási beállítások",
+    "Features.ModMenu.Harvesting.TabName":  "Betakarítás",
+    "Features.Harvesting.SpeedMultiplier":  "{0} sebességszorzó: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára a fű betakarítására kaszával.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Sebesség szorzó",
+    "Features.Harvesting.ModMenu.TabName":  "Betakarítás",
+    "Features.Harvesting.Description":  "A betakarítási beállítások kezelése.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Meghatározza a kasza használatának sebességére alkalmazandó szorzót"
+}

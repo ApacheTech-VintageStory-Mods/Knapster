@@ -1,11 +1,13 @@
 {
-  "Features.EasyHarvesting.Description": "Manage harvesting settings.",
-  "Features.EasyHarvesting.SpeedMultiplier.Description": "Change the speed at which the player harvests grass with a scythe. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
+  "Features.Harvesting.Description": "Manage harvesting settings.",
+  "Features.Harvesting.SpeedMultiplier": "{0} Speed Multiplier: {1}x",
+  "Features.Harvesting.SpeedMultiplier.Description": "Change the speed at which the player harvests grass with a scythe. Acts as a direct multiplier. Min: 0.0, Max: 2.0, Default: 1.0.",
 
-  "Features.EasyHarvesting.ModMenu.TabName": "Harvesting",
-  "Features.EasyHarvesting.ModMenu.lblTitle.Text": "Harvesting Settings",
-  "Features.EasyHarvesting.ModMenu.lblDescription.Text": "Provides an easier way for players to harvest grass, with a scythe.",
+  "Features.ModMenu.Harvesting.TabName": "Harvesting",
+  "Features.Harvesting.ModMenu.TabName": "Harvesting",
+  "Features.Harvesting.ModMenu.lblTitle.Text": "Harvesting Settings",
+  "Features.Harvesting.ModMenu.lblDescription.Text": "Provides an easier way for players to harvest grass, with a scythe.",
 
-  "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
-  "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText": "Determines the multiplier to apply to the speed of using the scythe"
+  "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
+  "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText": "Determines the multiplier to apply to the speed of using the scythe"
 }

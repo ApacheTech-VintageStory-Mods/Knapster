@@ -1,22 +1,26 @@
 {
-  "Features.EasySmithing.Description": "Manage smithing settings.",
-  "Features.EasySmithing.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
-  "Features.EasySmithing.CostPerClick.Description": "Change the durability cost, per use. Min: 1, Max: 10, Default: 5.",
-  "Features.EasySmithing.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
+  "Features.Smithing.Description": "Manage smithing settings.",
+  "Features.Smithing.VoxelsPerClick": "{0} Voxels Per Click: {1}",
+  "Features.Smithing.CostPerClick": "{0} Durability Cost Per Click: {1}",
+  "Features.Smithing.InstantComplete": "{0} Instant Complete: {1}",
+  "Features.Smithing.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.Smithing.CostPerClick.Description": "Change the durability cost, per use. Min: 1, Max: 10, Default: 5.",
+  "Features.Smithing.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
 
-  "Features.EasySmithing.ModMenu.TabName": "Smithing",
-  "Features.EasySmithing.ModMenu.lblTitle.Text": "Smithing Settings",
-  "Features.EasySmithing.ModMenu.lblDescription.Text": "Provides an easier way for players to smith items on an anvil within the game.",
+  "Features.ModMenu.Smithing.TabName": "Smithing",
+  "Features.Smithing.ModMenu.TabName": "Smithing",
+  "Features.Smithing.ModMenu.lblTitle.Text": "Smithing Settings",
+  "Features.Smithing.ModMenu.lblDescription.Text": "Provides an easier way for players to smith items on an anvil within the game.",
 
-  "Features.EasySmithing.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
-  "Features.EasySmithing.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time",
-  "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
-  "Features.EasySmithing.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
+  "Features.Smithing.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
+  "Features.Smithing.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time",
+  "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
+  "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
 
-  "Features.EasySmithing.ModMenu.lblCostPerClick.Text": "Cost per Click",
-  "Features.EasySmithing.ModMenu.lblCostPerClick.HoverText": "Determines the amount of durability that is lost at one time",
-  "Features.EasySmithing.ModMenu.intCostPerClick.Unit": "durability",
+  "Features.Smithing.ModMenu.lblCostPerClick.Text": "Cost per Click",
+  "Features.Smithing.ModMenu.lblCostPerClick.HoverText": "Determines the amount of durability that is lost at one time",
+  "Features.Smithing.ModMenu.intCostPerClick.Unit": "durability",
 
-  "Features.EasySmithing.ModMenu.lblInstantComplete.Text": "Instant Complete",
-  "Features.EasySmithing.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
+  "Features.Smithing.ModMenu.lblInstantComplete.Text": "Instant Complete",
+  "Features.Smithing.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
 }

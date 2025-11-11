@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Hraði margfaldari",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að uppskera gras, með ljá.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Ákvarðar margfaldarann sem á að nota ljáinn",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Uppskeru",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Stillingar uppskeru",
-    "Features.EasyHarvesting.Description":  "Stjórnaðu uppskerustillingum.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn uppsker gras með ljá. Virkar sem beinn margfaldari. Lágmark: 0.0, hámark: 2.0, sjálfgefið: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn uppsker gras með ljá. Virkar sem beinn margfaldari. Lágmark: 0.0, hámark: 2.0, sjálfgefið: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Stillingar uppskeru",
+    "Features.ModMenu.Harvesting.TabName":  "Uppskeru",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Hraði margfaldari: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að uppskera gras, með ljá.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hraði margfaldari",
+    "Features.Harvesting.ModMenu.TabName":  "Uppskeru",
+    "Features.Harvesting.Description":  "Stjórnaðu uppskerustillingum.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Ákvarðar margfaldarann sem á að nota ljáinn"
 }

@@ -14,7 +14,7 @@
     "Features.ModMenu.lblAccessMode.HoverText":  "サーバー上のプレイヤーが機能にアクセスする方法を決定します",
     "Features.ModMenu.cbxAccessMode.Blacklist":  "ブラックリスト",
     "Features.ModMenu.btnAddBlacklistPlayer.Text":  "足す",
-    "Features.ModMenu.SettingsSaved.Message":  "{0}設定が保存されました",
+    "Features.ModMenu.SettingsSaved.Message":  "{0} 設定が保存されました",
     "Features.ModMenu.lblAccessMode.Text":  "アクセスモード",
     "Features.ModMenu.GeneralSettings.btnSaveChanges.Text":  "スコープの保存",
     "Features.ModMenu.lblBlacklistable.Text":  "ブラックリストに追加",

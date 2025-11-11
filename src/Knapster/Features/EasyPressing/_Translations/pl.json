@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Zarządzaj ustawieniami prasy do owoców.",
-    "Features.EasyPressing.ModMenu.TabName":  "Wyciskanie owoców",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Sprawia, że prasa nie musi być całkowicie ściśnięta przed jej odkręceniem.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Ustawienia wyciskania owoców"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Sprawia, że prasa nie musi być całkowicie ściśnięta przed jej odkręceniem.",
+    "Features.Pressing.ModMenu.TabName":  "Wyciskanie owoców",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Ustawienia wyciskania owoców",
+    "Features.Pressing.Description":  "Zarządzaj ustawieniami prasy do owoców."
 }

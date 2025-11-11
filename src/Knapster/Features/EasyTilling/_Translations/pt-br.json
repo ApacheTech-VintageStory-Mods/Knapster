@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidade",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Altere a velocidade com que o jogador lavra terras agrícolas com uma enxada. Atua como um multiplicador direto. Mín: 0,1, Máx: 2,0, Padrão: 1,0.",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "O multiplicador a ser aplicado à velocidade de Lavoura com uma enxada",
-    "Features.EasyTilling.ModMenu.TabName":  "Lavra",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Configurações de lavoura",
-    "Features.EasyTilling.Description":  "Gerencie as configurações de lavoura.",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores cultivarem terras agrícolas, com uma enxada."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "O multiplicador a ser aplicado à velocidade de Lavoura com uma enxada",
+    "Features.Tilling.SpeedMultiplier.Description":  "Altere a velocidade com que o jogador lavra terras agrícolas com uma enxada. Atua como um multiplicador direto. Mín: 0,1, Máx: 2,0, Padrão: 1,0.",
+    "Features.ModMenu.Tilling.TabName":  "Lavra",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Configurações de lavoura",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores cultivarem terras agrícolas, com uma enxada.",
+    "Features.Tilling.ModMenu.TabName":  "Lavra",
+    "Features.Tilling.SpeedMultiplier":  "Multiplicador de velocidade {0}: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidade",
+    "Features.Tilling.Description":  "Gerencie as configurações de lavoura."
 }

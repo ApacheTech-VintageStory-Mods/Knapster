@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "管理水果壓榨機設定。",
-    "Features.EasyPressing.ModMenu.TabName":  "水果壓榨",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "這使得壓力機在擰下之前不需要完全壓縮。",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "水果壓榨設置"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "這使得壓力機在擰下之前不需要完全壓縮。",
+    "Features.Pressing.ModMenu.TabName":  "水果壓榨",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "水果壓榨設置",
+    "Features.Pressing.Description":  "管理水果壓榨機設定。"
 }

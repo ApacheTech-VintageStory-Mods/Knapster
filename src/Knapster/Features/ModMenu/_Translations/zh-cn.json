@@ -14,7 +14,7 @@
     "Features.ModMenu.lblAccessMode.HoverText":  "确定服务器上的玩家如何访问该功能",
     "Features.ModMenu.cbxAccessMode.Blacklist":  "黑名单",
     "Features.ModMenu.btnAddBlacklistPlayer.Text":  "加",
-    "Features.ModMenu.SettingsSaved.Message":  "{0} 设置已保存",
+    "Features.ModMenu.SettingsSaved.Message":  "{0} 已保存设置",
     "Features.ModMenu.lblAccessMode.Text":  "访问模式",
     "Features.ModMenu.GeneralSettings.btnSaveChanges.Text":  "保存范围",
     "Features.ModMenu.lblBlacklistable.Text":  "添加到黑名单",

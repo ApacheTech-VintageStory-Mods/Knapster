@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Snelheid vermenigvuldiger",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler landbouwgrond bewerkt met een schoffel. Werkt als een directe vermenigvuldiger. Min: 0.1, Max: 2.0, Standaard: 1.0.",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "De vermenigvuldiger die moet worden toegepast op de snelheid van grondbewerking met een schoffel",
-    "Features.EasyTilling.ModMenu.TabName":  "Tilling",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Instellingen voor grondbewerking",
-    "Features.EasyTilling.Description":  "Instellingen voor grondbewerking beheren.",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Biedt een gemakkelijkere manier voor spelers om landbouwgrond te bewerken, met een schoffel."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "De vermenigvuldiger die moet worden toegepast op de snelheid van grondbewerking met een schoffel",
+    "Features.Tilling.SpeedMultiplier.Description":  "Verander de snelheid waarmee de speler landbouwgrond bewerkt met een schoffel. Werkt als een directe vermenigvuldiger. Min: 0.1, Max: 2.0, Standaard: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Tilling",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Instellingen voor grondbewerking",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Biedt een gemakkelijkere manier voor spelers om landbouwgrond te bewerken, met een schoffel.",
+    "Features.Tilling.ModMenu.TabName":  "Tilling",
+    "Features.Tilling.SpeedMultiplier":  "{0} Snelheidsvermenigvuldiger: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Snelheid vermenigvuldiger",
+    "Features.Tilling.Description":  "Instellingen voor grondbewerking beheren."
 }

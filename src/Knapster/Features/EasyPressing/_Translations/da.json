@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Administrer indstillinger for frugtpresse.",
-    "Features.EasyPressing.ModMenu.TabName":  "Frugtpresning",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Gør det sådan, at pressen ikke behøver at blive helt komprimeret, før den kan skrues af.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Indstillinger for frugtpresning"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Gør det sådan, at pressen ikke behøver at blive helt komprimeret, før den kan skrues af.",
+    "Features.Pressing.ModMenu.TabName":  "Frugtpresning",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Indstillinger for frugtpresning",
+    "Features.Pressing.Description":  "Administrer indstillinger for frugtpresse."
 }

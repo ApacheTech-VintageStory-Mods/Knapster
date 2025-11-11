@@ -1,12 +1,15 @@
 {
   "ModTitle": "Knapster",
   "ModDescription": "Easier crafting and gathering, for those with low manual dexterity.",
+  "Features.Knapster.AutoComplete": "Auto Complete",
 
   "Features.Knapster.VoxelsPerClick": "{0} Voxels Per Click: {1}",
+  "Features.Knapster.InstantComplete": "{0} Instant Complete: {1}",
   "Features.Knapster.CostPerClick": "{0} Durability Cost Per Click: {1}",
+
   "Features.Knapster.SpeedMultiplier": "{0} Speed Multiplier: {1}x",
   "Features.Knapster.IncludeAutomated": "{0} Include Automated Versions: {1}",
-  "Features.Knapster.SaturationMultiplier": "{0} Saturation Multiplier: {1}x",
-  "Features.Knapster.InstantComplete": "{0} Instant Complete: {1}",
-  "Features.Knapster.AutoComplete": "Auto Complete"
+
+  "Features.Knapster.SaturationMultiplier": "{0} Saturation Multiplier: {1}x"
+
 }

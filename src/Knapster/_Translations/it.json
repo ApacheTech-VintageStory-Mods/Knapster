@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
     "Features.Knapster.IncludeAutomated":  "{0} includono versioni automatizzate: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Moltiplicatore di saturazione: {1}x",
+    "Features.Knapster.CostPerClick":  "{0} Costo per clic della durata: {1}",
     "ModDescription":  "Più facile da creare e raccogliere, per chi ha poca destrezza manuale.",
-    "Features.Knapster.SpeedMultiplier":  "{0} moltiplicatore di velocità: {1}x",
+    "Features.Knapster.SpeedMultiplier":  "{0} Moltiplicatore di velocità: {1}x",
     "Features.Knapster.InstantComplete":  "{0} Completamento istantaneo: {1}",
     "Features.Knapster.AutoComplete":  "Completamento automatico",
-    "Features.Knapster.CostPerClick":  "{0} Costo per clic di durata: {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} Voxel per clic: {1}"
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxel per clic: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Moltiplicatore di saturazione: {1}x"
 }

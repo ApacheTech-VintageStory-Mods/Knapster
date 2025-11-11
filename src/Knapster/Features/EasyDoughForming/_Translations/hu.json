@@ -1,0 +1,18 @@
+﻿{
+    "Features.DoughForming.ModMenu.lblInstantComplete.Text":  "Azonnali befejezés",
+    "Features.DoughForming.ModMenu.lblInstantComplete.HoverText":  "Meghatározza, hogy azonnal befejezze-e az aktuális receptet",
+    "Features.DoughForming.ModMenu.lblTitle.Text":  "Tésztaformázási beállítások",
+    "Features.DoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels kattintásonként",
+    "Features.DoughForming.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára a tésztatárgyak formázására az Art of Cooking használatakor.",
+    "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.DoughForming.InstantComplete":  "{0} Azonnali kiegészítés: {1}",
+    "Features.DoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Meghatározza az egyszerre kezelt voxelek számát a tészta formázásakor",
+    "Features.DoughForming.InstantComplete.Description":  "Módosítsa, hogy a munkaelem azonnal be kell-e fejeződnie a használat során. Igaz vagy Hamis, Alapértelmezett: Hamis.",
+    "Features.DoughForming.Description":  "Kezelje a tésztaformázási beállításokat.",
+    "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxelek",
+    "Features.DoughForming.ModMenu.TabName":  "Tésztaformázás",
+    "Features.DoughForming.VoxelsPerClick":  "{0} Voxel kattintásonként: {1}",
+    "Features.DoughForming.VoxelsPerClick.Description":  "Módosíthatja a kattintásonként mozgatott voxelek számát. Min: 1, Max: 8, Alapértelmezett: 1.",
+    "Features.ModMenu.DoughForming.TabName":  "Tésztaformázás",
+    "Features.DoughForming.DoughRequired":  "Összes szükséges tészta: {0}"
+}

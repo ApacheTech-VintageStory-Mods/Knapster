@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Verwalten Sie die Einstellungen für die Obstpresse.",
-    "Features.EasyPressing.ModMenu.TabName":  "Pressen von Früchten",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Dadurch muss die Presse nicht vollständig komprimiert werden, bevor sie abgeschraubt werden kann.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Einstellungen für das Pressen von Früchten"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Dadurch muss die Presse nicht vollständig komprimiert werden, bevor sie abgeschraubt werden kann.",
+    "Features.Pressing.ModMenu.TabName":  "Pressen von Früchten",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Einstellungen für das Pressen von Früchten",
+    "Features.Pressing.Description":  "Verwalten Sie die Einstellungen für die Obstpresse."
 }

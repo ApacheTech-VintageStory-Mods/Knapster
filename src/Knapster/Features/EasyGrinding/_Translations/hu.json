@@ -1,0 +1,19 @@
+﻿{
+    "Features.Grinding.StickyMouseButton":  "{0} ragadós egérgombok: {1}",
+    "Features.Grinding.Description":  "Kezelje a lekérdezés beállításait.",
+    "Features.Grinding.ModMenu.lblTitle.Text":  "Quern őrlési beállítások",
+    "Features.Grinding.SpeedMultiplier":  "{0} sebességszorzó: {1}x",
+    "Features.Grinding.ModMenu.lblSpeedMultiplier.HoverText":  "Meghatározza a lekérdezés használatának sebességére alkalmazandó szorzót",
+    "Features.Grinding.ModMenu.lbStickyMouseButton.Text":  "Ragadós egérgomb",
+    "Features.Grinding.StickyMouseButton.Description":  "Ha aktív, a felhasználónak nem kell lenyomva tartania a jobb egérgombot ahhoz, hogy a lekérdezés aktív maradjon.",
+    "Features.ModMenu.Grinding.TabName":  "Quern őrlés",
+    "Features.Grinding.ModMenu.lbIncludeAutomated.HoverText":  "Meghatározza, hogy a sebességszorzót alkalmazni kell-e az automatizált kérdésekre",
+    "Features.Grinding.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára az erőforrások őrlésére egy quernben.",
+    "Features.Grinding.IncludeAutomated":  "{0} Automatizált verziók tartalmazása: {1}",
+    "Features.Grinding.ModMenu.lblSpeedMultiplier.Text":  "Sebesség szorzó",
+    "Features.Grinding.IncludeAutomated.Description":  "Alkalmazza a sebességszorzót az automatizált quernekre, valamint a kézi quernekre.",
+    "Features.Grinding.ModMenu.lbIncludeAutomated.Text":  "Tartalmazza az automatizált",
+    "Features.Grinding.ModMenu.TabName":  "Quern őrlés",
+    "Features.Grinding.ModMenu.lbStickyMouseButton.HoverText":  "Ha aktív, a felhasználónak nem kell lenyomva tartania a jobb egérgombot ahhoz, hogy a lekérdezés aktív maradjon",
+    "Features.Grinding.SpeedMultiplier.Description":  "Változtassa meg azt a sebességet, amellyel a játékos az erőforrásokat őrli egy quernben. Közvetlen szorzóként működik. Min: 0,0, Max: 10,0, Alapértelmezett: 1,0."
+}

@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "为玩家提供了一种使用镰刀收割草的更简单方法。",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "确定应用于镰刀使用速度的乘数",
-    "Features.EasyHarvesting.ModMenu.TabName":  "收获",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "收获设置",
-    "Features.EasyHarvesting.Description":  "管理收获设置。",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "改变玩家用镰刀收割草的速度。充当直接乘数。最小值：0.0，最大值：2.0，默认值：1.0。"
+    "Features.Harvesting.SpeedMultiplier.Description":  "改变玩家用镰刀收割草的速度。充当直接乘数。最小值：0.0，最大值：2.0，默认值：1.0。",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "收获设置",
+    "Features.ModMenu.Harvesting.TabName":  "收获",
+    "Features.Harvesting.SpeedMultiplier":  "{0} 速度倍增器： {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "为玩家提供了一种使用镰刀收割草的更简单方法。",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器",
+    "Features.Harvesting.ModMenu.TabName":  "收获",
+    "Features.Harvesting.Description":  "管理收获设置。",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "确定应用于镰刀使用速度的乘数"
 }

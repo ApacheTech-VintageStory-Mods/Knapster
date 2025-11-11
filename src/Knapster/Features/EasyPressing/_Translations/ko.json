@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "과일 압착 설정을 관리합니다.",
-    "Features.EasyPressing.ModMenu.TabName":  "과일 압착",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "프레스를 풀기 전에 완전히 압축할 필요가 없도록 합니다.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "과일 압착 설정"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "프레스를 풀기 전에 완전히 압축할 필요가 없도록 합니다.",
+    "Features.Pressing.ModMenu.TabName":  "과일 압착",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "과일 압착 설정",
+    "Features.Pressing.Description":  "과일 압착 설정을 관리합니다."
 }

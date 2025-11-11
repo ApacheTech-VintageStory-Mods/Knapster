@@ -1,18 +1,21 @@
 {
-  "Features.EasyDoughForming.DoughRequired": "Total dough required: {0}",
-  "Features.EasyDoughForming.Description": "Manage dough forming settings.",
-  "Features.EasyDoughForming.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
-  "Features.EasyDoughForming.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
+  "Features.DoughForming.DoughRequired": "Total dough required: {0}",
+  "Features.DoughForming.Description": "Manage dough forming settings.",
+  "Features.DoughForming.VoxelsPerClick": "{0} Voxels Per Click: {1}",
+  "Features.DoughForming.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.DoughForming.InstantComplete": "{0} Instant Complete: {1}",
+  "Features.DoughForming.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
 
-  "Features.EasyDoughForming.ModMenu.TabName": "Dough Forming",
-  "Features.EasyDoughForming.ModMenu.lblTitle.Text": "Dough Forming Settings",
-  "Features.EasyDoughForming.ModMenu.lblDescription.Text": "Provides an easier way for players to form dough items, when using Art of Cooking.",
+  "Features.ModMenu.DoughForming.TabName": "Dough Forming",
+  "Features.DoughForming.ModMenu.TabName": "Dough Forming",
+  "Features.DoughForming.ModMenu.lblTitle.Text": "Dough Forming Settings",
+  "Features.DoughForming.ModMenu.lblDescription.Text": "Provides an easier way for players to form dough items, when using Art of Cooking.",
 
-  "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
-  "Features.EasyDoughForming.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time, when forming dough",
-  "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
-  "Features.EasyDoughForming.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
+  "Features.DoughForming.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
+  "Features.DoughForming.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time, when forming dough",
+  "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
+  "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
 
-  "Features.EasyDoughForming.ModMenu.lblInstantComplete.Text": "Instant Complete",
-  "Features.EasyDoughForming.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
+  "Features.DoughForming.ModMenu.lblInstantComplete.Text": "Instant Complete",
+  "Features.DoughForming.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
 }

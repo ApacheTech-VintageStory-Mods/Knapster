@@ -14,7 +14,7 @@
     "Features.ModMenu.lblAccessMode.HoverText":  "Určuje, ako môžu hráči na serveri získať prístup k funkcii",
     "Features.ModMenu.cbxAccessMode.Blacklist":  "Čierna listina",
     "Features.ModMenu.btnAddBlacklistPlayer.Text":  "Sčítať",
-    "Features.ModMenu.SettingsSaved.Message":  "{0} uložených nastavení",
+    "Features.ModMenu.SettingsSaved.Message":  "{0} uložené nastavenia",
     "Features.ModMenu.lblAccessMode.Text":  "Režim prístupu",
     "Features.ModMenu.GeneralSettings.btnSaveChanges.Text":  "Uložiť rozsah",
     "Features.ModMenu.lblBlacklistable.Text":  "Pridať na čiernu listinu",

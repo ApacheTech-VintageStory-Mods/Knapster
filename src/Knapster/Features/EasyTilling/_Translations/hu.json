@@ -1,0 +1,11 @@
+﻿{
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "A kapával történő talajművelés sebességére alkalmazandó szorzó",
+    "Features.Tilling.SpeedMultiplier.Description":  "Változtassa meg azt a sebességet, amellyel a játékos kapával műveli a termőföldet. Közvetlen szorzóként működik. Min: 0.1, Max: 2.0, Alapértelmezett: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Talajművelés",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Talajművelési beállítások",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára a termőföld megművelésére kapával.",
+    "Features.Tilling.ModMenu.TabName":  "Talajművelés",
+    "Features.Tilling.SpeedMultiplier":  "{0} sebességszorzó: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Sebesség szorzó",
+    "Features.Tilling.Description":  "Kezelje a talajművelési beállításokat."
+}

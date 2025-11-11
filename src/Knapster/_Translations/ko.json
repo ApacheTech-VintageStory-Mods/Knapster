@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "냅스터",
     "Features.Knapster.IncludeAutomated":  "{0} 자동화된 버전 포함: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} 채도 승수: {1}x",
+    "Features.Knapster.CostPerClick":  "{0} 클릭당 내구성 비용: {1}",
     "ModDescription":  "손재주가 낮은 사람들을 위해 더 쉬운 제작 및 수집.",
-    "Features.Knapster.SpeedMultiplier":  "{0} 속도 배수: {1}x",
+    "Features.Knapster.SpeedMultiplier":  "{0} 속도 승수: {1}x",
     "Features.Knapster.InstantComplete":  "{0} 즉시 완료: {1}",
     "Features.Knapster.AutoComplete":  "자동 완성",
-    "Features.Knapster.CostPerClick":  "{0} 클릭당 내구성 비용: {1}",
-    "Features.Knapster.VoxelsPerClick":  "클릭당 복셀 {0}수: {1}"
+    "Features.Knapster.VoxelsPerClick":  "클릭당 복셀 {0}: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} 채도 승수: {1}x"
 }

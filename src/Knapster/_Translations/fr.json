@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Tailleur",
     "Features.Knapster.IncludeAutomated":  "{0} inclure des versions automatisées : {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Multiplicateur de saturation : {1}x",
+    "Features.Knapster.CostPerClick":  "{0} Durabilité Coût par clic : {1}",
     "ModDescription":  "Fabrication et récolte plus faciles, pour ceux qui ont une faible dextérité manuelle.",
-    "Features.Knapster.SpeedMultiplier":  "Multiplicateur de vitesse {0} : {1}x",
+    "Features.Knapster.SpeedMultiplier":  "{0} Multiplicateur de vitesse : {1}x",
     "Features.Knapster.InstantComplete":  "{0} Instant Complete : {1}",
     "Features.Knapster.AutoComplete":  "Saisie semi-automatique",
-    "Features.Knapster.CostPerClick":  "{0} Durabilité Coût par clic : {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} voxels par clic : {1}"
+    "Features.Knapster.VoxelsPerClick":  "{0} voxels par clic : {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Multiplicateur de saturation : {1}x"
 }

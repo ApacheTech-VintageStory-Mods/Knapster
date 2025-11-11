@@ -1,18 +1,21 @@
 {
-  "Features.EasyClayForming.ClayRequired": "Total clay required: {0}",
-  "Features.EasyClayForming.Description": "Manage clay forming settings.",
-  "Features.EasyClayForming.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
-  "Features.EasyClayForming.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
+  "Features.ClayForming.ClayRequired": "Total clay required: {0}",
+  "Features.ClayForming.Description": "Manage clay forming settings.",
+  "Features.ClayForming.VoxelsPerClick": "{0} Voxels Per Click: {1}",
+  "Features.ClayForming.VoxelsPerClick.Description": "Change the number of voxels that are moved, per click. Min: 1, Max: 8, Default: 1.",
+  "Features.ClayForming.InstantComplete": "{0} Instant Complete: {1}",
+  "Features.ClayForming.InstantComplete.Description": "Change whether or not the work item should be instantly completed, on use. True, or False, Default: False.",
 
-  "Features.EasyClayForming.ModMenu.TabName": "Clay Forming",
-  "Features.EasyClayForming.ModMenu.lblTitle.Text": "Clay Forming Settings",
-  "Features.EasyClayForming.ModMenu.lblDescription.Text": "Provides an easier way for players to form clay items within the game.",
+  "Features.ModMenu.ClayForming.TabName": "Clay Forming",
+  "Features.ClayForming.ModMenu.TabName": "Clay Forming",
+  "Features.ClayForming.ModMenu.lblTitle.Text": "Clay Forming Settings",
+  "Features.ClayForming.ModMenu.lblDescription.Text": "Provides an easier way for players to form clay items within the game.",
 
-  "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
-  "Features.EasyClayForming.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time, when forming clay",
-  "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
-  "Features.EasyClayForming.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
+  "Features.ClayForming.ModMenu.lblVoxelsPerClick.Text": "Voxels per Click",
+  "Features.ClayForming.ModMenu.lblVoxelsPerClick.HoverText": "Determines the number of voxels that are handled at one time, when forming clay",
+  "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-singular": "voxel",
+  "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-plural": "voxels",
 
-  "Features.EasyClayForming.ModMenu.lblInstantComplete.Text": "Instant Complete",
-  "Features.EasyClayForming.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
+  "Features.ClayForming.ModMenu.lblInstantComplete.Text": "Instant Complete",
+  "Features.ClayForming.ModMenu.lblInstantComplete.HoverText": "Determines whether to instantly complete the current recipe"
 }

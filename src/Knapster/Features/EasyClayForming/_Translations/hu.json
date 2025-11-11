@@ -1,0 +1,18 @@
+﻿{
+    "Features.ClayForming.ModMenu.lblInstantComplete.HoverText":  "Meghatározza, hogy azonnal befejezze-e az aktuális receptet",
+    "Features.ClayForming.VoxelsPerClick":  "{0} Voxel kattintásonként: {1}",
+    "Features.ModMenu.ClayForming.TabName":  "Agyag formázás",
+    "Features.ClayForming.ModMenu.lblInstantComplete.Text":  "Azonnali befejezés",
+    "Features.ClayForming.Description":  "Kezelje az agyagformázási beállításokat.",
+    "Features.ClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Meghatározza az egyszerre kezelt voxelek számát agyag kialakításakor",
+    "Features.ClayForming.ModMenu.lblTitle.Text":  "Agyagformázási beállítások",
+    "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.ClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels kattintásonként",
+    "Features.ClayForming.InstantComplete.Description":  "Módosítsa, hogy a munkaelem azonnal be kell-e fejeződnie a használat során. Igaz vagy Hamis, Alapértelmezett: Hamis.",
+    "Features.ClayForming.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára, hogy agyagtárgyakat alakítsanak ki a játékon belül.",
+    "Features.ClayForming.VoxelsPerClick.Description":  "Módosíthatja a kattintásonként mozgatott voxelek számát. Min: 1, Max: 8, Alapértelmezett: 1.",
+    "Features.ClayForming.ModMenu.TabName":  "Agyag formázás",
+    "Features.ClayForming.ClayRequired":  "Szükséges összes agyag: {0}",
+    "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "voxelek",
+    "Features.ClayForming.InstantComplete":  "{0} Azonnali kiegészítés: {1}"
+}

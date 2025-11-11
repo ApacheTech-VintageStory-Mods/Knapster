@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Oyuncunun bir çapa ile tarım arazilerini sürme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.1, Maks: 2.0, Varsayılan: 1.0.",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Çapa ile Toprak İşleme hızına uygulanacak çarpan",
-    "Features.EasyTilling.ModMenu.TabName":  "Toprak işleme",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Döşeme Ayarları",
-    "Features.EasyTilling.Description":  "Döşeme ayarlarını yönetin.",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Oyuncuların bir çapa ile tarım arazilerini sürmeleri için daha kolay bir yol sağlar."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Çapa ile Sürme hızına uygulanacak çarpan",
+    "Features.Tilling.SpeedMultiplier.Description":  "Oyuncunun çapa ile tarım arazilerini sürme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.1, Maks: 2.0, Varsayılan: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Toprak işleme",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Toprak İşleme Ayarları",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Oyuncuların çapa ile tarım arazilerini sürmeleri için daha kolay bir yol sağlar.",
+    "Features.Tilling.ModMenu.TabName":  "Toprak işleme",
+    "Features.Tilling.SpeedMultiplier":  "{0} Hız Çarpanı: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
+    "Features.Tilling.Description":  "Toprak İşleme ayarlarını yönetin."
 }

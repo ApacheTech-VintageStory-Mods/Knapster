@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
     "Features.Knapster.IncludeAutomated":  "{0} omvatten geautomatiseerde versies: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Verzadigingsvermenigvuldiger: {1}x",
+    "Features.Knapster.CostPerClick":  "{0} Duurzaamheidskosten per klik: {1}",
     "ModDescription":  "Gemakkelijker knutselen en verzamelen, voor mensen met een lage handvaardigheid.",
     "Features.Knapster.SpeedMultiplier":  "{0} Snelheidsvermenigvuldiger: {1}x",
     "Features.Knapster.InstantComplete":  "{0} Onmiddellijk voltooid: {1}",
     "Features.Knapster.AutoComplete":  "Automatisch aanvullen",
-    "Features.Knapster.CostPerClick":  "{0} Duurzaamheidskosten per klik: {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} voxels per klik: {1}"
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxels per klik: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Verzadigingsvermenigvuldiger: {1}x"
 }

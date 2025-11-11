@@ -1,11 +1,13 @@
 {
-  "Features.EasyTilling.Description": "Manage Tilling settings.",
-  "Features.EasyTilling.SpeedMultiplier.Description": "Change the speed at which the player tills farmland with a hoe. Acts as a direct multiplier. Min: 0.1, Max: 2.0, Default: 1.0.",
+  "Features.Tilling.Description": "Manage Tilling settings.",
+  "Features.Tilling.SpeedMultiplier": "{0} Speed Multiplier: {1}x",
+  "Features.Tilling.SpeedMultiplier.Description": "Change the speed at which the player tills farmland with a hoe. Acts as a direct multiplier. Min: 0.1, Max: 2.0, Default: 1.0.",
 
-  "Features.EasyTilling.ModMenu.TabName": "Tilling",
-  "Features.EasyTilling.ModMenu.lblTitle.Text": "Tilling Settings",
-  "Features.EasyTilling.ModMenu.lblDescription.Text": "Provides an easier way for players to till farmland, with a hoe.",
+  "Features.ModMenu.Tilling.TabName": "Tilling",
+  "Features.Tilling.ModMenu.TabName": "Tilling",
+  "Features.Tilling.ModMenu.lblTitle.Text": "Tilling Settings",
+  "Features.Tilling.ModMenu.lblDescription.Text": "Provides an easier way for players to till farmland, with a hoe.",
 
-  "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
-  "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText": "The multiplier to apply to the speed of Tilling with a hoe"
+  "Features.Tilling.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
+  "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText": "The multiplier to apply to the speed of Tilling with a hoe"
 }

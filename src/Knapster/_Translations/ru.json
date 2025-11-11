@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Кнапстер",
     "Features.Knapster.IncludeAutomated":  "{0} Включить автоматизированные версии: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Множитель насыщенности: {1}x",
+    "Features.Knapster.CostPerClick":  "{0} Стоимость прочности за клик: {1}",
     "ModDescription":  "Более простое крафт и собирательство, для тех, у кого низкая ловкость рук.",
     "Features.Knapster.SpeedMultiplier":  "{0} Множитель скорости: {1}x",
     "Features.Knapster.InstantComplete":  "{0} Мгновенное завершение: {1}",
     "Features.Knapster.AutoComplete":  "Автозаполнение",
-    "Features.Knapster.CostPerClick":  "{0} Стоимость прочности за клик: {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} вокселей за клик: {1}"
+    "Features.Knapster.VoxelsPerClick":  "{0} вокселей за клик: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Множитель насыщенности: {1}x"
 }

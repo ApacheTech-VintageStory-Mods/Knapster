@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Geschwindigkeits-Multiplikator",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Ändere die Geschwindigkeit, mit der der Spieler Ackerland mit einer Hacke bearbeitet. Wirkt als direkter Multiplikator. Min.: 0.1, Max: 2.0, Standard: 1.0.",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Der Multiplikator, der auf die Geschwindigkeit der Bodenbearbeitung mit einer Hacke angewendet werden soll",
-    "Features.EasyTilling.ModMenu.TabName":  "Bebauend",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Einstellungen für die Bodenbearbeitung",
-    "Features.EasyTilling.Description":  "Verwalten der Tilling-Einstellungen.",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Ackerland mit einer Hacke zu bestellen."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Der Multiplikator, der auf die Geschwindigkeit der Bodenbearbeitung mit einer Hacke angewendet werden soll",
+    "Features.Tilling.SpeedMultiplier.Description":  "Ändere die Geschwindigkeit, mit der der Spieler Ackerland mit einer Hacke bearbeitet. Wirkt als direkter Multiplikator. Min.: 0.1, Max: 2.0, Standard: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Bebauend",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Einstellungen für die Bodenbearbeitung",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Bietet Spielern eine einfachere Möglichkeit, Ackerland mit einer Hacke zu bestellen.",
+    "Features.Tilling.ModMenu.TabName":  "Bebauend",
+    "Features.Tilling.SpeedMultiplier":  "{0} Geschwindigkeitsmultiplikator: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Geschwindigkeits-Multiplikator",
+    "Features.Tilling.Description":  "Verwalten der Tilling-Einstellungen."
 }

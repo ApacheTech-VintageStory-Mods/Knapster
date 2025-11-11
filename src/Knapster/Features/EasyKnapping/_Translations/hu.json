@@ -1,0 +1,17 @@
+﻿{
+    "Features.Knapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels kattintásonként",
+    "Features.Knapping.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára a játékon belüli tárgyak elrablására.",
+    "Features.Knapping.ModMenu.lblVoxelsPerClick.HoverText":  "Meghatározza az egyszerre kezelt voxelek számát a gomboláskor",
+    "Features.Knapping.InstantComplete.Description":  "Módosítsa, hogy a munkaelem azonnal be kell-e fejeződnie a használat során. Igaz vagy Hamis, Alapértelmezett: Hamis.",
+    "Features.Knapping.ModMenu.TabName":  "Kopogtatás",
+    "Features.ModMenu.Knapping.TabName":  "Kopogtatás",
+    "Features.Knapping.Description":  "Kezelje a kattintási beállításokat.",
+    "Features.Knapping.InstantComplete":  "{0} Azonnali kiegészítés: {1}",
+    "Features.Knapping.VoxelsPerClick":  "{0} Voxel kattintásonként: {1}",
+    "Features.Knapping.ModMenu.lblInstantComplete.HoverText":  "Meghatározza, hogy azonnal befejezze-e az aktuális receptet",
+    "Features.Knapping.ModMenu.lblInstantComplete.Text":  "Azonnali befejezés",
+    "Features.Knapping.ModMenu.intVoxelsPerClick.Unit-singular":  "voxel",
+    "Features.Knapping.ModMenu.intVoxelsPerClick.Unit-plural":  "voxelek",
+    "Features.Knapping.VoxelsPerClick.Description":  "Módosíthatja a kattintásonként mozgatott voxelek számát. Min: 1, Max: 8, Alapértelmezett: 1.",
+    "Features.Knapping.ModMenu.lblTitle.Text":  "Beállítások"
+}

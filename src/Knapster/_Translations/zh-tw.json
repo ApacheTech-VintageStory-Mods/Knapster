@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "納普斯特",
-    "Features.Knapster.IncludeAutomated":  "{0}包括自動化版本：{1}",
-    "Features.Knapster.SaturationMultiplier":  "{0}飽和倍數：{1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} 包括自動化版本： {1}",
+    "Features.Knapster.CostPerClick":  "{0} 每次點擊的耐久度成本： {1}",
     "ModDescription":  "更容易製作和收集，適合那些手部靈活性較低的人。",
-    "Features.Knapster.SpeedMultiplier":  "{0}速度倍增器：{1}x",
-    "Features.Knapster.InstantComplete":  "{0} 即時完成：{1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} 速度倍增器： {1}x",
+    "Features.Knapster.InstantComplete":  "{0} 即時完成： {1}",
     "Features.Knapster.AutoComplete":  "自動完成",
-    "Features.Knapster.CostPerClick":  "{0} 每次點擊的耐久度成本：{1}",
-    "Features.Knapster.VoxelsPerClick":  "每次點擊{0}體素：{1}"
+    "Features.Knapster.VoxelsPerClick":  "每次點擊{0}體素：{1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} 飽和倍數： {1}x"
 }

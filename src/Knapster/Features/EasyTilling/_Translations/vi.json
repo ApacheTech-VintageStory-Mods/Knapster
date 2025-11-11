@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Hệ số tốc độ",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Thay đổi tốc độ người chơi cày đất nông nghiệp bằng cuốc. Hoạt động như một hệ số nhân trực tiếp. Tối thiểu: 0.1, Tối đa: 2.0, Mặc định: 1.0.",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Hệ số nhân để áp dụng cho tốc độ xới đất bằng cuốc",
-    "Features.EasyTilling.ModMenu.TabName":  "Xới đất",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Cài đặt xới đất",
-    "Features.EasyTilling.Description":  "Quản lý cài đặt Tilling.",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi cày xới đất nông nghiệp bằng cuốc."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Hệ số nhân để áp dụng cho tốc độ Xới đất bằng cuốc",
+    "Features.Tilling.SpeedMultiplier.Description":  "Thay đổi tốc độ mà người chơi cày xới đất nông nghiệp bằng cuốc. Hoạt động như một hệ số nhân trực tiếp. Tối thiểu: 0.1, Tối đa: 2.0, Mặc định: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Xới đất",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Cài đặt xới đất",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Cung cấp một cách dễ dàng hơn để người chơi cày xới đất nông nghiệp, bằng cuốc.",
+    "Features.Tilling.ModMenu.TabName":  "Xới đất",
+    "Features.Tilling.SpeedMultiplier":  "Hệ số tốc độ {0}: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Hệ số tốc độ",
+    "Features.Tilling.Description":  "Quản lý cài đặt Tilling."
 }

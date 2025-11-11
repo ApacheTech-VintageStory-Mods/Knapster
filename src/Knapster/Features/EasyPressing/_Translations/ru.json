@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Управление настройками пресса для фруктов.",
-    "Features.EasyPressing.ModMenu.TabName":  "Прессование фруктов",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Благодаря этому пресс не нужно полностью сжимать перед тем, как его можно будет открутить.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Настройки прессования фруктов"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Благодаря этому пресс не нужно полностью сжимать перед тем, как его можно будет открутить.",
+    "Features.Pressing.ModMenu.TabName":  "Прессование фруктов",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Настройки прессования фруктов",
+    "Features.Pressing.Description":  "Управление настройками пресса для фруктов."
 }

@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Gestisci le impostazioni della pressa per frutta.",
-    "Features.EasyPressing.ModMenu.TabName":  "Spremitura Frutta",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "In questo modo la pressa non deve essere completamente compressa prima di poter essere svitata.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Impostazioni di spremitura della frutta"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "In questo modo la pressa non deve essere completamente compressa prima di poter essere svitata.",
+    "Features.Pressing.ModMenu.TabName":  "Spremitura Frutta",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Impostazioni di spremitura della frutta",
+    "Features.Pressing.Description":  "Gestisci le impostazioni della pressa per frutta."
 }

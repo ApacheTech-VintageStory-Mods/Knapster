@@ -1,20 +1,26 @@
 {
-  "Features.EasyGrinding.Description": "Manage quern settings.",
-  "Features.EasyGrinding.StickyMouseButton": "{0} Sticky Mouse Buttons: {1}",
-  "Features.EasyGrinding.StickyMouseButton.Description": "When active, the user will not need to keep the right-mouse button held down to keep the quern active.",
-  "Features.EasyGrinding.SpeedMultiplier.Description": "Change the speed at which the player grinds resources within a quern. Acts as a direct multiplier. Min: 0.0, Max: 10.0, Default: 1.0.",
-  "Features.EasyGrinding.IncludeAutomated.Description": "Apply the speed multiplier to automated querns, as well as manual querns.",
+  "Features.Grinding.Description": "Manage quern settings.",
 
-  "Features.EasyGrinding.ModMenu.TabName": "Quern Grinding",
-  "Features.EasyGrinding.ModMenu.lblTitle.Text": "Quern Grinding Settings",
-  "Features.EasyGrinding.ModMenu.lblDescription.Text": "Provides an easier way for players to grind resources in a quern.",
+  "Features.Grinding.StickyMouseButton": "{0} Sticky Mouse Buttons: {1}",
+  "Features.Grinding.StickyMouseButton.Description": "When active, the user will not need to keep the right-mouse button held down to keep the quern active.",
 
-  "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
-  "Features.EasyGrinding.ModMenu.lblSpeedMultiplier.HoverText": "Determines the multiplier to apply to the speed of using the quern",
+  "Features.Grinding.SpeedMultiplier": "{0} Speed Multiplier: {1}x",
+  "Features.Grinding.SpeedMultiplier.Description": "Change the speed at which the player grinds resources within a quern. Acts as a direct multiplier. Min: 0.0, Max: 10.0, Default: 1.0.",
 
-  "Features.EasyGrinding.ModMenu.lbIncludeAutomated.Text": "Include Automated",
-  "Features.EasyGrinding.ModMenu.lbIncludeAutomated.HoverText": "Determines whether to apply the speed multiplier to automated querns",
+  "Features.Grinding.IncludeAutomated": "{0} Include Automated Versions: {1}",
+  "Features.Grinding.IncludeAutomated.Description": "Apply the speed multiplier to automated querns, as well as manual querns.",
 
-  "Features.EasyGrinding.ModMenu.lbStickyMouseButton.Text": "Sticky Mouse Button",
-  "Features.EasyGrinding.ModMenu.lbStickyMouseButton.HoverText": "When active, the user will not need to keep the right-mouse button held down to keep the quern active"
+  "Features.ModMenu.Grinding.TabName": "Quern Grinding",
+  "Features.Grinding.ModMenu.TabName": "Quern Grinding",
+  "Features.Grinding.ModMenu.lblTitle.Text": "Quern Grinding Settings",
+  "Features.Grinding.ModMenu.lblDescription.Text": "Provides an easier way for players to grind resources in a quern.",
+
+  "Features.Grinding.ModMenu.lblSpeedMultiplier.Text": "Speed Multiplier",
+  "Features.Grinding.ModMenu.lblSpeedMultiplier.HoverText": "Determines the multiplier to apply to the speed of using the quern",
+
+  "Features.Grinding.ModMenu.lbIncludeAutomated.Text": "Include Automated",
+  "Features.Grinding.ModMenu.lbIncludeAutomated.HoverText": "Determines whether to apply the speed multiplier to automated querns",
+
+  "Features.Grinding.ModMenu.lbStickyMouseButton.Text": "Sticky Mouse Button",
+  "Features.Grinding.ModMenu.lbStickyMouseButton.HoverText": "When active, the user will not need to keep the right-mouse button held down to keep the quern active"
 }

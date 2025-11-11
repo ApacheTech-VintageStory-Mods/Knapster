@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Oyuncuların tırpanla çim toplaması için daha kolay bir yol sağlar.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Tırpan kullanma hızına uygulanacak çarpanı belirler",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Hasat",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Hasat Ayarları",
-    "Features.EasyHarvesting.Description":  "Hasat ayarlarını yönetin.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Oyuncunun bir tırpanla çim hasat etme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 2.0, Varsayılan: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Oyuncunun tırpanla çim toplama hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 2.0, Varsayılan: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Hasat Ayarları",
+    "Features.ModMenu.Harvesting.TabName":  "Hasat",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Hız Çarpanı: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Oyuncuların tırpanla çim toplaması için daha kolay bir yol sağlar.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
+    "Features.Harvesting.ModMenu.TabName":  "Hasat",
+    "Features.Harvesting.Description":  "Hasat ayarlarını yönetin.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Tırpan kullanma hızına uygulanacak çarpanı belirler"
 }

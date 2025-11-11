@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "إدارة إعدادات مكبس الفاكهة.",
-    "Features.EasyPressing.ModMenu.TabName":  "عصر الفاكهة",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "يجعلها لا تحتاج إلى ضغط المكبس بالكامل قبل فكها.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "إعدادات عصر الفاكهة"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "يجعلها لا تحتاج إلى ضغط المكبس بالكامل قبل فكها.",
+    "Features.Pressing.ModMenu.TabName":  "عصر الفاكهة",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "إعدادات عصر الفاكهة",
+    "Features.Pressing.Description":  "إدارة إعدادات معصرة الفاكهة."
 }

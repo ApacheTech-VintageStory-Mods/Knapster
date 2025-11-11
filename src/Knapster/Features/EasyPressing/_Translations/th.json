@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "จัดการการตั้งค่าการกดผลไม้",
-    "Features.EasyPressing.ModMenu.TabName":  "การกดผลไม้",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "ทําให้ไม่จําเป็นต้องบีบอัดแท่นพิมพ์จนสุดก่อนที่จะคลายเกลียวได้",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "การตั้งค่าการกดผลไม้"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "ทําให้แท่นพิมพ์ไม่จําเป็นต้องบีบอัดจนสุดก่อนจึงจะสามารถคลายเกลียวได้",
+    "Features.Pressing.ModMenu.TabName":  "การกดผลไม้",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "การตั้งค่าการกดผลไม้",
+    "Features.Pressing.Description":  "จัดการการตั้งค่าการกดผลไม้"
 }

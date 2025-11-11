@@ -14,7 +14,7 @@
     "Features.ModMenu.lblAccessMode.HoverText":  "Bepaalt hoe de functie toegankelijk is voor spelers op de server",
     "Features.ModMenu.cbxAccessMode.Blacklist":  "Zwarte lijst",
     "Features.ModMenu.btnAddBlacklistPlayer.Text":  "Toevoegen",
-    "Features.ModMenu.SettingsSaved.Message":  "{0} Instellingen opgeslagen",
+    "Features.ModMenu.SettingsSaved.Message":  "{0} instellingen opgeslagen",
     "Features.ModMenu.lblAccessMode.Text":  "Toegangsmodus",
     "Features.ModMenu.GeneralSettings.btnSaveChanges.Text":  "Bereik opslaan",
     "Features.ModMenu.lblBlacklistable.Text":  "Toevoegen aan zwarte lijst",

@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Множитель скорости",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ сбора травы с помощью косы.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Определяет множитель, который будет применяться к скорости использования косы",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Уборка урожая",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Настройки сбора урожая",
-    "Features.EasyHarvesting.Description":  "Управление настройками сбора урожая.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Изменяйте скорость, с которой игрок собирает траву с помощью косы. Выступает в роли прямого множителя. Мин.: 0.0, Макс.: 2.0, По умолчанию: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Изменяйте скорость, с которой игрок собирает траву с помощью косы. Выступает в роли прямого множителя. Мин.: 0.0, Макс.: 2.0, По умолчанию: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Настройки сбора урожая",
+    "Features.ModMenu.Harvesting.TabName":  "Уборка урожая",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Множитель скорости: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ сбора травы с помощью косы.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Множитель скорости",
+    "Features.Harvesting.ModMenu.TabName":  "Уборка урожая",
+    "Features.Harvesting.Description":  "Управление настройками сбора урожая.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Определяет множитель, который будет применяться к скорости использования косы"
 }

@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "속도 승수",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "플레이어가 낫으로 풀을 수확하는 더 쉬운 방법을 제공합니다.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "낫 사용 속도에 적용할 승수를 결정합니다.",
-    "Features.EasyHarvesting.ModMenu.TabName":  "수확",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "수확 설정",
-    "Features.EasyHarvesting.Description":  "수확 설정을 관리합니다.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "플레이어가 낫으로 풀을 수확하는 속도를 변경합니다. 직접 승수 역할을 합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "플레이어가 낫으로 풀을 수확하는 속도를 변경합니다. 직접 승수 역할을 합니다. 최소: 0.0, 최대: 2.0, 기본값: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "수확 설정",
+    "Features.ModMenu.Harvesting.TabName":  "수확",
+    "Features.Harvesting.SpeedMultiplier":  "{0} 속도 승수: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "플레이어가 낫으로 풀을 수확하는 더 쉬운 방법을 제공합니다.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "속도 승수",
+    "Features.Harvesting.ModMenu.TabName":  "수확",
+    "Features.Harvesting.Description":  "수확 설정을 관리합니다.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "낫 사용 속도에 적용할 승수를 결정합니다."
 }

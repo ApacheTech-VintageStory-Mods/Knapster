@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
-    "Features.Knapster.IncludeAutomated":  "{0} Zahrnout automatizované verze: {1}",
-    "Features.Knapster.SaturationMultiplier":  "Multiplikátor {0} sytosti: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} zahrnují automatizované verze: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Trvanlivost – cena za kliknutí: {1}",
     "ModDescription":  "Snadnější tvoření a sbírání, pro ty, kteří mají nízkou manuální zručnost.",
     "Features.Knapster.SpeedMultiplier":  "{0} násobič rychlosti: {1}x",
     "Features.Knapster.InstantComplete":  "{0} Okamžité dokončení: {1}",
     "Features.Knapster.AutoComplete":  "Automatické dokončování",
-    "Features.Knapster.CostPerClick":  "{0} Trvanlivost – cena za proklik: {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} voxelů na kliknutí: {1}"
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxelů na kliknutí: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} násobitel sytosti: {1}x"
 }

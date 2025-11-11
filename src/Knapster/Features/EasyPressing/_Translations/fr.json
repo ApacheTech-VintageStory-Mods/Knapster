@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Gérer les paramètres de la presse à fruits.",
-    "Features.EasyPressing.ModMenu.TabName":  "Pressage des fruits",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Fait en sorte que la presse n’a pas besoin d’être complètement compressée avant de pouvoir être dévissée.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Paramètres de pressage des fruits"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Fait en sorte que la presse n’a pas besoin d’être complètement compressée avant de pouvoir être dévissée.",
+    "Features.Pressing.ModMenu.TabName":  "Pressage des fruits",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Paramètres de pressage des fruits",
+    "Features.Pressing.Description":  "Gérer les paramètres de la presse à fruits."
 }

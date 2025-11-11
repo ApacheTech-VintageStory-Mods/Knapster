@@ -1,0 +1,17 @@
+﻿{
+    "Features.MixingBowl.IncludeAutomated":  "{0} Automatizált verziók tartalmazása: {1}",
+    "Features.MixingBowl.Description":  "Keverőtál beállításainak kezelése.",
+    "Features.MixingBowl.IncludeAutomated.Description":  "Alkalmazza a sebességszorzót a motoros keverőtálakra, valamint a kézi keverőtálakra.",
+    "Features.MixingBowl.ModMenu.lblTitle.Text":  "Keverőtál beállításai",
+    "Features.MixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Sebesség szorzó",
+    "Features.MixingBowl.ModMenu.TabName":  "Keverőtál",
+    "Features.MixingBowl.ModMenu.lblDescription.Text":  "Egyszerűbb módot biztosít a játékosok számára az erőforrások keverőtálban való keverésére.",
+    "Features.MixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Ha aktív, a felhasználónak nem kell lenyomva tartania a jobb egérgombot ahhoz, hogy a keverőtál aktív maradjon",
+    "Features.MixingBowl.SpeedMultiplier":  "{0} sebességszorzó: {1}x",
+    "Features.MixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Meghatározza, hogy a sebességszorzót alkalmazni kell-e az automatizált keverőtálakra",
+    "Features.MixingBowl.SpeedMultiplier.Description":  "Módosítsa azt a sebességet, amellyel a játékos egyesíti az erőforrásokat egy keverőtálban. Közvetlen szorzóként működik. Min: 0,0, Max: 10,0, Alapértelmezett: 1,0.",
+    "Features.MixingBowl.ModMenu.lbStickyMouseButton.Text":  "Ragadós egérgomb",
+    "Features.ModMenu.MixingBowl.TabName":  "Keverőtál",
+    "Features.MixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Meghatározza a keverőtál használatának sebességére alkalmazandó szorzót",
+    "Features.MixingBowl.ModMenu.lbIncludeAutomated.Text":  "Tartalmazza az automatizált"
+}

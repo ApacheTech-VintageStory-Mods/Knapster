@@ -1,11 +1,11 @@
 ﻿{
-    "ModTitle":  "Srpsko-hrvatski",
+    "ModTitle":  "Knapster",
     "Features.Knapster.IncludeAutomated":  "{0} uključuju automatizovane verzije: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Zasićenje Multiplikator: {1}k",
-    "ModDescription":  "Lakša izrada i okupljanje, za one sa niskom ručnom spretnošću.",
-    "Features.Knapster.SpeedMultiplier":  "{0} Brzina multiplikator: {1}k",
-    "Features.Knapster.InstantComplete":  "{0} Instant Kompletan: {1}",
-    "Features.Knapster.AutoComplete":  "Auto Komplet",
     "Features.Knapster.CostPerClick":  "{0} Trajnost Cena po kliku: {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} voksela po kliku: {1}"
+    "ModDescription":  "Lakša izrada i okupljanje, za one sa niskom ručnom spretnošću.",
+    "Features.Knapster.SpeedMultiplier":  "{0} multiplikator brzine: {1}k",
+    "Features.Knapster.InstantComplete":  "{0} Instant Kompletan: {1}",
+    "Features.Knapster.AutoComplete":  "Automatsko dovršavanje",
+    "Features.Knapster.VoxelsPerClick":  "{0} voksela po kliku: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} multiplikator zasićenja: {1}k"
 }

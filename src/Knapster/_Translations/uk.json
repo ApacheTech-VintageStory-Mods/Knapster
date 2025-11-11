@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Кранцеві",
     "Features.Knapster.IncludeAutomated":  "{0} включають автоматизовані версії: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Множник насичення: {1}x",
+    "Features.Knapster.CostPerClick":  "{0} Вартість довговічності за клік: {1}",
     "ModDescription":  "Простіше майструвати та збирати, для тих, у кого низька спритність рук.",
     "Features.Knapster.SpeedMultiplier":  "{0} Множник швидкості: {1}x",
     "Features.Knapster.InstantComplete":  "{0} Миттєве завершення: {1}",
     "Features.Knapster.AutoComplete":  "Автозаповнення",
-    "Features.Knapster.CostPerClick":  "{0} Вартість довговічності за клік: {1}",
-    "Features.Knapster.VoxelsPerClick":  "{0} Вокселів за клік: {1}"
+    "Features.Knapster.VoxelsPerClick":  "{0} Вокселів на клік: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Множник насичення: {1}х"
 }

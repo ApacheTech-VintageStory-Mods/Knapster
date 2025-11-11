@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidade",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores colherem grama, com uma foice.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Determina o multiplicador a aplicar à velocidade de utilização da foice",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Colheita",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Configurações de colheita",
-    "Features.EasyHarvesting.Description":  "Gerencie as configurações de colheita.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Mude a velocidade com que o jogador colhe grama com uma foice. Atua como multiplicador direto. Mín.: 0.0, Máx.: 2.0, Padrão: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Mude a velocidade com que o jogador colhe grama com uma foice. Atua como multiplicador direto. Mín.: 0.0, Máx.: 2.0, Padrão: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Configurações de colheita",
+    "Features.ModMenu.Harvesting.TabName":  "Colheita",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Multiplicador de velocidade: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Fornece uma maneira mais fácil para os jogadores colherem grama, com uma foice.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplicador de velocidade",
+    "Features.Harvesting.ModMenu.TabName":  "Colheita",
+    "Features.Harvesting.Description":  "Gerencie as configurações de colheita.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Determina o multiplicador a aplicar à velocidade de utilização da foice"
 }

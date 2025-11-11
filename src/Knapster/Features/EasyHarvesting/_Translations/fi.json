@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Nopeuden kerroin",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan korjata ruohoa viikatteella.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Määrittää viikatteen käyttönopeuteen sovellettavan kertoimen",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Korjuu",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Sadonkorjuun asetukset",
-    "Features.EasyHarvesting.Description":  "Hallitse sadonkorjuuasetuksia.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Muuta nopeutta, jolla pelaaja korjaa ruohoa viikatteella. Toimii suorana kertojana. Min: 0.0, Max: 2.0, Oletus: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Muuta nopeutta, jolla pelaaja korjaa ruohoa viikatteella. Toimii suorana kertojana. Min: 0.0, Max: 2.0, Oletus: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Sadonkorjuun asetukset",
+    "Features.ModMenu.Harvesting.TabName":  "Korjuu",
+    "Features.Harvesting.SpeedMultiplier":  "{0} nopeuskerroin: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Tarjoaa pelaajille helpomman tavan korjata ruohoa viikatteella.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Nopeuden kerroin",
+    "Features.Harvesting.ModMenu.TabName":  "Korjuu",
+    "Features.Harvesting.Description":  "Hallitse sadonkorjuuasetuksia.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Määrittää viikatteen käyttönopeuteen sovellettavan kertoimen"
 }

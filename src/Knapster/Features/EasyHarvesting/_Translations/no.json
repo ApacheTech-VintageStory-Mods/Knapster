@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Hastighet multiplikator",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Gir en enklere måte for spillere å høste gress på, med en ljå.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bestemmer multiplikatoren som skal brukes på hastigheten ved bruk av ljåen",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Innhøstning",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Innstillinger for høsting",
-    "Features.EasyHarvesting.Description":  "Administrer innhøstingsinnstillinger.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Endre hastigheten som spilleren høster gress med en ljå. Fungerer som en direkte multiplikator. Min: 0.0, Maks: 2.0, Standard: 1.0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Endre hastigheten som spilleren høster gress med en ljå. Fungerer som en direkte multiplikator. Min: 0.0, Maks: 2.0, Standard: 1.0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Innstillinger for høsting",
+    "Features.ModMenu.Harvesting.TabName":  "Innhøstning",
+    "Features.Harvesting.SpeedMultiplier":  "{0} hastighetsmultiplikator: {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Gir en enklere måte for spillere å høste gress på, med en ljå.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hastighet multiplikator",
+    "Features.Harvesting.ModMenu.TabName":  "Innhøstning",
+    "Features.Harvesting.Description":  "Administrer innhøstingsinnstillinger.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bestemmer multiplikatoren som skal brukes på hastigheten ved bruk av ljåen"
 }

@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "Moltiplicatore di velocità",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "Cambia la velocità con cui il giocatore coltiva i terreni agricoli con una zappa. Agisce come un moltiplicatore diretto. Min: 0.1, Max: 2.0, Predefinito: 1.0.",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "Il moltiplicatore da applicare alla velocità di Lavorazione con la zappa",
-    "Features.EasyTilling.ModMenu.TabName":  "Coltivatrici",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "Impostazioni di lavorazione del terreno",
-    "Features.EasyTilling.Description":  "Gestisci le impostazioni di Tilling.",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "Fornisce un modo più semplice per i giocatori di coltivare terreni agricoli, con una zappa."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Il moltiplicatore da applicare alla velocità di Lavorazione con la zappa",
+    "Features.Tilling.SpeedMultiplier.Description":  "Cambia la velocità con cui il giocatore coltiva i terreni agricoli con una zappa. Agisce come un moltiplicatore diretto. Min: 0.1, Max: 2.0, Predefinito: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Coltivatrici",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Impostazioni di lavorazione del terreno",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Fornisce un modo più semplice per i giocatori di coltivare terreni agricoli, con una zappa.",
+    "Features.Tilling.ModMenu.TabName":  "Coltivatrici",
+    "Features.Tilling.SpeedMultiplier":  "{0} Moltiplicatore di velocità: {1}x",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Moltiplicatore di velocità",
+    "Features.Tilling.Description":  "Gestisci le impostazioni di Tilling."
 }

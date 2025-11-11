@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplicateur de vitesse",
-    "Features.EasyHarvesting.ModMenu.lblDescription.Text":  "Fournit aux joueurs un moyen plus facile de récolter de l’herbe, avec une faux.",
-    "Features.EasyHarvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Détermine le multiplicateur à appliquer à la vitesse d’utilisation de la faux",
-    "Features.EasyHarvesting.ModMenu.TabName":  "Récolte",
-    "Features.EasyHarvesting.ModMenu.lblTitle.Text":  "Paramètres de récolte",
-    "Features.EasyHarvesting.Description":  "Gérer les paramètres de récolte.",
-    "Features.EasyHarvesting.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur récolte l’herbe avec une faux. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, par défaut : 1,0."
+    "Features.Harvesting.SpeedMultiplier.Description":  "Modifiez la vitesse à laquelle le joueur récolte l’herbe avec une faux. Agit comme un multiplicateur direct. Min : 0,0, Max : 2,0, par défaut : 1,0.",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Paramètres de récolte",
+    "Features.ModMenu.Harvesting.TabName":  "Récolte",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Multiplicateur de vitesse : {1}x",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Fournit aux joueurs un moyen plus facile de récolter de l’herbe, avec une faux.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplicateur de vitesse",
+    "Features.Harvesting.ModMenu.TabName":  "Récolte",
+    "Features.Harvesting.Description":  "Gérer les paramètres de récolte.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Détermine le multiplicateur à appliquer à la vitesse d’utilisation de la faux"
 }

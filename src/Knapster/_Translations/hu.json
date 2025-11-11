@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "Napszor",
+    "Features.Knapster.IncludeAutomated":  "{0} Automatizált verziók tartalmazása: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Tartóssági költség kattintásonként: {1}",
+    "ModDescription":  "Könnyebb kézművesség és gyűjtés az alacsony kézügyességűek számára.",
+    "Features.Knapster.SpeedMultiplier":  "{0} sebességszorzó: {1}x",
+    "Features.Knapster.InstantComplete":  "{0} Azonnali kiegészítés: {1}",
+    "Features.Knapster.AutoComplete":  "Automatikus kiegészítés",
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxel kattintásonként: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Telítettségi szorzó: {1}x"
+}

@@ -1,9 +1,11 @@
 ﻿{
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.Text":  "スピード乗数",
-    "Features.EasyTilling.SpeedMultiplier.Description":  "プレイヤーが鍬で農地を耕す速度を変える。直接乗数として機能します。最小値: 0.1、最大値: 2.0、デフォルト: 1.0。",
-    "Features.EasyTilling.ModMenu.lblSpeedMultiplier.HoverText":  "鍬で耕す速度に適用される乗数",
-    "Features.EasyTilling.ModMenu.TabName":  "耕す",
-    "Features.EasyTilling.ModMenu.lblTitle.Text":  "耕うん設定",
-    "Features.EasyTilling.Description":  "耕うん設定を管理します。",
-    "Features.EasyTilling.ModMenu.lblDescription.Text":  "プレイヤーが鍬を使って農地を耕す簡単な方法を提供します。"
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "鍬で耕す速度に適用される乗数",
+    "Features.Tilling.SpeedMultiplier.Description":  "プレイヤーが鍬で農地を耕す速度を変える。直接乗数として機能します。最小値: 0.1、最大値: 2.0、デフォルト: 1.0。",
+    "Features.ModMenu.Tilling.TabName":  "耕す",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "耕うん設定",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "プレイヤーが鍬を使って農地を耕す簡単な方法を提供します。",
+    "Features.Tilling.ModMenu.TabName":  "耕す",
+    "Features.Tilling.SpeedMultiplier":  "{0} 速度倍率: {1}倍",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "スピード乗数",
+    "Features.Tilling.Description":  "耕うん設定を管理します。"
 }

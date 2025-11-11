@@ -1,6 +1,6 @@
 ﻿{
-    "Features.EasyPressing.Description":  "Instellingen voor fruitpers beheren.",
-    "Features.EasyPressing.ModMenu.TabName":  "Fruit persen",
-    "Features.EasyPressing.ModMenu.lblDescription.Text":  "Zorgt ervoor dat de pers niet volledig hoeft te worden samengedrukt voordat deze kan worden losgeschroefd.",
-    "Features.EasyPressing.ModMenu.lblTitle.Text":  "Instellingen voor het persen van fruit"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Zorgt ervoor dat de pers niet volledig hoeft te worden samengedrukt voordat deze kan worden losgeschroefd.",
+    "Features.Pressing.ModMenu.TabName":  "Fruit persen",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Instellingen voor het persen van fruit",
+    "Features.Pressing.Description":  "Instellingen voor fruitpers beheren."
 }

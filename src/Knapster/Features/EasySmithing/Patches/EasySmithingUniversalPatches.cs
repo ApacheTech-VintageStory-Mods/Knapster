@@ -123,7 +123,6 @@ public partial class EasySmithingUniversalPatches
         anvil.Voxels[x, y, z] = 0;
         OnHitSuccess(anvil, EnumVoxelMaterial.Slag, null, x, y, z);
         AnvilMetalRecovery("Postfix_OnSplit", usableMetalVoxel, anvil);
-        SmithingPlusBitRecovery(anvil, byPlayer);
         return new(AnvilHitAction.SlagRemoved, byPlayer, VoxelPos: new(x, y, z));
     }
 

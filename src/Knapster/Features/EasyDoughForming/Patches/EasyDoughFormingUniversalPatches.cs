@@ -1,8 +1,7 @@
 ﻿namespace Knapster.Features.EasyDoughForming.Patches;
 
 [HarmonyUniversalPatch]
-[RequiresMod("coreofarts")]
-[RequiresMod("artofcooking")]
+[HarmonyRequiresMod("coreofarts", "artofcooking")]
 public class EasyDoughFormingUniversalPatches
 {
     [HarmonyPrefix]

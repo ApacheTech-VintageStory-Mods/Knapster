@@ -9,7 +9,7 @@ public class EasyClayFormingUniversalPatches
         IPlayer byPlayer, bool mouseBreakMode, Vec3i voxelPos, BlockFacing facing, ref ItemStack ___workItemStack)
     {
         var settings = new GetClayFormingSettingsCommand(byPlayer);
-        G.CommandProcessor.Send(settings);
+        G.CommandProcessor.Execute(settings);
         try
         {
             var slot = byPlayer.InventoryManager.ActiveHotbarSlot;

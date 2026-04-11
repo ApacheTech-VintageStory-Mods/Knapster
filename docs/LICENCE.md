@@ -1,1 +1,1 @@
-Copyright © 2025, ApacheTech Solutions. All Rights Reserved.
+Copyright Â© 2025, ApacheTech Solutions. All Rights Reserved.

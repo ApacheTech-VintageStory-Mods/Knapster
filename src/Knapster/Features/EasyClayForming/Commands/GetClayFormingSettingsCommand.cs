@@ -1,6 +1,6 @@
 ﻿namespace Knapster.Features.EasyClayForming.Commands;
 
-public class GetClayFormingSettingsCommand(IPlayer player) : CommandBase
+public class GetClayFormingSettingsCommand(IPlayer player) : GantryCommandBase
 {
     public IPlayer Player { get; } = player;
     public bool Enabled { get; internal set; }
@@ -10,22 +10,22 @@ public class GetClayFormingSettingsCommand(IPlayer player) : CommandBase
     public class Handler(
         EasyClayFormingClient client,
         EasyClayFormingServer server,
-        ICoreGantryAPI gantry) : RequestHandler<GetClayFormingSettingsCommand>
+        ICoreGantryAPI gantry) : CommandHandlerBase<GetClayFormingSettingsCommand>
     {
         private readonly EasyClayFormingClient _client = client;
         private readonly EasyClayFormingServer _server = server;
         private readonly ICoreGantryAPI _gantry = gantry;
 
-        public override GetClayFormingSettingsCommand Handle(GetClayFormingSettingsCommand command)
+        public override async Task HandleAsync(GetClayFormingSettingsCommand command, CancellationToken cancellationToken)
         {
-            if (command.Player.Entity is not EntityPlayer playerEntity) return base.Handle(command);
+            if (command.Player.Entity is not EntityPlayer playerEntity) return;
 
             command.Enabled = _gantry.ApiEx.Return(
                 () => _client.Settings.Enabled,
                 () => _server.IsEnabledFor(playerEntity.Player));
 
             if (!command.Enabled)
-                return base.Handle(command);
+                return;
 
             command.VoxelsPerClick = _gantry.ApiEx.Return(
                 () => _client.Settings.VoxelsPerClick,
@@ -35,7 +35,7 @@ public class GetClayFormingSettingsCommand(IPlayer player) : CommandBase
                 () => _client.Settings.InstantComplete,
                 () => _server.Settings.InstantComplete);
 
-            return base.Handle(command);
+            return;
         }
     }
 }

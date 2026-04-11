@@ -1,6 +1,6 @@
 ﻿namespace Knapster.Features.EasyDoughForming.Commands;
 
-public class GetDoughFormingSettingsCommand(IPlayer player) : CommandBase
+public class GetDoughFormingSettingsCommand(IPlayer player) : GantryCommandBase
 {
     public IPlayer Player { get; } = player;
     public bool Enabled { get; internal set; }
@@ -10,15 +10,15 @@ public class GetDoughFormingSettingsCommand(IPlayer player) : CommandBase
     public class Handler(
         EasyDoughFormingClient client,
         EasyDoughFormingServer server,
-        ICoreGantryAPI gantry) : RequestHandler<GetDoughFormingSettingsCommand>
+        ICoreGantryAPI gantry) : CommandHandlerBase<GetDoughFormingSettingsCommand>
     {
         private readonly EasyDoughFormingClient _client = client;
         private readonly EasyDoughFormingServer _server = server;
         private readonly ICoreGantryAPI _gantry = gantry;
 
-        public override GetDoughFormingSettingsCommand Handle(GetDoughFormingSettingsCommand command)
+        public override async Task HandleAsync(GetDoughFormingSettingsCommand command, CancellationToken cancellationToken)
         {
-            if (command.Player.Entity is not EntityPlayer playerEntity) return base.Handle(command);
+            if (command.Player.Entity is not EntityPlayer playerEntity) return;
 
             command.Enabled = _gantry.ApiEx.Return(
                 () => _client.Settings.Enabled,
@@ -32,7 +32,7 @@ public class GetDoughFormingSettingsCommand(IPlayer player) : CommandBase
                 () => _client.Settings.InstantComplete,
                 () => _server.Settings.InstantComplete);
 
-            return base.Handle(command);
+            return;
         }
     }
 }

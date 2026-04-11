@@ -1,5 +1,4 @@
 ﻿using Knapster.Features.EasySmithing.DataStructures;
-using System.Diagnostics;
 
 namespace Knapster.Features.EasySmithing.Patches;
 
@@ -19,7 +18,7 @@ public partial class EasySmithingUniversalPatches
             if (slot.Itemstack.Collectible is not ItemHammer hammer) return true;
             var toolMode = hammer.GetToolMode(slot, byPlayer, blockSel);
             var settings = new GetSmithingSettingsCommand(byPlayer);
-            G.CommandProcessor.Send(settings);
+            G.CommandProcessor.Execute(settings);
             if (!settings.Enabled)
             {
                 if (toolMode > 5) hammer.SetToolMode(slot, byPlayer, blockSel, 0);

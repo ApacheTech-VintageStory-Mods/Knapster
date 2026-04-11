@@ -1,6 +1,6 @@
 ﻿namespace Knapster.Features.EasyMixingBowl.Commands;
 
-public class GetMixingBowlSpeedMultiplierCommand(List<string> players) : CommandBase
+public class GetMixingBowlSpeedMultiplierCommand(List<string> players) : GantryCommandBase
 {
     public List<string> Players { get; } = players;
     public float SpeedMultiplier { get; set; } = 1f;
@@ -8,28 +8,26 @@ public class GetMixingBowlSpeedMultiplierCommand(List<string> players) : Command
     internal class Handler(
         EasyMixingBowlClient client,
         EasyMixingBowlServer server,
-        ICoreGantryAPI gantry) : RequestHandler<GetMixingBowlSpeedMultiplierCommand>
+        ICoreGantryAPI gantry) : CommandHandlerBase<GetMixingBowlSpeedMultiplierCommand>
     {
         private readonly EasyMixingBowlClient _client = client;
         private readonly EasyMixingBowlServer _server = server;
         private readonly ICoreGantryAPI _gantry = gantry;
-        public override GetMixingBowlSpeedMultiplierCommand Handle(GetMixingBowlSpeedMultiplierCommand command)
+        public override async Task HandleAsync(GetMixingBowlSpeedMultiplierCommand command, CancellationToken cancellationToken)
         {
             if (command.Players.Count == 0 && !_gantry.ApiEx.Return(
                 () => _client.Settings.IncludeAutomated,
                 () => _server.Settings.IncludeAutomated))
-                return base.Handle(command);
+                return;
 
             if (!_gantry.ApiEx.Return(
                     () => _client.Settings.Enabled,
                     () => _server.IsEnabledForAll(command.Players)))
-                return base.Handle(command);
+                return;
 
             command.SpeedMultiplier = _gantry.ApiEx.Return(
                 () => _client.Settings.SpeedMultiplier,
                 () => _server.Settings.SpeedMultiplier);
-
-            return base.Handle(command);
         }
     }
 }

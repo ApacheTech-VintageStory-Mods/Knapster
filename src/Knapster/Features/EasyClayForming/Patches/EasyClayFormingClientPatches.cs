@@ -9,7 +9,7 @@ public class EasyClayFormingClientPatches
         IClientPlayer forPlayer, BlockSelection blockSel, ref SkillItem[] __result, ref SkillItem[] ___toolModes)
     {
         var settings = new GetClayFormingSettingsCommand(forPlayer);
-        G.CommandProcessor.Send(settings);
+        G.CommandProcessor.Execute(settings);
         try
         {
             if (__result is null) return;

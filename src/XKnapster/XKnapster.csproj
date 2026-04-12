@@ -22,11 +22,11 @@
 		</ProjectReference>
 		<Reference Include="xlib">
 			<HintPath>..\..\ref\xlib_v0.8.16\xlib.dll</HintPath>
-			<Private>False</Private>
+			<Private>True</Private>
 		</Reference>
 		<Reference Include="xskills">
 			<HintPath>..\..\ref\xskills_v0.8.19\xskills.dll</HintPath>
-			<Private>False</Private>
+			<Private>True</Private>
 		</Reference>
 	</ItemGroup>
 

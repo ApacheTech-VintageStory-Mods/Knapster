@@ -49,34 +49,3 @@ public class EasyPanningServerSettings : FeatureSettings<EasyPanningServerSettin
     [ChatCommand("saturation", Aliases = ["sat"], MinValue = 0f, MaxValue = 10f, DefaultValue = 3f)]
     public float SaturationPerLayer { get; set; } = 3f;
 }
-
-
-public class SaveSettingsTest(ICoreServerAPI sapi)
-{
-    private readonly ICoreServerAPI _sapi = sapi;
-
-    private void OnPlayerPlaying(IServerPlayer player)
-    {
-        var charClass = player.Entity?.WatchedAttributes?.GetString("characterClass");
-        if (charClass != "potter") return;
-
-        var easyClayFormingServer =
-            _sapi.ModLoader.GetModSystem<EasyClayFormingServer>();
-
-        if (easyClayFormingServer is null) return;
-        var settings = easyClayFormingServer.Settings;
-        if (!settings.Whitelist.Any(p => p.Id == player.PlayerUID))
-        {
-            settings.Whitelist.Add(new()
-            {
-                Name = player.PlayerName,
-                Id = player.PlayerUID
-            });
-
-            var core = _sapi.GantryCore();
-            var configuration = core.Settings.Global.Feature<ConfigurationSettings>();
-            easyClayFormingServer.Core.Settings.For(configuration.Scope).Save(settings);
-        }
-
-    }
-}

@@ -1,0 +1,17 @@
+﻿{
+    "Features.Knapping.Description":  "Tvarkyti knapping parametrus.",
+    "Features.Knapping.VoxelsPerClick":  "{0} vokselių per paspaudimą: {1}",
+    "Features.Knapping.InstantComplete":  "{0} Instant Complete: {1}",
+    "Features.Knapping.VoxelsPerClick.Description":  "Pakeiskite vokselių, kurie perkeliami per paspaudimą, skaičių. Min: 1, maks.: 8, numatytasis: 1.",
+    "Features.Knapping.InstantComplete.Description":  "Pakeiskite, ar darbo elementas turi būti iš karto užbaigtas, kai jis naudojamas. True arba False, Default: False.",
+    "Features.ModMenu.Knapping.TabName":  "Knapping",
+    "Features.Knapping.ModMenu.TabName":  "Knapping",
+    "Features.Knapping.ModMenu.lblTitle.Text":  "Knapping parametrai",
+    "Features.Knapping.ModMenu.lblDescription.Text":  "Suteikia žaidėjams lengvesnį būdą knap elementus žaidime.",
+    "Features.Knapping.ModMenu.lblVoxelsPerClick.Text":  "Voxels per paspaudimą",
+    "Features.Knapping.ModMenu.lblVoxelsPerClick.HoverText":  "Nustato vienu metu apdorojamų vokselių skaičių",
+    "Features.Knapping.ModMenu.intVoxelsPerClick.Unit-singular":  "vokselis",
+    "Features.Knapping.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseliai",
+    "Features.Knapping.ModMenu.lblInstantComplete.Text":  "Momentinis užbaigimas",
+    "Features.Knapping.ModMenu.lblInstantComplete.HoverText":  "Nustato, ar akimirksniu užbaigti dabartinį receptą"
+}

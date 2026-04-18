@@ -1,11 +1,11 @@
 ﻿{
-    "ModTitle":  "Młyn",
-    "Features.Knapster.IncludeAutomated":  "{0} Uwzględnij wersje automatyczne: {1}",
-    "Features.Knapster.CostPerClick":  "{0} Koszt trwałości na kliknięcie: {1}",
-    "ModDescription":  "Łatwiejsze tworzenie i zbieractwo dla osób o niskiej sprawności manualnej.",
-    "Features.Knapster.SpeedMultiplier":  "Mnożnik prędkości {0}: {1}x",
-    "Features.Knapster.InstantComplete":  "{0} Natychmiastowe ukończenie: {1}",
+    "ModTitle":  "Knapster",
+    "ModDescription":  "Łatwiejsze rzemiosło i zbieranie, dla osób z niską zręcznością manualną.",
     "Features.Knapster.AutoComplete":  "Automatyczne uzupełnianie",
     "Features.Knapster.VoxelsPerClick":  "{0} wokseli na kliknięcie: {1}",
-    "Features.Knapster.SaturationMultiplier":  "Mnożnik nasycenia {0}: {1}x"
+    "Features.Knapster.InstantComplete":  "{0} Natychmiastowe ukończenie: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Koszt trwałości za kliknięcie: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} Mnożnik prędkości: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} obejmują wersje automatyczne: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Mnożnik nasycenia: {1}x"
 }

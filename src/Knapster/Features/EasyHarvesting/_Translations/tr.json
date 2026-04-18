@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "Oyuncunun tırpanla çim toplama hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.0, Maks: 2.0, Varsayılan: 1.0.",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "Hasat Ayarları",
-    "Features.ModMenu.Harvesting.TabName":  "Hasat",
-    "Features.Harvesting.SpeedMultiplier":  "{0} Hız Çarpanı: {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "Oyuncuların tırpanla çim toplaması için daha kolay bir yol sağlar.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
-    "Features.Harvesting.ModMenu.TabName":  "Hasat",
     "Features.Harvesting.Description":  "Hasat ayarlarını yönetin.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Tırpan kullanma hızına uygulanacak çarpanı belirler"
+    "Features.Harvesting.SpeedMultiplier":  "{0} Hız Çarpanı: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Oyuncunun orakla çimen toplama hızını değiştir. Doğrudan çarpan olarak işlev görür. Minimum: 0.0, Max: 2.0, Default: 1.0.",
+    "Features.ModMenu.Harvesting.TabName":  "Hasat",
+    "Features.Harvesting.ModMenu.TabName":  "Hasat",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Hasat Ayarları",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Oyunculara bir orak ile ot toplamak için daha kolay bir yol sunar.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Orak kullanma hızına uygulanacak çarpanı belirler"
 }

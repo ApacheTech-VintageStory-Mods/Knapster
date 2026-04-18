@@ -1,0 +1,18 @@
+﻿{
+    "Features.ClayForming.ClayRequired":  "Агульная колькасць патрэбнай гліны: {0}",
+    "Features.ClayForming.Description":  "Кіруйце ўмовамі фарміравання гліны.",
+    "Features.ClayForming.VoxelsPerClick":  "{0} Вокселі за клік: {1}",
+    "Features.ClayForming.VoxelsPerClick.Description":  "Змяніце колькасць вакселяў, якія рухаюцца за адзін клік. Мінімум: 1, максімум: 8, па змаўчанні: 1.",
+    "Features.ClayForming.InstantComplete":  "{0} Імгненна завершана: {1}",
+    "Features.ClayForming.InstantComplete.Description":  "Змяніце, ці павінен заданне выконвацца імгненна, пры выкарыстанні. Праўда ці няпраўда, па змаўчанні: няпраўда.",
+    "Features.ModMenu.ClayForming.TabName":  "Фарміраванне гліны",
+    "Features.ClayForming.ModMenu.TabName":  "Фарміраванне гліны",
+    "Features.ClayForming.ModMenu.lblTitle.Text":  "Асяроддзі фарміравання гліны",
+    "Features.ClayForming.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб фарміраваць гліняныя прадметы ў гульні.",
+    "Features.ClayForming.ModMenu.lblVoxelsPerClick.Text":  "Вокселы на клік",
+    "Features.ClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Вызначае колькасць вокселяў, якія апрацоўваюцца адначасова пры фарміраванні гліны",
+    "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "воксель",
+    "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Вокселі",
+    "Features.ClayForming.ModMenu.lblInstantComplete.Text":  "Імгненна завершана",
+    "Features.ClayForming.ModMenu.lblInstantComplete.HoverText":  "Вызначае, ці варта імгненна завяршыць бягучы рэцэпт"
+}

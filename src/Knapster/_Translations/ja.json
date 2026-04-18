@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "ナップスター",
-    "Features.Knapster.IncludeAutomated":  "{0} 自動バージョンを含める: {1}",
-    "Features.Knapster.CostPerClick":  "{0} クリックあたりの耐久度コスト: {1}",
-    "ModDescription":  "手先の器用さが低い人のために、より簡単なクラフトと収集。",
-    "Features.Knapster.SpeedMultiplier":  "{0} 速度倍率: {1}倍",
-    "Features.Knapster.InstantComplete":  "{0} インスタントコンプリート: {1}",
+    "ModDescription":  "手先の器用さが低い人にとっては、クラフトや採集がより簡単だ。",
     "Features.Knapster.AutoComplete":  "オートコンプリート",
-    "Features.Knapster.VoxelsPerClick":  "クリックあたりの{0}ボクセル数: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} 彩度乗数: {1}x"
+    "Features.Knapster.VoxelsPerClick":  "{0} 1クリックあたりのボクセル数: {1}",
+    "Features.Knapster.InstantComplete":  "{0} 即時完了: {1}",
+    "Features.Knapster.CostPerClick":  "{0} クリックあたりの耐久性コスト: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} 速度倍率: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} 自動バージョンも含めています: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} 飽和倍率: {1}×"
 }

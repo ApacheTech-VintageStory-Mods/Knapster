@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Díky tomu nemusí být lis před odšroubováním zcela stlačen.",
+    "Features.Pressing.Description":  "Spravujte nastavení ovocného lisu.",
     "Features.Pressing.ModMenu.TabName":  "Lisování ovoce",
     "Features.Pressing.ModMenu.lblTitle.Text":  "Nastavení lisování ovoce",
-    "Features.Pressing.Description":  "Správa nastavení lisu na ovoce."
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Díky tomu lisování nemusí být úplně stlačeno, než se dá odšroubovat."
 }

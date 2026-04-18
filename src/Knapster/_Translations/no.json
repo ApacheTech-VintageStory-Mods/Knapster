@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
+    "ModDescription":  "Enklere håndverk og innsamling, for de med lav manuell fingerferdighet.",
+    "Features.Knapster.AutoComplete":  "Auto Complete",
+    "Features.Knapster.VoxelsPerClick":  "{0} voxler per klikk: {1}",
+    "Features.Knapster.InstantComplete":  "{0} Umiddelbart fullført: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Holdbarhetskostnad per klikk: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} Hastighetsmultiplikator: {1}x",
     "Features.Knapster.IncludeAutomated":  "{0} inkluderer automatiserte versjoner: {1}",
-    "Features.Knapster.CostPerClick":  "{0} holdbarhetskostnad per klikk: {1}",
-    "ModDescription":  "Enklere å lage og samle, for de med lav manuell fingerferdighet.",
-    "Features.Knapster.SpeedMultiplier":  "{0} hastighetsmultiplikator: {1}x",
-    "Features.Knapster.InstantComplete":  "{0} Øyeblikkelig fullført: {1}",
-    "Features.Knapster.AutoComplete":  "Automatisk fullføring",
-    "Features.Knapster.VoxelsPerClick":  "{0} Voxels per klikk: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} metningsmultiplikator: {1}x"
+    "Features.Knapster.SaturationMultiplier":  "{0} Metningsmultiplikator: {1}x"
 }

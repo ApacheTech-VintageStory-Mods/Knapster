@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "Knapster",
+    "ModDescription":  "Лягчэй вырабляць і збіраць для тых, у каго нізкая спрытнасць у ручной улозе.",
+    "Features.Knapster.AutoComplete":  "Аўтазавяршэнне",
+    "Features.Knapster.VoxelsPerClick":  "{0} Вокселі за клік: {1}",
+    "Features.Knapster.InstantComplete":  "{0} Імгненна завершана: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Кошт трываласці за клік: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} Множнік хуткасці: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} Уключаць аўтаматызаваныя версіі: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} множнік насычэння: {1}x"
+}

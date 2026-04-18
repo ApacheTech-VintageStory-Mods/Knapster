@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "Promenite brzinu kojom igrač bere travu sa kosom. Deluje kao direktan multiplikator. Min: 0.0, Maks: 2.0, Podrazumevano: 1.0.",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "Podešavanja žetve",
-    "Features.ModMenu.Harvesting.TabName":  "Žetva",
+    "Features.Harvesting.Description":  "Upravljajte postavkama žetve.",
     "Features.Harvesting.SpeedMultiplier":  "{0} multiplikator brzine: {1}k",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Promenite brzinu kojom igrač bere travu sa kosom. Deluje kao direktan multiplikator. Min: 0.0, Maks: 2.0, Podrazumevano: 1.0.",
+    "Features.ModMenu.Harvesting.TabName":  "Žetva",
+    "Features.Harvesting.ModMenu.TabName":  "Žetva",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Podešavanja žetve",
     "Features.Harvesting.ModMenu.lblDescription.Text":  "Pruža lakši način za igrače da žetvu trave, sa kosom.",
     "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplikator brzine",
-    "Features.Harvesting.ModMenu.TabName":  "Žetva",
-    "Features.Harvesting.Description":  "Upravljajte postavkama žetve.",
     "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Određuje multiplikator koji se primenjuje na brzinu korišćenja kose"
 }

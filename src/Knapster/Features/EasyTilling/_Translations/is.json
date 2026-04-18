@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Margfaldarinn sem á að gilda um hraða jarðvinnslu með hásu",
-    "Features.Tilling.SpeedMultiplier.Description":  "Breyttu hraðanum sem spilarinn ræktar land með hakka. Virkar sem beinn margfaldari. Lágmark: 0.1, hámark: 2.0, sjálfgefið: 1.0.",
+    "Features.Tilling.Description":  "Stjórnaðu stillingum jarðvinnslu.",
+    "Features.Tilling.SpeedMultiplier":  "{0} Hraðamargfaldari: {1}x",
+    "Features.Tilling.SpeedMultiplier.Description":  "Breyttu hraðanum sem leikmaðurinn plægir akurlönd með hakka. Virkar sem beinn margfaldari. Lágmark: 0,1, Hámark: 2,0, Sjálfgefið: 1,0.",
     "Features.ModMenu.Tilling.TabName":  "Jarðvinnsla",
-    "Features.Tilling.ModMenu.lblTitle.Text":  "Stillingar vinnslu",
-    "Features.Tilling.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldari leið til að yrkja ræktað land, með hakka.",
     "Features.Tilling.ModMenu.TabName":  "Jarðvinnsla",
-    "Features.Tilling.SpeedMultiplier":  "{0} Hraði margfaldari: {1}x",
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Hraði margfaldari",
-    "Features.Tilling.Description":  "Stjórna stillingum Tilling."
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Jarðvinnslustillingar",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Veitir leikmönnum auðveldara leið til að plægja landbúnað með hakka.",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Hraðamargfaldari",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Margfaldarinn sem á að beita á hraða jarðvinnslu með haka"
 }

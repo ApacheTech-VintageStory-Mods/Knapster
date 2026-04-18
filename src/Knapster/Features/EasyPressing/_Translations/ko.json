@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "프레스를 풀기 전에 완전히 압축할 필요가 없도록 합니다.",
+    "Features.Pressing.Description":  "과일 프레스 설정을 관리하세요.",
     "Features.Pressing.ModMenu.TabName":  "과일 압착",
     "Features.Pressing.ModMenu.lblTitle.Text":  "과일 압착 설정",
-    "Features.Pressing.Description":  "과일 압착 설정을 관리합니다."
+    "Features.Pressing.ModMenu.lblDescription.Text":  "프레스를 완전히 압축하지 않아도 나사를 풀 수 있게 해줍니다."
 }

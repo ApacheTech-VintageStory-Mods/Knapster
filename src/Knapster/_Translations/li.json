@@ -1,0 +1,11 @@
+﻿{
+    "ModTitle":  "Knapsteris",
+    "ModDescription":  "Lengvesnis rankdarbių ir surinkimas, tiems, kurie turi mažą rankų miklumą.",
+    "Features.Knapster.AutoComplete":  "Automatinis užbaigimas",
+    "Features.Knapster.VoxelsPerClick":  "{0} vokselių per paspaudimą: {1}",
+    "Features.Knapster.InstantComplete":  "{0} Instant Complete: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Patvarumo kaina už paspaudimą: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} greičio daugiklis: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} įtraukti automatines versijas: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Sodrumo daugiklis: {1}x"
+}

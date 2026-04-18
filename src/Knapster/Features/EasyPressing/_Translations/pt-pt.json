@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Faz com que a prensa não precise ser totalmente compactada antes de poder ser desenroscada.",
-    "Features.Pressing.ModMenu.TabName":  "Prensagem de Frutas",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Configurações de prensagem de frutas",
-    "Features.Pressing.Description":  "Gerencie as configurações de imprensa de frutas."
+    "Features.Pressing.Description":  "Gerir as definições da prensa de frutas.",
+    "Features.Pressing.ModMenu.TabName":  "Prensagem de Fruta",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Definições de Prensagem de Frutas",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Assim a prensa não precisa de ser totalmente comprimida antes de poder ser desapertada."
 }

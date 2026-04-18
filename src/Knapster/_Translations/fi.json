@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
-    "Features.Knapster.IncludeAutomated":  "{0} Sisältää automaattiset versiot: {1}",
-    "Features.Knapster.CostPerClick":  "{0} Kestävyyskustannukset napsautusta kohden: {1}",
-    "ModDescription":  "Helpompi askartelu ja kokoaminen niille, joilla on alhainen kätevyys.",
-    "Features.Knapster.SpeedMultiplier":  "{0} nopeuskerroin: {1}x",
-    "Features.Knapster.InstantComplete":  "{0} Instant Complete: {1}",
-    "Features.Knapster.AutoComplete":  "Automaattinen täydennys",
-    "Features.Knapster.VoxelsPerClick":  "{0} Voxelia napsautusta kohden: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} Kylläisyyskerroin: {1}x"
+    "ModDescription":  "Helpompi käsityö ja keräily, niille, joilla on matala käsinäppäryys.",
+    "Features.Knapster.AutoComplete":  "Auto Complete",
+    "Features.Knapster.VoxelsPerClick":  "{0} voxelit per klikkaus: {1}",
+    "Features.Knapster.InstantComplete":  "{0} Välitön valmis: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Kestävyyskustannus per klikkaus: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} Nopeuskertoin: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} Sisältää automatisoidut versiot: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Kyllästymiskerroin: {1}x"
 }

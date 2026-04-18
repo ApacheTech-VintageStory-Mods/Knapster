@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Gjør det slik at pressen ikke trenger å komprimeres helt før den kan skrus av.",
-    "Features.Pressing.ModMenu.TabName":  "Frukt pressing",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Innstillinger for fruktpressing",
-    "Features.Pressing.Description":  "Administrer innstillinger for fruktpress."
+    "Features.Pressing.Description":  "Administrer innstillinger for fruktpressen.",
+    "Features.Pressing.ModMenu.TabName":  "Fruktpressing",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Fruktpressingsinnstillinger",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Det gjør at pressen ikke trenger å være helt komprimert før den kan skrus ut."
 }

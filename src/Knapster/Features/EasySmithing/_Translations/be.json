@@ -1,0 +1,22 @@
+﻿{
+    "Features.Smithing.Description":  "Кіруйце наладамі кавальства.",
+    "Features.Smithing.VoxelsPerClick":  "{0} Вокселі за клік: {1}",
+    "Features.Smithing.CostPerClick":  "{0} Кошт трываласці за клік: {1}",
+    "Features.Smithing.InstantComplete":  "{0} Імгненна завершана: {1}",
+    "Features.Smithing.VoxelsPerClick.Description":  "Змяніце колькасць вакселяў, якія рухаюцца за адзін клік. Мінімум: 1, максімум: 8, па змаўчанні: 1.",
+    "Features.Smithing.CostPerClick.Description":  "Змяніце кошт трываласці за выкарыстанне. Мінімум: 1, максімум: 10, стандартна: 5.",
+    "Features.Smithing.InstantComplete.Description":  "Змяніце, ці павінен заданне выконвацца імгненна, пры выкарыстанні. Праўда ці няпраўда, па змаўчанні: няпраўда.",
+    "Features.ModMenu.Smithing.TabName":  "Кавальства",
+    "Features.Smithing.ModMenu.TabName":  "Кавальства",
+    "Features.Smithing.ModMenu.lblTitle.Text":  "Кузняльныя асяроддзі",
+    "Features.Smithing.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб для гульцоў вырабляць прадметы на накавальні ў гульні.",
+    "Features.Smithing.ModMenu.lblVoxelsPerClick.Text":  "Вокселы на клік",
+    "Features.Smithing.ModMenu.lblVoxelsPerClick.HoverText":  "Вызначае колькасць вокселяў, якія апрацоўваюцца адначасова",
+    "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-singular":  "воксель",
+    "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-plural":  "Вокселі",
+    "Features.Smithing.ModMenu.lblCostPerClick.Text":  "Кошт за клік",
+    "Features.Smithing.ModMenu.lblCostPerClick.HoverText":  "Вызначае, колькі трываласці губляецца за адзін момант",
+    "Features.Smithing.ModMenu.intCostPerClick.Unit":  "Трываласць",
+    "Features.Smithing.ModMenu.lblInstantComplete.Text":  "Імгненна завершана",
+    "Features.Smithing.ModMenu.lblInstantComplete.HoverText":  "Вызначае, ці варта імгненна завяршыць бягучы рэцэпт"
+}

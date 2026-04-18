@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Čini ga tako da štampa ne mora biti potpuno komprimovana pre nego što se može odvrnuti.",
+    "Features.Pressing.Description":  "Upravljanje podešavanjima voća štampe.",
     "Features.Pressing.ModMenu.TabName":  "voće pritiskom",
     "Features.Pressing.ModMenu.lblTitle.Text":  "Podešavanja voća pritiskom",
-    "Features.Pressing.Description":  "Upravljanje podešavanjima voća štampe."
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Čini ga tako da štampa ne mora biti potpuno komprimovana pre nego što se može odvrnuti."
 }

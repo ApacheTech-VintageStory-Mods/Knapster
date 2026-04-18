@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Gör så att pressen inte behöver vara helt komprimerad innan den kan skruvas loss.",
-    "Features.Pressing.ModMenu.TabName":  "Pressning av frukt",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Inställningar för fruktpressning",
-    "Features.Pressing.Description":  "Hantera frukt: tryck på inställningar."
+    "Features.Pressing.Description":  "Hantera fruktpressens inställningar.",
+    "Features.Pressing.ModMenu.TabName":  "Fruktpressning",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Fruktpressningsinställningar",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Det gör att pressen inte behöver komprimeras helt innan den kan skruvas loss."
 }

@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
-    "Features.Knapster.IncludeAutomated":  "{0} inkludera automatiserade versioner: {1}",
+    "ModDescription":  "Lättare hantverk och insamling, för dem med låg fingerfärdighet.",
+    "Features.Knapster.AutoComplete":  "Auto Complete",
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxlar per klick: {1}",
+    "Features.Knapster.InstantComplete":  "{0} Omedelbar Slutför: {1}",
     "Features.Knapster.CostPerClick":  "{0} Hållbarhetskostnad per klick: {1}",
-    "ModDescription":  "Enklare tillverkning och saml, för dem med låg fingerfärdighet.",
     "Features.Knapster.SpeedMultiplier":  "{0} Hastighetsmultiplikator: {1}x",
-    "Features.Knapster.InstantComplete":  "{0} Omedelbart komplett: {1}",
-    "Features.Knapster.AutoComplete":  "Automatisk komplettering",
-    "Features.Knapster.VoxelsPerClick":  "{0} voxlar per klick: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} mättnadsmultiplikator: {1}x"
+    "Features.Knapster.IncludeAutomated":  "{0} inkluderar automatiserade versioner: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} Mättnadsmultiplikator: {1}x"
 }

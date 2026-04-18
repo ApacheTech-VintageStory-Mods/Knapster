@@ -1,0 +1,18 @@
+﻿{
+    "Features.ClayForming.ClayRequired":  "Bendras reikalingas molis: {0}",
+    "Features.ClayForming.Description":  "Tvarkykite molio formavimo nustatymus.",
+    "Features.ClayForming.VoxelsPerClick":  "{0} vokselių per paspaudimą: {1}",
+    "Features.ClayForming.VoxelsPerClick.Description":  "Pakeiskite vokselių, kurie perkeliami per paspaudimą, skaičių. Min: 1, maks.: 8, numatytasis: 1.",
+    "Features.ClayForming.InstantComplete":  "{0} Instant Complete: {1}",
+    "Features.ClayForming.InstantComplete.Description":  "Pakeiskite, ar darbo elementas turi būti iš karto užbaigtas, kai jis naudojamas. True arba False, Default: False.",
+    "Features.ModMenu.ClayForming.TabName":  "Molio formavimas",
+    "Features.ClayForming.ModMenu.TabName":  "Molio formavimas",
+    "Features.ClayForming.ModMenu.lblTitle.Text":  "Molio formavimo nustatymai",
+    "Features.ClayForming.ModMenu.lblDescription.Text":  "Suteikia žaidėjams lengvesnį būdą formuoti molio dirbinius žaidime.",
+    "Features.ClayForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels per paspaudimą",
+    "Features.ClayForming.ModMenu.lblVoxelsPerClick.HoverText":  "Nustato vokselių, kurie tvarkomi vienu metu, formuojant molį skaičių",
+    "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-singular":  "vokselis",
+    "Features.ClayForming.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseliai",
+    "Features.ClayForming.ModMenu.lblInstantComplete.Text":  "Momentinis užbaigimas",
+    "Features.ClayForming.ModMenu.lblInstantComplete.HoverText":  "Nustato, ar akimirksniu užbaigti dabartinį receptą"
+}

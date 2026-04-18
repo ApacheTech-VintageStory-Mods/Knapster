@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Благодаря этому пресс не нужно полностью сжимать перед тем, как его можно будет открутить.",
+    "Features.Pressing.Description":  "Управляйте настройками фруктового пресса.",
     "Features.Pressing.ModMenu.TabName":  "Прессование фруктов",
     "Features.Pressing.ModMenu.lblTitle.Text":  "Настройки прессования фруктов",
-    "Features.Pressing.Description":  "Управление настройками пресса для фруктов."
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Так пресс не нужно полностью сжимать перед откруткой."
 }

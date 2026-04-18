@@ -1,0 +1,18 @@
+﻿{
+    "Features.DoughForming.DoughRequired":  "Bendra reikalinga tešla: {0}",
+    "Features.DoughForming.Description":  "Tvarkykite tešlos formavimo nustatymus.",
+    "Features.DoughForming.VoxelsPerClick":  "{0} vokselių per paspaudimą: {1}",
+    "Features.DoughForming.VoxelsPerClick.Description":  "Pakeiskite vokselių, kurie perkeliami per paspaudimą, skaičių. Min: 1, maks.: 8, numatytasis: 1.",
+    "Features.DoughForming.InstantComplete":  "{0} Instant Complete: {1}",
+    "Features.DoughForming.InstantComplete.Description":  "Pakeiskite, ar darbo elementas turi būti iš karto užbaigtas, kai jis naudojamas. True arba False, Default: False.",
+    "Features.ModMenu.DoughForming.TabName":  "Tešlos formavimas",
+    "Features.DoughForming.ModMenu.TabName":  "Tešlos formavimas",
+    "Features.DoughForming.ModMenu.lblTitle.Text":  "Tešlos formavimo nustatymai",
+    "Features.DoughForming.ModMenu.lblDescription.Text":  "Suteikia žaidėjams lengvesnį būdą formuoti tešlos gaminius, kai naudojate maisto gaminimo meną.",
+    "Features.DoughForming.ModMenu.lblVoxelsPerClick.Text":  "Voxels per paspaudimą",
+    "Features.DoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Nustato vokselių, kurie tvarkomi vienu metu, formuojant tešlą, skaičių",
+    "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "vokselis",
+    "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseliai",
+    "Features.DoughForming.ModMenu.lblInstantComplete.Text":  "Momentinis užbaigimas",
+    "Features.DoughForming.ModMenu.lblInstantComplete.HoverText":  "Nustato, ar akimirksniu užbaigti dabartinį receptą"
+}

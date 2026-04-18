@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "プレスを緩める前に完全に圧縮する必要がないようにします。",
-    "Features.Pressing.ModMenu.TabName":  "フルーツプレス",
+    "Features.Pressing.Description":  "フルーツプレスの設定を管理してください。",
+    "Features.Pressing.ModMenu.TabName":  "果物プレス",
     "Features.Pressing.ModMenu.lblTitle.Text":  "フルーツプレス設定",
-    "Features.Pressing.Description":  "フルーツプレスの設定を管理します。"
+    "Features.Pressing.ModMenu.lblDescription.Text":  "プレスを完全に圧縮しなくても外せるようにします。"
 }

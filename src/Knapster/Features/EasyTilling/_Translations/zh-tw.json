@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "應用於用鋤頭耕耘速度的乘數",
-    "Features.Tilling.SpeedMultiplier.Description":  "改變玩家用鋤頭耕種農田的速度。充當直接乘數。最小值：0.1，最大值：2.0，預設值：1.0。",
-    "Features.ModMenu.Tilling.TabName":  "耕耘",
+    "Features.Tilling.Description":  "管理耕作設定。",
+    "Features.Tilling.SpeedMultiplier":  "{0} 速度倍數： {1}x",
+    "Features.Tilling.SpeedMultiplier.Description":  "改變玩家用鋤頭耕作農田的速度。它作為直接的乘數。最小值：0.1，最大值：2.0，預設值：1.0。",
+    "Features.ModMenu.Tilling.TabName":  "耕作",
+    "Features.Tilling.ModMenu.TabName":  "耕作",
     "Features.Tilling.ModMenu.lblTitle.Text":  "耕作設定",
-    "Features.Tilling.ModMenu.lblDescription.Text":  "為玩家提供了一種使用鋤頭耕種農田的更簡單方法。",
-    "Features.Tilling.ModMenu.TabName":  "耕耘",
-    "Features.Tilling.SpeedMultiplier":  "{0} 速度倍增器： {1}x",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "提供玩家用鋤頭耕作農地的更簡單方式。",
     "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器",
-    "Features.Tilling.Description":  "管理耕耘設定。"
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "乘數是用鋤頭耕作的速度"
 }

@@ -1,0 +1,11 @@
+﻿{
+    "Features.Harvesting.Description":  "Кіруйце наладамі збору ўраджаю.",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Множнік хуткасці: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Змяніце хуткасць, з якой гулец збірае траву касай. Дзейнічае як прамы множнік. Мінімум: 0.0, максімум: 2.0, па змаўчанні: 1.0.",
+    "Features.ModMenu.Harvesting.TabName":  "Збор ураджаю",
+    "Features.Harvesting.ModMenu.TabName":  "Збор ураджаю",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Наладкі збору ўраджаю",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб збіраць траву з дапамогай касы.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Множнік хуткасці",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Вызначае множнік, які прымяняецца да хуткасці выкарыстання касы"
+}

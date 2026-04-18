@@ -1,0 +1,11 @@
+﻿{
+    "Features.Tilling.Description":  "Tvarkyti žemės dirbimo parametrus.",
+    "Features.Tilling.SpeedMultiplier":  "{0} greičio daugiklis: {1}x",
+    "Features.Tilling.SpeedMultiplier.Description":  "Pakeiskite greitį, kuriuo žaidėjas dirba dirbamą žemę kapliu. Veikia kaip tiesioginis daugiklis. Min: 0.1, maks.: 2.0, numatytasis: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Žemės dirbimas",
+    "Features.Tilling.ModMenu.TabName":  "Žemės dirbimas",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Žemės dirbimo parametrai",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Suteikia lengvesnį būdą žaidėjams dirbti dirbamą žemę su kapliu.",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Greičio daugiklis",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Daugiklis, taikomas žemės dirbimo kapliu greičiui"
+}

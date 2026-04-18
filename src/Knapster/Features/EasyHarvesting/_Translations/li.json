@@ -1,0 +1,11 @@
+﻿{
+    "Features.Harvesting.Description":  "Tvarkyti derliaus nuėmimo parametrus.",
+    "Features.Harvesting.SpeedMultiplier":  "{0} greičio daugiklis: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Pakeiskite greitį, kuriuo žaidėjas dalgiu nuima žolę. Veikia kaip tiesioginis daugiklis. Min: 0.0, maks.: 2.0, numatytasis: 1.0.",
+    "Features.ModMenu.Harvesting.TabName":  "Derliaus nuėmimas",
+    "Features.Harvesting.ModMenu.TabName":  "Derliaus nuėmimas",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Derliaus nuėmimo parametrai",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Suteikia žaidėjams lengvesnį būdą nuimti žolę dalgiu.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Greičio daugiklis",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Nustato daugiklį, taikomą dalgio naudojimo greičiui"
+}

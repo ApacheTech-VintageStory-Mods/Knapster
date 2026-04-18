@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Множитель для применения к скорости обработки почвы мотыгой",
-    "Features.Tilling.SpeedMultiplier.Description":  "Изменяйте скорость, с которой игрок обрабатывает сельскохозяйственные угодья мотыгой. Выступает в роли прямого множителя. Мин.: 0,1, Макс.: 2,0, По умолчанию: 1,0.",
-    "Features.ModMenu.Tilling.TabName":  "Пахать",
-    "Features.Tilling.ModMenu.lblTitle.Text":  "Настройки обработки почвы",
-    "Features.Tilling.ModMenu.lblDescription.Text":  "Предоставляет игрокам более простой способ обработки сельскохозяйственных угодий с помощью мотыги.",
-    "Features.Tilling.ModMenu.TabName":  "Пахать",
+    "Features.Tilling.Description":  "Управляйте настройками Tilling.",
     "Features.Tilling.SpeedMultiplier":  "{0} Множитель скорости: {1}x",
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Множитель скорости",
-    "Features.Tilling.Description":  "Управление настройками обработки почвы."
+    "Features.Tilling.SpeedMultiplier.Description":  "Измените скорость, с которой игрок обрабатывает сельскохозяйственные земли мотыгай. Действует как прямой множитель. Минимум: 0.1, максимум: 2.0, по умолчанию: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Тиллинг",
+    "Features.Tilling.ModMenu.TabName":  "Тиллинг",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Настройки Тиллинга",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Это даёт игрокам более простой способ обрабатывать сельскохозяйственные земли с помощью мотыги.",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Умножитель скорости",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Множитель, который применяется к скорости Тиллинга мотыгой"
 }

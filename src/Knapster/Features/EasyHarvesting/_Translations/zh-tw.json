@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "改變玩家用鐮刀收割草的速度。充當直接乘數。最小值：0.0，最大值：2.0，預設值：1.0。",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "收穫設定",
-    "Features.ModMenu.Harvesting.TabName":  "收穫",
-    "Features.Harvesting.SpeedMultiplier":  "{0} 速度倍增器： {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "為玩家提供了一種使用鐮刀收割草的更簡單方法。",
+    "Features.Harvesting.Description":  "管理採集設定。",
+    "Features.Harvesting.SpeedMultiplier":  "{0} 速度倍數： {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "改變玩家用鐮刀採割草的速度。它作為直接的乘數。最小：0.0，最大：2.0，預設：1.0。",
+    "Features.ModMenu.Harvesting.TabName":  "收割",
+    "Features.Harvesting.ModMenu.TabName":  "收割",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "採集設定",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "提供玩家用鐮刀更輕鬆地採集草的方法。",
     "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "速度倍增器",
-    "Features.Harvesting.ModMenu.TabName":  "收穫",
-    "Features.Harvesting.Description":  "管理收穫設定。",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "決定應用於鐮刀使用速度的乘數"
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "決定使用鐮刀速度的乘數"
 }

@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "نابستر",
-    "Features.Knapster.IncludeAutomated":  "{0} تضمين الإصدارات الآلية: {1}",
-    "Features.Knapster.CostPerClick":  "تكلفة المتانة {0} للنقرة: {1}",
-    "ModDescription":  "صياغة وجمع أسهل لمن لديهم مهارة يدوية منخفضة.",
-    "Features.Knapster.SpeedMultiplier":  "مضاعف السرعة {0}: {1}x",
-    "Features.Knapster.InstantComplete":  "{0} اكتمال فوري: {1}",
-    "Features.Knapster.AutoComplete":  "الإكمال التلقائي",
+    "ModDescription":  "أسهل في التصنيع والجمع، لمن لديهم مهارة يدوية منخفضة.",
+    "Features.Knapster.AutoComplete":  "أوتو كومبليت",
     "Features.Knapster.VoxelsPerClick":  "{0} فوكسل لكل نقرة: {1}",
-    "Features.Knapster.SaturationMultiplier":  "مضاعف التشبع {0}: {1}×"
+    "Features.Knapster.InstantComplete":  "{0} اكتمال فوري: {1}",
+    "Features.Knapster.CostPerClick":  "تكلفة المتانة {0} لكل نقرة: {1}",
+    "Features.Knapster.SpeedMultiplier":  "مضاعف السرعة {0}: {1}x",
+    "Features.Knapster.IncludeAutomated":  "{0} تشمل الإصدارات المؤتمتة: {1}",
+    "Features.Knapster.SaturationMultiplier":  "{0} مضاعف التشبع: {1}x"
 }

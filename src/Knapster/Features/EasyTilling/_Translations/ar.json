@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "المضاعف لتطبيقه على سرعة الحراثة بمجرفة",
-    "Features.Tilling.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يحراث بها اللاعب الأراضي الزراعية بمجرفة. يعمل كمضاعف مباشر. الحد الأدنى: 0.1 ، الحد الأقصى: 2.0 ، الافتراضي: 1.0.",
-    "Features.ModMenu.Tilling.TabName":  "الحراثة",
-    "Features.Tilling.ModMenu.lblTitle.Text":  "إعدادات الحراثة",
-    "Features.Tilling.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لحرث الأراضي الزراعية باستخدام مجرفة.",
-    "Features.Tilling.ModMenu.TabName":  "الحراثة",
+    "Features.Tilling.Description":  "إدارة إعدادات الحراثة.",
     "Features.Tilling.SpeedMultiplier":  "مضاعف السرعة {0}: {1}x",
+    "Features.Tilling.SpeedMultiplier.Description":  "غير سرعة حرث اللاعب للأراضي الزراعية باستخدام المعول. يعمل كمضاعف مباشر. الحد الأدنى: 0.1، الحد الأقصى: 2.0، الافتراضي: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "الحرث",
+    "Features.Tilling.ModMenu.TabName":  "الحرث",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "إعدادات الحرث",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لحراثة الأراضي الزراعية باستخدام المعول.",
     "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "مضاعف السرعة",
-    "Features.Tilling.Description":  "إدارة إعدادات الحراج."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "المضاعف الذي يجب تطبيقه على سرعة الحرث بالمعول"
 }

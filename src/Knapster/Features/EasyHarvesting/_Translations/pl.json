@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "Zmień prędkość, z jaką gracz zbiera trawę za pomocą kosy. Działa jako bezpośredni mnożnik. Min.: 0.0, Max: 2.0, Domyślnie: 1.0.",
+    "Features.Harvesting.Description":  "Zarządzaj ustawieniami zbiorów.",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Mnożnik prędkości: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Zmień szybkość, z jaką gracz zbiera trawę kosą. Działa jak mnożnik bezpośredni. Min: 0,0, Maksymalnie: 2,0, Domyślne: 1,0.",
+    "Features.ModMenu.Harvesting.TabName":  "Zbiory",
+    "Features.Harvesting.ModMenu.TabName":  "Zbiory",
     "Features.Harvesting.ModMenu.lblTitle.Text":  "Ustawienia zbioru",
-    "Features.ModMenu.Harvesting.TabName":  "Żniwa",
-    "Features.Harvesting.SpeedMultiplier":  "Mnożnik prędkości {0}: {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "Zapewnia graczom łatwiejszy sposób zbierania trawy za pomocą kosy.",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Ułatwia graczom zbieranie trawy za pomocą kosy.",
     "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Mnożnik prędkości",
-    "Features.Harvesting.ModMenu.TabName":  "Żniwa",
-    "Features.Harvesting.Description":  "Zarządzaj ustawieniami zbioru.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Określa mnożnik, który ma być stosowany do szybkości używania kosy"
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Określa mnożnik stosowany do szybkości używania kosy"
 }

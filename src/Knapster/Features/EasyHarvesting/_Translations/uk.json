@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "Змінюйте швидкість, з якою гравець збирає траву за допомогою коси. Виступає прямим мультиплікатором. Мін: 0.0, Макс.: 2.0, За замовчуванням: 1.0.",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "Налаштування збирання врожаю",
-    "Features.ModMenu.Harvesting.TabName":  "Збирання",
+    "Features.Harvesting.Description":  "Керуйте налаштуваннями збору врожаю.",
     "Features.Harvesting.SpeedMultiplier":  "{0} Множник швидкості: {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "Забезпечує простіший спосіб для гравців збирати траву за допомогою коси.",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Змініть швидкість, з якою гравець збирає траву косою. Діє як прямий множник. Мінімум: 0.0, Максимум: 2.0, За замовчуванням: 1.0.",
+    "Features.ModMenu.Harvesting.TabName":  "Збирання врожаю",
+    "Features.Harvesting.ModMenu.TabName":  "Збирання врожаю",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Налаштування збору врожаю",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Це дає гравцям простіший спосіб збирати траву за допомогою коси.",
     "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Множник швидкості",
-    "Features.Harvesting.ModMenu.TabName":  "Збирання",
-    "Features.Harvesting.Description":  "Керуйте налаштуваннями збирання врожаю.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Визначає множник, який буде застосовано до швидкості використання коси"
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Визначає множник, який застосовується до швидкості використання коси"
 }

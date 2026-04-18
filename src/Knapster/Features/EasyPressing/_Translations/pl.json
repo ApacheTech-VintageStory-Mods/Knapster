@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Sprawia, że prasa nie musi być całkowicie ściśnięta przed jej odkręceniem.",
-    "Features.Pressing.ModMenu.TabName":  "Wyciskanie owoców",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Ustawienia wyciskania owoców",
-    "Features.Pressing.Description":  "Zarządzaj ustawieniami prasy do owoców."
+    "Features.Pressing.Description":  "Zarządzaj ustawieniami prasy do owoców.",
+    "Features.Pressing.ModMenu.TabName":  "Tłoczenie owoców",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Ustawienia prasowania owoców",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Dzięki temu prasa nie musi być całkowicie ściśnięta, zanim można ją odkręcić."
 }

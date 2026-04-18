@@ -1,0 +1,22 @@
+﻿{
+    "Features.Smithing.Description":  "Tvarkyti kalvystės parametrus.",
+    "Features.Smithing.VoxelsPerClick":  "{0} vokselių per paspaudimą: {1}",
+    "Features.Smithing.CostPerClick":  "{0} Patvarumo kaina už paspaudimą: {1}",
+    "Features.Smithing.InstantComplete":  "{0} Instant Complete: {1}",
+    "Features.Smithing.VoxelsPerClick.Description":  "Pakeiskite vokselių, kurie perkeliami per paspaudimą, skaičių. Min: 1, maks.: 8, numatytasis: 1.",
+    "Features.Smithing.CostPerClick.Description":  "Pakeiskite patvarumo kainą vienam naudojimui. Min: 1, maks.: 10, numatytasis: 5.",
+    "Features.Smithing.InstantComplete.Description":  "Pakeiskite, ar darbo elementas turi būti iš karto užbaigtas, kai jis naudojamas. True arba False, Default: False.",
+    "Features.ModMenu.Smithing.TabName":  "Kalvystė",
+    "Features.Smithing.ModMenu.TabName":  "Kalvystė",
+    "Features.Smithing.ModMenu.lblTitle.Text":  "Kalvystės nustatymai",
+    "Features.Smithing.ModMenu.lblDescription.Text":  "Suteikia lengvesnį būdą žaidėjams kalti daiktus ant priekalo žaidime.",
+    "Features.Smithing.ModMenu.lblVoxelsPerClick.Text":  "Voxels per paspaudimą",
+    "Features.Smithing.ModMenu.lblVoxelsPerClick.HoverText":  "Nustato vienu metu apdorojamų vokselių skaičių",
+    "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-singular":  "vokselis",
+    "Features.Smithing.ModMenu.intVoxelsPerClick.Unit-plural":  "vokseliai",
+    "Features.Smithing.ModMenu.lblCostPerClick.Text":  "Mokestis už paspaudimą",
+    "Features.Smithing.ModMenu.lblCostPerClick.HoverText":  "Nustato vienu metu prarastą ilgaamžiškumą",
+    "Features.Smithing.ModMenu.intCostPerClick.Unit":  "ilgaamžiškumas",
+    "Features.Smithing.ModMenu.lblInstantComplete.Text":  "Momentinis užbaigimas",
+    "Features.Smithing.ModMenu.lblInstantComplete.HoverText":  "Nustato, ar akimirksniu užbaigti dabartinį receptą"
+}

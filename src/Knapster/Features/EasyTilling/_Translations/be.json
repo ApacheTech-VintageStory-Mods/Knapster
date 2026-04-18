@@ -1,0 +1,11 @@
+﻿{
+    "Features.Tilling.Description":  "Кіруйце наладамі Tilling.",
+    "Features.Tilling.SpeedMultiplier":  "{0} Множнік хуткасці: {1}x",
+    "Features.Tilling.SpeedMultiplier.Description":  "Змяніце хуткасць, з якой гулец апрацоўвае зямлю з дапамогай мотыкі. Дзейнічае як прамы множнік. Мінімум: 0.1, максімум: 2.0, стандартна: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Тылінг",
+    "Features.Tilling.ModMenu.TabName":  "Тылінг",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Налады Tilling",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб апрацоўкі сельскагаспадарчай зямлі з дапамогай мотыкі.",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Множнік хуткасці",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Множнік, які трэба прымяняць да хуткасці Тылінга з дапамогай мотыкі"
+}

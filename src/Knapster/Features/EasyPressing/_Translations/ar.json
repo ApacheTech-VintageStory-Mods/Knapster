@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "يجعلها لا تحتاج إلى ضغط المكبس بالكامل قبل فكها.",
-    "Features.Pressing.ModMenu.TabName":  "عصر الفاكهة",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "إعدادات عصر الفاكهة",
-    "Features.Pressing.Description":  "إدارة إعدادات معصرة الفاكهة."
+    "Features.Pressing.Description":  "إدارة إعدادات مكبس الفواكه.",
+    "Features.Pressing.ModMenu.TabName":  "عصر الفواكه",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "إعدادات عصر الفواكه",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "هذا يجعل المكبس لا يحتاج إلى ضغط كامل قبل أن يتم فكه."
 }

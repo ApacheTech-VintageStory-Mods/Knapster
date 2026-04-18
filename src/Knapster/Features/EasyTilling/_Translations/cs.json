@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Multiplikátor aplikovatelný na rychlost obdělávání půdy motykou",
-    "Features.Tilling.SpeedMultiplier.Description":  "Změňte rychlost, jakou hráč obdělává zemědělskou půdu motykou. Působí jako přímý násobitel. min: 0.1, max: 2.0, výchozí: 1.0.",
-    "Features.ModMenu.Tilling.TabName":  "Rostlin",
-    "Features.Tilling.ModMenu.lblTitle.Text":  "Nastavení dlaždic",
-    "Features.Tilling.ModMenu.lblDescription.Text":  "Poskytuje hráčům jednodušší způsob, jak obdělávat zemědělskou půdu s motykou.",
-    "Features.Tilling.ModMenu.TabName":  "Rostlin",
+    "Features.Tilling.Description":  "Spravujte nastavení obrábání.",
     "Features.Tilling.SpeedMultiplier":  "{0} násobič rychlosti: {1}x",
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Násobitel rychlosti",
-    "Features.Tilling.Description":  "Spravovat nastavení dlaždic."
+    "Features.Tilling.SpeedMultiplier.Description":  "Změňte rychlost, jakou hráč orbe půdy motykou. Působí jako přímý násobitel. Min: 0,1, Max: 2,0, výchozí: 1,0.",
+    "Features.ModMenu.Tilling.TabName":  "Zpracování půdy",
+    "Features.Tilling.ModMenu.TabName":  "Zpracování půdy",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Nastavení zpracování",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Poskytuje hráčům jednodušší způsob, jak obdělávat zemědělskou půdu pomocí motyky.",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Násobič rychlosti",
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Násobič je třeba aplikovat na rychlost orby motykou"
 }

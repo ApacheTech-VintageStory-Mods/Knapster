@@ -1,0 +1,17 @@
+﻿{
+    "Features.Knapping.Description":  "Кіруйце наладамі knapping.",
+    "Features.Knapping.VoxelsPerClick":  "{0} Вокселі за клік: {1}",
+    "Features.Knapping.InstantComplete":  "{0} Імгненна завершана: {1}",
+    "Features.Knapping.VoxelsPerClick.Description":  "Змяніце колькасць вакселяў, якія рухаюцца за адзін клік. Мінімум: 1, максімум: 8, па змаўчанні: 1.",
+    "Features.Knapping.InstantComplete.Description":  "Змяніце, ці павінен заданне выконвацца імгненна, пры выкарыстанні. Праўда ці няпраўда, па змаўчанні: няпраўда.",
+    "Features.ModMenu.Knapping.TabName":  "Кнэпінг",
+    "Features.Knapping.ModMenu.TabName":  "Кнэпінг",
+    "Features.Knapping.ModMenu.lblTitle.Text":  "Налады кнапінгу",
+    "Features.Knapping.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб для гульцоў красьці прадметы ў гульні.",
+    "Features.Knapping.ModMenu.lblVoxelsPerClick.Text":  "Вокселы на клік",
+    "Features.Knapping.ModMenu.lblVoxelsPerClick.HoverText":  "Вызначае колькасць вокселяў, якія апрацоўваюцца адначасова падчас кнапінгу",
+    "Features.Knapping.ModMenu.intVoxelsPerClick.Unit-singular":  "воксель",
+    "Features.Knapping.ModMenu.intVoxelsPerClick.Unit-plural":  "Вокселі",
+    "Features.Knapping.ModMenu.lblInstantComplete.Text":  "Імгненна завершана",
+    "Features.Knapping.ModMenu.lblInstantComplete.HoverText":  "Вызначае, ці варта імгненна завяршыць бягучы рэцэпт"
+}

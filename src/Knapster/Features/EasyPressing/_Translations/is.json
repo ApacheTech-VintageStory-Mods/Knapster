@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Gerir það að verkum að pressan þurfi ekki að vera þjappað að fullu áður en hægt er að skrúfa hana af.",
-    "Features.Pressing.ModMenu.TabName":  "Pressa ávexti",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Stillingar fyrir ávaxtapressu",
-    "Features.Pressing.Description":  "Stjórna ávaxtapressustillingum."
+    "Features.Pressing.Description":  "Stjórnaðu stillingum á ávaxtapressu.",
+    "Features.Pressing.ModMenu.TabName":  "Ávaxtapressun",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Ávaxtapressustillingar",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Þetta gerir það að verkum að pressan þarf ekki að vera fullkomlega þjappuð áður en hægt er að skrúfa hana af."
 }

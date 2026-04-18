@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "قم بتغيير السرعة التي يحصد بها اللاعب العشب بالمنجل. يعمل كمضاعف مباشر. الحد الأدنى: 0.0 ، الحد الأقصى: 2.0 ، الافتراضي: 1.0.",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "إعدادات الحصاد",
-    "Features.ModMenu.Harvesting.TabName":  "حصاد",
-    "Features.Harvesting.SpeedMultiplier":  "مضاعف السرعة {0}: {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لحصاد العشب باستخدام المنجل.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "مضاعف السرعة",
-    "Features.Harvesting.ModMenu.TabName":  "حصاد",
     "Features.Harvesting.Description":  "إدارة إعدادات الحصاد.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "يحدد المضاعف المراد تطبيقه على سرعة استخدام المنجل"
+    "Features.Harvesting.SpeedMultiplier":  "مضاعف السرعة {0}: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "غير سرعة حصاد اللاعب للعشب باستخدام المنجل. يعمل كمضاعف مباشر. الحد الأدنى: 0.0، الحد الأقصى: 2.0، الإعداد الافتراضي: 1.0.",
+    "Features.ModMenu.Harvesting.TabName":  "الحصاد",
+    "Features.Harvesting.ModMenu.TabName":  "الحصاد",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "أماكن الحصاد",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "يوفر طريقة أسهل للاعبين لجمع العشب، باستخدام المنجل.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "مضاعف السرعة",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "يحدد المضاعف الذي يجب تطبيقه على سرعة استخدام المنجل"
 }

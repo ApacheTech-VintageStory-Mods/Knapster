@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Zorgt ervoor dat de pers niet volledig hoeft te worden samengedrukt voordat deze kan worden losgeschroefd.",
-    "Features.Pressing.ModMenu.TabName":  "Fruit persen",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Instellingen voor het persen van fruit",
-    "Features.Pressing.Description":  "Instellingen voor fruitpers beheren."
+    "Features.Pressing.Description":  "Beheer de instellingen voor de fruitpers.",
+    "Features.Pressing.ModMenu.TabName":  "Fruitpersen",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Fruitpersinstellingen",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Daardoor hoeft de pers niet volledig samengedrukt te worden voordat hij los kan worden geschroefd."
 }

@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč kosou zbiera trávu. Funguje ako priamy multiplikátor. Min.: 0.0, Max: 2.0, Predvolené: 1.0.",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "Nastavenia zberu",
-    "Features.ModMenu.Harvesting.TabName":  "Žatva",
-    "Features.Harvesting.SpeedMultiplier":  "{0} násobiteľ rýchlosti: {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "Poskytuje hráčom jednoduchší spôsob zberu trávy pomocou kosy.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Multiplikátor rýchlosti",
-    "Features.Harvesting.ModMenu.TabName":  "Žatva",
     "Features.Harvesting.Description":  "Spravujte nastavenia zberu.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Určuje násobiteľ, ktorý sa má použiť na rýchlosť použitia kosy"
+    "Features.Harvesting.SpeedMultiplier":  "{0} násobiteľ rýchlosti: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Zmeňte rýchlosť, akou hráč zberá trávu pomocou kosy. Pôsobí ako priamy násobiteľ. Min: 0,0, Max: 2,0, Default: 1,0.",
+    "Features.ModMenu.Harvesting.TabName":  "Zber",
+    "Features.Harvesting.ModMenu.TabName":  "Zber",
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Nastavenia zberu",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Poskytuje hráčom jednoduchší spôsob, ako zbierať trávu pomocou kosy.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Násobiteľ rýchlosti",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Určuje násobiteľ, ktorý sa aplikuje na rýchlosť použitia kosy"
 }

@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Harvesting.SpeedMultiplier.Description":  "Skift den hastighed, hvormed spilleren høster græs med en le. Fungerer som en direkte multiplikator. Min: 0.0, Maks.: 2.0, Standard: 1.0.",
-    "Features.Harvesting.ModMenu.lblTitle.Text":  "Indstillinger for høst",
+    "Features.Harvesting.Description":  "Styr høstindstillinger.",
+    "Features.Harvesting.SpeedMultiplier":  "{0} Hastighedsmultiplikator: {1}x",
+    "Features.Harvesting.SpeedMultiplier.Description":  "Ændr hastigheden, hvormed spilleren høster græs med en le. Fungerer som en direkte multiplikator. Min: 0,0, Max: 2,0, Standard: 1,0.",
     "Features.ModMenu.Harvesting.TabName":  "Høst",
-    "Features.Harvesting.SpeedMultiplier":  "{0} hastighedsmultiplikator: {1}x",
-    "Features.Harvesting.ModMenu.lblDescription.Text":  "Giver en nemmere måde for spillere at høste græs på, med en le.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hastighed multiplikator",
     "Features.Harvesting.ModMenu.TabName":  "Høst",
-    "Features.Harvesting.Description":  "Administrer høstindstillinger.",
-    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bestemmer multiplikatoren, der skal anvendes på hastigheden ved brug af leen"
+    "Features.Harvesting.ModMenu.lblTitle.Text":  "Høstindstillinger",
+    "Features.Harvesting.ModMenu.lblDescription.Text":  "Giver en nemmere måde for spillere at høste græs på, med en le.",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.Text":  "Hastighedsmultiplikator",
+    "Features.Harvesting.ModMenu.lblSpeedMultiplier.HoverText":  "Bestemmer multiplikatoren, der skal anvendes på hastigheden af ved brug af leen"
 }

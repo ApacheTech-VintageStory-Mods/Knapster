@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Faz com que a prensa não precise ser totalmente comprimida antes de poder ser desparafusada.",
+    "Features.Pressing.Description":  "Gerencie as configurações do prensa de frutas.",
     "Features.Pressing.ModMenu.TabName":  "Prensagem de frutas",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Configurações de prensagem de frutas",
-    "Features.Pressing.Description":  "Gerencie as configurações da prensa de frutas."
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Configurações de Prensagem de Frutas",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Assim a prensa não precisa ser totalmente comprimida antes de poder ser desparafusada."
 }

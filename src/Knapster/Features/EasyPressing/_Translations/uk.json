@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Робить так, щоб прес не потрібно було повністю стискати, перш ніж його можна буде відкрутити.",
+    "Features.Pressing.Description":  "Керуйте налаштуваннями fruit press.",
     "Features.Pressing.ModMenu.TabName":  "Пресування фруктів",
     "Features.Pressing.ModMenu.lblTitle.Text":  "Налаштування пресування фруктів",
-    "Features.Pressing.Description":  "Керуйте налаштуваннями преса для фруктів."
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Це робить прес не потрібним повністю стиснутим, перш ніж його можна буде відкрутити."
 }

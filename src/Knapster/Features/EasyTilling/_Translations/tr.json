@@ -1,11 +1,11 @@
 ﻿{
-    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Çapa ile Sürme hızına uygulanacak çarpan",
-    "Features.Tilling.SpeedMultiplier.Description":  "Oyuncunun çapa ile tarım arazilerini sürme hızını değiştirin. Doğrudan çarpan görevi görür. Min: 0.1, Maks: 2.0, Varsayılan: 1.0.",
-    "Features.ModMenu.Tilling.TabName":  "Toprak işleme",
-    "Features.Tilling.ModMenu.lblTitle.Text":  "Toprak İşleme Ayarları",
-    "Features.Tilling.ModMenu.lblDescription.Text":  "Oyuncuların çapa ile tarım arazilerini sürmeleri için daha kolay bir yol sağlar.",
-    "Features.Tilling.ModMenu.TabName":  "Toprak işleme",
+    "Features.Tilling.Description":  "Tilling ayarlarını yönetin.",
     "Features.Tilling.SpeedMultiplier":  "{0} Hız Çarpanı: {1}x",
+    "Features.Tilling.SpeedMultiplier.Description":  "Oyuncunun çiftlik arazisini çapa ile sürme hızını değiştir. Doğrudan çarpan olarak işlev görür. Min: 0.1, Max: 2.0, Default: 1.0.",
+    "Features.ModMenu.Tilling.TabName":  "Toprak sürme",
+    "Features.Tilling.ModMenu.TabName":  "Toprak sürme",
+    "Features.Tilling.ModMenu.lblTitle.Text":  "Toprak Sürme Ayarları",
+    "Features.Tilling.ModMenu.lblDescription.Text":  "Oyunculara çiftlik arazisini daha kolay bir şekilde işleme imkanı sunar, bir çapa ile kullanılır.",
     "Features.Tilling.ModMenu.lblSpeedMultiplier.Text":  "Hız Çarpanı",
-    "Features.Tilling.Description":  "Toprak İşleme ayarlarını yönetin."
+    "Features.Tilling.ModMenu.lblSpeedMultiplier.HoverText":  "Çapa ile Tilling hızına uygulanacak çarpan"
 }

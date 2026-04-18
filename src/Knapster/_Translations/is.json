@@ -1,11 +1,11 @@
 ﻿{
     "ModTitle":  "Knapster",
+    "ModDescription":  "Auðveldara handverk og söfnun, fyrir þá sem hafa litla handfimi.",
+    "Features.Knapster.AutoComplete":  "Sjálfvirk fullkomnun",
+    "Features.Knapster.VoxelsPerClick":  "{0} Voxel á smell: {1}",
+    "Features.Knapster.InstantComplete":  "{0} Strax lokið: {1}",
+    "Features.Knapster.CostPerClick":  "{0} Endingarkostnaður á smell: {1}",
+    "Features.Knapster.SpeedMultiplier":  "{0} Hraðamargfaldari: {1}x",
     "Features.Knapster.IncludeAutomated":  "{0} innihalda sjálfvirkar útgáfur: {1}",
-    "Features.Knapster.CostPerClick":  "{0} endingarkostnaður á hvern smell: {1}",
-    "ModDescription":  "Auðveldara að föndra og safna, fyrir þá sem eru með litla handlagni.",
-    "Features.Knapster.SpeedMultiplier":  "{0} Hraði margfaldari: {1}x",
-    "Features.Knapster.InstantComplete":  "{0} Augnablik lokið: {1}",
-    "Features.Knapster.AutoComplete":  "Sjálfvirk útfylling",
-    "Features.Knapster.VoxelsPerClick":  "{0} Voxels fyrir hvern smell: {1}",
-    "Features.Knapster.SaturationMultiplier":  "{0} mettunarmargfaldari: {1}x"
+    "Features.Knapster.SaturationMultiplier":  "{0} Mettunarmargfaldari: {1}x"
 }

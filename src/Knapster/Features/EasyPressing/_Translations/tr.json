@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Presin sökülmeden önce tamamen sıkıştırılmasına gerek kalmamasını sağlar.",
-    "Features.Pressing.ModMenu.TabName":  "Meyve Sıkma",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Meyve Presleme Ayarları",
-    "Features.Pressing.Description":  "Meyve presi ayarlarını yönetin."
+    "Features.Pressing.Description":  "Meyve pres ayarlarını yönetin.",
+    "Features.Pressing.ModMenu.TabName":  "Meyve Presleme",
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Meyve Basma Ayarları",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Bu, presin tamamen sıkıştırılmasına gerek kalmıyor, sonra vidalanabilir."
 }

@@ -1,0 +1,19 @@
+﻿{
+    "Features.Grinding.Description":  "Кіруйце наладамі quern.",
+    "Features.Grinding.StickyMouseButton":  "{0} Кнопкі для прыліпкай мышы: {1}",
+    "Features.Grinding.StickyMouseButton.Description":  "Калі ён актыўны, карыстальніку не трэба трымаць правую кнопку мышы націснутым, каб кверн быў актыўным.",
+    "Features.Grinding.SpeedMultiplier":  "{0} Множнік хуткасці: {1}x",
+    "Features.Grinding.SpeedMultiplier.Description":  "Змяніце хуткасць, з якой гулец фарміць рэсурсы ўнутры кверна. Дзейнічае як прамы множнік. Мінімум: 0.0, максімум: 10.0, стандартна: 1.0.",
+    "Features.Grinding.IncludeAutomated":  "{0} Уключаць аўтаматызаваныя версіі: {1}",
+    "Features.Grinding.IncludeAutomated.Description":  "Прымяняйце множнік хуткасці да аўтаматызаваных квернаў, а таксама да ручных.",
+    "Features.ModMenu.Grinding.TabName":  "Шліфаванне Кверна",
+    "Features.Grinding.ModMenu.TabName":  "Шліфаванне Кверна",
+    "Features.Grinding.ModMenu.lblTitle.Text":  "Налады шліфоўкі Quern",
+    "Features.Grinding.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб для гульцоў фарміць рэсурсы ў кверне.",
+    "Features.Grinding.ModMenu.lblSpeedMultiplier.Text":  "Множнік хуткасці",
+    "Features.Grinding.ModMenu.lblSpeedMultiplier.HoverText":  "Вызначае множнік, які прымяняецца да хуткасці выкарыстання кверна",
+    "Features.Grinding.ModMenu.lbIncludeAutomated.Text":  "Уключыць аўтаматызаваныя",
+    "Features.Grinding.ModMenu.lbIncludeAutomated.HoverText":  "Вызначае, ці варта прымяняць множнік хуткасці да аўтаматызаваных квернаў",
+    "Features.Grinding.ModMenu.lbStickyMouseButton.Text":  "Ліпкая кнопка мышы",
+    "Features.Grinding.ModMenu.lbStickyMouseButton.HoverText":  "Калі ён актыўны, карыстальніку не трэба трымаць правую кнопку мышы націснутай, каб кверн быў актыўны"
+}

@@ -1,0 +1,18 @@
+﻿{
+    "Features.DoughForming.DoughRequired":  "Агульная колькасць патрэбнага цеста: {0}",
+    "Features.DoughForming.Description":  "Кіруйце наладамі фармавання цеста.",
+    "Features.DoughForming.VoxelsPerClick":  "{0} Вокселі за клік: {1}",
+    "Features.DoughForming.VoxelsPerClick.Description":  "Змяніце колькасць вакселяў, якія рухаюцца за адзін клік. Мінімум: 1, максімум: 8, па змаўчанні: 1.",
+    "Features.DoughForming.InstantComplete":  "{0} Імгненна завершана: {1}",
+    "Features.DoughForming.InstantComplete.Description":  "Змяніце, ці павінен заданне выконвацца імгненна, пры выкарыстанні. Праўда ці няпраўда, па змаўчанні: няпраўда.",
+    "Features.ModMenu.DoughForming.TabName":  "Фармаванне цеста",
+    "Features.DoughForming.ModMenu.TabName":  "Фармаванне цеста",
+    "Features.DoughForming.ModMenu.lblTitle.Text":  "Налады фармавання цеста",
+    "Features.DoughForming.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб фарміраваць цеста пры выкарыстанні Art of Cooking.",
+    "Features.DoughForming.ModMenu.lblVoxelsPerClick.Text":  "Вокселы на клік",
+    "Features.DoughForming.ModMenu.lblVoxelsPerClick.HoverText":  "Вызначае колькасць вокселяў, якія апрацоўваюцца адначасова пры фарміраванні цеста",
+    "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-singular":  "воксель",
+    "Features.DoughForming.ModMenu.intVoxelsPerClick.Unit-plural":  "Вокселі",
+    "Features.DoughForming.ModMenu.lblInstantComplete.Text":  "Імгненна завершана",
+    "Features.DoughForming.ModMenu.lblInstantComplete.HoverText":  "Вызначае, ці варта імгненна завяршыць бягучы рэцэпт"
+}

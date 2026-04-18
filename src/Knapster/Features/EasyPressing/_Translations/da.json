@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Gør det sådan, at pressen ikke behøver at blive helt komprimeret, før den kan skrues af.",
+    "Features.Pressing.Description":  "Styr frugtpresseindstillinger.",
     "Features.Pressing.ModMenu.TabName":  "Frugtpresning",
-    "Features.Pressing.ModMenu.lblTitle.Text":  "Indstillinger for frugtpresning",
-    "Features.Pressing.Description":  "Administrer indstillinger for frugtpresse."
+    "Features.Pressing.ModMenu.lblTitle.Text":  "Frugtpresningsindstillinger",
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Det gør, at pressen ikke behøver at være helt komprimeret, før den kan skrues af."
 }

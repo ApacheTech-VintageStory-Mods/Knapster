@@ -1,6 +1,6 @@
 ﻿{
-    "Features.Pressing.ModMenu.lblDescription.Text":  "Tekee siitä niin, että puristinta ei tarvitse puristaa kokonaan ennen kuin se voidaan irrottaa.",
-    "Features.Pressing.ModMenu.TabName":  "Hedelmien puristus",
+    "Features.Pressing.Description":  "Hallinnoi hedelmäpuristimen asetuksia.",
+    "Features.Pressing.ModMenu.TabName":  "Hedelmäpuristus",
     "Features.Pressing.ModMenu.lblTitle.Text":  "Hedelmien puristusasetukset",
-    "Features.Pressing.Description":  "Hallitse hedelmäpuristimen asetuksia."
+    "Features.Pressing.ModMenu.lblDescription.Text":  "Näin puristin ei tarvitse olla täysin puristettu ennen kuin se voidaan irrottaa."
 }

@@ -1,0 +1,19 @@
+﻿{
+    "Features.Grinding.Description":  "Tvarkyti užklausos parametrus.",
+    "Features.Grinding.StickyMouseButton":  "{0} lipnūs pelės mygtukai: {1}",
+    "Features.Grinding.StickyMouseButton.Description":  "Kai aktyvus, vartotojui nereikės laikyti nuspausto dešiniojo pelės mygtuko, kad užklausa būtų aktyvi.",
+    "Features.Grinding.SpeedMultiplier":  "{0} greičio daugiklis: {1}x",
+    "Features.Grinding.SpeedMultiplier.Description":  "Pakeiskite greitį, kuriuo žaidėjas šlifuoja išteklius per užklausą. Veikia kaip tiesioginis daugiklis. Min: 0.0, maks.: 10.0, numatytasis: 1.0.",
+    "Features.Grinding.IncludeAutomated":  "{0} įtraukti automatines versijas: {1}",
+    "Features.Grinding.IncludeAutomated.Description":  "Taikykite greičio daugiklį automatinėms užklausoms, taip pat rankinėms užklausoms.",
+    "Features.ModMenu.Grinding.TabName":  "Quern šlifavimas",
+    "Features.Grinding.ModMenu.TabName":  "Quern šlifavimas",
+    "Features.Grinding.ModMenu.lblTitle.Text":  "Quern šlifavimo parametrai",
+    "Features.Grinding.ModMenu.lblDescription.Text":  "Suteikia lengvesnį būdą žaidėjams šlifuoti išteklius quern.",
+    "Features.Grinding.ModMenu.lblSpeedMultiplier.Text":  "Greičio daugiklis",
+    "Features.Grinding.ModMenu.lblSpeedMultiplier.HoverText":  "Nustato daugiklį, taikytiną užklausos naudojimo greičiui",
+    "Features.Grinding.ModMenu.lbIncludeAutomated.Text":  "Įtraukti automatizuotą",
+    "Features.Grinding.ModMenu.lbIncludeAutomated.HoverText":  "Nustato, ar taikyti greičio daugiklį automatinėms užklausoms",
+    "Features.Grinding.ModMenu.lbStickyMouseButton.Text":  "Lipnus pelės mygtukas",
+    "Features.Grinding.ModMenu.lbStickyMouseButton.HoverText":  "Kai aktyvus, vartotojui nereikės laikyti nuspausto dešiniojo pelės mygtuko, kad užklausa liktų aktyvi"
+}

@@ -1,0 +1,17 @@
+﻿{
+    "Features.MixingBowl.Description":  "Valdykite maišymo dubenėlio nustatymus.",
+    "Features.MixingBowl.SpeedMultiplier":  "{0} greičio daugiklis: {1}x",
+    "Features.MixingBowl.IncludeAutomated":  "{0} įtraukti automatines versijas: {1}",
+    "Features.MixingBowl.SpeedMultiplier.Description":  "Pakeiskite greitį, kuriuo žaidėjas sujungia išteklius maišymo dubenyje. Veikia kaip tiesioginis daugiklis. Min: 0.0, maks.: 10.0, numatytasis: 1.0.",
+    "Features.MixingBowl.IncludeAutomated.Description":  "Greičio daugiklį taikykite elektriniams maišymo dubenims, taip pat rankiniams maišymo dubenims.",
+    "Features.ModMenu.MixingBowl.TabName":  "Maišymo dubuo",
+    "Features.MixingBowl.ModMenu.TabName":  "Maišymo dubuo",
+    "Features.MixingBowl.ModMenu.lblTitle.Text":  "Maišymo dubenėlio nustatymai",
+    "Features.MixingBowl.ModMenu.lblDescription.Text":  "Suteikia žaidėjams lengvesnį būdą maišyti išteklius maišymo dubenyje.",
+    "Features.MixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Greičio daugiklis",
+    "Features.MixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Nustato daugiklį, taikomą maišymo dubenėlio naudojimo greičiui",
+    "Features.MixingBowl.ModMenu.lbIncludeAutomated.Text":  "Įtraukti automatizuotą",
+    "Features.MixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Nustato, ar greičio daugiklį taikyti automatiniams maišymo dubenims",
+    "Features.MixingBowl.ModMenu.lbStickyMouseButton.Text":  "Lipnus pelės mygtukas",
+    "Features.MixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Kai aktyvus, vartotojui nereikės laikyti dešiniojo pelės mygtuko, kad maišymo dubuo būtų aktyvus"
+}

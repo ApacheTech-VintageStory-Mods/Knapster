@@ -1,0 +1,17 @@
+﻿{
+    "Features.MixingBowl.Description":  "Кіруйце наладамі міскі.",
+    "Features.MixingBowl.SpeedMultiplier":  "{0} Множнік хуткасці: {1}x",
+    "Features.MixingBowl.IncludeAutomated":  "{0} Уключаць аўтаматызаваныя версіі: {1}",
+    "Features.MixingBowl.SpeedMultiplier.Description":  "Змяніце хуткасць, з якой гулец аб\u0027ядноўвае рэсурсы ў місе для змешвання. Дзейнічае як прамы множнік. Мінімум: 0.0, максімум: 10.0, стандартна: 1.0.",
+    "Features.MixingBowl.IncludeAutomated.Description":  "Прымяняйце множнік хуткасці да міскаў для змешвання з электрычным рухам, а таксама да ручных міскаў.",
+    "Features.ModMenu.MixingBowl.TabName":  "Міска для змешвання",
+    "Features.MixingBowl.ModMenu.TabName":  "Міска для змешвання",
+    "Features.MixingBowl.ModMenu.lblTitle.Text":  "Налады міскі для змешвання",
+    "Features.MixingBowl.ModMenu.lblDescription.Text":  "Гэта дае прасцейшы спосаб змешваць рэсурсы ў місе для змешвання.",
+    "Features.MixingBowl.ModMenu.lblSpeedMultiplier.Text":  "Множнік хуткасці",
+    "Features.MixingBowl.ModMenu.lblSpeedMultiplier.HoverText":  "Вызначае множнік, які трэба прымяняць да хуткасці выкарыстання міскі для змешвання",
+    "Features.MixingBowl.ModMenu.lbIncludeAutomated.Text":  "Уключыць аўтаматызаваныя",
+    "Features.MixingBowl.ModMenu.lbIncludeAutomated.HoverText":  "Вызначае, ці варта прымяняць множнік хуткасці да аўтаматызаваных міскаў для змешвання",
+    "Features.MixingBowl.ModMenu.lbStickyMouseButton.Text":  "Ліпкая кнопка мышы",
+    "Features.MixingBowl.ModMenu.lbStickyMouseButton.HoverText":  "Калі ён актыўны, карыстальніку не трэба трымаць правую кнопку мышы, каб міска для змешвання была актыўнай"
+}

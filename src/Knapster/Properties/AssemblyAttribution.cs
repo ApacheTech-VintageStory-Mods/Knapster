@@ -1,11 +1,11 @@
-﻿[assembly: ModDependency("game", "1.21.5")]
+﻿[assembly: ModDependency("game", GameVersion.ShortGameVersion)]
 [assembly:ModInfo(
     "Knapster",
     "knapster",
     Description = "Easier crafting and gathering, for those with low manual dexterity.",
     Side = "Universal",
-    Version = "3.1.0",
-    NetworkVersion = "1.0.0",
+    Version = "4.0.0",
+    NetworkVersion = GameVersion.NetworkVersion,
     Website = "https://apachegaming.net",
     Contributors = ["Apache"],
     Authors = ["ApacheTech Solutions"])]
